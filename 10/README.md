@@ -33,9 +33,10 @@ Morui Li | [limorui@gwmail.gwu.edu](mailto:limorui@gwmail.gwu.edu) | todo | todo
 This course is required for all undergraduate business students at the university. Currently,
 `X` students are registered for this offering.
 
-Each student enrolled in this course should have already taken *CS 1111 or ISTM 3119*.
+Each student enrolled in this course should have already taken one of the following courses:
 
-> NOTE: As of 8/24, this course is full. There is a waitlist available for students who would like to register but are not currently registered.
+ + *CSCI 1111 - Introduction to Software Development (Java)*
+ + *ISTM 3119 - Introduction to Programming (Visual Basic)*
 
 ## What?
 
