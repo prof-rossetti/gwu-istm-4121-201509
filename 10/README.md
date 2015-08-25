@@ -3,7 +3,7 @@
 This repository contains resources for instructing a university-level course on Database Design & Applications.
 
 university | school | department | semester | course | section | credits
---- | --- | --- | --- | --- | ---
+--- | --- | --- | --- | --- | --- | ---
 The George Washington University (GWU) | School of Business | Information Systems Technology (ISTM) | Fall 2015 (201503)| Database Design & Applications | Wednesday Evenings (10) | 3
 
 Official Reference:
@@ -57,6 +57,7 @@ Wednesdays from 4:00pm to 6:30pm.
 
 <iframe src="https://www.google.com/calendar/embed?src=o991sfb6ans77vgdh9puaeb518%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
+attribute name | attribute value
 --- | ---
 Calendar ID | o991sfb6ans77vgdh9puaeb518@group.calendar.google.com
 XML | https://www.google.com/calendar/feeds/o991sfb6ans77vgdh9puaeb518%40group.calendar.google.com/public/basic
