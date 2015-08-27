@@ -6,14 +6,38 @@ university | school | department | semester | course | section | credits
 --- | --- | --- | --- | --- | --- | ---
 The George Washington University (GWU) | School of Business | Information Systems Technology (ISTM) | Fall 2015 (201503)| Database Design & Applications | Wednesday Evenings (10) | 3
 
-Official Reference:
+University References:
 
  + [Course Description ](http://my.gwu.edu/mod/pws/courses.cfm?campId=1&termId=201503&subjId=ISTM)
  + [Course Schedule](http://my.gwu.edu/mod/pws/courses.cfm?campId=1&termId=201503&subjId=ISTM)
  + [Required Materials](http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=122&term_id-1=201503&div-1=&dept-1=ISTM&course-1=4121&section-1=10)
  + [Tentative Final Exam Schedule](https://registrar.gwu.edu/sites/registrar.gwu.edu/files/downloads/Fall2015TentativeExams.pdf)
 
-## Who?
+## Description
+
+This course is described as:
+
+> Theory, architecture, and implementation of database management systems in corporate and organization information systems. Fundamental concepts of database management and processing. Hands-on experience with database management packages.
+
+## Location
+
+building name | room number | address
+--- | --- | ---
+Duques Hall |  351 | 2201 G Street NW, Washington DC 20052
+
+## Schedule
+
+The class meets on Monday mornings (9/31/15 through 12/9/15), from 11:10am to 1:40pm.
+
+### Calendar
+
+The course [Calendar](CALENDAR.md) reflects the most up-to-date scheduling information, including class times, instructor office hours, holidays, support sessions, and more.
+
+### Roadmap
+
+The course [Roadmap](ROADMAP.md) contains a tentative week-by-week mapping of when each topic will be covered in class and when each assignment is due. It is likely to change to reflect revised assignment deadlines as well as changes in the pace of instruction.
+
+## Learning Community
 
 The Learning Community is comprised of a Professor, a Teaching Assistant, and many Students.
 
@@ -33,55 +57,42 @@ Morui Li | [limorui@gwmail.gwu.edu](mailto:limorui@gwmail.gwu.edu) | MS in Infor
 
 ### Students
 
-This course is required for all undergraduate and graduate ISTM students at the university. Currently,
-`X` students are registered for this offering.
+This course is required for all business students majoring in Information Systems. Currently,
+**X** students are registered for this offering.
+
+#### Prerequisites
 
 Each student enrolled in this course should have already taken one of the following courses:
 
  + *CSCI 1111 - Introduction to Software Development (Java)*
  + *ISTM 3119 - Introduction to Programming (Visual Basic)*
 
-## What?
+## Learning Objectives
 
-This course is described as:
+The Learning Community congregates and operates together with a shared purpose:
 
-> Theory, architecture, and implementation of database management systems in corporate and organization information systems. Fundamental concepts of database management and processing. Hands-on experience with database management packages.
+ 1. To acquire and expand subject matter knowledge.
+ * To acquire and hone technology skills.
+ * To improve communication and presentation skills.
+ * To improve the ability to collaborate and work in teams.
+ * To acquire and maintain a relevant understanding of industry practices and challenges.
 
-## Where?
+> ... so all members of the learning community may succeed in their professional pursuits.
 
-building name | room number | address
---- | --- | ---
-Duques Hall |  351 | 2201 G Street NW, Washington DC 20052
+## Operations
 
-## When?
+### Conduct
 
-Wednesday nights between 9/31/15 and 12/9/15, from 4:00pm to 6:30pm.
+To foster and promote a positive and successful learning environment, each member of the Learning Community agrees to abide by the [Code of Conduct](CONDUCT.md).
 
-### Google Calendar
+### Communications
 
-<iframe src="https://www.google.com/calendar/embed?src=o991sfb6ans77vgdh9puaeb518%40group.calendar.google.com&ctz=America/New_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-
-attribute name | attribute value
---- | ---
-Calendar ID | o991sfb6ans77vgdh9puaeb518@group.calendar.google.com
-XML | https://www.google.com/calendar/feeds/o991sfb6ans77vgdh9puaeb518%40group.calendar.google.com/public/basic
-ICAL | https://www.google.com/calendar/ical/o991sfb6ans77vgdh9puaeb518%40group.calendar.google.com/public/basic.ics
-HTML | https://www.google.com/calendar/embed?src=o991sfb6ans77vgdh9puaeb518%40group.calendar.google.com&ctz=America/New_York
-
-## Why?
-
-todo: teaching objectives, learning objectives
-
-## How?
-
-### Communication Methods
-
-todo: comms policy
+To ensure Students receive sufficient instructional support and equal access to the time and attention of instructors, Students are suggested to understand and practice the [Communications Policy](COMMUNICATIONS.md).
 
 ### Teaching Methods
 
-todo: theory, practice
+todo: a balance of theory and practice
 
 ### Evaluation Methods
 
-todo: testing, grading
+todo: testing, grading, etc.
