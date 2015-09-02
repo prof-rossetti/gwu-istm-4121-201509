@@ -21,10 +21,11 @@ This course is described as:
 
 Subject matter generally includes:
 
- + Using a Relational Database (performing SQL analysis)
- + Designing and implementing a Relational Database, including the creation and reverse-translation of Entity Relationship Diagrams (ERDs)
- + Designing and implementing an Information System that includes a Relational Database
-component
+ + the role of databases in information systems (for business and organizations)
+ + data management and processing (spreadsheets)
+ + relational database usage (SQL analysis)
+ + relational database architecture and design
+ + database management system survey
 
 ## Location
 
@@ -89,12 +90,10 @@ Each student enrolled in this course should have already taken one of the follow
 
 The Learning Community operates for the following purposes:
 
- 1. To acquire and expand subject matter knowledge.
- * To acquire and hone technology skills.
+ 1. To expand upon existing subject matter knowledge
  * To improve communication and presentation skills.
  * To improve writing skills.
- * To improve the ability to work in teams.
- * To acquire and maintain a relevant understanding of contemporary industry practices and challenges.
+ * To improve ability to work in teams.
  * To leverage technology as an outlet for creativity.
 
 Class assignments are designed to reflect and measure performance against
@@ -106,9 +105,7 @@ Class assignments are designed to reflect and measure performance against
 
 #### Balance of Practice and Theory
 
-This course calls for a balance of practice and theory.
-
-Emphasis will be placed on providing students with experiential and active learning opportunities.
+This course will balance theory with practice.
 
 #### Accompanying Textbook
 
@@ -120,43 +117,24 @@ Modern Database Management | Hoffer | 11th | 9780132662253 | $120.25 - $256.50
 
 Relevant material from the textbook will be covered during lectures.
 
-Students may optionally choose to purchase, borrow, or loan the book
-for a more in-depth experience.
+Students are encouraged to purchase, borrow, or loan the book
+for a more in-depth learning experience.
 
 ### Evaluation Methods
 
 Student learning will be evaluated through examinations and assignments.
 
-#### Exams
+name | weight | comments
+--- | --- | ---
+[Assignments](ASSIGNMENTS.md) | 50% | NULL
+[Midterm Exam](exams/1-midterm.md) | 25% | NULL
+[Final Exam](exams/2-final.md) | 25% | NULL
 
-todo
+Submitted assignments will be evaluated
+ and grades posted to Blackboard
+ within one or two weeks of submission.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#### Assignments
-
-All [Assignments](ASSIGNMENTS.md) must be delivered
-before the end of the last day of the semester (midnight concluding 12/9).
-
-Each assignment carries a suggested delivery date to help students manage their time.
-In some cases, assignment delivery dates are not flexible.
-
-Assignments submitted by the delivery date will receive instructor feedback
-within a reasonable amount of time (roughly one or two weeks following the delivery date).
+> Students are responsible for grade validation
 
 ### Communication and Collaboration
 
