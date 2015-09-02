@@ -8,7 +8,7 @@ The George Washington University (GWU) | School of Business | Information System
 
 University References:
 
- + [Course Description ](http://my.gwu.edu/mod/pws/courses.cfm?campId=1&termId=201503&subjId=ISTM)
+ + [Course Description](http://bulletin.gwu.edu/search/?P=ISTM+4121)
  + [Course Schedule](http://my.gwu.edu/mod/pws/courses.cfm?campId=1&termId=201503&subjId=ISTM)
  + [Required Materials](http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=122&term_id-1=201503&div-1=&dept-1=ISTM&course-1=4121&section-1=10)
  + [Tentative Final Exam Schedule](https://registrar.gwu.edu/sites/registrar.gwu.edu/files/downloads/Fall2015TentativeExams.pdf)
@@ -21,11 +21,11 @@ This course is described as:
 
 Subject matter generally includes:
 
- + the role of databases in information systems (for business and organizations)
- + data management and processing (spreadsheets)
- + relational database usage (SQL analysis)
- + relational database architecture and design
- + database management system survey
+ + The role of Databases within the context of Information Systems (in Businesses and Organizations)
+ + Data Management and Processing (Spreadsheets)
+ + Relational Database Usage (SQL Analysis)
+ + Relational Database Architecture and Design
+ + Database Management System Survey
 
 ## Location
 
@@ -77,7 +77,7 @@ Morui Li | [limorui@gwmail.gwu.edu](mailto:limorui@gwmail.gwu.edu) | MS in Infor
 ### Students
 
 This course is required for all business students majoring in Information Systems. Currently,
-**37** students are registered for this offering.
+**36** students are registered for this offering.
 
 #### Prerequisites
 
@@ -91,10 +91,10 @@ Each student enrolled in this course should have already taken one of the follow
 The Learning Community operates for the following purposes:
 
  1. To expand upon existing subject matter knowledge
- * To improve communication and presentation skills.
- * To improve writing skills.
- * To improve ability to work in teams.
- * To leverage technology as an outlet for creativity.
+ * To improve communication and presentation skills
+ * To improve writing skills
+ * To improve ability to work in teams
+ * To leverage technology as an outlet for creativity
 
 Class assignments are designed to reflect and measure performance against
  these stated learning objectives.
@@ -103,9 +103,9 @@ Class assignments are designed to reflect and measure performance against
 
 ### Teaching Methods
 
-#### Balance of Practice and Theory
+#### Balance of Theory and Practice
 
-This course will balance theory with practice.
+Instruction will take the form of lectures and hands-on working sessions (labs).
 
 #### Accompanying Textbook
 
@@ -131,10 +131,9 @@ name | weight | comments
 [Final Exam](exams/2-final.md) | 25% | NULL
 
 Submitted assignments will be evaluated
- and grades posted to Blackboard
- within one or two weeks of submission.
-
-> Students are responsible for grade validation
+ and grades will be posted to Blackboard
+ within one or two weeks after submission.
+Each student is responsible for validating grades posted to Blackboard.
 
 ### Communication and Collaboration
 
