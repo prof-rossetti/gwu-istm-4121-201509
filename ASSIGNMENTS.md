@@ -2,6 +2,11 @@
 
 Assignments will be based on material covered in lectures and the text.
 
+Submitted assignments will be evaluated
+ and grades will be posted to Blackboard
+ within one or two weeks after submission.
+Each student is responsible for validating grades on Blackboard.
+
 name | weight | comments
 --- | --- | ---
 [Questionnaire](assignments/0-questionnaire.md) | (50% * 5%) | NULL
@@ -17,7 +22,7 @@ name | weight | comments
 [Final Deliverable](assignments/group-project/2-final-deliverable.md) | (50% x 60% x 40%) | TBA
 [Final Presentation](assignments/group-project/3-final-presentation.md) | (50% x 60% x 40%) | TBA
 
-> NOTE: The project will be assigned no later than October 4th, earlier if possible.
+> NOTE: The project will be assigned no later than September 23rd.
 
 ### Lab Assignments
 
@@ -26,6 +31,8 @@ name | weight | comments
 TBA | TBA |
 TBA | TBA |
 TBA | TBA |
+
+> NOTE: Lab assignments will be summarized before the start of the second class on September 9th.
 
 #### In-Class
 

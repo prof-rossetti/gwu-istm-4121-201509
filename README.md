@@ -130,11 +130,6 @@ name | weight | comments
 [Midterm Exam](exams/1-midterm.md) | 25% | NULL
 [Final Exam](exams/2-final.md) | 25% | NULL
 
-Submitted assignments will be evaluated
- and grades will be posted to Blackboard
- within one or two weeks after submission.
-Each student is responsible for validating grades posted to Blackboard.
-
 ### Communication and Collaboration
 
 To ensure students receive sufficient instructional support

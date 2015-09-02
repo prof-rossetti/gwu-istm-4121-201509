@@ -1,4 +1,4 @@
-# Assignment 0 - Questionnaire
+# Questionnaire
 
 The student survey helps instructors tailor the course to fit student preferences, experience, and expectations.
 
