@@ -81,7 +81,7 @@ Hardware and Networking Technologies | lab
 
 topic | session format
 --- | ---
-TBD | TBD
+Normalization II | lab
 TBD | TBD
 
 # Week 13 - 11/25/15

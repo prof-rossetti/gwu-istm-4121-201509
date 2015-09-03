@@ -19,13 +19,11 @@ This course is described as:
 
 > Theory, architecture, and implementation of database management systems in corporate and organization information systems. Fundamental concepts of database management and processing. Hands-on experience with database management packages.
 
-Subject matter generally includes:
+Subject matter traditionally includes:
 
  + The role of Databases within the context of Information Systems (in Businesses and Organizations)
- + Data Management and Processing (Spreadsheets)
- + Relational Database Usage (SQL Analysis)
- + Relational Database Architecture and Design
- + Database Management System Survey
+ + Relational Database Usage and Analysis (SQL)
+ + Relational Database Architecture, Design, and Creation
 
 ## Location
 
@@ -66,7 +64,7 @@ name | nickname | email | academic qualifications | professional experience | em
 --- | --- | --- | --- | --- | ---
 Michael Rossetti | Mike | [rossetti@gwu.edu](mailto:rossetti@gwu.edu) | MS in Information Systems, GWU 2010 | [LinkedIn Profile](https://www.linkedin.com/in/mikerossetti) | 48-72 hour response grace period
 
-> Please wait until end of semester to connect with the professor on LinkedIn, and include the course number (BADM 2301) in your invitation message.
+> Please wait until end of semester to connect with the professor on LinkedIn, and include the course number (ISTM 4121) in your invitation message.
 
 ### Teaching Assistant
 
@@ -85,6 +83,7 @@ Each student enrolled in this course should have already taken one of the follow
 
  + *CSCI 1111 - Introduction to Software Development (Java)*
  + *ISTM 3119 - Introduction to Programming (Visual Basic)*
+ + ?????? - (python course)
 
 ## Learning Objectives
 
@@ -93,6 +92,7 @@ The Learning Community operates for the following purposes:
  1. To expand upon existing subject matter knowledge
  * To improve communication and presentation skills
  * To improve writing skills
+ * To improve technology skills
  * To improve ability to work in teams
  * To leverage technology as an outlet for creativity
 

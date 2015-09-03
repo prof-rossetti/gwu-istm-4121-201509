@@ -28,11 +28,17 @@ name | weight | comments
 
 name | weight | comments
 --- | --- | ---
-TBA | TBA |
-TBA | TBA |
-TBA | TBA |
-
-> NOTE: Lab assignments will be summarized before the start of the second class on September 9th.
+Basic Single-table SQL | (50% x 30% x 10%) | `SELECT`,`FROM`,`WHERE`,`ORDER BY`,`LIMIT` clauses
+Advanced Single-table SQL | (50% x 30% x 10%) | `GROUP BY`,`HAVING` clauses, as well as string and date functions
+Multi-table SQL | (50% x 30% x 10%) | `JOIN` and `UNION` clauses
+Entity Identification | (50% x 30% x 10%) | identifying entities from a business prompt
+Relationship Identification | (50% x 30% x 10%) | identifying relationships from a business prompt
+Entity Relationship Diagramming | (50% x 30% x 10%) | translating a business prompt into a database design and an ERD, and vice versa
+Normalization I | (50% x 30% x 10%) | simplifying and refactoring
+MS Access Application Functionality | (50% x 30% x 10%) | using MS Access as an RDBMS
+Normalization II | (50% x 30% x 10%) | simplifying and refactoring
+Software and Programming | (50% x 30% x 5%) | writing a database ETL script
+Networking and Hardware | (50% x 30% x 5%) | running a database ETL script on a server
 
 #### In-Class
 
