@@ -1,0 +1,90 @@
+attribute_name_original,attribute_name,attribute_datatype,attribute_description,attribute_privacy_concern
+N/A,response_id,integer,an auto-incremented integer based on when the response was submitted,N/A
+Timestamp,created_at,datetime,the time the response was submitted,N/A
+Timestamp,created_at_formatted,datetime,the time the response was submitted (re-formatted to YYYY-MM-DD HH:MM:SS to improve usability),N/A
+GW Email Address,email,string,the student's gw-issued email address,Personnally-Identifiable Information (PII)
+GitHub Username,github_username,string,the student's github username,Possible PII
+First Name,first_name,string,the student's first name,Personnally-Identifiable Information (PII)
+Last Name,last_name,string,the student's last name,Personnally-Identifiable Information (PII)
+Nickname (if applicable),nickname,string,the student's nickname,Personnally-Identifiable Information (PII)
+Graduation Class,graduation_class,string,the student's graduation class,Possible PII
+Hometown,hometown,string,the student's hometown,Possible PII
+Major(s) and Concentration(s) of Study,majors,string,the student's academic major or concentraion,Possible PII
+Class Scheduling,scheduling,string,whether the student is taking any other classes scheduled either before and/or after this class,N/A
+Learning Objectives,learning_objectives,text,the student's self-identified learning objectives,Private Nature
+Learning Objectives,learning_objective_data,boolean,original text response read by professor and identified as student interest in learning about data or databases,N/A
+Learning Objectives,learning_objective_career,boolean,original text response read by professor and identified as student interest in learning skills and concepts that will help them professionally in their careers,N/A
+Learning Objectives,learning_objective_grad,boolean,original text response read by professor and identified as student academic/graduation requirement,N/A
+Work Experience,work_experience,text,the student's self-identified work experience,Private Nature
+Work Experience,work_experience_business,boolean,"original text response interpreted by professor to include professional experience in the areas of business, startups, science, technology, marketing, or finance",N/A
+Work Experience,work_experience_tech,boolean,"original text response interpreted by professor to include professional experience in the areas of technology, engineering, systems, or data",N/A
+Work Experience,work_experience_public,boolean,"original text response interpreted by professor to include professional experience in the areas of civics, public sector, policy, politics, law, education, or research",N/A
+Work Experience,work_experience_other,boolean,"original text response interpreted by professor to include professional experience in art, sports, physical labor, administrative, retail, or sales",N/A
+Work Experience,work_experience_social_media,boolean,original text response interpreted by professor to include professional experience in social media communications,N/A
+Interests and Passions,interests,text,the student's self-identified interests and passions,Private Nature
+Interests and Passions,interest_adventure,boolean,"original text response interpreted by professor to indicate student interest in sports, adventure, outdoor activity, exploring, or travel",N/A
+Interests and Passions,interest_arts,boolean,"original text response interpreted by professor to indicate student interest in art, music, movies, writing, reading, entertainment, or food",N/A
+Interests and Passions,interest_business,boolean,original text response interpreted by professor to indicate student interest in business,N/A
+Interests and Passions,interest_public,boolean,"original text response interpreted by professor to indicate student interest in volunteering, civics, public sector, or law",N/A
+Interests and Passions,interest_stem,boolean,"original text response interpreted by professor to indicate student interest in science, engineering, technology, or math",N/A
+Do you own a personal computer?,personal_computer,string,whether the student owns a personal computer,N/A
+Which Operating System do you prefer for personal computing?,operating_system,string,the student's operation system preference for personal computing,N/A
+Operating System Usage [Windows OS],operating_system_usage_windows,string,the student's familiarity with the windows operating system,N/A
+Operating System Usage [Mac OS],operating_system_usage_mac,string,the student's familiarity with the mac operating system,N/A
+Operating System Usage [iOS],operating_system_usage_ios,string,the student's familiarity with the ios operating system,N/A
+Operating System Usage [Android OS],operating_system_usage_android,string,the student's familiarity with the android operating system,N/A
+Software Usage [MS Word],software_usage_word,string,the student's familiarity with microsoft word software,N/A
+Software Usage [Google Docs],software_usage_docs,string,the student's familiarity with google docs software,N/A
+Software Usage [MS Excel],software_usage_excel,string,the student's familiarity with microsoft excel software,N/A
+Software Usage [Google Sheets],software_usage_sheets,string,the student's familiarity with google sheets software,N/A
+Software Usage [MS PowerPoint],software_usage_powerpoint,string,the student's familiarity with microsoft powerpoint software,N/A
+Software Usage [Google Slides],software_usage_slides,string,the student's familiarity with google slides software,N/A
+Software Usage [MS Visio],software_usage_viso,string,the student's familiarity with microsoft viso software,N/A
+Software Usage [Lucidchart],software_usage_lucidchart,string,the student's familiarity with lucidchart software,N/A
+Software Usage [MS Access],software_usage_access,string,the student's familiarity with microsoft access software,N/A
+Collaboration and Productivity Tool Usage [Email],tools_usage_email,string,the student's familiarity with email,N/A
+Collaboration and Productivity Tool Usage [Blackboard],tools_usage_blackboard,string,the student's familiarity with blackboard,N/A
+Collaboration and Productivity Tool Usage [GChat],tools_usage_gchat,string,the student's familiarity with gchat,N/A
+Collaboration and Productivity Tool Usage [Slack],tools_usage_slack,string,the student's familiarity with slack,N/A
+"Programming Language, Framework, and Technology Usage [CSV]",tech_usage_csv,string,the student's familiarity with csv,N/A
+"Programming Language, Framework, and Technology Usage [JSON]",tech_usage_json,string,the student's familiarity with json,N/A
+"Programming Language, Framework, and Technology Usage [SQL]",tech_usage_sql,string,the student's familiarity with sql,N/A
+"Programming Language, Framework, and Technology Usage [XML]",tech_usage_xml,string,the student's familiarity with xml,N/A
+"Programming Language, Framework, and Technology Usage [HTML]",tech_usage_html,string,the student's familiarity with html,N/A
+"Programming Language, Framework, and Technology Usage [CSS]",tech_usage_css,string,the student's familiarity with css,N/A
+"Programming Language, Framework, and Technology Usage [JavaScript]",tech_usage_javascript,string,the student's familiarity with javascript,N/A
+"Programming Language, Framework, and Technology Usage [Java]",tech_usage_java,string,the student's familiarity with java,N/A
+"Programming Language, Framework, and Technology Usage [PHP]",tech_usage_php,string,the student's familiarity with php,N/A
+"Programming Language, Framework, and Technology Usage [Ruby]",tech_usage_ruby,string,the student's familiarity with ruby,N/A
+"Programming Language, Framework, and Technology Usage [Python]",tech_usage_python,string,the student's familiarity with python,N/A
+"Programming Language, Framework, and Technology Usage [C++]",tech_usage_c_plus_plus,string,the student's familiarity with c++,N/A
+"Programming Language, Framework, and Technology Usage [Visual Basic]",tech_usage_visual_basic,string,the student's familiarity with visual basic,N/A
+"Programming Language, Framework, and Technology Usage [C#]",tech_usage_c_sharp,string,the student's familiarity with c#,N/A
+"Programming Language, Framework, and Technology Usage [C]",tech_usage_c,string,the student's familiarity with c,N/A
+"Programming Language, Framework, and Technology Usage [Objective C]",tech_usage_objective_c,string,the student's familiarity with objective c,N/A
+"Programming Language, Framework, and Technology Usage [Perl]",tech_usage_perl,string,the student's familiarity with perl,N/A
+"Programming Language, Framework, and Technology Usage [R]",tech_usage_r,string,the student's familiarity with r,N/A
+"Programming Language, Framework, and Technology Usage [.NET]",tech_usage_dot_net,string,the student's familiarity with .net,N/A
+Collaboration and Productivity Tool Usage [HipChat],tools_usage_hipchat,string,the student's familiarity with hipchat,N/A
+Collaboration and Productivity Tool Usage [IRC],tools_usage_irc,string,the student's familiarity with irc,N/A
+Collaboration and Productivity Tool Usage [AWS],tools_usage_aws,string,the student's familiarity with aws,N/A
+Collaboration and Productivity Tool Usage [GitHub],tools_usage_github,string,the student's familiarity with github,N/A
+Collaboration and Productivity Tool Usage [Bitbucket],tools_usage_bitbucket,string,the student's familiarity with bitbucket,N/A
+Have you ever made a website before?,website_experience,string,whether the student has previously created (or maintained) a website,N/A
+Cross-class Collaboration and Mentorship Comfortability,mentorship_comfort,string,"the student's comfort with ""the idea of mentoring undergraduate students from an Intro to Info Systems class as a means of cementing your own database and systems knowledge and improving your personal and professional skills?""",Possible Private Nature
+Meetup Comfortability,meetup_comfort,string,"the student's comfort with ""attending DC-based business and tech meetups as a way to learn about contemporary industry practices and challenges""",Possible Private Nature
+Relational Database Management Software (RDBMS) Usage [Oracle],dbms_oracle,string,the student's familiarity with oracle dbms,N/A
+Relational Database Management Software (RDBMS) Usage [Microsoft],dbms_microsoft,string,the student's familiarity with microsoft dbms,N/A
+Relational Database Management Software (RDBMS) Usage [SAP],dbms_sap,string,the student's familiarity with sap dbms,N/A
+Relational Database Management Software (RDBMS) Usage [IBM],dbms_ibm,string,the student's familiarity with ibm dbms,N/A
+Relational Database Management Software (RDBMS) Usage [InterSystems],dbms_intersystems,string,the student's familiarity with intersystems dbms,N/A
+Relational Database Management Software (RDBMS) Usage [EnterpriseDB],dbms_enterbrisedb,string,the student's familiarity with enterprisedb dbms,N/A
+Relational Database Management Software (RDBMS) Usage [MarkLogic],dbms_marklogic,string,the student's familiarity with marklogic dbms,N/A
+Relational Database Management Software (RDBMS) Usage [DataStax],dbms_datastax,string,the student's familiarity with datastax dbms,N/A
+Relational Database Management Software (RDBMS) Usage [MariaDB],dbms_mariadb,string,the student's familiarity with mariadb dbms,N/A
+Relational Database Management Software (RDBMS) Usage [MongoDB],dbms_mongodb,string,the student's familiarity with mongodb dbms,N/A
+Relational Database Management Software (RDBMS) Usage [Couchbase],dbms_couchbase,string,the student's familiarity with couchbase dbms,N/A
+Relational Database Management Software (RDBMS) Usage [Aerospike],dbms_aerospike,string,the student's familiarity with aerospike dbms,N/A
+Relational Database Management Software (RDBMS) Usage [MySQL],dbms_mysql,string,the student's familiarity with mysql dbms,N/A
+Relational Database Management Software (RDBMS) Usage [PostgreSQL],dbms_postgresql,string,the student's familiarity with postgresql dbms,N/A
+Relational Database Management Software (RDBMS) Usage [SQLite],dbms_sqlite,string,the student's familiarity with sqlite dbms,N/A
