@@ -2,87 +2,73 @@
 
 # Week 1 - 9/2/15
 
-topic | session format
---- | ---
-Introduction to this Course | lecture
-Introduction to Databases within the Context of Information Systems | lecture
+Introduction to this Course
+
+Introduction to Databases (within the context of Information Systems)
 
 # Week 2 - 9/9/15
 
-topic | session format
---- | ---
-Data Process and Management (Spreadsheets) Review | lab
-Diagramming Tools Review | lab
-Basic Single-table SQL | lab
+Data Processing and Operations
+
+Database Management Systems/Software (DBMS)
+
+Data Analysis I: Basic Single-table SQL
+
+> `SELECT`,`FROM`,`WHERE`,`ORDER BY`,`LIMIT` clauses, as well as string and date functions
 
 # Week 3 - 9/16/15
 
-topic | session format
---- | ---
-Relational Databases I | lecture
-Advanced Single-table SQL | lab
+Entity Identification
+
+Data Analysis II: Advanced Single-table SQL
+
+> `GROUP BY`,`HAVING` clauses, as well as aggregate functions
 
 # Week 4 - 9/23/15
 
-topic | session format
---- | ---
-Relational Databases II | lecture
-Multi-table SQL | lab
+Relationship Identification
+
+Relational Databases
+
+Data Analysis III: Multi-table SQL
+
+> `JOIN` and `UNION` clauses
 
 # Week 5 - 9/30/15
 
-topic | session format
---- | ---
-Entity Relationship Diagramming | lab
-SQL and ERD Support | lab
+Entity Relationship Diagramming
+
+Project Support
 
 # Week 6 - 10/7/15
 
-topic | session format
---- | ---
-Midterm Exam | exam
+Midterm Project Pitches
+
+SQL and ERD Support
 
 # Week 7 - 10/14/15
 
-topic | session format
---- | ---
-Midterm Project Pitches | student presentations
-SQL, ERD, and Project Support | lab
+Midterm Exam
 
 # Week 8 - 10/21/15
 
-topic | session format
---- | ---
-Relational Databases III | lecture
-Normalization I | lab
+Data Integrity and Forms
 
 # Week 9 - 10/28/15
 
-topic | session format
---- | ---
-Relational Database Management System (RDBMS) Survey | lecture
-MS Access Application Functionality | lab
+Data Visualization and Reporting
 
 # Week 10 - 11/4/15
 
-topic | session format
---- | ---
-Software and Programming Technologies Survey | lecture
-Software and Programming Technologies | lab
+Normalization I
 
 # Week 11 - 11/11/15
 
-topic | session format
---- | ---
-Hardware and Networking Technologies Survey | lecture
-Hardware and Networking Technologies | lab
+Normalization II
 
 # Week 12 - 11/18/15
 
-topic | session format
---- | ---
-Normalization II | lab
-TBD | TBD
+Process Automation
 
 # Week 13 - 11/25/15
 
@@ -90,15 +76,11 @@ No Class - Thanksgiving
 
 # Week 14 - 12/2/15
 
-topic | session format
---- | ---
-Project Support | lab
+Project Support
 
 # Week 15 - 12/9/15
 
-topic | session format
---- | ---
-Project Final Presentations | student presentations
+Project Final Presentations
 
 # 12/?/15
 

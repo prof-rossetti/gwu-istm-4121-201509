@@ -16,29 +16,28 @@ Lab Assignments | (50% * 30%) | see break-out below
 
 ### Group Project Assignments
 
-name | weight | comments
---- | --- | ---
-[Mid-term Pitch](assignments/group-project/1-midterm-pitch.md) | (50% x 60% x 20%) | TBA
-[Final Deliverable](assignments/group-project/2-final-deliverable.md) | (50% x 60% x 40%) | TBA
-[Final Presentation](assignments/group-project/3-final-presentation.md) | (50% x 60% x 40%) | TBA
+name | weight
+--- | --- |
+[Mid-term Pitch](assignments/group-project/1-midterm-pitch.md) | (50% x 60% x 20%)
+[Final Deliverable](assignments/group-project/2-final-deliverable.md) | (50% x 60% x 40%)
+[Final Presentation](assignments/group-project/3-final-presentation.md) | (50% x 60% x 40%)
 
-> NOTE: The project will be assigned no later than September 23rd.
+> NOTE: The project will be assigned no later than September 16th.
 
 ### Lab Assignments
 
-name | weight | comments
---- | --- | ---
-Basic Single-table SQL | (50% x 30% x 10%) | `SELECT`,`FROM`,`WHERE`,`ORDER BY`,`LIMIT` clauses
-Advanced Single-table SQL | (50% x 30% x 10%) | `GROUP BY`,`HAVING` clauses, as well as string and date functions
-Multi-table SQL | (50% x 30% x 10%) | `JOIN` and `UNION` clauses
-Entity Identification | (50% x 30% x 10%) | identifying entities from a business prompt
-Relationship Identification | (50% x 30% x 10%) | identifying relationships from a business prompt
-Entity Relationship Diagramming | (50% x 30% x 10%) | translating a business prompt into a database design and an ERD, and vice versa
-Normalization I | (50% x 30% x 10%) | simplifying and refactoring
-MS Access Application Functionality | (50% x 30% x 10%) | using MS Access as an RDBMS
-Normalization II | (50% x 30% x 10%) | simplifying and refactoring
-Software and Programming | (50% x 30% x 5%) | writing a database ETL script
-Networking and Hardware | (50% x 30% x 5%) | running a database ETL script on a server
+name | weight
+--- | ---
+Data Analysis I: Basic Single-table SQL | (50% x 30% x 10%)
+Entity Identification | (50% x 30% x 10%)
+Data Analysis II: Advanced Single-table SQL | (50% x 30% x 10%)
+Relationship Identification | (50% x 30% x 10%)
+Data Analysis III: Multi-table SQL | (50% x 30% x 10%)
+Entity Relationship Diagramming | (50% x 30% x 10%)
+Data Integrity and Forms | (50% x 30% x 10%)
+Data Visualization and Reporting | (50% x 30% x 10%)
+Normalization I | (50% x 30% x 10%)
+Normalization II | (50% x 30% x 10%)
 
 #### In-Class
 
