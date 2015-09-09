@@ -83,7 +83,7 @@ Each student enrolled in this course should have already taken one of the follow
 
  + *CSCI 1111 - Introduction to Software Development (Java)*
  + *ISTM 3119 - Introduction to Programming (Visual Basic)*
- + ?????? - (python course)
+ + *ISTM 6290 - Python Programming with Database Applications*
 
 ## Learning Objectives
 
@@ -117,8 +117,8 @@ Modern Database Management | Hoffer | 11th | 9780132662253 | $120.25 - $256.50
 
 Relevant material from the textbook will be covered during lectures.
 
-Students are encouraged to purchase, borrow, or loan the book
-for a more in-depth learning experience.
+Students may purchase, borrow, or loan the book (or a similar/recent version)
+for more context.
 
 ### Evaluation Methods
 

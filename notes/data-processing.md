@@ -2,25 +2,17 @@
 
 Choose the right tool for the job.
 
-The right tool is a function of:
-
- + information input behavior
- + information output behavior
- + information update/refresh frequency
- + data volume/size
- + cost, scalability, productivity, and performance
- + design considerations
- + accuracy of processing
- + audience/user technologies, preferences and skills
- + security and privacy concerns
-
 Common tools are spreadsheets, databases, and scripts.
 
-Common data file types include CSV, JSON, and SQL, XML.
+The data processing tool selection decision is a function of:
 
-Common data types include:
-
- + integer
- + string/ varchar
- + datetime
- + text
+ + information inputs (source data)
+ + information outputs
+ + information update/refresh frequency
+ + volume/size of source data
+ + type/format of source data (e.g. CSV, JSON, and SQL, XML, etc.)
+ + cost, scalability, productivity, accuracy, and performance
+ + design considerations and hardware/software/network limitations
+ + accuracy of processing
+ + audience/user capabilities, preferences and skills
+ + security, privacy, and sharing considerations

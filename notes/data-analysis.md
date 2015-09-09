@@ -221,7 +221,7 @@ The `GROUP BY` clause is optionally used to specify the attributes by which othe
   included in the group by clause,
   or aggregated as part of an aggregate function.
 
-The `[HAVING](http://www.w3schools.com/sql/sql_having.asp)` clause
+The `HAVING` clause
  is optionally used to filter the set of returned results according to one or more logical operations.
 
 > The having clause can specify renamed attributes and aggregated attributes because it executes **after** many of the other clauses.

@@ -8,9 +8,13 @@
 
 <hr>
 
+# Database Usage
+
+Reference [Data Analysis Notes](notes/data-analysis.md)
+
 # Database Management
 
-Create users and edit passwords/priviges.
+Create users and edit passwords/privileges.
 
 Create databases.
 

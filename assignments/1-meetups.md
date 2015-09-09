@@ -56,6 +56,10 @@ If the idea of attending business and technology community events frightens you
  or makes you uncomfortable,
  you have another option.
 
-You may propose a custom assignment that demonstrates the same learning objectives as the meetup assignment. For example, a custom assignment may involve analyzing five database-related news articles, or performing informational interviews with data professionals.
+You may propose and submit a custom assignment
+ that demonstrates the same learning objectives as the meetup assignment.
 
-If you would like to propose an alternate assignment, ...
+If proposing a custom assignment,
+ please compose a brief assignment description (including evaluation criteria),
+ and send it to the professor for approval no later than
+ the beginning of class on 10/7.
