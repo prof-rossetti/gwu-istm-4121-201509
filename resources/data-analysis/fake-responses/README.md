@@ -1,6 +1,6 @@
 # Fake Responses
 
-Generates a `responses.csv` file of fake response data.
+Generates csv files of varying sizes, each filled with fake response data.
 
 ## Prerequisities
 
