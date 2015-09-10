@@ -48,11 +48,11 @@ Midterm Exam
 
 # Week 8 - 10/21/15
 
-Data Integrity and Forms
+Data Inputs: Validation, Integrity, and Forms
 
 # Week 9 - 10/28/15
 
-Data Visualization and Reporting
+Data Outputs: Visualization and Reporting
 
 # Week 10 - 11/4/15
 
