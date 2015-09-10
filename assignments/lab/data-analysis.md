@@ -1,4 +1,4 @@
-# Single-table Data Processing and Analysis Lab Assignment
+# Data Analysis Lab Assignment
 
 Find a real world single-table dataset. Or choose one of the following pre-selected open datasets:
 

@@ -7,12 +7,10 @@ Submitted assignments will be evaluated
  within one or two weeks after submission.
 Each student is responsible for validating grades on Blackboard.
 
-name | weight | comments
+name | weight | notes
 --- | --- | ---
-[Questionnaire](assignments/0-questionnaire.md) | (50% * 5%) | NULL
-[Meetups](assignments/1-meetups.md) | (50% * 5%) | NULL
 Group Project Assignments | (50% * 60%) | see break-out below
-Lab Assignments | (50% * 30%) | see break-out below
+Lab Assignments | (50% * 40%) | see break-out below
 
 ### Group Project Assignments
 
@@ -26,22 +24,29 @@ name | weight
 
 ### Lab Assignments
 
-name | weight
---- | ---
-Data Analysis I: Basic Single-table SQL | (50% x 30% x 10%)
-Entity Identification | (50% x 30% x 10%)
-Data Analysis II: Advanced Single-table SQL | (50% x 30% x 10%)
-Relationship Identification | (50% x 30% x 10%)
-Data Analysis III: Multi-table SQL | (50% x 30% x 10%)
-Entity Relationship Diagramming | (50% x 30% x 10%)
-Data Integrity and Forms | (50% x 30% x 10%)
-Data Visualization and Reporting | (50% x 30% x 10%)
-Normalization I | (50% x 30% x 10%)
-Normalization II | (50% x 30% x 10%)
+name | weight | nature
+--- | --- | ---
+[Questionnaire](assignments/lab/questionnaire.md) | (50% x 40% x 5%) | in-class
+[Meetups](assignments/lab/meetups.md) | (50% x 40% x 15%) | take-home
+[Database Management Software](assignments/lab/database-management-software.md) | (50% x 40% x 10%) | in-class
+[Data Analysis](assignments/lab/data-analysis.md) | (50% * 10%) | take-home
+[Relational Data Analysis](assignments/lab/relational-data-analysis.md) | (50% x 40% x 10%) | take-home
+Entity and Relationship Identification | (50% x 40% x 10%) | in-class
+Entity Relationship Diagramming | (50% x 40% x 10%) | take-home
+Data Integrity and Forms | (50% x 40% x 10%) | TBA
+Data Visualization and Reporting | (50% x 40% x 10%) | TBA
+Normalization | (50% x 40% x 10%) | TBA
 
 #### In-Class
 
-In-class lab assignments are most likely to be submitted in hand-written form.
+In-class lab assignments
+ may be submitted in handwritten form,
+ or in some cases otherwise demonstrated to an instructor.
+
+Students are encouraged to help each-other
+ and work collaboratively,
+ and in some cases may submit a single assignment
+ on behalf of one ore more students.
 
 #### Take-Home
 

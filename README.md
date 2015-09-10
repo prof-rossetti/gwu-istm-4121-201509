@@ -135,8 +135,8 @@ Student learning will be evaluated through examinations and assignments.
 name | weight | comments
 --- | --- | ---
 [Assignments](ASSIGNMENTS.md) | 50% | NULL
-[Midterm Exam](exams/1-midterm.md) | 25% | NULL
-[Final Exam](exams/2-final.md) | 25% | NULL
+[Midterm Exam](exams/midterm.md) | 25% | NULL
+[Final Exam](exams/final.md) | 25% | NULL
 
 ### Communication and Collaboration
 
