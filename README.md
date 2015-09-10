@@ -4,7 +4,7 @@ This repository contains resources for instructing a university-level course on 
 
 university | school | department | semester | course | section | credits
 --- | --- | --- | --- | --- | --- | ---
-The George Washington University (GWU) | School of Business | Information Systems and Technology Management (ISTM) | Fall 2015 (201503)| Database Design & Applications | Wednesday Evenings (10) | 3
+The George Washington University (GWU) | School of Business | Information Systems and Technology Management (ISTM) | Fall 2015 (201503)| Database Design & Applications (4121) | Wednesday Evenings (10) | 3
 
 University References:
 
@@ -23,7 +23,7 @@ Subject matter traditionally includes:
 
  + The role of Databases within the context of Information Systems (in Businesses and Organizations)
  + Relational Database Usage and Analysis (SQL)
- + Relational Database Architecture, Design, and Creation
+ + Relational Database Architecture and Design
 
 ## Location
 
@@ -93,11 +93,11 @@ Each student enrolled in this course
 
 The Learning Community operates for the following purposes:
 
- 1. To expand upon existing subject matter knowledge
+ 1. To expand existing subject matter knowledge
+ * To improve technology skills
  * To improve communication and presentation skills
  * To improve writing skills
- * To improve technology skills
- * To improve ability to work in teams
+ * To improve the ability to work in teams
  * To leverage technology as an outlet for creativity
 
 Class assignments are designed to reflect and measure performance against
@@ -132,18 +132,18 @@ Students may
 
 Student learning will be evaluated through examinations and assignments.
 
-name | weight | comments
---- | --- | ---
-[Assignments](ASSIGNMENTS.md) | 50% | NULL
-[Midterm Exam](exams/midterm.md) | 25% | NULL
-[Final Exam](exams/final.md) | 25% | NULL
+name | weight
+--- | ---
+[Assignments](ASSIGNMENTS.md) | 50%
+[Midterm Exam](exams/midterm.md) | 25%
+[Final Exam](exams/final.md) | 25%
 
 ### Communication and Collaboration
 
 To ensure students receive sufficient instructional support
  and equal access to the time and attention of instructors,
  and to provide students with hands-on experience using [contemporary business collaboration tools](http://www.theatlantic.com/technology/archive/2015/07/the-secret-startup-saved-healthcare-gov-the-worst-website-in-america/397784/),
- members of the Learning Community will communicate and collaborate according to a specified set of [tools and guidelines](COMMUNICATIONS.md).
+ members of the Learning Community will communicate and collaborate using a specified set of [tools and guidelines](COMMUNICATIONS.md).
 
 ### Conduct
 
