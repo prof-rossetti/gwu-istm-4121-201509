@@ -1,4 +1,4 @@
-# Communication and Collaboration Tools and Guidelines
+# Collaboration Tools and Guidelines
 
 ## Chat
 
