@@ -74,12 +74,16 @@ Morui Li | [limorui@gwmail.gwu.edu](mailto:limorui@gwmail.gwu.edu) | MS in Infor
 
 ### Students
 
-This course is required for all business students majoring in Information Systems. Currently,
-**36** students are registered for this offering.
+This course is required for
+ all business students majoring in Information Systems.
+ Currently,
+ **36**
+ students are registered for this offering.
 
 #### Prerequisites
 
-Each student enrolled in this course should have already taken one of the following courses:
+Each student enrolled in this course
+ is expected to have already taken one of the following courses:
 
  + *CSCI 1111 - Introduction to Software Development (Java)*
  + *ISTM 3119 - Introduction to Programming (Visual Basic)*
@@ -105,7 +109,8 @@ Class assignments are designed to reflect and measure performance against
 
 #### Balance of Theory and Practice
 
-Instruction will take the form of lectures and hands-on working sessions (labs).
+Instruction will take the form of
+ lectures and hands-on working sessions (labs).
 
 #### Accompanying Textbook
 
@@ -115,10 +120,13 @@ title | author | edition | isbn | price range
 --- | --- | --- | --- | ---
 Modern Database Management | Hoffer | 11th | 9780132662253 | $120.25 - $256.50
 
-Relevant material from the textbook will be covered during lectures.
+Relevant material from the textbook
+ will be covered during lectures.
 
-Students may purchase, borrow, or loan the book (or a similar/recent version)
-for more context.
+Students may
+ purchase, borrow, or loan the book
+ (or a similar/recent version)
+ for more context.
 
 ### Evaluation Methods
 
@@ -133,11 +141,12 @@ name | weight | comments
 ### Communication and Collaboration
 
 To ensure students receive sufficient instructional support
-and equal access to the time and attention of instructors,
-and to provide students with hands-on experience using [contemporary business collaboration tools](http://www.theatlantic.com/technology/archive/2015/07/the-secret-startup-saved-healthcare-gov-the-worst-website-in-america/397784/),
-members of the Learning Community will communicate and collaborate according to a specified set of [tools and guidelines](COMMUNICATIONS.md).
+ and equal access to the time and attention of instructors,
+ and to provide students with hands-on experience using [contemporary business collaboration tools](http://www.theatlantic.com/technology/archive/2015/07/the-secret-startup-saved-healthcare-gov-the-worst-website-in-america/397784/),
+ members of the Learning Community will communicate and collaborate according to a specified set of [tools and guidelines](COMMUNICATIONS.md).
 
 ### Conduct
 
 To foster and promote a positive and successful learning environment,
-each member of the Learning Community agrees to abide by University [Codes of Conduct](CONDUCT.md).
+ each member of the Learning Community agrees to
+ abide by University [Codes of Conduct](CONDUCT.md).
