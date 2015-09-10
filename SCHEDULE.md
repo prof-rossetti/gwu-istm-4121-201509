@@ -10,15 +10,13 @@ Introduction to Databases (within the context of Information Systems)
 
 Data Processing and Operations
 
-Database Management Systems/Software (DBMS)
+Database Management Software (DBMS)
+
+# Week 3 - 9/16/15
 
 Data Analysis I: Basic Single-table SQL
 
 > `SELECT`,`FROM`,`WHERE`,`ORDER BY`,`LIMIT` clauses, as well as string and date functions
-
-# Week 3 - 9/16/15
-
-Entity Identification
 
 Data Analysis II: Advanced Single-table SQL
 
@@ -26,25 +24,23 @@ Data Analysis II: Advanced Single-table SQL
 
 # Week 4 - 9/23/15
 
-Relationship Identification
-
-Relational Databases
-
 Data Analysis III: Multi-table SQL
 
 > `JOIN` and `UNION` clauses
 
+Relational Databases
+
 # Week 5 - 9/30/15
 
-Entity Relationship Diagramming
+Entity and Relationship Identification
 
-Project Support
+Entity Relationship Diagramming (ERDs)
 
 # Week 6 - 10/7/15
 
 Midterm Project Pitches
 
-SQL and ERD Support
+Project, SQL, and ERD Support
 
 # Week 7 - 10/14/15
 
@@ -85,3 +81,5 @@ Project Final Presentations
 # 12/?/15
 
 Final Exam
+
+> Refer to https://github.com/gwu-business/istm-4121/issues/10 for info about the final exam schedule.
