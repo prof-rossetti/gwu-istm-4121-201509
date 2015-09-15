@@ -1,6 +1,6 @@
 # Relational Data Processing and Analysis Lab Assignment
 
-Find a real world multi-table (relational) dataset. Or choose one of the following pre-selected open datasets:
+Find a real world multi-table (relational) dataset which contains business-related data. Or choose one of the following pre-selected open datasets:
 
  + [Washington DC Transit Data](http://www.wmata.com/rider_tools/license_agreement.cfm) (agree and submit to reveal the data download)
 

@@ -8,7 +8,7 @@ Find a real world
  Try searching [data.gov](http://www.data.gov/),
  [opendata.dc.gov](http://opendata.dc.gov/),  or other open data websites. If you get stuck, you may choose one of the following suggested datasets:
 
- + [Washington DC Tax Assessment Records](http://opendata.dc.gov/datasets/496533836db640bcade61dd9078b0d63_53)
+ + [Washington DC Parks](http://opendata.dc.gov/datasets/03cc82b08d694632b3a6e32aaf501272_3?uiTab=table&orderByFields=SHAPE_Area+ASC)
  + [Washington DC Purchase Orders](http://opendata.dc.gov/datasets/f61f962c2ce84f2caa1919d425c8061d_0?uiTab=table)
 
 Download the corresponding .csv or .txt file(s).
