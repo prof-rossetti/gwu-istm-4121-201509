@@ -20,8 +20,6 @@ name | weight
 [Final Deliverable](assignments/group-project/final-deliverable.md) | (50% x 60% x 40%)
 [Final Presentation](assignments/group-project/final-presentation.md) | (50% x 60% x 40%)
 
-> NOTE: The project will be assigned no later than September 16th.
-
 ### Lab Assignments
 
 name | weight | nature
@@ -55,5 +53,5 @@ A lab homework assignment is eligible for evaluation if it meets the following s
  + typed on a keyboard or drawn with an appropriate digital tool
  + produced by a single student (disussion is permitted but work product must be unique)
  + submitted in print form
- + submitted on BlackBoard
+ + submitted on Blackboard
  + submitted before the start of class on the due date (no exceptions based on geolocation)
