@@ -37,6 +37,8 @@ Full credit for using a DBMS to execute a SQL query.
 
 Else no credit.
 
+<hr>
+
 ## Bonus/Further Exploration
 
 Delete the table.
@@ -53,8 +55,7 @@ Import tables of varying sizes,
  and execute the same query on each table.
  Notice the affect of table-size on query execution time.
 
-
-Create a new table from an existing table, manipulating any attribute names or values as necessary:
+Create a new table from an existing table, manipulating attribute names or values as necessary:
 
 ```` sql
 DROP TABLE IF EXISTS orders;
