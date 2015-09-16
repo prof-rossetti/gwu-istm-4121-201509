@@ -1,6 +1,6 @@
 # Single-table, Aggregate SQL
 
-Sometimes one or more records in a single database table may share the same attribute value.
+Databases share many familiar aggregation functions as spreadsheets.
 
 ## Clauses
 
@@ -8,7 +8,7 @@ Sometimes one or more records in a single database table may share the same attr
 
 The `GROUP BY` clause is optionally used to specify the attributes by which other attributes may be aggregated.
 
-When grouping by one or more attributes,
+> When grouping by one or more attributes,
  each attribute in the select clause must either be
   included in the group by clause,
   or aggregated as part of an aggregate function.
@@ -18,7 +18,7 @@ When grouping by one or more attributes,
 The `HAVING` clause
  is optionally used to filter the set of returned results according to one or more logical operations.
 
-The having clause can specify renamed attributes and aggregated attributes because it executes **after** many of the other clauses.
+> The having clause can specify renamed attributes and aggregated attributes because it executes **after** many of the other clauses.
 
 ## Functions
 

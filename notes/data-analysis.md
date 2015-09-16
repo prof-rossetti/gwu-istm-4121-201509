@@ -23,10 +23,10 @@ There is also a `UNION` clause used in special cases, but it is outside the scop
 
 It is not necessary to use all, or even most, clauses in a SQL query.
 
-## [Single-table SQL](notes/data-analysis/single-table-sql.md)
+### Instructional SQL Modules
 
-### [Single-table Aggregations](notes/data-analysis/single-table-aggregate-sql.md)
-
-## [Multi-Table SQL](notes/data-analysis/multi-table-sql.md)
-
-## [Multi-Database SQL](notes/data-analysis/multi-database-sql.md)
+ 1. [Single-table](data-analysis/single-table-sql.md)
+  * [Subqueries](data-analysis/subqueries.md)
+  * [Aggregations](data-analysis/single-table-aggregate-sql.md)
+ * [Multi-Table](data-analysis/multi-table-sql.md)
+  * [Multi-Schema](notes/data-analysis/multi-database-sql.md)
