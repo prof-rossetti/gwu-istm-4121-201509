@@ -1,8 +1,8 @@
 # Single-table SQL
 
-Students need not understand relational database concepts to use a database as an alternative tool for data processing and analysis.
+Students need not understand relational database concepts to begin using SQL and the database as an alternative to the spreadsheet for performing data processing and analysis.
 
-This document details clauses, functions, and considerations for performing analysis with SQL on a single database table.
+This document provides an overview of common SQL clauses, functions, and considerations for performing SQL analysis on a single database table.
 
 ## Clauses
 
@@ -29,15 +29,6 @@ SELECT
   "fun times",
   2,
   2 + 2
-````
-
-Alias each attribute for clarity.
-
-```` sql
-SELECT
-  "fun times" AS new_attribute_name
-  ,2 AS original_count
-  ,2 + 2 AS revised_count
 ````
 
 ### FROM
@@ -70,9 +61,11 @@ FROM table_x
 ### WHERE
 
 The `WHERE` clause is optionally used to
- filter the set of returned results according to one or more logical operations.
+ filter the set of returned results according to one or more logical conditions.
 
-Follow the different kind of logical operations in each of the queries below:
+The queries below illustrate common logical operations, and how each may be used within the context of a where clause.
+
+> TIP: Unlike attribute names, database names, and other reserved keywords recognized by the DBMS, attribute values of most datatypes (e.g strings, text, dates, etc.) are referenced by quotation marks.
 
 ```` sql
 SELECT
@@ -151,71 +144,105 @@ FROM my_table
 ORDER BY attribute_a DESC -- sort in descending order
 ````
 
-```` sql
-SELECT
- attribute_a
- ,attribute_b
-FROM table_x
-WHERE attribute_b = "some specific value"
-ORDER BY attribute_a
-````
+### LIMIT/TOP
 
-### LIMIT
+The `LIMIT` clause is optionally used to restrict the total number of results returned. The limit clause, when used in a query, must be the final clause.
 
-The `LIMIT` clause is optionally used to restrict the total number of results returned.
+MS Access instead recognizes `TOP`, a [sub-clause of the select clause](http://www.w3schools.com/sql/sql_top.asp), for this purpose.
 
 ```` sql
+-- open source dbms:
 SELECT *
 FROM table_a
 LIMIT 200
-````
 
-```` sql
-SELECT *
+-- ms access dbms:
+SELECT
+  TOP 200 *
 FROM table_a
-ORDER BY attribute_a DESC
-LIMIT 10
 ````
 
 ## Functions
 
-Here are a few important functions to know. Consult SQL documentation as well as DBMS documentation for a comprehensive list of functions and instructions on how to use them.
+Below are some examples of important functions recognized by open source DBMSs.
 
-### IF
-
-```` sql
-SELECT
-  IF(courses.registration_name LIKE "%ISTM%", "Information Systems Department", "Other Department") AS department
-FROM (
-  SELECT "ISTM-4121-10" AS registration_name -- change this value and see what happens ...
-) courses
-````
-
-### CASE
-
-```` sql
-SELECT
-  CASE
-     WHEN courses.registration_name LIKE '%ISTM%' THEN 'Information Systems Department'
-     WHEN courses.registration_name LIKE '%BADM%' THEN 'Business Administration Department'
-     WHEN courses.registration_name LIKE '%MKTG%' THEN 'Marketing Department'
-     ELSE 'Other Department'
-  END department
-FROM (
-  SELECT "ISTM-4121-10" AS registration_name
-) courses
-````
+Consult SQL documentation as well as DBMS documentation for a comprehensive list of functions and instructions on how to use them.
 
 ### String Functions
 
-Consult SQL and DBMS documentation for comprehensive list of string functions, including `CAST`, `CONCAT`, `SUBSTRING_INDEX` and more.
-
 ```` sql
 SELECT
-  cast('2016-11-06' AS DATETIME) AS scheduled_at
-  ,cast('2016-11-06' AS DATE) AS scheduled_on
+  concat('hello',' ','world') AS my_message
+  ,cast('2016-11-06' AS DATETIME) AS scheduled_at -- changes attribute datatype from string to datetime
+  ,cast('2016-11-06' AS DATE) AS scheduled_on -- changes string datatype to date datatype
 ````
 
 ### Date Functions
 
-Consult SQL and DBMS documentation for comprehensive list of date functions.
+```` sql
+SELECT
+  now() AS datetime_right_now
+  ,curdate() AS date_right_now
+  ,curtime() AS time_right_now
+  ,date_format(curdate(), '%b') AS this_month_abbrev
+  ,date_format(curdate(), '%Y-%b') AS this_year_and_month
+````
+
+### Conditional Functions
+
+Common powerful conditional functions include:
+
+ + IF()
+ + CASE()
+ + COALESCE()
+
+```` sql
+SELECT
+  courses.registration_name
+  ,IF(courses.registration_name LIKE "%ISTM%", "Information Systems Department", "Other Department") AS department_classification
+  ,CASE
+      WHEN courses.registration_name LIKE '%ISTM%' THEN 'Information Systems Department'
+      WHEN courses.registration_name LIKE '%BADM%' THEN 'Business Administration Department'
+      WHEN courses.registration_name LIKE '%MKTG%' THEN 'Marketing Department'
+      ELSE 'Other Department'
+  END department_name
+FROM (
+  SELECT "MKTG-1414-10" AS registration_name -- change this value and see what happens ...
+) courses
+````
+
+```` sql
+SELECT
+  NULL -- evaluates to NULL
+  ,coalesce(NULL,0) -- evaluates to 0
+````
+
+## Other Considerations
+
+### Attribute Aliasing
+
+Optionally assign to each selected attribute a new name for clarity. Use `AS` to denote attribute aliases.
+
+```` sql
+SELECT
+  "fun times" AS new_attribute_name
+  ,2 AS original_count
+  ,2 + 2 AS revised_count
+````
+
+### Distinctness
+
+Use `DISTINCT` as a sub-clause of the select clause to return only a set of unique records.
+
+```` sql
+SELECT DISTINCT attribute_a -- returns only unique values of attribute_a
+FROM table_z
+````
+
+```` sql
+SELECT DISTINCT
+  attribute_a
+  ,attribute_b
+  ,attribute_c -- returns only unique value combinations of the set of all selected attributes
+FROM table_z
+````

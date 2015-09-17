@@ -1,8 +1,10 @@
 # Multi-table SQL
 
-A database, or schema, contains a collection of tables.
+A database, or schema, may contain one or more tables.
 
-Tables in a database are often related to each other.
+Each table is often related to one or more other tables in the database.
+
+This document provides an overview of common SQL clauses, functions, and considerations for performing SQL analysis on a multiple related database tables.
 
 ## Clauses
 
@@ -10,16 +12,27 @@ Tables in a database are often related to each other.
 
 Zero or more `JOIN` clauses may be used to relate additional table(s) to the table specified in the from clause.
 
-Each join clause must state which attributes are being used to join the tables together. Usually joins happen when one attribute in one table equals another attribute in another table.
+Each join clause must state which attributes are being used to join the tables together. Usually joins happen when one attribute in one table equals another attribute in another table. The keyword `ON` is used to specify the join condition(s).
 
 There are different kinds of joins: inner and outer.
 
 #### INNER
 
-An inner join will return only the results that match the join condition.
+An inner join returns only the results from each table that match the join condition.
  Records from both the original table and joined table may be excluded.
 
 > Use `JOIN` to denote an inner join
+
+```` sql
+SELECT
+  table_h.attribute_a
+  ,table_h.attribute_b
+  ,table_j.attribute_a
+  ,table_j.attribute_x
+  ,table_j.attribute_y
+FROM table_h
+JOIN table_j ON table_j.some_attribute = table_h.related_attribute
+````
 
 #### OUTER
 
@@ -64,6 +77,7 @@ JOIN table_b ON table_a.some_attribute = table_b.other_attribute
 ### Table Aliasing
 
 As a matter of good practice, you may optionally improve the readability and usability of your queries by assigning to each table a shorter name, or alias.
+Use the `AS` keyword to denote table aliases.
 
 ```` sql
 SELECT *

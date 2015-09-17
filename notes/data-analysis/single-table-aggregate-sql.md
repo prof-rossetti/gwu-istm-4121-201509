@@ -8,17 +8,55 @@ Databases share many familiar aggregation functions as spreadsheets.
 
 The `GROUP BY` clause is optionally used to specify the attributes by which other attributes may be aggregated.
 
-> When grouping by one or more attributes,
+```` sql
+SELECT
+ attribute_m
+ ,count(attribute_x) as x_count
+FROM table_z
+GROUP BY attribute_m
+````
+
+When grouping by one or more attributes,
  each attribute in the select clause must either be
   included in the group by clause,
   or aggregated as part of an aggregate function.
 
+```` sql
+SELECT
+ attribute_m
+ ,attribute_n
+ ,count(attribute_x) as x_count
+FROM table_z
+GROUP BY attribute_m, attribute_n
+````
+
+```` sql
+SELECT
+ attribute_m
+ ,attribute_n
+ ,count(attribute_x) as x_count
+ ,sum(attribute_y) as y_sum
+FROM table_z
+GROUP BY attribute_m, attribute_n
+````
+
 ### HAVING
 
 The `HAVING` clause
- is optionally used to filter the set of returned results according to one or more logical operations.
+ is optionally used to filter the set of returned results according to one or more logical conditions.
 
-> The having clause can specify renamed attributes and aggregated attributes because it executes **after** many of the other clauses.
+The having clause is similar to the where clause, in that they both apply a filter to the resulting dataset based on one or more logical conditions.
+
+The major advantage of the having clause is that it executes **after** many of the other clauses, enabling it to recognize attribute aliases applied during execution of the select clause, including the names of aggregated attributes.
+
+```` sql
+SELECT
+ attribute_m
+ ,count(attribute_x) as x_count
+FROM table_z
+GROUP BY attribute_m
+HAVING x_count > 100
+````
 
 ## Functions
 
@@ -26,17 +64,16 @@ These are the most common aggregate functions:
 
  + SUM()
  + COUNT()
+ + MAX()
+ + MIN()
 
 > As a matter of practice, avoid `COUNT(*)` in favor of either `COUNT(attribute_name)` or `COUNT(DISTINCT attribute_name)`
 
+Additionally, a powerful aggregate function recognized by MySQL is `GROUP_CONCAT()`.
+
 ## Other Considerations
 
-### Distinctness
-
-```` sql
-SELECT DISTINCT attribute_a
-FROM table_z
-````
+### Distinctness in Aggregations
 
 ```` sql
 SELECT
@@ -55,38 +92,9 @@ GROUP BY attribute_m
 ```` sql
 SELECT
  attribute_m
+ ,attribute_n
  ,count(DISTINCT attribute_x) as x_count
+ ,sum(attribute_y) as y_sum
 FROM table_z
-GROUP BY attribute_m
-ORDER BY x_count ASC
-````
-
-```` sql
-SELECT
- attribute_m
- ,count(DISTINCT attribute_x) as x_count
-FROM table_z
-GROUP BY attribute_m
-ORDER BY x_count DESC
-````
-
-```` sql
-SELECT
- attribute_m
- ,count(DISTINCT attribute_x) as x_count
-FROM table_z
-GROUP BY attribute_m
-HAVING x_count > 100
-ORDER BY x_count DESC
-````
-
-```` sql
-SELECT
- attribute_m
- ,count(DISTINCT attribute_x) as x_count
-FROM table_z
-GROUP BY attribute_m
-HAVING x_count > 100
-ORDER BY x_count DESC
-LIMIT 10
+GROUP BY attribute_m, attribute_n
 ````
