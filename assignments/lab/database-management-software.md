@@ -1,5 +1,7 @@
 # Database Management Software Lab Assignment
 
+## Description
+
 Choose a DMBS.
 
 Install and configure it.
@@ -40,6 +42,8 @@ Else no credit.
 <hr>
 
 ## Bonus/Further Exploration
+
+### Data Importation
 
 Delete the table.
 
@@ -96,10 +100,9 @@ CREATE TABLE orders AS (
         ,po.`PO Amount` AS order_price
         ,po.objectid AS order_id
     FROM purchase_orders po
-);
+); -- reference: http://stackoverflow.com/questions/17566573/convert-month-shortname-to-month-number
 ````
 
-<hr>
+### Database Management
 
-Resources:
- + http://stackoverflow.com/questions/17566573/convert-month-shortname-to-month-number
+Create new database users, and manage their passwords and privileges.
