@@ -41,7 +41,7 @@ It is not necessary to use all, or even most, clauses in a SQL query.
 
 ### Additional Resources
 
- + [SQL Best Practices](best-practices.md)
+ + [SQL Best Practices](data-analysis/best-practices.md)
  + [W3 Schools SQL Tutorial](http://www.w3schools.com/sql/default.asp)
  + [MS Access SQL Documentation](https://msdn.microsoft.com/en-us/library/office/ff841692.aspx)
  + [MS Access Video Tutorials](https://www.youtube.com/view_play_list?p=4DD96CF7EF8C1955)

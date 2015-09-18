@@ -21,7 +21,7 @@ There are different kinds of joins: inner and outer.
 An inner join returns only the results from each table that match the join condition.
  Records from both the original table and joined table may be excluded.
 
-> Use `JOIN` to denote an inner join
+> Use `INNER JOIN` to denote an inner join. Open source DBMSs also recognize `JOIN` for this use.
 
 ```` sql
 SELECT
@@ -39,7 +39,7 @@ JOIN table_j ON table_j.some_attribute = table_h.related_attribute
 An outer join will append onto the original table any results from the joined table that happen to match the join condition.
  Records from the original table will all be included, while some records from the joined table may be excluded.
 
-> Use `LEFT JOIN` or `RIGHT JOIN` to denote an outer join
+> Use `LEFT JOIN` or `RIGHT JOIN` to denote an outer join.
 
 Left and right joins only differ in their consideration of which table is the original table
  and which is the joined table.
@@ -121,4 +121,45 @@ SELECT
   ,b.some_awesome_attribute
 FROM table_b AS b
 JOIN table_a AS a ON b.other_attribute = a.some_attribute
+````
+
+### Multiple Joins
+
+Use a join clause for each new table you would like to include in your query.
+
+```` sql
+SELECT
+  a.attribute_d
+  ,a.attribute_t
+  ,b.some_awesome_attribute
+  ,c.another_awesome_attribute
+  ,d.the_best_attribute_ever
+FROM table_b AS b
+JOIN table_a AS a ON b.other_attribute = a.some_attribute -- so ...
+JOIN table_c AS c ON b.attribute_x = c.attribute_y -- ... many...
+JOIN table_d AS d ON b.attribute_x = c.attribute_y -- ... joins!
+JOIN table_y AS y ON a.another_attr = y.attr2 -- FYI you can join to any table in any order, just make sure your join conditions are correct.
+````
+
+### Joins with Multiple Conditions
+
+On rare occasions, you may have need to join two tables together using more than one logical condition.
+ Often this is the case with polymorphic (supertype) associations.
+
+> Polymorphism is outside the scope of this course.
+
+```` sql
+SELECT *
+FROM table_b AS b
+JOIN table_f AS f
+  ON b.some_attribute = f.related_attribute
+  AND date(b.created_at) = date(f.started_at)
+````
+
+```` sql
+SELECT *
+FROM table_b AS b
+JOIN table_f AS f
+  ON b.some_attribute = f.related_attribute
+  AND b.created_at BETWEEN f.started_at AND f.ended_at -- you may use any logical operator in a join condition, however equality is the most common
 ````

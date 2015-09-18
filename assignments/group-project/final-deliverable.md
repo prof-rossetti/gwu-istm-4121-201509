@@ -6,7 +6,7 @@ Refer to the [Group Project Description](/PROJECT.md).
 
 Prepare a submission to include database implementation and complete documentation.
 
-It is not uncommon for the document to span one or more **hundred** pages of printed text.
+It is not uncommon for the documentation to span one or more **hundred** pages of printed text.
 
 ## Submission Instructions
 
