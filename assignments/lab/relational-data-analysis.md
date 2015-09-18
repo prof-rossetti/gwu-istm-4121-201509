@@ -21,7 +21,9 @@ Tell a story based on the knowledge you were able to acquire as a result of your
 
 ## Submission Instructions
 
-Upload .pdf file to Blackboard.
+Upload .pdf file to [Blackboard](https://blackboard.gwu.edu/webapps/assignment/uploadAssignment?content_id=_6858175_1&course_id=_260328_1&assign_group_id=&mode=cpview).
+
+If using a non-suggested dataset, attach the dataset .csv file along with your submission.
 
 ## Evaluation Criteria
 

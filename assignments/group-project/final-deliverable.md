@@ -2,12 +2,16 @@
 
 ## Description
 
-todo: revise and expand the initial system design you proposed during the midterm pitch;  submit a lengthy (~> 10 pages) paper describing and analyzing the system's info inputs, info outputs, purpose, design, etc.
+
 
 ## Submission Instructions
 
-todo
+Upload deliverable .pdf file to [Blackboard](https://blackboard.gwu.edu/webapps/assignment/uploadAssignment?content_id=_6858168_1&course_id=_260328_1&assign_group_id=&mode=cpview).
+
+Also attach to your submission your working database system.
+ If implementing in MS Access, attach an .mdb file.
+ Else if implementing with open source technologies, attach a compressed .zip file for each relevant code repository.
 
 ## Evaluation Methodology
 
-todo
+TBA

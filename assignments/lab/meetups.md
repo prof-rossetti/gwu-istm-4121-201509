@@ -33,7 +33,7 @@ You may attach or embed photos to your writeup to provide further evidence of ev
 
 ## Submission Instructions
 
-Submit your writeup via blackboard.
+Submit your writeup via [Blackboard](https://blackboard.gwu.edu/webapps/assignment/uploadAssignment?content_id=_6858232_1&course_id=_260328_1&assign_group_id=&mode=cpview).
 
 ## Evaluation Methodology
 

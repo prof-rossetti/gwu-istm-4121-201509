@@ -29,11 +29,11 @@ name | weight | nature
 [Database Management Software](assignments/lab/database-management-software.md) | (50% x 40% x 10%) | in-class
 [Data Analysis](assignments/lab/data-analysis.md) | (50% x 40% x 10%) | take-home
 [Relational Data Analysis](assignments/lab/relational-data-analysis.md) | (50% x 40% x 10%) | take-home
-Entity and Relationship Identification | (50% x 40% x 10%) | in-class
-Entity Relationship Diagramming | (50% x 40% x 10%) | take-home
-Data Inputs | (50% x 40% x 10%) | TBA
-Data Outputs | (50% x 40% x 10%) | TBA
-Normalization | (50% x 40% x 10%) | TBA
+[Entity and Relationship Identification](assignments/lab/entity-relationship-identification.md) | (50% x 40% x 10%) | in-class
+[Entity Relationship Diagramming](assignments/lab/entity-relationship-diagramming.md) | (50% x 40% x 10%) | take-home
+[Normalization](assignments/lab/normalization.md) | (50% x 40% x 10%) | in-class
+Database Inputs | (50% x 40% x 10%) | TBA
+Database Outputs | (50% x 40% x 10%) | TBA
 
 #### In-Class
 
