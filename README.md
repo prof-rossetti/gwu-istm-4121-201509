@@ -13,6 +13,8 @@ University References:
  + [Required Materials](http://www.bkstr.com/webapp/wcs/stores/servlet/booklookServlet?bookstore_id-1=122&term_id-1=201503&div-1=&dept-1=ISTM&course-1=4121&section-1=10)
  + [Tentative Final Exam Schedule](https://registrar.gwu.edu/sites/registrar.gwu.edu/files/downloads/Fall2015TentativeExams.pdf)
 
+Special thanks to [Dr. Mary Granger](mailto:granger@gwu.edu) for instructional resources and support.
+
 ## Description
 
 This course is described as:

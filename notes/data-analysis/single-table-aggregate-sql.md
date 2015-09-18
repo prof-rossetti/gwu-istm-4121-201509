@@ -1,7 +1,5 @@
 # Single-table, Aggregate SQL
 
-Databases share many familiar aggregation functions as spreadsheets.
-
 ## Clauses
 
 ### GROUP BY
@@ -40,6 +38,8 @@ FROM table_z
 GROUP BY attribute_m, attribute_n
 ````
 
+> As a matter of practice, avoid `COUNT(*)` in favor of either `COUNT(attribute_name)` or `COUNT(DISTINCT attribute_name)`
+
 ### HAVING
 
 The `HAVING` clause
@@ -60,14 +60,12 @@ HAVING count(attribute_x) > 100
 
 ## Functions
 
-These are the most common aggregate functions:
+Databases share many familiar aggregation functions as spreadsheets. These are the most common/useful aggregate functions:
 
- + SUM()
- + COUNT()
- + MAX()
- + MIN()
-
-> As a matter of practice, avoid `COUNT(*)` in favor of either `COUNT(attribute_name)` or `COUNT(DISTINCT attribute_name)`
+ + `SUM()`
+ + `COUNT()`
+ + `MAX()`
+ + `MIN()`
 
 Additionally, a powerful aggregate function recognized by MySQL is `GROUP_CONCAT()`.
 

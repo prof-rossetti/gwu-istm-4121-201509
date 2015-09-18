@@ -2,69 +2,185 @@
 
 # Week 1 - 9/2/15
 
-Introduction to this Course
+duration (mins) | usage
+--- | ---
+70 | Introduction to this Course Lecture
+10 | Break
+70 | Introduction to Databases (within the context of Information Systems) Lecture
 
-Introduction to Databases (within the context of Information Systems)
+Assignment(s):
+
+ + [Questionnaire](assignments/lab/questionnaire.md) (given and due)
+ + [Meetups](assignments/lab/meetups.md) (given)
 
 # Week 2 - 9/9/15
 
-Data Processing and Operations
+duration (mins) | usage
+--- | ---
+70 | Data Processing and Operations Lecture
+10 | Break
+70 | Database Management Software (DBMS) Lab, including in-class assignment
 
-Database Management Software (DBMS)
+Assignment(s):
+
+ + [Database Management Software](assignments/lab/questionnaire.md) (given and due)
 
 # Week 3 - 9/16/15
 
-Data Analysis I: Basic Single-table SQL
+duration (mins) | usage
+--- | ---
+70 | Single-table SQL Lecture
+10 | Break
+70 | Single-table SQL Lab
 
-> `SELECT`,`FROM`,`WHERE`,`ORDER BY`,`LIMIT` clauses, as well as string and date functions
+Assignment(s):
 
-Data Analysis II: Advanced Single-table SQL
-
-> `GROUP BY`,`HAVING` clauses, as well as aggregate functions
+ + [Group Project Midterm Pitch](assignments/group-project/midterm-pitch.md) (given)
+ + [Group Project Final Deliverable](assignments/group-project/final-deliverable.md) (given)
+ + [Group Project Final Presentation](assignments/group-project/final-presentation.md) (given)
+ + [Data Analysis](assignments/lab/data-analysis.md) (given)
 
 # Week 4 - 9/23/15
 
-Data Analysis III: Multi-table SQL
+duration (mins) | usage
+--- | ---
+40 | Multi-table SQL Lecture
+10 | Break
+40 | Single-table SQL Lab
+60 | Relational Databases Lecture
 
-> `JOIN` and `UNION` clauses
+Assignment(s):
 
-Relational Databases
+ + [Data Analysis](assignments/lab/data-analysis.md) (due)
+ + [Relational Data Analysis](assignments/lab/relational-data-analysis.md) (given)
 
 # Week 5 - 9/30/15
 
-Entity and Relationship Identification
+duration (mins) | usage
+--- | ---
+70 | Entity and Relationship Identification Lab, including in-class assignment
+10 | Break
+70 | Entity Relationship Diagramming (ERDs) Lab
 
-Entity Relationship Diagramming (ERDs)
+Assignment(s):
+
+ + [Relational Data Analysis](assignments/lab/relational-data-analysis.md) (due)
+ + [Entity and Relationship Identification](assignments/lab/entity-relationship-identification.md) (given and due)
+ + [Entity Relationship Diagrams](assignments/lab/entity-relationship-diagramming.md) (given)
 
 # Week 6 - 10/7/15
 
-Midterm Project Pitches
+duration (mins) | usage
+--- | ---
+120 | Midterm Project Pitches
+10 | Break
+30 | Project, SQL, and ERD Support
 
-Project, SQL, and ERD Support
+Assignment(s):
+
+ + [Entity Relationship Diagrams](assignments/lab/entity-relationship-diagramming.md) (due)
+ + [Group Project Midterm Pitch](assignments/group-project/midterm-pitch.md) (due)
 
 # Week 7 - 10/14/15
 
-Midterm Exam
+duration (mins) | usage
+--- | ---
+150 | [Midterm Exam](exams/midterm.md)
 
 # Week 8 - 10/21/15
 
-Data Inputs: Validation, Integrity, and Forms
+duration (mins) | usage
+--- | ---
+70 | Normalization Lecture
+10 | Break
+70 | Normalization Lab, including in-class assignment
+
+Assignment(s):
+
+ + [Normalization](assignments/lab/normalization.md) (given and due)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Week 9 - 10/28/15
 
-Data Outputs: Visualization and Reporting
+duration (mins) | usage
+--- | ---
+70 | Database Inputs Lecture
+10 | Break
+70 | Database Inputs Lab
+
+Assignments:
+
+ + Database Inputs (given and due)
 
 # Week 10 - 11/4/15
 
-Normalization I
+duration (mins) | usage
+--- | ---
+70 | Database Outputs Lecture
+10 | Break
+70 | Database Outputs Lab
+
+Assignments:
+
+ + Database Outputs (given and due)
 
 # Week 11 - 11/11/15
 
-Normalization II
+duration (mins) | usage
+--- | ---
+70 | TBA - Web Systems Lecture
+10 | Break
+70 | TBA - Web Systems Lab
 
 # Week 12 - 11/18/15
 
-Process Automation
+duration (mins) | usage
+--- | ---
+70 | TBA - APIs, Scripts, and Automation Lecture
+10 | Break
+70 | TBA - APIs, Scripts, and Automation Lab
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Week 13 - 11/25/15
 
@@ -72,11 +188,23 @@ No Class - Thanksgiving
 
 # Week 14 - 12/2/15
 
-Project Support
+duration (mins) | usage
+--- | ---
+70 | TBA - Security and Privacy Lecture
+10 | Break
+70 | Group Project Support
 
 # Week 15 - 12/9/15
 
-Project Final Presentations
+duration (mins) | usage
+--- | ---
+150 | Project Final Presentations
+
+Assignment(s):
+
+ + [Group Project Final Deliverable](assignments/group-project/final-deliverable.md) (due)
+ + [Group Project Final Presentation](assignments/group-project/final-presentation.md) (due)
+ + [Meetups](assignments/lab/meetups.md) (due)
 
 # 12/?/15
 

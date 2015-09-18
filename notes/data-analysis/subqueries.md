@@ -107,7 +107,7 @@ FROM (
 
 ```` sql
 SELECT
-  '1-Oct-14' AS order_date_messy_string -- po.`Ordered Date`
+  '1-Oct-14' AS order_date_messy_string
   ,str_to_date(
       concat(
               concat("20",SUBSTRING_INDEX('1-Oct-14', '-', -1)),
