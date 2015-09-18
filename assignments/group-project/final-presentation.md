@@ -1,8 +1,10 @@
 # Final Presentation
 
+Refer to the [Group Project Description](PROJECT.md).
+
 ## Description
 
-
+TBA - Present functionality (the two or three functions your database systems does the best).
 
 ## Submission Instructions
 
