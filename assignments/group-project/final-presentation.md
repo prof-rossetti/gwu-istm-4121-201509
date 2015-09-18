@@ -1,6 +1,6 @@
 # Final Presentation
 
-Refer to the [Group Project Description](PROJECT.md).
+Refer to the [Group Project Description](/PROJECT.md).
 
 ## Description
 

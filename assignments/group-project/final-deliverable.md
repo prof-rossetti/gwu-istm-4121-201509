@@ -1,6 +1,6 @@
 # Group Project Final Deliverable
 
-Refer to the [Group Project Description](PROJECT.md).
+Refer to the [Group Project Description](/PROJECT.md).
 
 ## Description
 
