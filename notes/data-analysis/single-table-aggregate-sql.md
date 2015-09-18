@@ -55,7 +55,7 @@ SELECT
  ,count(attribute_x) as x_count
 FROM table_z
 GROUP BY attribute_m
-HAVING x_count > 100
+HAVING count(attribute_x) > 100
 ````
 
 ## Functions
