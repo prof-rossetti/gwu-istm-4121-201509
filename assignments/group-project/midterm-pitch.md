@@ -1,12 +1,12 @@
 # Midterm Pitch
 
-Refer to the [Group Project Description](PROJECT.md).
+Refer to the [Group Project Description](/PROJECT.md).
 
 ## Description
 
 Identify and research a real-world business problem which may benefit from a relational database system solution. Reference various [business prompt examples](resources/group-project/examples) which have been provided to students in previous semesters. If your group experiences difficulty finding and describing a business problem, ask an instructor for help, or request to address one of the previously-provided prompts.
 
-Describe how a database system can solve the business problem, and describe the objectives of such a system. Describe its information requirements in terms of inputs, outputs, and internal operations (e.g. updates and transactions).
+Describe how a database system can solve the business problem, and describe the objectives of such a system. Describe the system's information requirements in terms of inputs, outputs, and internal operations (e.g. updates and transactions).
 
 Produce a logical database design that reflects the business problem and satisfies system objectives.
 

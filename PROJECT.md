@@ -14,9 +14,9 @@ The project includes a business-related component, a pure database component, an
 
   + Business Problem Identification and Description
   + Information Requirements (based on the business problem)
-    + Inputs (Forms) Identification and Description
-    + Outputs (Reports) Identification and Description
-    + Updates/Transactions Identification and Description
+    + Info Inputs Identification and Description
+    + Info Outputs Identification and Description
+    + Info Updates/Transactions Identification and Description
   + Database/System Objectives (to address the business problem and justify system implementation)
 
 ### Database Requirements
