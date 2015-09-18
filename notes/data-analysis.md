@@ -1,10 +1,12 @@
 # Data Analysis
 
-## SQL
+## Structured Query Language (SQL)
 
-Like an English  sentence, each SQL query is comprised of one or more clauses.
+SQL is the language recognized by relational databases.
 
 ### Clauses
+
+Like an English sentence, each SQL query is comprised of one or more clauses.
 
 Here are all the clauses available for use in a SQL query, in the order they are to be used:
 
@@ -43,9 +45,12 @@ It is not necessary to use all, or even most, clauses in a SQL query.
 
  + [SQL Best Practices](data-analysis/best-practices.md)
  + [W3 Schools SQL Tutorial](http://www.w3schools.com/sql/default.asp)
+ + [Tech on the Net SQL Tutorial](http://www.techonthenet.com/sql/)
  + [MS Access SQL Documentation](https://msdn.microsoft.com/en-us/library/office/ff841692.aspx)
  + [MS Access Video Tutorials](https://www.youtube.com/view_play_list?p=4DD96CF7EF8C1955)
  + [MySQL Language Documentation](http://dev.mysql.com/doc/refman/5.7/en/language-structure.html)
  + [MySQL Syntax Documentation](http://dev.mysql.com/doc/refman/5.7/en/sql-syntax.html)
  + [MySQL Functions Documentation](http://dev.mysql.com/doc/refman/5.7/en/functions.html)
  + [MySQL Tutorial](http://dev.mysql.com/doc/refman/5.7/en/tutorial.html)
+ + [PostgreSQL Documentation](http://www.postgresql.org/docs/9.1/static/sql.html)
+ + [PostgreSQL SQL Tutorial](http://www.postgresql.org/docs/9.1/static/tutorial-sql.html)

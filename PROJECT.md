@@ -52,6 +52,20 @@ Usage of MS Access has been mandated in previous semesters.
 
 Students may alternatively choose to implement this project using an open source DBMS. Because open source DBMSs like MySQL do not include the same built-in systems functionality as MS Access, students who choose to leverage an open source DBMS may bear somewhat of an additional burden to learn additional tools and technologies. Appropriate instructional support and evaluation considerations will be provided to these students.
 
+### Suggested Toolsets
+
+Students may leverage prerequisite programming languages as part of a larger database system toolset.
+
+DBMS | scripting language | object-relational-mapping (ORM) library | application framework/microframework
+--- | --- | --- | ---
+MS Access (stand-alone) | Visual Basic (optional) | N/A | N/A
+MySQL/PostgreSQL/SQLite | [Ruby](https://www.ruby-lang.org/en/) | [ActiveRecord](https://github.com/rails/rails/tree/master/activerecord) | [Ruby on Rails](http://rubyonrails.org/)
+MySQL/PostgreSQL/SQLite | [Ruby](https://www.ruby-lang.org/en/) | [ActiveRecord](https://github.com/rails/rails/tree/master/activerecord) | [Sinatra](https://github.com/sinatra/sinatra)
+MySQL/PostgreSQL/SQLite | [Python](https://www.python.org/) | [Django ORM](https://docs.djangoproject.com/en/1.8/topics/db/) | [Django](https://www.djangoproject.com/)
+MySQL/PostgreSQL/SQLite | [Python](https://www.python.org/) | [SQL Alchemy](http://flask.pocoo.org/docs/0.10/patterns/sqlalchemy/) | [Flask](http://flask.pocoo.org/)
+
+> If exploring a new toolset, ask an instructor to help you get started.
+
 ## Evaluation Methodology
 
 Each member of the group will receive the same grade for each group project assignment submission.
