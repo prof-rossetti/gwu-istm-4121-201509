@@ -77,23 +77,23 @@ Additionally, a powerful aggregate function recognized by MySQL is `GROUP_CONCAT
 
 ```` sql
 SELECT
- count(DISTINCT attribute_x) as x_count
+ DISTINCT count(attribute_x) as x_count
 FROM table_z
 ````
 
 ```` sql
 SELECT
- attribute_m
- ,count(DISTINCT attribute_x) as x_count
+ DISTINCT attribute_m
+ ,count(attribute_x) as x_count
 FROM table_z
 GROUP BY attribute_m
 ````
 
 ```` sql
 SELECT
- attribute_m
+ DISTINCT attribute_m
  ,attribute_n
- ,count(DISTINCT attribute_x) as x_count
+ ,count(attribute_x) as x_count
  ,sum(attribute_y) as y_sum
 FROM table_z
 GROUP BY attribute_m, attribute_n
