@@ -42,8 +42,8 @@ The project includes a business-related component, a pure database component, an
    + Data Input Functionality
    + Data Output Functionality
    + Data Update Functionality
-   + User Documentation
-   + Maintenance/Administration Documentation
+   + User Manual/Documentation
+   + Technical Maintenance/Administration Documentation
 
 ## Tools
 

@@ -6,6 +6,8 @@ Refer to the [Group Project Description](PROJECT.md).
 
 Prepare a submission to include database implementation and complete documentation.
 
+It is not uncommon for the document to span one or more **hundred** pages of printed text.
+
 ## Submission Instructions
 
 Upload documentation .pdf file(s) to [Blackboard](https://blackboard.gwu.edu/webapps/assignment/uploadAssignment?content_id=_6858168_1&course_id=_260328_1&assign_group_id=&mode=cpview).
