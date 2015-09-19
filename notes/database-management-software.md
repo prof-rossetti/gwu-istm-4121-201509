@@ -10,7 +10,7 @@
 
 # Database Usage
 
-Reference [Data Analysis Notes](notes/data-analysis.md)
+Reference [Data Analysis Notes](/notes/data-analysis.md)
 
 # Database Management
 
