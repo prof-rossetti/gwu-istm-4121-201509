@@ -6,7 +6,7 @@ duration (mins) | usage
 --- | ---
 70 | Introduction to this Course Lecture
 10 | Break
-70 | Introduction to Databases (within the context of Information Systems) Lecture
+70 | [Introduction to Databases (within the context of Information Systems)](notes/info-systems.md) Lecture
 
 Assignment(s):
 
@@ -17,19 +17,19 @@ Assignment(s):
 
 duration (mins) | usage
 --- | ---
-70 | Data Processing and Operations Lecture
+70 | [Data Processing and Operations](notes/database-management-software.md) Lecture
 10 | Break
 70 | Database Management Software (DBMS) Lab, including in-class assignment
 
 Assignment(s):
 
- + [Database Management Software](assignments/lab/questionnaire.md) (given and due)
+ + [Database Management Software](assignments/lab/database-management-software.md) (given and due)
 
 # Week 3 - 9/16/15
 
 duration (mins) | usage
 --- | ---
-70 | Single-table SQL Lecture
+70 | [Single-table SQL](notes/data-analysis.md#instructional-sql-modules) Lectures
 10 | Break
 70 | Single-table SQL Lab
 
@@ -44,10 +44,10 @@ Assignment(s):
 
 duration (mins) | usage
 --- | ---
-40 | Multi-table SQL Lecture
+40 | [Multi-table SQL](notes/data-analysis.md#instructional-sql-modules) Lectures
 10 | Break
 40 | Single-table SQL Lab
-60 | Relational Databases Lecture
+60 | [Relational Databases Lecture](notes/relational-databases.md)
 
 Assignment(s):
 
@@ -91,7 +91,7 @@ duration (mins) | usage
 
 duration (mins) | usage
 --- | ---
-70 | Normalization Lecture
+70 | [Normalization Lecture](notes/relational-databases.md#normalization)
 10 | Break
 70 | Normalization Lab, including in-class assignment
 
