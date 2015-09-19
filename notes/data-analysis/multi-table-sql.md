@@ -163,3 +163,21 @@ JOIN table_f AS f
   ON b.some_attribute = f.related_attribute
   AND b.created_at BETWEEN f.started_at AND f.ended_at -- you may use any logical operator in a join condition, however equality is the most common
 ````
+
+### Indices
+
+When executing a query which joins together two or more tables on a related set of attributes, execution time is significantly descreased if each attribute in the join condition is indexed.
+
+You may define indices during or after table creation.
+
+```` sql
+-- after table creation:
+ALTER TABLE my_table ADD INDEX(attribute_name);
+````
+
+You may also define primary keys in a similar way.
+
+```` sql
+-- after table creation:
+ALTER TABLE my_table ADD PRIMARY KEY(attribute_name);
+````
