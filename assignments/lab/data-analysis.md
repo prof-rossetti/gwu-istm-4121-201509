@@ -33,10 +33,10 @@ If using a non-suggested dataset, attach the dataset .csv file along with your s
 
 ## Evaluation Criteria
 
-Full credit for a thorough, organized, and well-written analysis accompanied by strong supporting evidence of findings to include one or more SQL queries using all single-table clauses, and many aggregate functions and string/date functions.
+Full credit for a thorough, organized, and well-written analysis accompanied by strong **repeatable** supporting evidence of findings to include one or more SQL queries using all single-table clauses (e.g.`SELECT`,`FROM`,`WHERE`,`GROUP BY`,`ORDER BY`, and either `TOP` or `LIMIT`), as well as many aggregate functions and string/date functions.
 
-Else 4/5 credit for a well-written or adequate analysis accompanied by supporting evidence.
+Else 4/5 credit for a well-written and/or adequate analysis accompanied by supporting evidence.
 
-Else 2/3 credit for a well-written or adequate analysis lacking proper or related supporting evidence.
+Else 2/3 credit for a well-written and/or adequate analysis lacking proper or related supporting evidence.
 
 Else no credit.

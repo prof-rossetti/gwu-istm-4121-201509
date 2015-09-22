@@ -26,6 +26,7 @@ Subject matter traditionally includes:
  + The role of Databases within the context of Information Systems (in Businesses and Organizations)
  + Relational Database Usage and Analysis (SQL)
  + Relational Database Architecture and Design
+ + Relational Database System Implementation
 
 ## Location
 
@@ -78,9 +79,7 @@ Morui Li | [limorui@gwmail.gwu.edu](mailto:limorui@gwmail.gwu.edu) | MS in Infor
 
 This course is required for
  all business students majoring in Information Systems.
- Currently,
- **36**
- students are registered for this offering.
+ The maximum enrollment for this offering is **40** students.
 
 #### Prerequisites
 

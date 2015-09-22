@@ -6,6 +6,8 @@ Each table is often related to one or more other tables in the database.
 
 This document provides an overview of common SQL clauses, functions, and considerations for performing SQL analysis on a multiple related database tables.
 
+> Students familiar with the spreadsheet `VLOOKUP()` function have already demonstrated an ability to perform table joins.
+
 ## Clauses
 
 ### JOIN
