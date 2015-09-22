@@ -146,9 +146,6 @@ JOIN table_y AS y ON a.another_attr = y.attr2 -- FYI you can join to any table i
 ### Joins with Multiple Conditions
 
 On rare occasions, you may have need to join two tables together using more than one logical condition.
- Often this is the case with polymorphic (supertype) associations.
-
-> Polymorphism is outside the scope of this course.
 
 ```` sql
 SELECT *
@@ -164,6 +161,19 @@ FROM table_b AS b
 JOIN table_f AS f
   ON b.some_attribute = f.related_attribute
   AND b.created_at BETWEEN f.started_at AND f.ended_at -- you may use any logical operator in a join condition, however equality is the most common
+````
+
+Often multiple join conditions are used in conjunction with polymorphic (supertype) associations.
+
+```` sql
+SELECT *
+FROM songs AS s
+JOIN google_play_songs gps
+  ON gps.id = s.source_id
+  AND s.source_type = "Google Play"
+JOIN itunes_songs its
+  ON its.id = s.source_id
+  AND s.source_type = "iTunes"
 ````
 
 ### Indices
@@ -183,3 +193,5 @@ You may also define primary keys in a similar way.
 -- after table creation:
 ALTER TABLE my_table ADD PRIMARY KEY(attribute_name);
 ````
+
+See [physical design notes](/notes/relational-databases/physical-design.md) for more info about indices.
