@@ -13,13 +13,19 @@ Import the data into one or more spreadsheets,
   name and
   nature of attributes.
 
-Import the data into a database using the DBMS of your choice.
+Import the data into a database using the DBMS of your choice. Refer to the additional support provided below.
 
 Identify any existing relationships between the tables. Create indices as necessary to improve performance. Describe the dataset entities and relationships, including your reaction to and assessment of the logical dataset design.
 
 Write SQL queries to ask questions of the data and process the data into information. Use the `JOIN` and `LEFT JOIN` clauses demonstrated in class, as well as other previously-demonstrated single-table clauses and functions.
 
 Tell a story based on the knowledge you were able to acquire as a result of your data processing and analysis. Write 2-5 paragraphs in English describing what you learned. Embed or attach one or more queries to demonstrate mastery of a variety of clauses and functions, and to show how you processed the data and arrived at your conclusions.
+
+Suggested Organizational Structure:
+
+ 1. Executive Summary of analytical findings (avoid personal language in favor of precise empirical scientific language)
+ * Summary of analytical processes and methodologies (may use personal language)
+ * SQL Appendix of repeatable queries (optionally include comments to provide further description of methodologies and assumptions)
 
 ## Submission Instructions
 
@@ -45,7 +51,15 @@ Else no credit.
 
 The suggested dataset conforms to the [General Transit Feed Specification](https://developers.google.com/transit/gtfs/reference?hl=en), which defines and describes table attributes in a data dictionary.
 
+> If there are additional files (e.g. *too_fast.txt* or *route_xref.txt*) in the zip extract besides the expected files described by the data dictionary (e.g. *agency.txt*, *routes.txt*, *stops.txt*, *stop_times.txt*, etc.), then do not attempt to import the extraneous files.
+
 ### Import Process
+
+#### Datatypes
+
+If you encounter import errors after attempting to import a given field as an *integer*, *date*, *time*, or *datetime* datatype, instead choose the *string*/*varchar*/*short-text* datatype to remediate errors.
+
+#### Line-breaks
 
 The suggested dataset .txt files contain windows-style line breaks, and may throw [errors](https://code.google.com/p/sequel-pro/issues/detail?id=1282#c2) for mac users attempting to import via Sequel Pro software. To remediate: either a) open each .txt file in a text editor or spreadsheet and save as a .csv and import the .csv as usual, or b) write custom SQL table creation and import statements like the examples below...
 

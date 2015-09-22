@@ -35,6 +35,10 @@ Document your manual and programmatic tasks alike.
 
 Adopt the writing style of community members or develop your own, but be consistent. This will help you communicate/share your queries with others, and avoid syntax errors.
 
+#### Recommended design guidelines:
+
+ + use lowercase, underscored names for all databases and tables and attributes (no caps, no camel-case, no spaces)
+
 #### Recommended style guidelines:
 
  + align major clauses on the left margin

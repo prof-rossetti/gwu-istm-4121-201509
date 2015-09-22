@@ -25,6 +25,12 @@ Import the data into a database using the DBMS of your choice.
 
 Tell a story based on the knowledge you were able to acquire as a result of your data processing and analysis. Write 2-5 paragraphs in English describing what you learned. Embed or attach one or more queries to demonstrate mastery of a variety of clauses and functions, and to show how you processed the data and arrived at your conclusions.
 
+Suggested Organizational Structure:
+
+ 1. Executive Summary of analytical findings (avoid personal language in favor of precise empirical scientific language)
+ * Summary of analytical processes and methodologies (may use personal language)
+ * SQL Appendix of repeatable queries (optionally include comments to provide further description of methodologies and assumptions)
+
 ## Submission Instructions
 
 Upload .pdf file to [Blackboard](https://blackboard.gwu.edu/webapps/assignment/uploadAssignment?content_id=_6856968_1&course_id=_260328_1&assign_group_id=&mode=cpview).

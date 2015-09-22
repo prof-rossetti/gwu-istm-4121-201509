@@ -46,7 +46,7 @@ duration (mins) | usage
 --- | ---
 40 | [Multi-table SQL](notes/data-analysis.md#instructional-sql-modules) Lectures
 10 | Break
-40 | Single-table SQL Lab
+40 | Multi-table SQL Lab
 60 | [Relational Databases Lecture](notes/relational-databases.md)
 
 Assignment(s):
