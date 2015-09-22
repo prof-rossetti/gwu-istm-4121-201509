@@ -7,14 +7,11 @@ A **relational database** is defined as:
 ## Instructional Modules
 
  1. [Physical Design](relational-databases/physical-design.md)
+ * [Conceptual Design](relational-databases/conceptual-design.md)
  * [Logical Design](relational-databases/logical-design.md)
-   * [Normalization](relational-databases/normalization.md)
 
-## Instructional Datasets
+<hr>
 
- + [todo1](#TODO) (related .csv files)
- + [todo2](#TODO) (examples of differing relationship assumptions)
+Resources:
 
-## Additional Resources
-
- + [Entity-Relationship Identification Exercises](relational-databases/entity-relationship-identification-exercise.md)
+ + [Levels of Data Modeling](http://www.1keydata.com/datawarehousing/data-modeling-levels.html)

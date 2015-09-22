@@ -36,10 +36,17 @@ It is not necessary to use all, or even most, clauses in a SQL query.
 
 ### Instructional Datasets
 
+Single-table:
+
  + Real student survey responses (.csv files each containing ~40 rows)
   + [ISTM 4121 responses](https://github.com/gwu-business/istm-4121/blob/master/resources/questionnaire/responses.csv)
   + [BADM 2301 responses](https://github.com/gwu-business/badm-2301/blob/master/resources/questionnaire/responses.csv)
  + [Fake student survey responses](https://github.com/gwu-business/fake-responses/tree/master/data) (.csv files containing between 100 and 100k rows)
+
+Relational:
+
+ + [todo1](#TODO) (related .csv files)
+ + [todo2](#TODO) (examples of differing relationship assumptions)
 
 ### Additional Resources
 

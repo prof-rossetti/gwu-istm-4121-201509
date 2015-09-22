@@ -15,7 +15,7 @@ Import the data into one or more spreadsheets,
 
 Import the data into a database using the DBMS of your choice. Refer to the additional support provided below.
 
-Identify any existing relationships between the tables. Create indices as necessary to improve performance. Describe the dataset entities and relationships, including your reaction to and assessment of the logical dataset design.
+Identify any existing relationships between the tables. Create indices as necessary to improve performance.
 
 Write SQL queries to ask questions of the data and process the data into information. Use the `JOIN` and `LEFT JOIN` clauses demonstrated in class, as well as other previously-demonstrated single-table clauses and functions.
 
@@ -31,7 +31,7 @@ Suggested Organizational Structure:
 
 Upload .pdf file to [Blackboard](https://blackboard.gwu.edu/webapps/assignment/uploadAssignment?content_id=_6858175_1&course_id=_260328_1&assign_group_id=&mode=cpview).
 
-If using a non-suggested dataset, attach the dataset .csv file along with your submission.
+If using a non-suggested dataset, attach the dataset .csv file(s) along with your submission.
 
 ## Evaluation Criteria
 
@@ -51,9 +51,11 @@ Else no credit.
 
 The suggested dataset conforms to the [General Transit Feed Specification](https://developers.google.com/transit/gtfs/reference?hl=en), which defines and describes table attributes in a data dictionary.
 
-> If there are additional files (e.g. *too_fast.txt* or *route_xref.txt*) in the zip extract besides the expected files described by the data dictionary (e.g. *agency.txt*, *routes.txt*, *stops.txt*, *stop_times.txt*, etc.), then do not attempt to import the extraneous files.
-
 ### Import Process
+
+#### Files
+
+If there are additional files (e.g. *too_fast.txt* or *route_xref.txt*) in the zip extract besides the [expected files described by the data dictionary](https://developers.google.com/transit/gtfs/reference?hl=en#feed-files) (e.g. *agency.txt*, *routes.txt*, *stops.txt*, *stop_times.txt*, etc.), then do not attempt to import the extraneous files.
 
 #### Datatypes
 

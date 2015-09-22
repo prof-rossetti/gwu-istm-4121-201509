@@ -44,10 +44,10 @@ Assignment(s):
 
 duration (mins) | usage
 --- | ---
-40 | [Multi-table SQL](notes/data-analysis.md#instructional-sql-modules) Lectures
+35 | [Multi-table](notes/data-analysis/multi-table-sql.md) and [Multi-database](notes/data-analysis/multi-database-sql.md) SQL Lectures
+35 | [Relational Databases](notes/relational-databases.md) and [Physical Database Design](notes/relational-databases/physical-design.md) Lectures
 10 | Break
-40 | Multi-table SQL Lab
-60 | [Relational Databases Lecture](notes/relational-databases.md)
+70 | Multi-table SQL Lab
 
 Assignment(s):
 
@@ -58,7 +58,7 @@ Assignment(s):
 
 duration (mins) | usage
 --- | ---
-70 | Entity and Relationship Identification Lab, including in-class assignment
+70 | [Conceptual Database Design (Entity and Relationship Identification)](notes/relational-databases/conceptual-design.md) Lecture and Lab, including in-class assignment
 10 | Break
 70 | Entity Relationship Diagramming (ERDs) Lab
 
@@ -91,7 +91,7 @@ duration (mins) | usage
 
 duration (mins) | usage
 --- | ---
-70 | [Normalization Lecture](notes/relational-databases.md#normalization)
+70 | [Logical Design (Normalization)](notes/relational-databases/logical-design.md) Lecture
 10 | Break
 70 | Normalization Lab, including in-class assignment
 

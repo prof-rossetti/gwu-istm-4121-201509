@@ -1,6 +1,6 @@
 # Entity and Relationship Identification Assignment
 
-Refer to the [example entity and relationship identification exercise](/notes/relational-databases/entity-relationship-identification-exercise.md).
+Refer to the [example entity and relationship identification exercise](/resources/relational-databases/entity-relationship-identification-exercise.md).
 
 ## Description
 
