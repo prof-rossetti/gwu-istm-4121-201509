@@ -31,7 +31,7 @@ Suggested Organizational Structure:
 
 Upload .pdf file to [Blackboard](https://blackboard.gwu.edu/webapps/assignment/uploadAssignment?content_id=_6858175_1&course_id=_260328_1&assign_group_id=&mode=cpview).
 
-If using a non-suggested dataset, attach the dataset .csv file(s) along with your submission.
+If using a non-suggested dataset, attach a compressed dataset of .csv file(s) or .sql file or .mdb file along with your submission.
 
 ## Evaluation Criteria
 
@@ -55,22 +55,19 @@ The suggested dataset conforms to the [General Transit Feed Specification](https
 
 #### Files
 
-If there are additional files (e.g. *too_fast.txt* or *route_xref.txt*) in the zip extract besides the [expected files described by the data dictionary](https://developers.google.com/transit/gtfs/reference?hl=en#feed-files) (e.g. *agency.txt*, *routes.txt*, *stops.txt*, *stop_times.txt*, etc.), then do not attempt to import the extraneous files.
+If there are additional files (e.g. *too_fast.txt* or *route_xref.txt*) in the .zip dataset extract besides those described in the data dictionary, then do not attempt to import the extraneous files. Only focus on the [specified files](https://developers.google.com/transit/gtfs/reference?hl=en#feed-files) (e.g. *agency.txt*, *routes.txt*, *stops.txt*, *stop_times.txt*, etc.).
 
 #### Datatypes
 
-If you encounter import errors after attempting to import a given field as an *integer*, *date*, *time*, or *datetime* datatype, instead choose the *string*/*varchar*/*short-text* datatype to remediate errors.
+If you encounter import errors after attempting to import a given field as an *integer*, *date*, *time*, or *datetime* datatype, instead choose the *string*/*varchar*/*short-text* datatype to remediate errors. If text attribute values are too large to fit in a *string*/*varchar*/*short-text* datatye, instead choose a *text*/*memo* datatype.
 
 #### Line-breaks
 
 The suggested dataset .txt files contain windows-style line breaks, and may throw [errors](https://code.google.com/p/sequel-pro/issues/detail?id=1282#c2) for mac users attempting to import via Sequel Pro software. To remediate: either a) open each .txt file in a text editor or spreadsheet and save as a .csv and import the .csv as usual, or b) write custom SQL table creation and import statements like the examples below...
 
+Create the table, including its physical structure.
+
 ```` sql
-/*
-table creation references :
-  + http://dev.mysql.com/doc/refman/5.1/en/create-table.html
-  + https://developers.google.com/transit/gtfs/reference?hl=en#agencytxt
-*/
 CREATE TABLE agencies (
   agency_id VARCHAR(255),
   agency_name VARCHAR(255),
@@ -80,9 +77,22 @@ CREATE TABLE agencies (
   agency_phone VARCHAR(255),
   agency_fare_url VARCHAR(255)
 );
+/*
+table creation references :
+  + http://dev.mysql.com/doc/refman/5.1/en/create-table.html
+  + https://developers.google.com/transit/gtfs/reference?hl=en#agencytxt
+*/
 ````
 
+Import the data.
+
 ```` sql
+LOAD DATA LOCAL INFILE '~/Desktop/google_transit/agency.txt'
+  INTO TABLE agencies
+  FIELDS TERMINATED BY ','
+  LINES TERMINATED BY '\r\n' -- windows-style line breaks
+  IGNORE 1 LINES
+;
 /*
 data importation references:
   + https://dev.mysql.com/doc/refman/5.0/en/loading-tables.html
@@ -92,16 +102,9 @@ data importation references:
     + windows: '\r\n'
     + mac: either '\n' (OS-X), or '\r' (OS-9 and earlier)
 */
-
-LOAD DATA LOCAL INFILE '~/Desktop/google_transit/agency.txt'
-  INTO TABLE agencies
-  FIELDS TERMINATED BY ','
-  LINES TERMINATED BY '\r\n' -- windows-style line breaks
-  IGNORE 1 LINES
-;
 ````
 
-Also don't forget to add indices and primary keys.
+Don't forget to add indices and primary keys as appropriate.
 
 ```` sql
 ALTER TABLE agencies ADD PRIMARY KEY(agency_id);
