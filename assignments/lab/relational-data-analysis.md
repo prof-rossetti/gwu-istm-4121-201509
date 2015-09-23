@@ -55,7 +55,7 @@ The suggested dataset conforms to the [General Transit Feed Specification](https
 
 #### Files
 
-If there are additional files (e.g. *too_fast.txt* or *route_xref.txt*) in the .zip dataset extract besides those described in the data dictionary, then do not attempt to import the extraneous files. Only focus on the [specified files](https://developers.google.com/transit/gtfs/reference?hl=en#feed-files) (e.g. *agency.txt*, *routes.txt*, *stops.txt*, *stop_times.txt*, etc.).
+If there are additional files (e.g. *too_fast.txt* or *route_xref.txt*) in the .zip dataset extract besides those described in the data dictionary, then do not attempt to import the extraneous files. Only focus on the [required files](https://developers.google.com/transit/gtfs/reference?hl=en#feed-files) (e.g. *agency.txt*, *routes.txt*, *stops.txt*, *stop_times.txt*, etc.).
 
 #### Datatypes
 
@@ -63,7 +63,17 @@ If you encounter import errors after attempting to import a given field as an *i
 
 #### Line-breaks
 
-The suggested dataset .txt files contain windows-style line breaks, and may throw [errors](https://code.google.com/p/sequel-pro/issues/detail?id=1282#c2) for mac users attempting to import via Sequel Pro software. To remediate: either a) open each .txt file in a text editor or spreadsheet and save as a .csv and import the .csv as usual, or b) write custom SQL table creation and import statements like the examples below...
+If you encounter line-break [errors](https://code.google.com/p/sequel-pro/issues/detail?id=1282#c2) during the importation process, specify the proper field and line delineation character(s).
+
+![choosing-deliniation-option-from-dropdown-in-sequel-pro](/resources/images/sequel-pro-imporation-deliniation-options.png)
+
+#### Character Enclosures
+
+If you encounter character-enclosure issues after importing the data, specify the proper field enclosure character during the importation process.
+
+#### Automation
+
+Use .sql queries and scripts to automate your manual efforts, as appropriate.
 
 Create the table, including its physical structure.
 
@@ -90,7 +100,9 @@ Import the data.
 LOAD DATA LOCAL INFILE '~/Desktop/google_transit/agency.txt'
   INTO TABLE agencies
   FIELDS TERMINATED BY ','
+  -- FIELDS ENCLOSED BY '""' -- if applicable
   LINES TERMINATED BY '\r\n' -- windows-style line breaks
+  -- LINES TERMINATED BY '\n' -- mac-style line breaks
   IGNORE 1 LINES
 ;
 /*
@@ -104,7 +116,7 @@ data importation references:
 */
 ````
 
-Don't forget to add indices and primary keys as appropriate.
+Add indices and primary keys as appropriate.
 
 ```` sql
 ALTER TABLE agencies ADD PRIMARY KEY(agency_id);
