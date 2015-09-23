@@ -62,9 +62,11 @@ A right join can be re-written in opposite order to convey a left join, and vice
 
 > Use left joins for all your outer joins, if possible, for consistency.
 
+<hr>
+
 ## Other Considerations
 
-### Table Name Specification
+### Specifying Table Names
 
 When using multiple tables, explicitly refer to each by name when selecting attributes.
 
@@ -88,7 +90,7 @@ FROM table_a
 JOIN table_b ON table_a.some_attribute = table_b.other_attribute
 ````
 
-### Table Aliasing
+### Aliasing Table Names
 
 Improve the readability and usability of your queries by assigning to each table a shorter name, or alias.
 Use the `AS` keyword to denote table aliases.
@@ -110,16 +112,17 @@ SELECT
 FROM table_a AS a
 ````
 
-### Ordering Join Conditions
+### Ordering Joins
 
-It doesn't matter what table you choose as the original table, and which you choose as the joined table, unless using an outer join.
+With an inner join, it doesn't matter which table you choose as the original table, and which you choose as the joined table, as long as the join conditions remain the same.
+
 
 ```` sql
 SELECT
   a.attribute_d
   ,a.attribute_t
   ,b.some_awesome_attribute
-FROM table_a AS a
+FROM table_a AS a -- FYI
 JOIN table_b AS b ON a.some_attribute = b.other_attribute
 ````
 
@@ -128,8 +131,23 @@ SELECT
   a.attribute_d
   ,a.attribute_t
   ,b.some_awesome_attribute
-FROM table_b AS b -- FYI
-JOIN table_a AS a ON a.some_attribute = b.other_attribute
+FROM table_b AS b  -- FYI
+JOIN table_a AS a ON b.other_attribute = a.some_attribute
+````
+
+However, with outer joins, different combinations of table orders and join types (e.g. left or right) can result in an array of different outcomes.
+
+### Ordering Join Conditions
+
+It doesn't matter how you write your join condition, in terms of attribute order.
+
+```` sql
+SELECT
+  a.attribute_d
+  ,a.attribute_t
+  ,b.some_awesome_attribute
+FROM table_a AS a
+JOIN table_b AS b ON (a.some_attribute = b.other_attribute) -- FYI
 ````
 
 ```` sql
@@ -137,8 +155,8 @@ SELECT
   a.attribute_d
   ,a.attribute_t
   ,b.some_awesome_attribute
-FROM table_b AS b
-JOIN table_a AS a ON b.other_attribute = a.some_attribute -- FYI
+FROM table_a AS a
+JOIN table_b AS b ON (b.other_attribute = a.some_attribute) -- FYI
 ````
 
 ### Multiple Joins
