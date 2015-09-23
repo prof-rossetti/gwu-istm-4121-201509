@@ -32,7 +32,7 @@ It is not necessary to use all, or even most, clauses in a SQL query.
   * [Subqueries](data-analysis/subqueries.md)
   * [Aggregations](data-analysis/single-table-aggregate-sql.md)
  * [Multi-Table](data-analysis/multi-table-sql.md)
-  * [Multi-Schema](notes/data-analysis/multi-database-sql.md)
+  * [Multi-Schema](data-analysis/multi-database-sql.md)
 
 ### Instructional Datasets
 
@@ -48,7 +48,9 @@ Relational:
  + [todo1](#TODO) (related .csv files)
  + [todo2](#TODO) (examples of differing relationship assumptions)
 
-### Additional Resources
+<hr>
+
+Additional Resources:
 
  + [SQL Best Practices](data-analysis/best-practices.md)
  + [W3 Schools SQL Tutorial](http://www.w3schools.com/sql/default.asp)
