@@ -61,6 +61,8 @@ If there are additional files (e.g. *too_fast.txt* or *route_xref.txt*) in the .
 
 If you encounter import errors after attempting to import a given field as an *integer*, *date*, *time*, or *datetime* datatype, instead choose the *string*/*varchar*/*short-text* datatype to remediate errors. If text attribute values are too large to fit in a *string*/*varchar*/*short-text* datatye, instead choose a *text*/*memo* datatype.
 
+![choosing-datatypes-in-sequel-pro](/resources/images/sequel-pro-datatype-options.png)
+
 #### Line-breaks
 
 If you encounter line-break [errors](https://code.google.com/p/sequel-pro/issues/detail?id=1282#c2) during the importation process, specify the proper field and line delineation character(s).
@@ -69,7 +71,7 @@ If you encounter line-break [errors](https://code.google.com/p/sequel-pro/issues
 
 #### Character Enclosures
 
-If you encounter character-enclosure issues after importing the data, specify the proper field enclosure character during the importation process.
+Like line-breaks, if you encounter character-enclosure issues, specify the proper field enclosure character during the importation process.
 
 #### Automation
 
