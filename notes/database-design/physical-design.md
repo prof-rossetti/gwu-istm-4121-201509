@@ -22,6 +22,8 @@ When using an existing relational database, its name, table names, attribute nam
 
 When designing a relational database, the [Normalization Process](/notes/relational-databases/logical-design.md) will guide you  to arrive at an appropriate logical design in terms of database, table and attribute names.
 
+Reference the [Database Management](/notes/database-management.md) notes for examples of how to define databases and tables.
+
 ## Datatypes
 
 A column in a relational database table can be represented by only one datatype.

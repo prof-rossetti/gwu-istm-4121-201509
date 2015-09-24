@@ -1,26 +1,26 @@
-# Database Management Systems/Software (DBMS)
+# Database Management SQL
 
-## MS Access
+Use DBMS-specific functionality or SQL queries to manage the physical properties of the database environment, including databases, tables, columns, and data itself.
 
-## MySQL
-
-## PostgreSQL
-
-<hr>
-
-# Database Usage
-
-Reference [Data Analysis Notes](/notes/data-analysis.md)
-
-# Database Administration and Management
-
-Create users and edit passwords/privileges.
+## Databases
 
 Create databases.
 
 ```` sql
 CREATE DATABASE my_db;
 ````
+
+Remove databases.
+
+```` sql
+DROP TABLE my_table;
+````
+
+```` sql
+DROP TABLE IF EXISTS my_table;
+````
+
+## Tables
 
 Create tables.
 
@@ -48,6 +48,11 @@ DROP TABLE my_table;
 ```` sql
 DROP TABLE IF EXISTS my_table;
 ````
+
+## Data
+
+Create records.
+
 
 Remove records from a table.
 

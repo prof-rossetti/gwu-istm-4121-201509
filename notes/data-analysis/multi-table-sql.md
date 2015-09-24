@@ -66,52 +66,6 @@ A right join can be re-written in opposite order to convey a left join, and vice
 
 ## Other Considerations
 
-### Specifying Table Names
-
-When using multiple tables, explicitly refer to each by name when selecting attributes.
-
-```` sql
-SELECT
-  table_a.attribute_d -- FYI
-  ,table_a.attribute_t -- FYI
-  ,table_b.some_awesome_attribute -- FYI
-FROM table_a
-JOIN table_b ON table_a.some_attribute = table_b.other_attribute
-````
-
-This often becomes necessary when an attribute of the same name exists in more than one table.
-
-```` sql
-SELECT
-  table_a.some_attribute
-  ,table_a.created_at -- FYI
-  ,table_b.created_at  -- FYI
-FROM table_a
-JOIN table_b ON table_a.some_attribute = table_b.other_attribute
-````
-
-### Aliasing Table Names
-
-Improve the readability and usability of your queries by assigning to each table a shorter name, or alias.
-Use the `AS` keyword to denote table aliases.
-
-```` sql
-SELECT *
-FROM table_a AS a -- FYI
-````
-
-```` sql
-SELECT a.* -- FYI
-FROM table_a AS a
-````
-
-```` sql
-SELECT
-  a.attribute_d -- FYI
-  ,a.attribute_t
-FROM table_a AS a
-````
-
 ### Ordering Joins
 
 With an inner join, it doesn't matter which table you choose as the original table, and which you choose as the joined table, as long as the join conditions remain the same.
