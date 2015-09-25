@@ -46,15 +46,17 @@ Refer also to these [postgresql installation instructions and considerations](ht
 [PG Admin](http://www.pgadmin.org/) software provides
  a human-friendly interface to PostgreSQL as an alternative to the command line.
 
-After you have demonstrated your ability to connect to mysql using the command line, [download](http://www.pgadmin.org/download/) PG Admin.
+After you have demonstrated your ability to connect to postgresql using the command line, [download PG Admin](http://www.pgadmin.org/download/).
 
 Copy the software into your applications directory for future use.
 
 Open the application and establish a new "Server Registration" using the following credentials:
 
+![a screenshot depicting pg admin connection info form](/resources/images/pgadmin-root-connection-info.png)
+
 attribute_name | attribute_value | description
 --- | --- | ---
-name | *my connection* (or something else) | choose an informal connection name for future reference
+name | my custom connection | choose an informal connection name for future reference
 host |  | leave this blank to indicate localhost connection
 port | 5432 | postgresql operates on port 5432 by default
 service | | leave this blank
@@ -62,9 +64,6 @@ maintenance db | postgres | later, after you create your own databases, you may 
 username | postgres | this is the pre-installed default postgresql user
 password | | the postgres user does not come with a pre-defined password; leave this blank.
 
-
-![a screenshot](/resources/images/pgadmin-root-connection-info.png)
-
 ## Usage
 
-Use PostgreSQL from the command line or leverage the PG Admin interface.
+Use PostgreSQL from the command line or from the PG Admin interface.

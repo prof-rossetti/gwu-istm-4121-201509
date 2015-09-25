@@ -44,26 +44,25 @@ Refer also to these [mysql installation instructions and considerations](http://
 [Sequel Pro](http://www.sequelpro.com/) software provides
  a human-friendly interface to MySQL as an alternative to the command line.
 
-After you have demonstrated your ability to connect to mysql using the command line, [download](http://www.sequelpro.com/download) Sequel Pro.
+After you have demonstrated your ability to connect to mysql using the command line, [download Sequel Pro](http://www.sequelpro.com/download).
 
 Copy the software into your applications directory for future use.
 
 Open the application and establish a new "Standard" connection using the following credentials:
 
+![a screenshot depicting sequel pro connection info form](/resources/images/sequel-pro-root-connection-info.png)
+
 attribute_name | attribute_value | description
 --- | --- | ---
-name | | optionally choose an informal connection name for future reference
+name | my custom connection | leave blank, or optionally choose an informal connection name for future reference
 host | 127.0.0.1 | after typing *localhost*, you will be prompted to select *127.0.0.1*
 username | root | this is the pre-installed default mysql user
 password | | the root user does not come with a pre-defined password; leave this blank.
 database | | later, after you create your own databases, you may specify the name of a database here to auto-select it after a successful connection; for now leave this blank
 port | 3306 | mysql operates on port 3306 by default
 
-
 Test the connection and save it to favorites before connecting.
-
-![a screenshot](/resources/images/sequel-pro-root-connection-info.png)
 
 ## Usage
 
-Use MySQL from the command line or leverage the Sequel Pro interface.
+Use MySQL from the command line or from the Sequel Pro interface.
