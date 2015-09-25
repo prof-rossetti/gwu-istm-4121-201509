@@ -20,7 +20,9 @@ DROP TABLE my_table;
 DROP TABLE IF EXISTS my_table;
 ````
 
-## Tables
+### Tables
+
+Tables are a physical component of the database.
 
 Create tables.
 
@@ -49,10 +51,58 @@ DROP TABLE my_table;
 DROP TABLE IF EXISTS my_table;
 ````
 
-## Data
+### Indices
+
+Indices are another physical component of a database.
+ They will be introduced later in the semester
+   as a [physical design](/notes/database-design/physical-design.md) concept.
+
+```` sql
+ALTER TABLE my_table ADD INDEX(my_index_attribute);
+````
+
+Remove indices.
+
+```` sql
+DROP INDEX my_index_attribute ON my_table;
+````
+
+Show indices.
+
+```` sql
+SHOW INDEX FROM my_table;
+````
+
+### Primary Key Indices
+
+Primary keys are a special kind of index that will also be covered later as a physical design concept.
+
+```` sql
+ALTER TABLE my_table ADD PRIMARY KEY(my_primary_key_attribute);
+````
+
+#### Composite Key Indices
+
+```` sql
+ALTER TABLE my_db.my_table ADD PRIMARY KEY(first_ck_attribute, second_ck_attribute);
+````
+
+### Data
 
 Create records.
 
+```` sql
+INSERT INTO my_well_defined_table
+VALUES ('Fluffy','George Washington','dog','m','1956-10-28', NULL);
+````
+
+```` sql
+INSERT INTO my_well_defined_table
+VALUES
+  ('Fluffy','George Washington','dog','m','1756-10-28', NULL),
+  ('Ruffles','George Washington','dog','f','1766-09-01', NULL)
+;
+````
 
 Remove records from a table.
 
