@@ -6,7 +6,7 @@ Refer to the [Group Project Description](/PROJECT.md).
 
 Refer to the [system documentation deliverable](/final-documentation.md) which should contain a description and analysis of your proposed system requirements and design.
 
-Choose a toolset based on system requirements, and implement your database system design.
+Choose a [toolset](/resources/group-project/toolsets.md) based on system requirements, and implement your database system design.
 
 Database System Implementation Requirements:
 

@@ -6,12 +6,22 @@ Students will work together in instructor-assigned teams of two, three, or four
  to design and implement a relational database-backed information system
  which fulfills the project requirements.
 
-Component Assignments:
+### Component Assignments
 
- + [Midterm Pitch](assignments/group-project/midterm-pitch.md)
- + [Final Implementation Deliverable](assignments/group-project/final-implementation.md)
- + [Final Documentation Deliverable](assignments/group-project/final-documentation.md)
- + [Final Presentation](assignments/group-project/final-presentation.md)
+The [Midterm Pitch](assignments/group-project/midterm-pitch.md) evaluates student ability to
+ analyze business problems,
+ identify a technology solution
+ and communicate design plans.
+
+The [Final Documentation](assignments/group-project/final-documentation.md) deliverable evaluates student ability to
+ produce a physical, conceptual, and logical database system design,
+ and to communicate instructions for using the system.
+
+The [Final Implementation ](assignments/group-project/final-implementation.md) deliverable evaluates student ability to
+ implement a functional database system.
+
+The [Final Presentation](assignments/group-project/final-presentation.md) evaluates student ability to
+ communicate system design and demonstrate system implementation functionality.
 
 ## Submission Instructions
 
