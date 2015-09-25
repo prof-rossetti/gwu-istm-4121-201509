@@ -4,7 +4,7 @@ Refer to the [Group Project Description](/PROJECT.md).
 
 ## Description
 
-Identify and research a real-world business problem which may benefit from a relational database system solution. Reference various [business prompt examples](/resources/group-project/examples) which have been provided to students in previous semesters. If your group experiences difficulty finding and describing a business problem, ask an instructor for help, or request to address one of the previously-provided prompts.
+Identify and research a real-world business problem which may benefit from a relational database system solution. Reference various [business prompt examples](/resources/group-project/examples) which have been provided to students in previous semesters. If your group experiences difficulty finding and describing a business problem, ask an instructor for help, or request to address one of the previously-provided prompts. You may also leverage university [new venture planning resources](http://newventure.gwu.edu/support-resources) for additional guidance.
 
 Describe how a database system can solve the business problem, and describe the objectives and purpose of such a system. Describe the system's information requirements in terms of inputs and outputs.
 

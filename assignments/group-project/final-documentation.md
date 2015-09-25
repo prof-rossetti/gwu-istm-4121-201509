@@ -4,7 +4,7 @@ Refer to the [Group Project Description](/PROJECT.md).
 
 ## Description
 
-Plan and design a database system to address the business problem and information requirements you identified during the midterm pitch.
+Plan and design a database system to address the business problem and information requirements you identified during the [midterm pitch](midterm-pitch.md).
 
 Prepare a detailed set of documentation to describe the system, justify its design, and instruct users.
 
@@ -26,10 +26,10 @@ Required Documentation Components:
     + Data Dictionary
     + Index Descriptions
     + Data Backup and Storage Considerations
- + User Documentation
-   + Information Input Functionality Instructions and Screenshots
-   + Information Output Functionality Instructions and Screenshots
-   + Technical Maintenance/Administration Instructions
+  + User Documentation
+    + Information Input Functionality Instructions and Screenshots
+    + Information Output Functionality Instructions and Screenshots
+    + Technical Maintenance/Administration Instructions
 
 ## Submission Instructions
 

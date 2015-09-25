@@ -4,13 +4,15 @@ Refer to the [Group Project Description](/PROJECT.md).
 
 ## Description
 
+Expand upon the presentation you delivered during the [midterm-pitch](midterm-pitch.md). Present the results of your final system [documentation](final-documentation.md) and [implementation](final-implementation.md).
+
 Your presentation should cover the following content:
 
-+ a business problem summary
-+ a description of database system objectives
++ business problem summary
++ description of database system objectives
 + identification of information requirements (inputs and outputs)
-+ identification of entities and relationships
-+ a final ERD
++ identification of entities and relationships, including relationship classifications
++ final ERD
 + demonstration of information input functionality
 + demonstration of information output functionality
 
@@ -24,4 +26,6 @@ Students, instructors, and possible guest judges will evaluate each presentation
 
 Evaluators will assign each presentation an integer grade from 0 to 100.
 
-Evaluations will be averaged to produce the final group grade for each presentation.
+Evaluations will be averaged to produce a single group grade for each presentation. This provides a baseline for the final grade.
+
+Group grades will be compared, sorted, and ranked. Group rank may contribute to the final grade, as necessary.

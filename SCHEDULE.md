@@ -42,7 +42,8 @@ Assignment(s):
 
 duration (mins) | usage | topic
 --- | --- | ---
-70 | Lecture | [Multi-table SQL](notes/data-analysis/multi-table-sql.md) and [Multi-database SQL](notes/data-analysis/multi-database-sql.md) SQL
+65 | Lecture | [Multi-table SQL](notes/data-analysis/multi-table-sql.md)
+5 | Lecture | [Multi-database SQL](notes/data-analysis/multi-database-sql.md)
 10 | Break |
 70 | Lecture | [Physical Database Design](notes/relational-databases/physical-design.md)
 
@@ -57,10 +58,11 @@ Assignment(s):
 
 duration (mins) | usage | topic
 --- | --- | ---
-50 | Lecture and Lab | [Conceptual Database Design (Entity and Relationship Identification)](notes/relational-databases/conceptual-design.md), including in-class assignment
+50 | Lecture | [Conceptual Database Design](notes/relational-databases/conceptual-design.md), including in-class assignment
+50 | Lab | Entity and Relationship Identification, including in-class assignment
 50 | Lab | Entity Relationship Diagramming (ERDs)
 10 | Break |
-40 | Support | Assignments
+40 | Support |
 
 Assignment(s):
 
