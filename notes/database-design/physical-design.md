@@ -14,7 +14,7 @@ Physical design choices play a major role in database performance, in terms at l
  + query execution costs and resources
  + storage costs
 
-Reference the [Database Management SQL](/notes/database-management.md) notes for examples of how to manage physical components of the database.
+Reference the [Database Management SQL](/notes/database-management/database-management-sql.md) notes for examples of how to manage physical components of the database.
 
 ## Database, Table, and Attribute Names
 
@@ -22,7 +22,7 @@ When using an existing relational dataset, its table names, and attribute names 
 
 When using an existing relational database, its name, table names, attribute names, and attribute datatypes are pre-defined.
 
-When designing a relational database, the [Normalization Process](/notes/relational-databases/logical-design.md) will guide you  to arrive at an appropriate logical design in terms of database, table and attribute names. Logical design concepts will be introduced later in the semester.
+When designing a relational database, the [Normalization Process](/notes/database-design/logical-design.md) will guide you  to arrive at an appropriate logical design in terms of database, table and attribute names. Logical design concepts will be introduced later in the semester.
 
 ## Datatypes
 

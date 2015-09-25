@@ -219,17 +219,6 @@ SELECT
 
 ## Other Considerations
 
-### Attribute Aliasing
-
-Optionally assign to each selected attribute a new name for clarity. Use `AS` to denote attribute aliases.
-
-```` sql
-SELECT
-  "fun times" AS new_attribute_name
-  ,2 AS original_count
-  ,2 + 2 AS revised_count
-````
-
 ### Distinctness
 
 Use `DISTINCT` as a sub-clause of the select clause to return only a set of unique records.
