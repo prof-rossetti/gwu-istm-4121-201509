@@ -2,11 +2,11 @@
 
 # Week 1 - 9/2/15
 
-duration (mins) | usage
---- | ---
-70 | Introduction to this Course Lecture
-10 | Break
-70 | [Introduction to Databases (within the context of Information Systems)](notes/info-systems.md) Lecture
+duration (mins) | usage | topic
+--- | --- | ---
+70 | Lecture | Introduction to this Course
+10 | Break |
+70 | Lecture | [Introduction to Databases within the context of Information Systems](notes/info-systems.md)
 
 Assignment(s):
 
@@ -15,11 +15,11 @@ Assignment(s):
 
 # Week 2 - 9/9/15
 
-duration (mins) | usage
---- | ---
-70 | [Data Processing and Operations](notes/database-management-software.md) Lecture
-10 | Break
-70 | Database Management Software (DBMS) Lab, including in-class assignment
+duration (mins) | usage | topic
+--- | --- | ---
+70 | Lecture | [Database Management](notes/database-management.md)
+10 | Break |
+70 | Lab | Database Management Software (DBMS), including in-class assignment
 
 Assignment(s):
 
@@ -27,54 +27,53 @@ Assignment(s):
 
 # Week 3 - 9/16/15
 
-duration (mins) | usage
---- | ---
-70 | [Single-table SQL](notes/data-analysis.md#instructional-sql-modules) Lectures
-10 | Break
-70 | Single-table SQL Lab
+duration (mins) | usage | topic
+--- | --- | ---
+70 | Lecture | [Single-table SQL](notes/data-analysis/single-table-sql.md)
+10 | Break |
+70 | Lecture | [Single-table Aggregate SQL](notes/data-analysis/single-table-aggregate-sql.md)
 
 Assignment(s):
 
  + [Group Project Midterm Pitch](assignments/group-project/midterm-pitch.md) (given)
- + [Group Project Final Deliverable](assignments/group-project/final-deliverable.md) (given)
- + [Group Project Final Presentation](assignments/group-project/final-presentation.md) (given)
  + [Data Analysis](assignments/lab/data-analysis.md) (given)
 
 # Week 4 - 9/23/15
 
-duration (mins) | usage
---- | ---
-35 | [Multi-table](notes/data-analysis/multi-table-sql.md) and [Multi-database](notes/data-analysis/multi-database-sql.md) SQL Lectures
-35 | [Relational Databases](notes/relational-databases.md) and [Physical Database Design](notes/relational-databases/physical-design.md) Lectures
-10 | Break
-70 | Multi-table SQL Lab
+duration (mins) | usage | topic
+--- | --- | ---
+70 | Lecture | [Multi-table SQL](notes/data-analysis/multi-table-sql.md) and [Multi-database SQL](notes/data-analysis/multi-database-sql.md) SQL
+10 | Break |
+70 | Lecture | [Physical Database Design](notes/relational-databases/physical-design.md)
 
 Assignment(s):
 
  + [Data Analysis](assignments/lab/data-analysis.md) (due)
- + [Relational Data Analysis](assignments/lab/relational-data-analysis.md) (given)
+ + [Relational Data Analysis](assignments/lab/relational-data-analysis.md) (given in-class)
+ + [Group Project Final Deliverable](assignments/group-project/final-deliverable.md) (given via email by Friday midnight)
+ + [Group Project Final Presentation](assignments/group-project/final-presentation.md) (given via email by Friday midnight)
 
 # Week 5 - 9/30/15
 
-duration (mins) | usage
---- | ---
-70 | [Conceptual Database Design (Entity and Relationship Identification)](notes/relational-databases/conceptual-design.md) Lecture and Lab, including in-class assignment
-10 | Break
-70 | Entity Relationship Diagramming (ERDs) Lab
+duration (mins) | usage | topic
+--- | --- | ---
+50 | Lecture and Lab | [Conceptual Database Design (Entity and Relationship Identification)](notes/relational-databases/conceptual-design.md), including in-class assignment
+50 | Lab | Entity Relationship Diagramming (ERDs)
+10 | Break |
+40 | Support | Assignments
 
 Assignment(s):
 
- + [Relational Data Analysis](assignments/lab/relational-data-analysis.md) (due)
- + [Entity and Relationship Identification](assignments/lab/entity-relationship-identification.md) (given and due)
+ + [Data Analysis](assignments/lab/data-analysis.md) (re-submissions accepted by Friday at midnight)
+ + [Relational Data Analysis](assignments/lab/relational-data-analysis.md) (due; submissions accepted by Friday at midnight)
+ + [Entity and Relationship Identification](assignments/lab/entity-relationship-identification.md) (given and due in-class)
  + [Entity Relationship Diagrams](assignments/lab/entity-relationship-diagramming.md) (given)
 
 # Week 6 - 10/7/15
 
-duration (mins) | usage
---- | ---
-120 | Midterm Project Pitches
-10 | Break
-30 | Project, SQL, and ERD Support
+duration (mins) | usage | topic
+--- | --- | ---
+150 | Presentations | Midterm Project Pitches
 
 Assignment(s):
 
@@ -83,17 +82,17 @@ Assignment(s):
 
 # Week 7 - 10/14/15
 
-duration (mins) | usage
---- | ---
-150 | [Midterm Exam](exams/midterm.md)
+duration (mins) | usage | topic
+--- | --- | ---
+150 | Exam | [Midterm Exam](exams/midterm.md)
 
 # Week 8 - 10/21/15
 
-duration (mins) | usage
---- | ---
-70 | [Logical Design (Normalization)](notes/relational-databases/logical-design.md) Lecture
-10 | Break
-70 | Normalization Lab, including in-class assignment
+duration (mins) | usage | topic
+--- | --- | ---
+70 | Lecture | [Logical Design](notes/relational-databases/logical-design.md)
+10 | Break |
+70 | Lab | Normalization, including in-class assignment
 
 Assignment(s):
 
@@ -127,11 +126,11 @@ Assignment(s):
 
 # Week 9 - 10/28/15
 
-duration (mins) | usage
---- | ---
-70 | Database Inputs Lecture
-10 | Break
-70 | Database Inputs Lab
+duration (mins) | usage | topic
+--- | --- | ---
+70 | Lecture | Information Inputs
+10 | Break |
+70 | Lab | Information Inputs
 
 Assignments:
 
@@ -139,11 +138,11 @@ Assignments:
 
 # Week 10 - 11/4/15
 
-duration (mins) | usage
---- | ---
-70 | Database Outputs Lecture
-10 | Break
-70 | Database Outputs Lab
+duration (mins) | usage | topic
+--- | --- | ---
+70 | Lecture | Information Outputs
+10 | Break |
+70 | Lab | Information Outputs
 
 Assignments:
 
@@ -151,19 +150,19 @@ Assignments:
 
 # Week 11 - 11/11/15
 
-duration (mins) | usage
---- | ---
-70 | TBA - Web Systems Lecture
-10 | Break
-70 | TBA - Web Systems Lab
+duration (mins) | usage | topic
+--- | --- | ---
+70 | Lecture | Web Applications
+10 | Break |
+70 | Lab | Web Applications
 
 # Week 12 - 11/18/15
 
-duration (mins) | usage
---- | ---
-70 | TBA - APIs, Scripts, and Automation Lecture
-10 | Break
-70 | TBA - APIs, Scripts, and Automation Lab
+duration (mins) | usage | topic
+--- | --- | ---
+70 | Lecture | TBA - APIs, Scripts, and Automation
+10 | Break |
+70 | Lab | TBA - APIs, Scripts, and Automation
 
 
 
@@ -188,26 +187,29 @@ No Class - Thanksgiving
 
 # Week 14 - 12/2/15
 
-duration (mins) | usage
---- | ---
-70 | TBA - Security and Privacy Lecture
-10 | Break
-70 | Group Project Support
+duration (mins) | usage | topic
+--- | --- | ---
+70 | Lecture | TBA - Security and Privacy
+10 | Break |
+70 | Support |
 
 # Week 15 - 12/9/15
 
-duration (mins) | usage
---- | ---
-150 | Project Final Presentations
+duration (mins) | usage | topic
+--- | --- | ---
+150 | Presentations | Final Group Project Presentations
 
 Assignment(s):
 
- + [Group Project Final Deliverable](assignments/group-project/final-deliverable.md) (due)
+ + [Group Project Final Documentation](assignments/group-project/final-documentation.md) (due)
+ + [Group Project Final Implementation](assignments/group-project/final-presentation.md) (due)
  + [Group Project Final Presentation](assignments/group-project/final-presentation.md) (due)
  + [Meetups](assignments/lab/meetups.md) (due)
 
 # 12/?/15
 
-Final Exam
+duration (mins) | usage | topic
+--- | --- | ---
+150 | Exam | [Final Exam](exams/final.md)
 
 > Refer to https://github.com/gwu-business/istm-4121/issues/10 for info about the final exam schedule.
