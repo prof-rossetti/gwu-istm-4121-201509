@@ -12,6 +12,8 @@ Visit the [Homebrew home page](http://brew.sh/) in a browser and follow the down
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ````
 
+After installing Homebrew, close your terminal window and open a new terminal window before attempting to run any `brew` commands.
+
 ## Usage
 
 Refer to [DBMS-specific installation instructions](/notes/database-management/software/).

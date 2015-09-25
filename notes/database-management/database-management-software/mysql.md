@@ -12,16 +12,60 @@ Students may choose to install MySQL on a personal computer by obtaining the sof
 
 ### Installing on Mac OS
 
-After downloading homebrew, close your terminal window and open a new terminal window, then type `brew install mysql` and press enter.
+Students may use the [Homebrew Package Manager](homebrew-package-manager.md) to install MySQL.
 
-Reference and perform any post-installation instructions provided by Homebrew
+```` sh
+brew install mysql
+````
+
+Reference and perform any post-installation instructions provided by Homebrew.
+
+#### Post-installation
+
+Execute the `mysql -uroot` command
+ to demonstrate your ability to establish a mysql connection
+ as the default mysql user, "root". After executing, you will find yourself in a mysql console which will respond to any SQL queries you type. Try `SHOW DATABASES;` to list all databases, or `SELECT user, host, password FROM mysql.user;` to list all database users. When satisfied, execute `exit;` to return back to the  terminal.
+
+Post-installation instructions are also likely to include commands similar to the following:
+
+```` sh
+ln -sfv /usr/local/opt/mysql/*.plist ~/Library/LaunchAgents
+launchctl load ~/Library/LaunchAgents/homebrew.mxcl.mysql.plist
+````
+
+If executed, these commands will ensure the mysql server is running, even after you restart your computer.
+
+If there are syntax differences between these commands and the homebrew-suggested commands, refer to the homebrew-suggested commands.
+
+Refer also to these [mysql installation instructions and considerations](http://data-creative.info/process-documentation/2015/07/18/how-to-set-up-a-mac-development-environment.html#mysql).
 
 #### Installing Companion Software
 
-Sequel Pro software provides a human-friendly MySQL interface.
+[Sequel Pro](http://www.sequelpro.com/) software provides
+ a human-friendly interface to MySQL as an alternative to the command line.
+
+After you have demonstrated your ability to connect to mysql using the command line, [download](http://www.sequelpro.com/download) Sequel Pro.
+
+Copy the software into your applications directory for future use.
+
+Open the application and establish a new "Standard" connection using the following credentials:
+
+attribute_name | attribute_value | description
+--- | --- | ---
+name | | optionally choose an informal connection name for future reference
+host | 127.0.0.1 | after typing *localhost*, you will be prompted to select *127.0.0.1*
+username | root | this is the pre-installed default mysql user
+password | | the root user does not come with a pre-defined password; leave this blank.
+database | | later, after you create your own databases, you may specify the name of a database here to auto-select it after a successful connection; for now leave this blank
+port | 3306 | mysql operates on port 3306 by default
+
+
+Test the connection and save it to favorites before connecting.
+
+![a screenshot](/resources/images/sequel-pro-root-connection-info.png)
 
 ## Usage
 
-Use MySQL from the command line, or
+Use MySQL from the command line or leverage the Sequel Pro interface.
 
 MySQL can import and export text data files in the .txt, .csv, .tsv, or .sql format.
