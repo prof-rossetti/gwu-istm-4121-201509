@@ -12,8 +12,6 @@ Students may also choose to install MS Access software on a personal computer by
 
 ## Usage
 
-MS Access opens and saves files in the .mdb format.
-
 Use MS Access for a variety of database system functions.
 
 ### Table Import Wizard

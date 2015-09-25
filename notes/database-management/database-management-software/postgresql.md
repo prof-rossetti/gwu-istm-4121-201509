@@ -6,37 +6,65 @@ It provides database-management-specific features.
 
 ## Installation
 
-Students may choose to install the PostgreSQL software on a personal computer by obtaining it from the Internet.
+Students may choose to install PostgreSQL on a personal computer by obtaining the software from the Internet.
 
 ### Installing on Windows OS
 
-
-
-
-
-
 ### Installing on Mac OS
 
-Reference the instructions for downloading the Homebrew package manager for Mac OS.
-
-After downloading Homebrew:
+Students may use the [Homebrew Package Manager](homebrew-package-manager.md) to install PostgreSQL on Mac OS.
 
 ```` sh
-brew install postrgresql
+brew install postgresql
 ````
 
-Follow the post-installation instructions.
+#### Post-installation
 
-Refer also to ____________.
+> NOTE: These post-installation instructions require additional verification.
 
-After downloading homebrew, close your terminal window and open a new terminal window, then type `brew install mysql` and press enter.
+Reference and perform any post-installation instructions provided by Homebrew.
 
-Reference and perform any post-installation instructions provided by Homebrew
+Execute the `psql` command
+ to demonstrate your ability to establish a postgresql connection
+ as the default user, "postgres". After executing, you will find yourself in a postgres console which will respond to any SQL queries you type, along with special `pg` commands. Try `SELECT * FROM pg_database;` to list all databases, or `SELECT * FROM pg_user;` to list all database users. When satisfied, execute `\q` to return back to the  terminal.
+
+Post-installation instructions are also likely to include commands similar to the following:
+
+```` sh
+ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
+launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
+````
+
+If executed, these commands will ensure the postgresql server is running, even after you restart your computer.
+
+If there are syntax differences between these commands and the homebrew-suggested commands, refer to the homebrew-suggested commands.
+
+Refer also to these [postgresql installation instructions and considerations](http://data-creative.info/process-documentation/2015/07/18/how-to-set-up-a-mac-development-environment.html#postgresql).
 
 #### Installing Companion Software
 
-PGAdmin software provides a human-friendly MySQL interface.
+[PG Admin](http://www.pgadmin.org/) software provides
+ a human-friendly interface to PostgreSQL as an alternative to the command line.
+
+After you have demonstrated your ability to connect to mysql using the command line, [download](http://www.pgadmin.org/download/) PG Admin.
+
+Copy the software into your applications directory for future use.
+
+Open the application and establish a new "Server Registration" using the following credentials:
+
+attribute_name | attribute_value | description
+--- | --- | ---
+name | *my connection* (or something else) | choose an informal connection name for future reference
+host |  | leave this blank to indicate localhost connection
+port | 5432 | postgresql operates on port 5432 by default
+service | | leave this blank
+maintenance db | postgres | later, after you create your own databases, you may specify the name of a database here to auto-select it after a successful connection
+username | postgres | this is the pre-installed default postgresql user
+password | | the postgres user does not come with a pre-defined password; leave this blank.
+
+
+![a screenshot](/resources/images/pgadmin-root-connection-info.png)
 
 ## Usage
 
-Use PostgreSQL from the command line, or
+Use PostgreSQL from the command line or leverage the PG Admin interface.

@@ -12,15 +12,15 @@ Students may choose to install MySQL on a personal computer by obtaining the sof
 
 ### Installing on Mac OS
 
-Students may use the [Homebrew Package Manager](homebrew-package-manager.md) to install MySQL.
+Students may use the [Homebrew Package Manager](homebrew-package-manager.md) to install MySQL on Mac OS.
 
 ```` sh
 brew install mysql
 ````
 
-Reference and perform any post-installation instructions provided by Homebrew.
-
 #### Post-installation
+
+Reference and perform any post-installation instructions provided by Homebrew.
 
 Execute the `mysql -uroot` command
  to demonstrate your ability to establish a mysql connection
@@ -67,5 +67,3 @@ Test the connection and save it to favorites before connecting.
 ## Usage
 
 Use MySQL from the command line or leverage the Sequel Pro interface.
-
-MySQL can import and export text data files in the .txt, .csv, .tsv, or .sql format.
