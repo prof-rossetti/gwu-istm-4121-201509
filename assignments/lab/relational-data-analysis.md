@@ -31,17 +31,18 @@ Suggested Organizational Structure:
 
 Upload .pdf file to [Blackboard](https://blackboard.gwu.edu/webapps/assignment/uploadAssignment?content_id=_6858175_1&course_id=_260328_1&assign_group_id=&mode=cpview).
 
-If using a non-suggested dataset, attach a compressed dataset of .csv file(s) or .sql file or .mdb file along with your submission.
+If using a non-suggested dataset, attach a compressed dataset of .csv file(s) or .sql file or .mdb file along with your submission; or include reproducible instructions on how to obtain the data.
 
 ## Evaluation Criteria
 
-Full credit for a thorough, organized, and well-written analysis accompanied by strong supporting evidence of findings to include one or more SQL queries using the `JOIN` and `LEFT JOIN` clauses.
+Full credit for a thorough, organized, and well-written analysis accompanied by strong **repeatable** supporting evidence of findings to include one or more SQL queries using the `JOIN` and `LEFT JOIN` clauses.
 
-Else 4/5 credit for a well-written or adequate analysis accompanied by supporting evidence.
+Else 87% credit for a well-written or adequate analysis accompanied by supporting evidence.
 
-Else 2/3 credit for a well-written or adequate analysis lacking proper or related supporting evidence.
+Else 66% credit for a well-written or adequate or inadequate analysis lacking proper related supporting evidence.
 
 Else no credit.
+
 
 <hr>
 

@@ -2,23 +2,17 @@
 
 ## Description
 
-Students will be evaluated on their ability to design relational databases.
+The final exam evaluates students' knowledge of physical, conceptual, and logical database design principles.
 
-Students will be provided a sample business prompt, ERD, or database table design.
+Students will be provided one or more examples of a business prompt, ERD, or database table design, and are expected to be able to perform the following tasks:
 
-Based on the table descriptions, students will be asked to
+ + identify entities
+ + identify relationships
+ + properly classify relationships
+ + identify indices, primary keys, and foreign keys
+ + write SQL queries to answer specific questions
 
- + Identify Entities
- + Identify Relationships
- + Properly classify Relationships
- + Identify Indices like Primary and Foreign Keys
- + Write SQL queries to answer specific questions
-
-Students are expected to be able to translate database design concepts to and from:
-
- + business prompts
- + ERDs
- + table designs
+Students are expected to be able to define important database concepts like a primary key.
 
 ## Submission Instructions
 
@@ -26,4 +20,6 @@ Hand-in your exam booklet to an instructor when finished.
 
 ## Evaluation Methodology
 
-TBA
+The relative weights of each question on the test will be denoted alongside the question text.
+
+There may be an opportunity for bonus points.

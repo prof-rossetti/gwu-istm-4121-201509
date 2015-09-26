@@ -2,19 +2,14 @@
 
 ## Description
 
-The midterm exam evaluates students' ability to **use** relational databases.
+The midterm exam evaluates students' knowledge of database usage and physical database design principles.
 
-Students will be provided a sample database table design.
+Students will be provided one or more examples of a physical table design, and are expected to be able to perform the following tasks:
 
-Based on the table descriptions, students will be asked to
+ + identify indices, primary keys, and foreign keys
+ + write SQL queries to answer specific questions
 
- + Identify Entities
- + Identify Relationships
- + Properly classify Relationships
- + Identify Indices like Primary and Foreign Keys
- + Write SQL queries to answer specific questions
-
-Refer to the [example entity and relationship identification exercise](/resources/relational-databases/entity-relationship-identification-exercise.md).
+Students are also expected to be able to define important database concepts like a primary key.
 
 ## Submission Instructions
 
@@ -22,4 +17,6 @@ Hand-in your exam booklet to an instructor when finished.
 
 ## Evaluation Methodology
 
-TBA
+The relative weights of each question on the test will be denoted alongside the question text.
+
+There may be an opportunity for bonus points.

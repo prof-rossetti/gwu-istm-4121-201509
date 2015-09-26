@@ -2,7 +2,7 @@
 
 Ryan Johnson, owner and manager of Athletic Events Extraordinaire (AEE) has contacted your team for help in solving some business problems. AEE is in the business of managing and marketing a variety of athletic events, including running races, bike events and triathlons. Ryan's company has grown to the point where he and his small staff can no longer manage the business without a database that's more efficient than the paper files now in use.
 
-## Basic Operations:
+## Basic Operations
 
 AEE has two types of customers. First, for some events, an organization pays AEE to organize, manage and help promote an event. The sponsoring organization pays AEE a flat fee and then keeps the remaining revenue for their treasury. For example, AEE might help a local service organization such as the Capital Hill Bikes sponsor on a road race.  AEE would use their expertise to organize, manage and promote the race.  AEE's fee would cover them organizing the volunteers, securing a location for the race, setting up the course, timing the race and mailing results to the participants. AEE also holds events where they are the sole sponsor, no outside organization is involved. Ryan wants the system to help him keep up with sponsor information including what events they have sponsored, the organization's name, address, phone and a contact name.
 

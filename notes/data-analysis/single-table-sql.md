@@ -164,22 +164,26 @@ FROM table_a
 
 ## Functions
 
-Below are some examples of important functions recognized by open source DBMSs.
+Consult DBMS-specific documentation for a comprehensive list of functions and instructions on how to use them.
 
-Consult SQL documentation as well as DBMS documentation for a comprehensive list of functions and instructions on how to use them.
+```` sql
+SELECT
+-- mysql dbms:
+  cast('2016-11-06' AS DATETIME) AS scheduled_at
+  ,cast('2016-11-06' AS DATE) AS scheduled_on
+````
 
 ### String Functions
 
 ```` sql
-SELECT
-  concat('hello',' ','world') AS my_message
-  ,cast('2016-11-06' AS DATETIME) AS scheduled_at -- changes attribute datatype from string to datetime
-  ,cast('2016-11-06' AS DATE) AS scheduled_on -- changes string datatype to date datatype
+-- mysql dbms:
+SELECT concat('Hello', ' ', 'world') AS my_message
 ````
 
 ### Date Functions
 
 ```` sql
+-- mysql dbms:
 SELECT
   now() AS datetime_right_now
   ,curdate() AS date_right_now
@@ -190,13 +194,8 @@ SELECT
 
 ### Conditional Functions
 
-Common powerful conditional functions include:
-
- + IF()
- + CASE()
- + COALESCE()
-
 ```` sql
+-- mysql dbms:
 SELECT
   courses.registration_name
   ,IF(courses.registration_name LIKE "%ISTM%", "Information Systems Department", "Other Department") AS department_classification
@@ -212,23 +211,13 @@ FROM (
 ````
 
 ```` sql
+-- mysql dbms:
 SELECT
   NULL -- evaluates to NULL
   ,coalesce(NULL,0) -- evaluates to 0
 ````
 
 ## Other Considerations
-
-### Attribute Aliasing
-
-Optionally assign to each selected attribute a new name for clarity. Use `AS` to denote attribute aliases.
-
-```` sql
-SELECT
-  "fun times" AS new_attribute_name
-  ,2 AS original_count
-  ,2 + 2 AS revised_count
-````
 
 ### Distinctness
 
@@ -240,9 +229,10 @@ FROM table_z
 ````
 
 ```` sql
-SELECT DISTINCT
-  attribute_a
-  ,attribute_b
-  ,attribute_c -- returns only unique value combinations of the set of all selected attributes
+SELECT
+  DISTINCT
+    attribute_a
+    ,attribute_b
+    ,attribute_c -- returns only unique value combinations of the set of all selected attributes
 FROM table_z
 ````

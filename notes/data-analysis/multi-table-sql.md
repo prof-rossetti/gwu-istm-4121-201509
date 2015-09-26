@@ -6,11 +6,11 @@ Each table is often related to one or more other tables in the database.
 
 This document provides an overview of common SQL clauses, functions, and considerations for performing SQL analysis on a multiple related database tables.
 
-> Students familiar with the spreadsheet `VLOOKUP()` function have already demonstrated an ability to perform table joins.
+Students familiar with the spreadsheet `VLOOKUP()` function have already demonstrated the ability to join tables together.
 
 ## Clauses
 
-### JOINS
+### Joins
 
 One or more `JOIN` clauses may be used to relate additional table(s) to the original table specified in the from clause.
 
@@ -26,13 +26,13 @@ Two different methods for joining tables together are:
  + an inner join
  + an outer join
 
-#### INNER JOINS
+#### Inner Joins
 
 An inner join returns only the results from each table that match the join condition.
 
 Records from both the original table and joined table may be excluded.
 
-Use `INNER JOIN` to denote an inner join. Open source DBMSs also recognize `JOIN` for this use.
+Use `INNER JOIN` to denote an inner join. Open source DBMSs also recognize `JOIN`.
 
 ```` sql
 SELECT
@@ -45,7 +45,7 @@ FROM table_h
 JOIN table_j ON table_j.some_attribute = table_h.related_attribute
 ````
 
-#### OUTER JOINS
+#### Outer Joins
 
 An outer join will append onto the original table any results from the joined table that happen to match the join condition.
 
@@ -66,56 +66,9 @@ A right join can be re-written in opposite order to convey a left join, and vice
 
 ## Other Considerations
 
-### Specifying Table Names
-
-When using multiple tables, explicitly refer to each by name when selecting attributes.
-
-```` sql
-SELECT
-  table_a.attribute_d -- FYI
-  ,table_a.attribute_t -- FYI
-  ,table_b.some_awesome_attribute -- FYI
-FROM table_a
-JOIN table_b ON table_a.some_attribute = table_b.other_attribute
-````
-
-This often becomes necessary when an attribute of the same name exists in more than one table.
-
-```` sql
-SELECT
-  table_a.some_attribute
-  ,table_a.created_at -- FYI
-  ,table_b.created_at  -- FYI
-FROM table_a
-JOIN table_b ON table_a.some_attribute = table_b.other_attribute
-````
-
-### Aliasing Table Names
-
-Improve the readability and usability of your queries by assigning to each table a shorter name, or alias.
-Use the `AS` keyword to denote table aliases.
-
-```` sql
-SELECT *
-FROM table_a AS a -- FYI
-````
-
-```` sql
-SELECT a.* -- FYI
-FROM table_a AS a
-````
-
-```` sql
-SELECT
-  a.attribute_d -- FYI
-  ,a.attribute_t
-FROM table_a AS a
-````
-
 ### Ordering Joins
 
 With an inner join, it doesn't matter which table you choose as the original table, and which you choose as the joined table, as long as the join conditions remain the same.
-
 
 ```` sql
 SELECT
@@ -161,7 +114,9 @@ JOIN table_b AS b ON (b.other_attribute = a.some_attribute) -- FYI
 
 ### Multiple Joins
 
-Use a join clause for each new table you would like to include in your query.
+Unlike the other clauses, which may only be used once in a query,
+ you may use a new join clause
+  for each new table you would like to include.
 
 ```` sql
 SELECT
@@ -171,10 +126,10 @@ SELECT
   ,c.another_awesome_attribute
   ,d.the_best_attribute_ever
 FROM table_b AS b
-JOIN table_a AS a ON b.other_attribute = a.some_attribute -- so ...
-JOIN table_c AS c ON b.attribute_x = c.attribute_y -- ... many...
-JOIN table_d AS d ON b.attribute_x = c.attribute_y -- ... joins!
-JOIN table_y AS y ON a.another_attr = y.attr2 -- FYI you can join to any table in any order, just make sure your join conditions are correct.
+JOIN table_a AS a ON b.other_attribute = a.some_attribute
+JOIN table_c AS c ON b.attribute_x = c.attribute_y
+JOIN table_d AS d ON b.attribute_x = c.attribute_y
+JOIN table_y AS y ON a.another_attr = y.attr2
 ````
 
 ### Joins with Multiple Conditions
@@ -212,20 +167,6 @@ JOIN itunes_songs its
 
 ### Indices
 
-When executing a query which joins together two or more tables on a related set of attributes, execution time is significantly descreased if each attribute in the join condition is indexed.
+When executing a query which joins together two or more tables on a related set of attributes, execution time is significantly decreased if each attribute in the join condition is indexed.
 
-You may define indices during or after table creation.
-
-```` sql
--- after table creation:
-ALTER TABLE my_table ADD INDEX(attribute_name);
-````
-
-You may also define primary keys in a similar way.
-
-```` sql
--- after table creation:
-ALTER TABLE my_table ADD PRIMARY KEY(attribute_name);
-````
-
-See [physical design notes](/notes/relational-databases/physical-design.md) for more info about indices.
+See [physical design notes](/notes/database-design/physical-design.md) for more info about indices.

@@ -1,102 +1,127 @@
 # Schedule
 
-# Week 1 - 9/2/15
+## Module I - Database Usage
 
-duration (mins) | usage
---- | ---
-70 | Introduction to this Course Lecture
-10 | Break
-70 | [Introduction to Databases (within the context of Information Systems)](notes/info-systems.md) Lecture
+### Week 1 - 9/2/15
+
+duration (mins) | usage | topic
+--- | --- | ---
+70 | Lecture | Introduction to this Course
+10 | Break |
+70 | Lecture | [Introduction to Databases within the context of Information Systems](notes/info-systems.md)
 
 Assignment(s):
 
  + [Questionnaire](assignments/lab/questionnaire.md) (given and due)
  + [Meetups](assignments/lab/meetups.md) (given)
 
-# Week 2 - 9/9/15
+### Week 2 - 9/9/15
 
-duration (mins) | usage
---- | ---
-70 | [Data Processing and Operations](notes/database-management-software.md) Lecture
-10 | Break
-70 | Database Management Software (DBMS) Lab, including in-class assignment
+duration (mins) | usage | topic
+--- | --- | ---
+70 | Lecture | [Database Management](notes/database-management.md)
+10 | Break |
+70 | Lab | Database Management Software (DBMS), including in-class assignment
 
 Assignment(s):
 
  + [Database Management Software](assignments/lab/database-management-software.md) (given and due)
 
-# Week 3 - 9/16/15
+### Week 3 - 9/16/15
 
-duration (mins) | usage
---- | ---
-70 | [Single-table SQL](notes/data-analysis.md#instructional-sql-modules) Lectures
-10 | Break
-70 | Single-table SQL Lab
+duration (mins) | usage | topic
+--- | --- | ---
+70 | Lecture | [Single-table SQL](notes/data-analysis/single-table-sql.md)
+10 | Break |
+70 | Lecture | [Single-table Aggregate SQL](notes/data-analysis/single-table-aggregate-sql.md)
 
 Assignment(s):
 
  + [Group Project Midterm Pitch](assignments/group-project/midterm-pitch.md) (given)
- + [Group Project Final Deliverable](assignments/group-project/final-deliverable.md) (given)
- + [Group Project Final Presentation](assignments/group-project/final-presentation.md) (given)
  + [Data Analysis](assignments/lab/data-analysis.md) (given)
 
-# Week 4 - 9/23/15
+### Week 4 - 9/23/15
 
-duration (mins) | usage
---- | ---
-35 | [Multi-table](notes/data-analysis/multi-table-sql.md) and [Multi-database](notes/data-analysis/multi-database-sql.md) SQL Lectures
-35 | [Relational Databases](notes/relational-databases.md) and [Physical Database Design](notes/relational-databases/physical-design.md) Lectures
-10 | Break
-70 | Multi-table SQL Lab
+duration (mins) | usage | topic
+--- | --- | ---
+65 | Lecture | [Multi-table SQL](notes/data-analysis/multi-table-sql.md)
+5 | Lecture | [Multi-database SQL](notes/data-analysis/multi-database-sql.md)
+10 | Break |
+70 | Lecture | [Physical Database Design](notes/database-design/physical-design.md)
 
 Assignment(s):
 
  + [Data Analysis](assignments/lab/data-analysis.md) (due)
  + [Relational Data Analysis](assignments/lab/relational-data-analysis.md) (given)
 
-# Week 5 - 9/30/15
+### Week 5 - 9/30/15
 
-duration (mins) | usage
---- | ---
-70 | [Conceptual Database Design (Entity and Relationship Identification)](notes/relational-databases/conceptual-design.md) Lecture and Lab, including in-class assignment
-10 | Break
-70 | Entity Relationship Diagramming (ERDs) Lab
+duration (mins) | usage | topic
+--- | --- | ---
+40 | Lab | [Data Analysis Exercises](/resources/data-analysis/sql-exercises.md)
+40 | Lab | [Physical Design Exercises](/resources/database-design/physical-design-exercises.md)
+10 | Break |
+60 | Support | Group Project Business Identification and Analysis
 
 Assignment(s):
 
  + [Relational Data Analysis](assignments/lab/relational-data-analysis.md) (due)
- + [Entity and Relationship Identification](assignments/lab/entity-relationship-identification.md) (given and due)
+
+### Week 6 - 10/7/15
+
+duration (mins) | usage | topic
+--- | --- | ---
+150 | Presentations | Midterm Project Pitches
+
+Assignment(s):
+
+ + [Group Project Midterm Pitch](assignments/group-project/midterm-pitch.md) (due)
+ + [Group Project Final Documentation](assignments/group-project/final-documentation.md) (given)
+ + [Group Project Final Implementation](assignments/group-project/final-implementation.md) (given)
+ + [Group Project Final Presentation](assignments/group-project/final-presentation.md) (given)
+
+### Week 7 - 10/14/15
+
+duration (mins) | usage | topic
+--- | --- | ---
+150 | Exam | [Midterm Exam](exams/midterm.md)
+
+
+
+
+
+
+
+
+
+
+## Module II - Database Design
+
+### Week 8 - 10/21/15
+
+duration (mins) | usage | topic
+--- | --- | ---
+50 | Lecture | [Conceptual Database Design](notes/database-design/conceptual-design.md)
+50 | Lab | Entity and Relationship Identification, including in-class assignment
+10 | Break |
+40 | Lab | Entity Relationship Diagramming (ERDs)
+
+Assignment(s):
+
+ + [Entity and Relationship Identification](assignments/lab/entity-relationship-identification.md) (given and due in-class)
  + [Entity Relationship Diagrams](assignments/lab/entity-relationship-diagramming.md) (given)
 
-# Week 6 - 10/7/15
+### Week 9 - 10/28/15
 
-duration (mins) | usage
---- | ---
-120 | Midterm Project Pitches
-10 | Break
-30 | Project, SQL, and ERD Support
+duration (mins) | usage | topic
+--- | --- | ---
+70 | Lecture | [Logical Database Design](notes/database-design/logical-design.md)
+10 | Break |
+70 | Lab | Normalization, including in-class assignment
 
 Assignment(s):
 
  + [Entity Relationship Diagrams](assignments/lab/entity-relationship-diagramming.md) (due)
- + [Group Project Midterm Pitch](assignments/group-project/midterm-pitch.md) (due)
-
-# Week 7 - 10/14/15
-
-duration (mins) | usage
---- | ---
-150 | [Midterm Exam](exams/midterm.md)
-
-# Week 8 - 10/21/15
-
-duration (mins) | usage
---- | ---
-70 | [Logical Design (Normalization)](notes/relational-databases/logical-design.md) Lecture
-10 | Break
-70 | Normalization Lab, including in-class assignment
-
-Assignment(s):
-
  + [Normalization](assignments/lab/normalization.md) (given and due)
 
 
@@ -112,58 +137,39 @@ Assignment(s):
 
 
 
+## Module III - Database Applications
 
+### Week 10 - 11/4/15
 
+duration (mins) | usage | topic
+--- | --- | ---
+70 | Lecture | Software
+10 | Break |
+70 | Lab | Software
 
+### Week 11 - 11/11/15
 
-
-
-
-
-
-
-
-
-
-# Week 9 - 10/28/15
-
-duration (mins) | usage
---- | ---
-70 | Database Inputs Lecture
-10 | Break
-70 | Database Inputs Lab
+duration (mins) | usage | topic
+--- | --- | ---
+70 | Lecture | Information Inputs
+10 | Break |
+70 | Lab | Information Inputs
 
 Assignments:
 
- + Database Inputs (given and due)
+ + Information Inputs (given and due)
 
-# Week 10 - 11/4/15
+### Week 12 - 11/18/15
 
-duration (mins) | usage
---- | ---
-70 | Database Outputs Lecture
-10 | Break
-70 | Database Outputs Lab
+duration (mins) | usage | topic
+--- | --- | ---
+70 | Lecture | Information Outputs
+10 | Break |
+70 | Lab | Information Outputs
 
 Assignments:
 
- + Database Outputs (given and due)
-
-# Week 11 - 11/11/15
-
-duration (mins) | usage
---- | ---
-70 | TBA - Web Systems Lecture
-10 | Break
-70 | TBA - Web Systems Lab
-
-# Week 12 - 11/18/15
-
-duration (mins) | usage
---- | ---
-70 | TBA - APIs, Scripts, and Automation Lecture
-10 | Break
-70 | TBA - APIs, Scripts, and Automation Lab
+ + Information Outputs (given and due)
 
 
 
@@ -178,36 +184,35 @@ duration (mins) | usage
 
 
 
-
-
-
-
-# Week 13 - 11/25/15
+### Week 13 - 11/25/15
 
 No Class - Thanksgiving
 
-# Week 14 - 12/2/15
+### Week 14 - 12/2/15
 
-duration (mins) | usage
---- | ---
-70 | TBA - Security and Privacy Lecture
-10 | Break
-70 | Group Project Support
+duration (mins) | usage | topic
+--- | --- | ---
+70 | Lecture | TBA - Security and Privacy
+10 | Break |
+70 | Support | Group Project Implementation and Documentation
 
-# Week 15 - 12/9/15
+### Week 15 - 12/9/15
 
-duration (mins) | usage
---- | ---
-150 | Project Final Presentations
+duration (mins) | usage | topic
+--- | --- | ---
+150 | Presentations | Final Group Project Presentations
 
 Assignment(s):
 
- + [Group Project Final Deliverable](assignments/group-project/final-deliverable.md) (due)
+ + [Group Project Final Documentation](assignments/group-project/final-documentation.md) (due)
+ + [Group Project Final Implementation](assignments/group-project/final-presentation.md) (due)
  + [Group Project Final Presentation](assignments/group-project/final-presentation.md) (due)
  + [Meetups](assignments/lab/meetups.md) (due)
 
-# 12/?/15
+### 12/?/15
 
-Final Exam
+duration (mins) | usage | topic
+--- | --- | ---
+150 | Exam | [Final Exam](exams/final.md)
 
 > Refer to https://github.com/gwu-business/istm-4121/issues/10 for info about the final exam schedule.
