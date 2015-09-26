@@ -6,9 +6,6 @@ The midterm exam evaluates students' knowledge of physical and conceptual databa
 
 Students will be provided one or more examples of a physical table design, and are expected to be able to perform the following tasks:
 
- + identify entities
- + identify relationships
- + properly classify relationships
  + identify indices, primary keys, and foreign keys
  + write SQL queries to answer specific questions
 

@@ -1,6 +1,8 @@
 # Schedule
 
-# Week 1 - 9/2/15
+## Module I - Database Usage
+
+### Week 1 - 9/2/15
 
 duration (mins) | usage | topic
 --- | --- | ---
@@ -13,7 +15,7 @@ Assignment(s):
  + [Questionnaire](assignments/lab/questionnaire.md) (given and due)
  + [Meetups](assignments/lab/meetups.md) (given)
 
-# Week 2 - 9/9/15
+### Week 2 - 9/9/15
 
 duration (mins) | usage | topic
 --- | --- | ---
@@ -25,7 +27,7 @@ Assignment(s):
 
  + [Database Management Software](assignments/lab/database-management-software.md) (given and due)
 
-# Week 3 - 9/16/15
+### Week 3 - 9/16/15
 
 duration (mins) | usage | topic
 --- | --- | ---
@@ -38,7 +40,7 @@ Assignment(s):
  + [Group Project Midterm Pitch](assignments/group-project/midterm-pitch.md) (given)
  + [Data Analysis](assignments/lab/data-analysis.md) (given)
 
-# Week 4 - 9/23/15
+### Week 4 - 9/23/15
 
 duration (mins) | usage | topic
 --- | --- | ---
@@ -50,28 +52,22 @@ duration (mins) | usage | topic
 Assignment(s):
 
  + [Data Analysis](assignments/lab/data-analysis.md) (due)
- + [Relational Data Analysis](assignments/lab/relational-data-analysis.md) (given in-class)
- + [Group Project Final Deliverable](assignments/group-project/final-deliverable.md) (given via email by Friday midnight)
- + [Group Project Final Presentation](assignments/group-project/final-presentation.md) (given via email by Friday midnight)
+ + [Relational Data Analysis](assignments/lab/relational-data-analysis.md) (given)
 
-# Week 5 - 9/30/15
+### Week 5 - 9/30/15
 
 duration (mins) | usage | topic
 --- | --- | ---
-50 | Lecture | [Conceptual Database Design](notes/relational-databases/conceptual-design.md), including in-class assignment
-50 | Lab | Entity and Relationship Identification, including in-class assignment
-50 | Lab | Entity Relationship Diagramming (ERDs)
+40 | Lab | [Data Analysis Exercises](/resources/data-analysis/sql-exercises.md)
+40 | Lab | [Physical Design Exercises](/resources/database-design/physical-design-exercises.md)
 10 | Break |
-40 | Support |
+60 | Support | Group Project Business Identification and Analysis
 
 Assignment(s):
 
- + [Data Analysis](assignments/lab/data-analysis.md) (re-submissions accepted by Friday at midnight)
- + [Relational Data Analysis](assignments/lab/relational-data-analysis.md) (due; submissions accepted by Friday at midnight)
- + [Entity and Relationship Identification](assignments/lab/entity-relationship-identification.md) (given and due in-class)
- + [Entity Relationship Diagrams](assignments/lab/entity-relationship-diagramming.md) (given)
+ + [Relational Data Analysis](assignments/lab/relational-data-analysis.md) (due)
 
-# Week 6 - 10/7/15
+### Week 6 - 10/7/15
 
 duration (mins) | usage | topic
 --- | --- | ---
@@ -79,25 +75,52 @@ duration (mins) | usage | topic
 
 Assignment(s):
 
- + [Entity Relationship Diagrams](assignments/lab/entity-relationship-diagramming.md) (due)
  + [Group Project Midterm Pitch](assignments/group-project/midterm-pitch.md) (due)
+ + [Group Project Final Deliverable](assignments/group-project/final-deliverable.md) (given)
+ + [Group Project Final Presentation](assignments/group-project/final-presentation.md) (given)
 
-# Week 7 - 10/14/15
+### Week 7 - 10/14/15
 
 duration (mins) | usage | topic
 --- | --- | ---
 150 | Exam | [Midterm Exam](exams/midterm.md)
 
-# Week 8 - 10/21/15
+
+
+
+
+
+
+
+
+
+## Module II - Database Design
+
+### Week 8 - 10/21/15
 
 duration (mins) | usage | topic
 --- | --- | ---
-70 | Lecture | [Logical Design](notes/relational-databases/logical-design.md)
+50 | Lecture | [Conceptual Database Design](notes/relational-databases/conceptual-design.md)
+50 | Lab | Entity and Relationship Identification, including in-class assignment
+10 | Break |
+40 | Lab | Entity Relationship Diagramming (ERDs)
+
+Assignment(s):
+
+ + [Entity and Relationship Identification](assignments/lab/entity-relationship-identification.md) (given and due in-class)
+ + [Entity Relationship Diagrams](assignments/lab/entity-relationship-diagramming.md) (given)
+
+### Week 9 - 10/28/15
+
+duration (mins) | usage | topic
+--- | --- | ---
+70 | Lecture | [Logical Database Design](notes/relational-databases/logical-design.md)
 10 | Break |
 70 | Lab | Normalization, including in-class assignment
 
 Assignment(s):
 
+ + [Entity Relationship Diagrams](assignments/lab/entity-relationship-diagramming.md) (due)
  + [Normalization](assignments/lab/normalization.md) (given and due)
 
 
@@ -113,20 +136,17 @@ Assignment(s):
 
 
 
+## Module III - Database Applications
 
+### Week 10 - 11/4/15
 
+duration (mins) | usage | topic
+--- | --- | ---
+70 | Lecture | Software
+10 | Break |
+70 | Lab | Software
 
-
-
-
-
-
-
-
-
-
-
-# Week 9 - 10/28/15
+### Week 11 - 11/11/15
 
 duration (mins) | usage | topic
 --- | --- | ---
@@ -136,9 +156,9 @@ duration (mins) | usage | topic
 
 Assignments:
 
- + Database Inputs (given and due)
+ + Information Inputs (given and due)
 
-# Week 10 - 11/4/15
+### Week 12 - 11/18/15
 
 duration (mins) | usage | topic
 --- | --- | ---
@@ -148,23 +168,7 @@ duration (mins) | usage | topic
 
 Assignments:
 
- + Database Outputs (given and due)
-
-# Week 11 - 11/11/15
-
-duration (mins) | usage | topic
---- | --- | ---
-70 | Lecture | Web Applications
-10 | Break |
-70 | Lab | Web Applications
-
-# Week 12 - 11/18/15
-
-duration (mins) | usage | topic
---- | --- | ---
-70 | Lecture | TBA - APIs, Scripts, and Automation
-10 | Break |
-70 | Lab | TBA - APIs, Scripts, and Automation
+ + Information Outputs (given and due)
 
 
 
@@ -179,23 +183,19 @@ duration (mins) | usage | topic
 
 
 
-
-
-
-
-# Week 13 - 11/25/15
+### Week 13 - 11/25/15
 
 No Class - Thanksgiving
 
-# Week 14 - 12/2/15
+### Week 14 - 12/2/15
 
 duration (mins) | usage | topic
 --- | --- | ---
 70 | Lecture | TBA - Security and Privacy
 10 | Break |
-70 | Support |
+70 | Support | Group Project Implementation and Documentation
 
-# Week 15 - 12/9/15
+### Week 15 - 12/9/15
 
 duration (mins) | usage | topic
 --- | --- | ---
@@ -208,7 +208,7 @@ Assignment(s):
  + [Group Project Final Presentation](assignments/group-project/final-presentation.md) (due)
  + [Meetups](assignments/lab/meetups.md) (due)
 
-# 12/?/15
+### 12/?/15
 
 duration (mins) | usage | topic
 --- | --- | ---
