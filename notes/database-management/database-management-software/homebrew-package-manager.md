@@ -16,6 +16,8 @@ After installing Homebrew, close your terminal window and open a new terminal wi
 
 ## Usage
 
-Refer to [DBMS-specific installation instructions](/notes/database-management/software/).
+```` sh
+brew info
+````
 
 Refer to the [Homebrew source code](https://github.com/Homebrew/homebrew) for additional instructions and support.

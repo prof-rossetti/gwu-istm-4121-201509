@@ -37,8 +37,6 @@ If executed, these commands will ensure the mysql server is running, even after 
 
 If there are syntax differences between these commands and the homebrew-suggested commands, refer to the homebrew-suggested commands.
 
-Refer also to these [mysql installation instructions and considerations](http://data-creative.info/process-documentation/2015/07/18/how-to-set-up-a-mac-development-environment.html#mysql).
-
 #### Installing Companion Software
 
 [Sequel Pro](http://www.sequelpro.com/) software provides
@@ -63,6 +61,14 @@ port | 3306 | mysql operates on port 3306 by default
 
 Test the connection and save it to favorites before connecting.
 
+Optionally enable keyword auto-capitalization from the settings menu.
+
 ## Usage
 
 Use MySQL from the command line or from the Sequel Pro interface.
+
+### Person Management
+
+```` sql
+-- todo
+````

@@ -39,8 +39,6 @@ If executed, these commands will ensure the postgresql server is running, even a
 
 If there are syntax differences between these commands and the homebrew-suggested commands, refer to the homebrew-suggested commands.
 
-Refer also to these [postgresql installation instructions and considerations](http://data-creative.info/process-documentation/2015/07/18/how-to-set-up-a-mac-development-environment.html#postgresql).
-
 #### Installing Companion Software
 
 [PG Admin](http://www.pgadmin.org/) software provides
@@ -67,3 +65,9 @@ password | | the postgres user does not come with a pre-defined password; leave 
 ## Usage
 
 Use PostgreSQL from the command line or from the PG Admin interface.
+
+### Person Management
+
+```` sql
+-- todo
+````

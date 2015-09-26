@@ -13,11 +13,11 @@ CREATE DATABASE my_db;
 Remove databases.
 
 ```` sql
-DROP TABLE my_table;
+DROP DATABASE my_db;
 ````
 
 ```` sql
-DROP TABLE IF EXISTS my_table;
+DROP DATABASE IF EXISTS my_db;
 ````
 
 ### Tables
@@ -41,6 +41,28 @@ CREATE TABLE my_well_defined_table (
 );
 ````
 
+```` sql
+CREATE TABLE orders AS (
+    SELECT
+        po.agency AS agency_name
+        ,po.commodity AS commodity_name
+        ,po.supplier AS supplier_name
+       ,str_to_date(
+            concat(
+                concat("20",SUBSTRING_INDEX(po.`Ordered Date`, '-', -1)),
+                "-",
+                SUBSTRING_INDEX(SUBSTRING_INDEX(po.`Ordered Date`, '-', -2), '-', 1),
+                "-",
+                SUBSTRING_INDEX(po.`Ordered Date`, '-', 1)
+            ), '%Y-%b-%d'
+        ) AS order_date
+        ,po.`po_#` AS order_number
+        ,po.`PO Amount` AS order_price
+        ,po.objectid AS order_id
+    FROM purchase_orders AS po
+); -- reference: http://stackoverflow.com/questions/17566573/convert-month-shortname-to-month-number
+````
+
 Remove tables.
 
 ```` sql
@@ -61,6 +83,14 @@ Indices are another physical component of a database.
 ALTER TABLE my_table ADD INDEX(my_index_attribute);
 ````
 
+```` sql
+ALTER TABLE my_table ADD PRIMARY KEY(my_primary_key_attribute);
+````
+
+```` sql
+ALTER TABLE my_db.my_table ADD PRIMARY KEY(first_compisite_key_attribute, second_compisite_key_attribute, another_compisite_key_attribute);
+````
+
 Remove indices.
 
 ```` sql
@@ -71,20 +101,6 @@ Show indices.
 
 ```` sql
 SHOW INDEX FROM my_table;
-````
-
-### Primary Key Indices
-
-Primary keys are a special kind of index that will also be covered later as a physical design concept.
-
-```` sql
-ALTER TABLE my_table ADD PRIMARY KEY(my_primary_key_attribute);
-````
-
-#### Composite Key Indices
-
-```` sql
-ALTER TABLE my_db.my_table ADD PRIMARY KEY(first_ck_attribute, second_ck_attribute);
 ````
 
 ### Data
