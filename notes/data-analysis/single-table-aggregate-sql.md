@@ -82,7 +82,7 @@ Databases share many familiar aggregation functions as spreadsheets. These are t
 ### Distinctness in Aggregations
 
 ```` sql
---- open source dbms only:
+--- open source dbms:
 SELECT
  attribute_m
  ,attribute_n

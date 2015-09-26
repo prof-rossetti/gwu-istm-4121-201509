@@ -68,9 +68,8 @@ They also, of course, need to keep track of the passengers –the frequent-flyer
  + Changing the times for a flight
  + Adding an airplane
 
-## Initial list of assumptions
+## Business Logic Assumptions
 
-Passengers may take many different flights on the same or different days
-Each airplane has its own make, model and number
-Each airplane has its own number but may travel on different flights or days
-For example: The same plane may fly to Minneapolis one day and to New York another.
+ + Passengers may take many different flights on the same or different days.
+ + Each airplane has its own make, model and number.
+ + The same plane may fly to one city one day and to another city on another day.

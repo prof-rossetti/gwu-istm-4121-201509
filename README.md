@@ -1,4 +1,4 @@
-# ISTM 4121
+# ISTM 4121 - Database Design & Applications
 
 This repository contains resources for instructing a university-level course on Database Design & Applications.
 
@@ -23,10 +23,11 @@ This course is described as:
 
 Subject matter traditionally includes:
 
- + The role of Databases within the context of Information Systems (in Businesses and Organizations)
- + Relational Database Usage and Analysis (SQL)
+ + The role of Databases within the context of Information Systems
+ + Data Analysis (SQL) and Relational Database Usage
  + Relational Database Architecture and Design
- + Relational Database System Implementation
+ + Relational Database Implementation
+ + Database Application Implementation
 
 ## Location
 

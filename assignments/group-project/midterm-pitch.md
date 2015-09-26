@@ -6,9 +6,9 @@ Refer to the [Group Project Description](/PROJECT.md).
 
 Identify and research a real-world business problem which may benefit from a relational database system solution. Reference various [business prompt examples](/resources/group-project/examples) which have been provided to students in previous semesters. If your group experiences difficulty finding and describing a business problem, ask an instructor for help, or request to address one of the previously-provided prompts. You may also leverage university [new venture planning resources](http://newventure.gwu.edu/support-resources) for additional guidance.
 
-Describe how a database system can solve the business problem, and describe the objectives and purpose of such a system. Describe the system's information requirements in terms of inputs and outputs.
+Describe how a database system can solve the business problem, and describe the objectives and purpose of such a system. Describe the system's information requirements in terms of inputs and outputs. Optionally provide mock-ups or screenshots of information inputs like forms, and information outputs such as charts and reports.
 
-Produce a preliminary conceptual database design that reflects the business problem and satisfies system objectives.
+Optionally produce a preliminary physical database table design that reflects the business problem and satisfies system objectives.
 
 Present your work to the class and receive feedback.
 
@@ -19,10 +19,8 @@ Your presentation should cover the following content:
   + a business problem summary
   + a description of database system objectives
   + identification of information requirements (inputs and outputs)
-  + identification of entities and relationships
-  + a preliminary ERD
 
-You may optionally include preliminary interface designs, report mock-ups, etc.
+You may optionally include preliminary table designs, interface designs, report mock-ups, etc.
 
 ## Submission Instructions
 

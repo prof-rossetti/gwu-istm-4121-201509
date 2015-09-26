@@ -17,8 +17,8 @@ Lab Assignments | (50% * 40%) | see break-out below
 name | weight
 --- | --- |
 [Mid-term Pitch](assignments/group-project/midterm-pitch.md) | (50% x 60% x 15%)
-[Final Implementation Deliverable](assignments/group-project/final-implementation.md) | (50% x 60% x 25%)
-[Final Documentation Deliverable](assignments/group-project/final-documentation.md) | (50% x 60% x 25%)
+[Final Implementation](assignments/group-project/final-implementation.md) | (50% x 60% x 25%)
+[Final Documentation](assignments/group-project/final-documentation.md) | (50% x 60% x 25%)
 [Final Presentation](assignments/group-project/final-presentation.md) | (50% x 60% x 35%)
 
 ### Lab Assignments

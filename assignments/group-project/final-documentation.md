@@ -4,32 +4,43 @@ Refer to the [Group Project Description](/PROJECT.md).
 
 ## Description
 
-Plan and design a database system to address the business problem and information requirements you identified during the [midterm pitch](midterm-pitch.md).
+Plan and design an information system, including a database and application software, to address the business problem and information requirements you identified during the [midterm pitch](midterm-pitch.md).
 
-Prepare a detailed set of documentation to describe the system, justify its design, and instruct users.
+Prepare a detailed set of documentation to describe the system, justify its design, and instruct users on its use.
 
 It is not uncommon for the documentation to span one or more hundred pages of printed text.
 
 Required Documentation Components:
 
+  + Executive Summary
+  + Table of Contents
   + Business Problem Description
-  + Database System Objectives
-  + Information Requirements Documentation
-    + Info Inputs Identification and Description
-    + Info Outputs Identification and Description
-  + Conceptual and Logical Design Documentation
-    + Entities Identification and Descriptions
-    + Relationships Identification, Classification, and Description
-    + Entity Relationship Diagram (ERD)
-  + Physical Design Documentation
-    + Table Attribute Identification and Descriptions
-    + Data Dictionary
-    + Index Descriptions
-    + Data Backup and Storage Considerations
-  + User Documentation
-    + Information Input Functionality Instructions and Screenshots
-    + Information Output Functionality Instructions and Screenshots
-    + Technical Maintenance/Administration Instructions
+  + Information System Description
+    + System Scope and Objectives
+    + Information Requirements
+      + Information Inputs Identification and Description
+      + Information Outputs Identification and Description
+    + System Security Considerations
+    + System Cost Benefit Analysis
+    + System Design Decisions and Assumptions
+    + System Implementation Toolset Identification
+  + Database Design Description
+    + Conceptual and Logical Design
+      + Entities Identification and Descriptions
+      + Relationships Identification, Classification, and Description
+      + Entity Relationship Diagram (ERD)
+    + Physical Design
+      + Table Attribute Identification and Descriptions
+      + Data Dictionary
+      + Index Descriptions
+      + Data Backup and Storage Considerations
+  + Database Operations
+    + SQL Library (should cover all SQL necessary for processing info inputs into info outputs)
+  + Application Operations
+    + Information Input Functionality Description
+    + Information Output Functionality Description
+  + System Usage Instructions and Considerations
+  + System Administration Instructions and Considerations
 
 ## Submission Instructions
 
