@@ -47,7 +47,7 @@ duration (mins) | usage | topic
 65 | Lecture | [Multi-table SQL](notes/data-analysis/multi-table-sql.md)
 5 | Lecture | [Multi-database SQL](notes/data-analysis/multi-database-sql.md)
 10 | Break |
-70 | Lecture | [Physical Database Design](notes/relational-databases/physical-design.md)
+70 | Lecture | [Physical Database Design](notes/database-design/physical-design.md)
 
 Assignment(s):
 
@@ -76,7 +76,8 @@ duration (mins) | usage | topic
 Assignment(s):
 
  + [Group Project Midterm Pitch](assignments/group-project/midterm-pitch.md) (due)
- + [Group Project Final Deliverable](assignments/group-project/final-deliverable.md) (given)
+ + [Group Project Final Documentation](assignments/group-project/final-documentation.md) (given)
+ + [Group Project Final Implementation](assignments/group-project/final-implementation.md) (given)
  + [Group Project Final Presentation](assignments/group-project/final-presentation.md) (given)
 
 ### Week 7 - 10/14/15
@@ -100,7 +101,7 @@ duration (mins) | usage | topic
 
 duration (mins) | usage | topic
 --- | --- | ---
-50 | Lecture | [Conceptual Database Design](notes/relational-databases/conceptual-design.md)
+50 | Lecture | [Conceptual Database Design](notes/database-design/conceptual-design.md)
 50 | Lab | Entity and Relationship Identification, including in-class assignment
 10 | Break |
 40 | Lab | Entity Relationship Diagramming (ERDs)
@@ -114,7 +115,7 @@ Assignment(s):
 
 duration (mins) | usage | topic
 --- | --- | ---
-70 | Lecture | [Logical Database Design](notes/relational-databases/logical-design.md)
+70 | Lecture | [Logical Database Design](notes/database-design/logical-design.md)
 10 | Break |
 70 | Lab | Normalization, including in-class assignment
 

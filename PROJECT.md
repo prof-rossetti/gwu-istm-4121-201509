@@ -22,7 +22,7 @@ The [Final Documentation](assignments/group-project/final-documentation.md) deli
    and system operation instructions.
 
 The [Final Implementation](assignments/group-project/final-implementation.md) deliverable evaluates student ability to
- implement the system described in their final documentation. Full database functionality is expected. Full software application functionality is desirable, but partial software application functionality is acceptable.
+ implement the system described in their final documentation. Full database functionality is expected. Full software application functionality is desirable, but partial software application functionality is acceptable. Students may leverage [a variety of toolsets](/resources/group-project/toolsets.md) to implement database and application functionality.
 
 The [Final Presentation](assignments/group-project/final-presentation.md) evaluates student ability to
  communicate system design and demonstrate system implementation functionality.

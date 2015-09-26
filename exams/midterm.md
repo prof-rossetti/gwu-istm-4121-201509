@@ -2,7 +2,7 @@
 
 ## Description
 
-The midterm exam evaluates students' knowledge of physical and conceptual database design principles.
+The midterm exam evaluates students' knowledge of database usage and physical database design principles.
 
 Students will be provided one or more examples of a physical table design, and are expected to be able to perform the following tasks:
 
