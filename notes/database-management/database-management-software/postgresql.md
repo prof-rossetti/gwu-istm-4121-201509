@@ -68,6 +68,13 @@ Use PostgreSQL from the command line or from the PG Admin interface.
 
 ### Person Management
 
+Create new database users and manage privileges.
+
+Replace `my_user` with the name of your user, and `my_p@ssword` with the user's password.
+
 ```` sql
--- todo
+SELECT * FROM pg_user;
+CREATE USER my_user WITH ENCRYPTED PASSWORD 'my_p@ssword';
+ALTER USER my_user CREATEDB;
+ALTER USER my_user WITH SUPERUSER;
 ````

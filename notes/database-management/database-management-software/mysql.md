@@ -69,6 +69,12 @@ Use MySQL from the command line or from the Sequel Pro interface.
 
 ### Person Management
 
+Create new database users and manage privileges.
+
+Replace `my_user` with the name of your user, and `my_p@ssword` with the user's password.
+
 ```` sql
--- todo
+SELECT * FROM mysql.user;
+CREATE USER 'my_user'@'localhost' IDENTIFIED BY 'my_p@ssword';
+GRANT ALL ON *.* to 'my_user'@'localhost';
 ````
