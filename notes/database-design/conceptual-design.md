@@ -12,6 +12,15 @@ An entity represents a class of object.
 
 As a matter of practice, each entity is often represented in its own database table.
 
+## Arributes
+
+Describe all or most occurrences of each entity.
+
+An attribute may be an entity.
+
+At least one attribute (could be an attribute or combination of attributes) takes on a unique value for each occurence of an entity. Called an identifier, primary key. 
+
+
 ## Relationships
 
 A relationship describes a logical or natural connection between two entities.
