@@ -16,5 +16,3 @@ id | bicycle_type | make | model | color | wheel_size_inches | student_owner_id
 8 | city | Cannondale  | City Rider    | blue | 19 | 4
 9 | mountain | Trek        | R5-66         | blue | 25 | 7
 9 | mountain | Specialized | Mountain Rider | purple | 23 | 7
-
-> NOTE: this is an advanced, less common type of relationship.

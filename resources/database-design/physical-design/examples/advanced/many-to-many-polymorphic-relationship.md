@@ -27,7 +27,7 @@ id | make | model | color | wheel_size_inches
 ### `rentals`
 
 id | rentable_item_type | rentable_item_id | student_renter_id | rented_at | returned_at
---- | --- | --- | --- | ---
+--- | --- | --- | --- | --- | ---
 1  | Bicycle | 1 | 8 | 2015-01-01 10:01:58 | 2015-01-01 15:30:52
 2  | Bicycle | 2 | 7 | 2015-01-01 10:01:58 | 2015-01-01 15:30:52
 3  | Bicycle | 3 | 6 | 2015-01-01 10:01:58 | 2015-01-01 15:30:52
