@@ -28,4 +28,4 @@ id | make | model | color | wheel_size_inches | student_owner_id
 7 | Cannondale  | Smooth Rider  | orange | 26 | 3
 8 | Cannondale  | City Rider    | blue | 19 | 4
 9 | Trek        | R5-66         | blue | 25 | 7
-9 | Specialized | Mountain Rider | purple | 23 | 7
+10 | Specialized | Mountain Rider | purple | 23 | 7
