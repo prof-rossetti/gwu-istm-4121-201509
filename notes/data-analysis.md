@@ -45,8 +45,8 @@ Single-table:
 
 Relational:
 
- + [todo1](#TODO) (related .csv files)
- + [todo2](#TODO) (examples of differing relationship assumptions)
+ + Any [GTFS dataset](http://www.gtfs-data-exchange.com/agencies) (related .txt files)
+ + [2016 US Presidential Election Data](https://github.com/gwu-business/2016-election-data/tree/master/data) (related .csv files)
 
 <hr>
 

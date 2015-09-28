@@ -1,4 +1,4 @@
-# Relational Databases
+# Relational Database Design
 
 A **relational database** is defined as:
 
@@ -6,9 +6,9 @@ A **relational database** is defined as:
 
 ## Instructional Modules
 
- 1. [Physical Design](relational-databases/physical-design.md)
- * [Conceptual Design](relational-databases/conceptual-design.md)
- * [Logical Design](relational-databases/logical-design.md)
+ 1. [Physical Design](notes/database-design/physical-design.md)
+ * [Conceptual Design](notes/database-design/conceptual-design.md)
+ * [Logical Design](notes/database-design/logical-design.md)
 
 <hr>
 
