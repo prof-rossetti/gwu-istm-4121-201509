@@ -10,24 +10,30 @@ Entities are nouns within the scope of your database design.
 
 An entity represents a class of object.
 
-As a matter of practice, each entity is often represented in its own database table.
+Each entity is often represented by its own database table.
 
-## Arributes
+### Attributes
 
-Describe all or most occurrences of each entity.
+An entity has one or more **attributes**, each of which corresponds to a column in a database table.
 
-An attribute may be an entity.
+At least one attribute or combination of attributes comprise the primary key, or unique identifier, for each occurrence of an entity.
+ Refer to [physical design notes](/notes/database-design/physical-design.md) for more information about primary keys and index attributes.
 
-At least one attribute (could be an attribute or combination of attributes) takes on a unique value for each occurence of an entity. Called an identifier, primary key. 
+### Instances
 
+Given the definition of an entity is a class of object, an **instance** is a specific occurrence of that object class.
+
+Each record, or row, in a database table represents a separate instance.
 
 ## Relationships
 
 A relationship describes a logical or natural connection between two entities.
 
+Related attributes form the basis for the relationship representation.
+
 Relationships are verbs within the scope of your database design.
 
-As a matter of practice, some but not all relationships require the addition of extra tables.
+Some but not all relationships require the addition of extra tables.
 
 ### Relationship Classifications
 
@@ -61,7 +67,7 @@ bicycle_id | student_id
 2 | 2
 2 | 3
 
-Other join tables, in addition to carrying the related attributes, also  carry their own attributes, which makes them eligible for consideration as their own separate entities.
+Other join tables, in addition to carrying the related attributes, also carry their own attributes, which makes them eligible for consideration as stand-alone entities.
 
 bicycle_id | student_id | rented_at
 --- | --- | ---
@@ -72,7 +78,7 @@ bicycle_id | student_id | rented_at
 2 | 2 | 2015-10-05 14:00:00
 2 | 3 | 2015-10-06 14:00:00
 
-For join tables that are entities, is acceptable to create an additional attribute to serve as the primary key.
+For join tables that are stand-alone entities, is acceptable to include an additional attribute to serve as the primary key.
 
 id | bicycle_id | student_id | rented_at
 --- | --- | --- | ---
