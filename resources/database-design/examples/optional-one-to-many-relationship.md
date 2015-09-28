@@ -15,7 +15,7 @@ id | first_name | last_name | net_id | immunized | gender
 7 | Jen | Yi | jyi | true | female
 8 | Anna | Jett | amjet42 | true | female
 
-#### `bicycles`
+### `bicycles`
 
 id | make | model | color | wheel_size_inches | student_owner_id
 --- | --- | --- | --- | --- | ---

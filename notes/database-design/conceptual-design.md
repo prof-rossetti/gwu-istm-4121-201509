@@ -22,9 +22,14 @@ As a matter of practice, some but not all relationships require the addition of 
 
 ### Relationship Classifications
 
-In relational databases, there are three types of relationship cardinalities and two types of relationship optionalities, which combine to form six different general classifications of relationship.
+In relational databases, there are three main types of relationship cardinalities and two types of relationship optionalities, which combine to form six different general classifications of relationship.
 
 Relationship classifications are a function of both actual and intended data behavior. Examine with care existing data and business logic and process assumptions to arrive at the proper relationship classifications.
+
+#### Relationship Optionality
+
+ + Required (*must have*)
+ + Optional (*may have*)
 
 #### Relationship Cardinality
 
@@ -32,9 +37,39 @@ Relationship classifications are a function of both actual and intended data beh
  + One-to-many
  + Many-to-many
 
-> Many-to-many relationships require the addition of a separate "join table" to properly form the relationships.
+##### Join Tables
 
-#### Relationship Optionality
+Many-to-many relationships require the addition of a separate "join table" to properly form the relationship.
 
- + Required (*must have*)
- + Optional (*may have*)
+Some join tables only contain two attributes: one for joining each of the other related tables. These attributes form a composite primary key.
+
+bicycle_id | student_id
+--- | ---
+1 | 1
+1 | 2
+1 | 3
+2 | 1
+2 | 2
+2 | 3
+
+Other join tables, in addition to carrying the related attributes, also  carry their own attributes, which makes them eligible for consideration as their own separate entities.
+
+bicycle_id | student_id | rented_at
+--- | --- | ---
+1 | 1 | 2015-10-01 14:00:00
+1 | 2 | 2015-10-02 14:00:00
+1 | 3 | 2015-10-03 14:00:00
+2 | 1 | 2015-10-04 14:00:00
+2 | 2 | 2015-10-05 14:00:00
+2 | 3 | 2015-10-06 14:00:00
+
+For join tables that are entities, is acceptable to create an additional attribute to serve as the primary key.
+
+id | bicycle_id | student_id | rented_at
+--- | --- | --- | ---
+1 | 1 | 1 | 2015-10-01 14:00:00
+2 | 1 | 2 | 2015-10-02 14:00:00
+3 | 1 | 3 | 2015-10-03 14:00:00
+4 | 2 | 1 | 2015-10-04 14:00:00
+5 | 2 | 2 | 2015-10-05 14:00:00
+6 | 2 | 3 | 2015-10-06 14:00:00

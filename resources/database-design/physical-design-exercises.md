@@ -4,7 +4,7 @@
 
 For each [example relational database table design](/resources/database-design/examples):
 
-  + Identify all known or likely indices and specify which are primary keys and which are foreign keys, as applicable
+  + Identify all known or likely indices and specify which are primary keys and which are foreign keys, as applicable.
   + Write a simple query to join the two tables together.
 
 Explicitly state your assumptions to provide additional justification for your answers.
