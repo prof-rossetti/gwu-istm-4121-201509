@@ -22,3 +22,7 @@ If not, [download SQLite](https://www.sqlite.org/download.html) from source.
 #### Personal Computers
 
 [Download SQLite](https://www.sqlite.org/download.html) from source.
+
+## Resources
+
+ + [SQLite Documentation](https://www.sqlite.org/docs.html)

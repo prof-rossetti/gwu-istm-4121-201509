@@ -27,7 +27,7 @@ Each record, or row, in a database table represents a separate instance.
 
 ## Relationships
 
-A relationship describes a logical or natural connection between two entities.
+A **relationship** describes a logical or natural connection between two entities.
 
 Related attributes form the basis for the relationship representation.
 

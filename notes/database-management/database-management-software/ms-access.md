@@ -23,3 +23,8 @@ Use MS Access for a variety of database system functions.
 ### Forms
 
 ### Reports
+
+## Reference
+
++ [MS Access SQL Documentation](https://msdn.microsoft.com/en-us/library/office/ff841692.aspx)
++ [MS Access Video Tutorials](https://www.youtube.com/view_play_list?p=4DD96CF7EF8C1955)

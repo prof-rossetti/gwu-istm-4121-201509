@@ -78,3 +78,10 @@ SELECT * FROM mysql.user;
 CREATE USER 'my_user'@'localhost' IDENTIFIED BY 'my_p@ssword';
 GRANT ALL ON *.* to 'my_user'@'localhost';
 ````
+
+## Reference
+
++ [MySQL Language Documentation](http://dev.mysql.com/doc/refman/5.7/en/language-structure.html)
++ [MySQL Syntax Documentation](http://dev.mysql.com/doc/refman/5.7/en/sql-syntax.html)
++ [MySQL Functions Documentation](http://dev.mysql.com/doc/refman/5.7/en/functions.html)
++ [MySQL Tutorial](http://dev.mysql.com/doc/refman/5.7/en/tutorial.html)

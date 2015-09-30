@@ -78,3 +78,8 @@ CREATE USER my_user WITH ENCRYPTED PASSWORD 'my_p@ssword';
 ALTER USER my_user CREATEDB;
 ALTER USER my_user WITH SUPERUSER;
 ````
+
+## Reference
+
++ [PostgreSQL Documentation](http://www.postgresql.org/docs/9.1/static/sql.html)
++ [PostgreSQL SQL Tutorial](http://www.postgresql.org/docs/9.1/static/tutorial-sql.html)
