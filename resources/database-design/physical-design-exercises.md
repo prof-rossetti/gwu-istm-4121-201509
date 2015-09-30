@@ -2,7 +2,8 @@
 
 ## Description
 
-For each [example relational database table design](/resources/database-design/physical-design/examples):
+For each [example relational database table design](/resources/database-design/physical-design/examples)
+ and each [instructional relational dataset](https://github.com/gwu-business/istm-4121/blob/master/notes/data-analysis.md#instructional-datasets):
 
   + Identify all known or likely indices and specify which are primary keys and which are foreign keys, as applicable.
   + Write a simple query to join the two tables together.
