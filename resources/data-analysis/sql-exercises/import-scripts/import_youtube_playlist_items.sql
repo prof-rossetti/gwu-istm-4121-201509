@@ -1,3 +1,7 @@
+-- mysql:
+
+DROP TABLE IF EXISTS youtube_playlist_items;
+
 CREATE TABLE `youtube_playlist_items` (
   `id` varchar(255) DEFAULT NULL,
   `playlist_id` varchar(255) DEFAULT NULL,
@@ -12,3 +16,20 @@ CREATE TABLE `youtube_playlist_items` (
   `created_at` varchar(255) DEFAULT NULL,
   `updated_at` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+ALTER TABLE youtube_playlist_items ADD PRIMARY KEY(id);
+ALTER TABLE youtube_playlist_items ADD INDEX(playlist_id);
+ALTER TABLE youtube_playlist_items ADD INDEX(resource_type);
+ALTER TABLE youtube_playlist_items ADD INDEX(resource_id);
+
+LOAD DATA LOCAL INFILE '~/projects/gwu-business/2016-campaign-data/data/youtube_playlist_items.csv'
+INTO TABLE youtube_playlist_items
+FIELDS
+  TERMINATED BY ','
+  ENCLOSED BY '"'
+LINES TERMINATED BY '\n' -- mac-style line breaks
+  IGNORE 1 LINES
+;
+
+--  inspect table data
+SELECT * FROM election_data.youtube_playlist_items;

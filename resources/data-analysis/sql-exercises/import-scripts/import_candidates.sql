@@ -1,3 +1,5 @@
+-- mysql:
+
 -- so self explainatory
 DROP TABLE IF EXISTS candidates;
 

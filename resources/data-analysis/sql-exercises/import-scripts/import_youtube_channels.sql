@@ -1,3 +1,7 @@
+-- mysql:
+
+DROP TABLE IF EXISTS youtube_channels;
+
 CREATE TABLE `youtube_channels` (
   `id` varchar(255) DEFAULT NULL,
   `owner_type` varchar(255) DEFAULT NULL,
@@ -12,3 +16,20 @@ CREATE TABLE `youtube_channels` (
   `created_at` varchar(255) DEFAULT NULL,
   `updated_at` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+ALTER TABLE youtube_channels ADD PRIMARY KEY(id);
+ALTER TABLE youtube_channels ADD INDEX(owner_type);
+ALTER TABLE youtube_channels ADD INDEX(owner_id);
+
+LOAD DATA LOCAL INFILE '~/projects/gwu-business/2016-campaign-data/data/youtube_channels.csv'
+INTO TABLE youtube_channels
+FIELDS
+  TERMINATED BY ','
+  ENCLOSED BY '"'
+LINES TERMINATED BY '\n' -- mac-style line breaks
+  IGNORE 1 LINES
+;
+
+--  inspect table data
+SELECT * FROM election_data.youtube_channels;
