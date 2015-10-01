@@ -1,0 +1,11 @@
+CREATE TABLE `youtube_video_measures` (
+  `id` int(11) DEFAULT NULL,
+  `video_id` varchar(255) DEFAULT NULL,
+  `view_count` int(11) DEFAULT NULL,
+  `like_count` int(11) DEFAULT NULL,
+  `dislike_count` int(11) DEFAULT NULL,
+  `favorite_count` int(11) DEFAULT NULL,
+  `comment_count` int(11) DEFAULT NULL,
+  `created_at` varchar(255) DEFAULT NULL,
+  `updated_at` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;

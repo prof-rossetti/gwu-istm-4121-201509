@@ -6,6 +6,8 @@ Download the
 
 Reference the [schema diagram](https://github.com/gwu-business/2016-campaign-data/tree/master/design/erd.svg) for more information about the database's physical design properties. Not all tables represented in the diagram have been made available.
 
+Reference [YouTube Data API documentation](https://developers.google.com/youtube/v3/docs/) for additional context.
+
 Choose appropriate datatypes, and add indices and primary keys as applicable to replicate the database's specified physical design.
 
 Refer to the specific questions below. For each, answer it using one or more English sentences followed by one or more SQL queries you used to arrive at each each answer.

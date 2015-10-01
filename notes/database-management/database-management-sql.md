@@ -73,7 +73,7 @@ DROP TABLE my_table;
 DROP TABLE IF EXISTS my_table;
 ````
 
-### Indices
+### Index Attributes
 
 Indices are another physical component of a database.
  They will be introduced later in the semester
@@ -118,6 +118,29 @@ VALUES
   ('Fluffy','George Washington','dog','m','1756-10-28', NULL),
   ('Ruffles','George Washington','dog','f','1766-09-01', NULL)
 ;
+````
+
+Load records from a text file.
+
+```` sql
+LOAD DATA LOCAL INFILE '~/Desktop/some_file.txt'
+INTO TABLE my_well_defined_table
+FIELDS
+  TERMINATED BY ','
+  ENCLOSED BY '"'
+LINES TERMINATED BY '\r\n' -- windows-style line breaks
+-- LINES TERMINATED BY '\n' -- mac-style line breaks
+IGNORE 1 LINES
+;
+/*
+data importation references:
+  + https://dev.mysql.com/doc/refman/5.0/en/loading-tables.html
+  + https://dev.mysql.com/doc/refman/5.0/en/insert.html
+  + https://dev.mysql.com/doc/refman/5.0/en/load-data.html
+  + csv/txt line break characters:
+    + windows: '\r\n'
+    + mac: either '\n' (OS-X), or '\r' (OS-9 and earlier)
+*/
 ````
 
 Remove records from a table.

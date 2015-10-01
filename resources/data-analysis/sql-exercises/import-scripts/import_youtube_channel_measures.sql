@@ -1,0 +1,11 @@
+CREATE TABLE `youtube_channel_measures` (
+  `id` int(11) DEFAULT NULL,
+  `channel_id` varchar(255) DEFAULT NULL,
+  `view_count` int(11) DEFAULT NULL,
+  `subscriber_count` int(11) DEFAULT NULL,
+  `comment_count` int(11) DEFAULT NULL,
+  `video_count` int(11) DEFAULT NULL,
+  `hidden_subscriber_count` varchar(255) DEFAULT NULL,
+  `created_at` varchar(255) DEFAULT NULL,
+  `updated_at` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
