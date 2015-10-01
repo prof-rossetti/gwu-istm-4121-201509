@@ -102,8 +102,9 @@ ORDER BY publishings_per_day DESC
 
 ```` sql
 -- What single video for each candidate has been the most successful, in terms of:
--- total viewers?
+-- ... total viewers?
 -- mysql:
+
 SELECT
   zz.candidate_id
   ,zz.candidate_full_name
@@ -112,6 +113,11 @@ SELECT
      ',',
      1
    ) AS video_id_with_most_views
+   ,substring_index(
+     group_concat(zz.video_title ORDER BY max_view_count DESC),
+     ',',
+     1
+   ) AS video_title_with_most_views
    ,max(max_view_count) AS view_count -- assumes view counts can only increase over time
    ,max(max_measured_at) AS measured_at
 FROM (
@@ -122,6 +128,7 @@ FROM (
       ,yv.channel_id
       ,yc.title AS channel_title
       ,yvm.video_id
+      ,yv.title AS video_title
       ,substring_index(
        group_concat(yvm.id ORDER BY yvm.view_count DESC),
        ',',
@@ -133,23 +140,76 @@ FROM (
     JOIN youtube_videos yv ON yv.id = yvm.video_id
     JOIN youtube_channels yc ON yc.id = yv.channel_id
     JOIN candidates c ON c.id = yc.owner_id AND yc.owner_type = "Candidate"
-    GROUP BY candidate_id, candidate_full_name, channel_id, channel_title, video_id
+    GROUP BY candidate_id, candidate_full_name, channel_id, channel_title, video_id, video_title
 ) zz
 GROUP BY candidate_id, candidate_full_name
 ORDER BY view_count DESC
+-- resources: http://stackoverflow.com/a/23608554/670433
 ````
-
 
 ### Question 6 - Example SQL
 
-
 ```` sql
--- _________
+-- Of all the videos, which 25 have been watched the most, and how many times has each been watched?
+
+-- mysql:
+
+-- row per video
+SELECT
+  yv.channel_id
+  ,yc.title AS channel_title
+  ,zz.video_id
+  ,yv.title AS video_title
+  ,max(yvm.view_count) AS max_view_count
+FROM (
+    -- top 25 videos in terms of views (row per video)
+    SELECT DISTINCT video_id
+    FROM youtube_video_measures
+    ORDER BY view_count DESC
+    LIMIT 25
+) zz
+JOIN youtube_videos yv ON yv.id = zz.video_id
+LEFT JOIN youtube_channels yc ON yv.channel_id = yc.id -- NOT ALL VIDEOS HAVE CHANNELS!!
+JOIN youtube_video_measures yvm ON yvm.video_id = yv.id
+GROUP BY channel_id, channel_title, video_id, video_title
+ORDER BY max_view_count DESC
 ````
 
 ### Question 7 - Example SQL
 
 
 ```` sql
--- _________
+-- Which five candidate's youtube channels are the most successful, in terms of:
+-- ... total viewers?
+
+-- mysql:
+
+SELECT
+ c.id AS candidate_id
+ ,concat(c.first_name, " ", c.last_name) AS candidate_full_name
+ ,yc.id AS channel_id
+ ,yc.title AS channel_title
+ ,max(ycm.view_count) AS max_view_count
+FROM candidates c
+JOIN youtube_channels yc ON (yc.owner_id = c.id AND yc.owner_type = "Candidate")
+LEFT JOIN youtube_channel_measures ycm ON ycm.channel_id = yc.id
+GROUP BY candidate_id, candidate_full_name, channel_id, channel_title
+ORDER BY max_view_count DESC
+LIMIT 5
 ````
+
+<hr>
+
+# Lessons Learned
+
+## Choose your Tools
+
+## Virtual Attributes
+
+Virtual attributes can be formed/calculated from database-stored attributes.
+
+ + `candidates.full_name` was created from concatenating `candidates.first_name` with `candidates.first_name`
+
+## Don't make-up answers
+
+## Test your answers
