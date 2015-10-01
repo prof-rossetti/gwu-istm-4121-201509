@@ -103,43 +103,41 @@ ORDER BY publishings_per_day DESC
 ```` sql
 -- What single video for each candidate has been the most successful, in terms of:
 -- total viewers?
-
-
-
-
-
+-- mysql:
+SELECT
+  zz.candidate_id
+  ,zz.candidate_full_name
+  ,substring_index(
+     group_concat(zz.video_id ORDER BY max_view_count DESC),
+     ',',
+     1
+   ) AS video_id_with_most_views
+   ,max(max_view_count) AS view_count -- assumes view counts can only increase over time
+   ,max(max_measured_at) AS measured_at
+FROM (
+    -- row per video
+    SELECT
+      c.id AS candidate_id
+      ,concat(c.first_name, " ", c.last_name) AS candidate_full_name
+      ,yv.channel_id
+      ,yc.title AS channel_title
+      ,yvm.video_id
+      ,substring_index(
+       group_concat(yvm.id ORDER BY yvm.view_count DESC),
+       ',',
+       1
+     ) AS max_measure_id
+     ,max(yvm.view_count) AS max_view_count -- assumes view counts can only increase over time
+     ,max(yvm.created_at) AS max_measured_at
+    FROM youtube_video_measures yvm
+    JOIN youtube_videos yv ON yv.id = yvm.video_id
+    JOIN youtube_channels yc ON yc.id = yv.channel_id
+    JOIN candidates c ON c.id = yc.owner_id AND yc.owner_type = "Candidate"
+    GROUP BY candidate_id, candidate_full_name, channel_id, channel_title, video_id
+) zz
+GROUP BY candidate_id, candidate_full_name
+ORDER BY view_count DESC
 ````
-
-```` sql
--- What single video for each candidate has been the most successful, in terms of:
--- total views?
-
-
-
-````
-
-```` sql
--- What single video for each candidate has been the most successful, in terms of:
--- average views per video?
-
-
-
-
-
-
-
-````
-
-```` sql
--- What single video for each candidate has been the most successful, in terms of:
--- average views per day per video?
-
-
-
-
-````
-
-
 
 
 ### Question 6 - Example SQL
