@@ -10,8 +10,8 @@ CREATE TABLE `youtube_channel_measures` (
   `comment_count` int(11) DEFAULT NULL,
   `video_count` int(11) DEFAULT NULL,
   `hidden_subscriber_count` varchar(255) DEFAULT NULL,
-  `created_at` varchar(255) DEFAULT NULL,
-  `updated_at` varchar(255) DEFAULT NULL
+  `created_at` datetime DEFAULT NULL,
+  `updated_at` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 ALTER TABLE youtube_channel_measures ADD PRIMARY KEY(id);

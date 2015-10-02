@@ -8,7 +8,7 @@ CREATE TABLE `youtube_videos` (
   `channel_id` varchar(255) DEFAULT NULL,
   `title` varchar(255) DEFAULT NULL,
   `description` text,
-  `published_at` varchar(255) DEFAULT NULL,
+  `published_at` datetime DEFAULT NULL,
   `thumbnails` text,
   `category_id` int(11) DEFAULT NULL,
   `live_broadcast_content` varchar(255) DEFAULT NULL,
@@ -22,12 +22,12 @@ CREATE TABLE `youtube_videos` (
   `license` varchar(255) DEFAULT NULL,
   `embeddable` varchar(255) DEFAULT NULL,
   `public_stats_viewable` varchar(255) DEFAULT NULL,
-  `player_html` varchar(255) DEFAULT NULL,
-  `topic_ids` varchar(255) DEFAULT NULL,
-  `relevant_topic_ids` varchar(255) DEFAULT NULL,
+  `player_html` text DEFAULT NULL,
+  `topic_ids` text DEFAULT NULL,
+  `relevant_topic_ids` text DEFAULT NULL,
   `tags` text,
-  `created_at` varchar(255) DEFAULT NULL,
-  `updated_at` varchar(255) DEFAULT NULL
+  `created_at` datetime DEFAULT NULL,
+  `updated_at` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 

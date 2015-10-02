@@ -1,18 +1,17 @@
 # SQL Exercises
 
-Download the
- [2016 US Presidential Election Campaign Data](https://github.com/gwu-business/2016-campaign-data/tree/master/data)
- and use a DBMS to import the related .csv files as new tables in a new relational database.
+Download the [2016 US Presidential Campaign Data](https://github.com/gwu-business/2016-campaign-data/tree/master/data).
+ Use a DBMS to import each of the related .csv files into a new database table.
 
-Reference the [schema diagram](https://github.com/gwu-business/2016-campaign-data/tree/master/design/erd.svg) for more information about the database's physical design properties. Not all tables represented in the diagram have been made available.
+During or after import, choose appropriate datatypes, and add indices and primary keys as applicable to replicate the database's specified physical design.
 
-Reference [YouTube Data API documentation](https://developers.google.com/youtube/v3/docs/) for additional context.
+Reference the [schema diagram](https://github.com/gwu-business/2016-campaign-data/tree/master/design/erd.svg) for more information about the database's physical design properties. Note: not all tables represented in the diagram have been published.
 
-Choose appropriate datatypes, and add indices and primary keys as applicable to replicate the database's specified physical design.
-
-Refer to the specific questions below. For each, answer it using one or more English sentences followed by one or more SQL queries you used to arrive at each each answer.
+Reference the [YouTube Data API documentation](https://developers.google.com/youtube/v3/docs/) for additional subject matter context.
 
 ## Questions
+
+For each question listed below, answer it using one or more English sentences followed by one or more SQL queries to demonstrate how you arrived at your answer. Optionally include tabular data or screenshots.
 
 According to the database:
 
@@ -33,9 +32,7 @@ According to the database:
    + average views per video?
    + average views per day per video?
 
-> Add your own questions to this list!
-
-If the dataset does not perfectly or accurately represent information from the real-world, answer these questions in terms of database data.
+> [Edit](https://github.com/gwu-business/istm-4121/edit/master/resources/data-analysis/sql-exercises.md) this list to provide your own fun/interesting questions!
 
 <hr>
 
@@ -51,7 +48,8 @@ FROM candidates;
 ```` sql
 -- or, depending on how fancy/precise you want to get...
 -- postgresql:
-SELECT array_agg(c.full_name) as list_of_names
+SELECT
+  array_agg(c.full_name) as list_of_names
 FROM (
     SELECT DISTINCT concat(first_name, ' ', last_name) as full_name
     FROM candidates

@@ -10,8 +10,8 @@ CREATE TABLE `youtube_video_measures` (
   `dislike_count` int(11) DEFAULT NULL,
   `favorite_count` int(11) DEFAULT NULL,
   `comment_count` int(11) DEFAULT NULL,
-  `created_at` varchar(255) DEFAULT NULL,
-  `updated_at` varchar(255) DEFAULT NULL
+  `created_at` datetime DEFAULT NULL,
+  `updated_at` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 ALTER TABLE youtube_video_measures ADD PRIMARY KEY(id);

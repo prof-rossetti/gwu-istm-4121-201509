@@ -9,12 +9,12 @@ CREATE TABLE `youtube_channels` (
   `etag` varchar(255) DEFAULT NULL,
   `title` varchar(255) DEFAULT NULL,
   `description` text,
-  `published_at` varchar(255) DEFAULT NULL,
+  `published_at` datetime DEFAULT NULL,
   `thumbnails` text,
   `related_playlists` varchar(255) DEFAULT NULL,
   `google_plus_user_id` varchar(255) DEFAULT NULL,
-  `created_at` varchar(255) DEFAULT NULL,
-  `updated_at` varchar(255) DEFAULT NULL
+  `created_at` datetime DEFAULT NULL,
+  `updated_at` datetime DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 
