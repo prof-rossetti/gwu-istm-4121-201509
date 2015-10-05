@@ -31,6 +31,10 @@ CREATE TABLE my_table;
 ````
 
 ```` sql
+CREATE TABLE IF EXISTS my_table;
+````
+
+```` sql
 CREATE TABLE my_well_defined_table (
   name VARCHAR(20),
   owner VARCHAR(20),
@@ -42,25 +46,9 @@ CREATE TABLE my_well_defined_table (
 ````
 
 ```` sql
-CREATE TABLE orders AS (
-    SELECT
-        po.agency AS agency_name
-        ,po.commodity AS commodity_name
-        ,po.supplier AS supplier_name
-       ,str_to_date(
-            concat(
-                concat("20",SUBSTRING_INDEX(po.`Ordered Date`, '-', -1)),
-                "-",
-                SUBSTRING_INDEX(SUBSTRING_INDEX(po.`Ordered Date`, '-', -2), '-', 1),
-                "-",
-                SUBSTRING_INDEX(po.`Ordered Date`, '-', 1)
-            ), '%Y-%b-%d'
-        ) AS order_date
-        ,po.`po_#` AS order_number
-        ,po.`PO Amount` AS order_price
-        ,po.objectid AS order_id
-    FROM purchase_orders AS po
-); -- reference: http://stackoverflow.com/questions/17566573/convert-month-shortname-to-month-number
+CREATE TABLE my_table_copy AS (
+    SELECT * FROM my_table
+);
 ````
 
 Remove tables.

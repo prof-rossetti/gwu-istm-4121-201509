@@ -46,3 +46,29 @@ Else 87% credit for a well-written or adequate analysis accompanied by supportin
 Else 66% credit for a well-written or adequate or inadequate analysis lacking proper related supporting evidence.
 
 Else no credit.
+
+<hr>
+
+## Support
+
+```` sql
+-- mysql:
+SELECT
+    po.agency AS agency_name
+    ,po.commodity AS commodity_name
+    ,po.supplier AS supplier_name
+   ,str_to_date(
+        concat(
+            concat("20",SUBSTRING_INDEX(po.`Ordered Date`, '-', -1)),
+            "-",
+            SUBSTRING_INDEX(SUBSTRING_INDEX(po.`Ordered Date`, '-', -2), '-', 1),
+            "-",
+            SUBSTRING_INDEX(po.`Ordered Date`, '-', 1)
+        ), '%Y-%b-%d'
+    ) AS order_date -- string formatted as date
+    ,po.`po_#` AS order_number
+    ,po.`PO Amount` AS order_price
+    ,po.objectid AS order_id
+FROM purchase_orders AS po
+); -- reference: http://stackoverflow.com/questions/17566573/convert-month-shortname-to-month-number
+````

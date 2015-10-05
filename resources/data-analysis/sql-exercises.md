@@ -5,7 +5,7 @@ Download the [2016 US Presidential Campaign Data](https://github.com/gwu-busines
 
 During or after import, choose appropriate datatypes, and add indices and primary keys as applicable to replicate the database's specified physical design.
 
-Reference the [schema diagram](https://github.com/gwu-business/2016-campaign-data/tree/master/design/erd.svg) for more information about the database's physical design properties. Note: not all tables represented in the diagram have been published.
+Reference the [schema diagram](https://github.com/gwu-business/2016-campaign-data/tree/master/design/erd.svg) for more information about the database's physical design properties. Note: not all tables represented in the diagram may have been published.
 
 Reference the [YouTube Data API documentation](https://developers.google.com/youtube/v3/docs/) for additional subject matter context.
 
