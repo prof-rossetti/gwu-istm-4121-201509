@@ -8,8 +8,10 @@ Find a real world
  Try searching [data.gov](http://www.data.gov/),
  [opendata.dc.gov](http://opendata.dc.gov/),  or other open data websites. If you get stuck, you may choose one of the following suggested datasets:
 
- + [Washington DC Parks](http://opendata.dc.gov/datasets/03cc82b08d694632b3a6e32aaf501272_3?uiTab=table&orderByFields=SHAPE_Area+ASC)
- + [Washington DC Purchase Orders](http://opendata.dc.gov/datasets/f61f962c2ce84f2caa1919d425c8061d_0?uiTab=table)
+ + [Washington DC Parks](http://opendata.dc.gov/datasets/287eaa2ecbff4d699762bbc6795ffdca_9)
+ + [Washington DC Purchase Orders](http://opendata.dc.gov/datasets/f61f962c2ce84f2caa1919d425c8061d_0)
+
+Reference also these [dataset copies](https://github.com/gwu-business/washington-dc-open-data).
 
 Download the corresponding .csv or .txt file(s).
 
@@ -46,29 +48,3 @@ Else 87% credit for a well-written or adequate analysis accompanied by supportin
 Else 66% credit for a well-written or adequate or inadequate analysis lacking proper related supporting evidence.
 
 Else no credit.
-
-<hr>
-
-## Support
-
-```` sql
--- mysql:
-SELECT
-    po.agency AS agency_name
-    ,po.commodity AS commodity_name
-    ,po.supplier AS supplier_name
-   ,str_to_date(
-        concat(
-            concat("20",SUBSTRING_INDEX(po.`Ordered Date`, '-', -1)),
-            "-",
-            SUBSTRING_INDEX(SUBSTRING_INDEX(po.`Ordered Date`, '-', -2), '-', 1),
-            "-",
-            SUBSTRING_INDEX(po.`Ordered Date`, '-', 1)
-        ), '%Y-%b-%d'
-    ) AS order_date -- string formatted as date
-    ,po.`po_#` AS order_number
-    ,po.`PO Amount` AS order_price
-    ,po.objectid AS order_id
-FROM purchase_orders AS po
-); -- reference: http://stackoverflow.com/questions/17566573/convert-month-shortname-to-month-number
-````
