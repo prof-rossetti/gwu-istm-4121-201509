@@ -28,10 +28,5 @@ Upload a presentation .pdf file to [Blackboard](https://blackboard.gwu.edu/webap
 
 ## Evaluation Methodology
 
-Students and instructors will evaluate each presentation in terms of content and delivery. Students may not evaluate their own presentations.
-
-Evaluators will have the opportunity to ask questions and provide feedback at the end of each presentation.
-
-Evaluators will assign each presentation an integer grade from 0 to 100.
-
-Evaluations will be averaged to produce the final group grade for each presentation.
+Instructors will evaluate each presentation in terms of content and delivery,
+ and assign each presentation a number grade from 1 to 100.
