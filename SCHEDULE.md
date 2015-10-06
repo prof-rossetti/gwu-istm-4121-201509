@@ -143,17 +143,18 @@ Assignment(s):
 
 duration (mins) | usage | topic
 --- | --- | ---
-70 | Lecture | Software
+35 | Lecture | Information Inputs
+35 | Lecture | Information Outputs
 10 | Break |
-70 | Lab | Software
+70 | Lab | MS Access Forms and Reports
 
 ### Week 11 - 11/11/15
 
 duration (mins) | usage | topic
 --- | --- | ---
-70 | Lecture | Information Inputs
+70 | Lecture | Web Forms and Reports
 10 | Break |
-70 | Lab | Information Inputs
+70 | Lab | Web Forms and Reports, including in-class assignment
 
 Assignments:
 
@@ -163,9 +164,9 @@ Assignments:
 
 duration (mins) | usage | topic
 --- | --- | ---
-70 | Lecture | Information Outputs
+70 | Lecture | Tableau Reports
 10 | Break |
-70 | Lab | Information Outputs
+70 | Lab | Tableau Reports, including in-class assignment
 
 Assignments:
 
@@ -192,7 +193,7 @@ No Class - Thanksgiving
 
 duration (mins) | usage | topic
 --- | --- | ---
-70 | Lecture | TBA - Security and Privacy
+70 | Lecture | TBA - Security and Privacy; or APIs and Scripting
 10 | Break |
 70 | Support | Group Project Implementation and Documentation
 
