@@ -15,18 +15,9 @@ GROUP BY attribute_m
 ````
 
 When grouping by one or more attributes,
- each attribute in the select clause must either be
+ each attribute in the select clause should either be
   included in the group by clause,
   or aggregated as part of an aggregate function.
-
-```` sql
-SELECT
- attribute_m
- ,attribute_n
- ,count(attribute_x) as x_count
-FROM table_z
-GROUP BY attribute_m, attribute_n
-````
 
 ```` sql
 SELECT
@@ -38,7 +29,7 @@ FROM table_z
 GROUP BY attribute_m, attribute_n
 ````
 
-> As a matter of practice, avoid `COUNT(*)` in favor of either `COUNT(attribute_name)` or `COUNT(DISTINCT attribute_name)`
+Do not count or otherwise aggregate attributes used in grouping. Avoid `COUNT(*)` in favor of either `COUNT(attribute_name)` or `COUNT(DISTINCT attribute_name)`. See the [style guide](/notes/data-analysis/sql-style-guide.md) for an example.
 
 ### HAVING
 

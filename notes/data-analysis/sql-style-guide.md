@@ -216,3 +216,26 @@ SELECT *
 FROM table_g AS g
 LEFT JOIN table_a AS a ON g.some_attr = a.related_attr
 ````
+
+### Aggregate with Care
+
+Count distinct identifiers whenever possible.
+
+```` sql
+--- open source dbms:
+
+SELECT
+ commodity_name
+
+ -- DO:
+ ,count(DISTINCT order_id) AS distinct_order_count -- default to this
+ ,count(order_id) AS order_count -- do this if a distinct count doesn't apply to the situation
+
+ -- DO NOT:
+ ,count(*) AS row_count -- don't do this
+ ,count(commodity_name) AS commodity_count -- don't do this
+ ,count(DISTINCT commodity_name) AS distinct_commodity_count -- don't do this
+
+FROM dc_purchase_orders
+GROUP BY commodity_name
+````
