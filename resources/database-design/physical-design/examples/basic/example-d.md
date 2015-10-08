@@ -1,4 +1,4 @@
-# Table Design Example
+# Table Design Example D
 
 ## Tables
 
@@ -21,24 +21,18 @@ id | make | model | color | wheel_size_inches
 --- | --- | --- | --- | ---
 1 | Cannondale  | Smooth Rider  | blue | 19
 2 | Specialized | City Rider    | green  | 23
+3 | Trek        | R2-81         | black | 25
+4 | Specialized | Mountain Rider | blue | 21
 
-### `bicyles_students`
+### `bicycles_students`
 
 bicycle_id | student_id
 --- | ---
 1 | 8
-1 | 7
 1 | 6
-1 | 5
 1 | 4
-1 | 3
 1 | 2
-1 | 1
 2 | 8
-2 | 7
 2 | 6
 2 | 5
-2 | 4
 2 | 3
-2 | 2
-2 | 1

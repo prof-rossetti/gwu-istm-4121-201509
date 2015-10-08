@@ -1,4 +1,4 @@
-# Table Design Example
+# Table Design Example Q
 
 ## Tables
 
@@ -16,3 +16,8 @@ id | bicycle_type | make | model | color | wheel_size_inches | student_owner_id
 8 | city | Cannondale  | City Rider    | blue | 19 | 4
 9 | mountain | Trek        | R5-66         | blue | 25 | 7
 10 | mountain | Specialized | Mountain Rider | purple | 23 | 7
+
+Instead of writing a SQL statement to join this table to another table:
+
+ + write a SQL statement to list all the mountain bikes, and
+ + write a SQL statement to list all the city bikes

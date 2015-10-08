@@ -206,10 +206,6 @@ LIMIT 5
 
 ## Virtual Attributes
 
-Virtual attributes can be formed/calculated from database-stored attributes.
+Virtual attributes can be formed/calculated from database-stored attributes without need for additional storage.
 
  + `candidates.full_name` was created from concatenating `candidates.first_name` with `candidates.first_name`
-
-## Don't make-up answers
-
-## Test your answers

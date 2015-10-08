@@ -1,6 +1,6 @@
 # Entity and Relationship Identification Assignment
 
-Refer to the [example entity and relationship identification exercises](/resources/database-design/conceptual-design-exercises.md).
+Refer to the [example entity and relationship identification exercises](/resources/database-design/conceptual-design/conceptual-design-exercises.md).
 
 ## Description
 

@@ -31,6 +31,5 @@ JOIN bicycles ON students.id = bicycles.student_owner_id
 
 Assumptions:
 
- + we assume `students.net_id` might be used regularly to look up individual records as part of a `WHERE` clause condition, or as a part of a `JOIN` clause condition,
- + we don't have enough information about other tables in this database to say for sure `students.net_id` attribute is a foreign key for some other table
- + we know we have to compile weekly reports of any un-immunized students, to we assign `students.immunized` a regular index
+ + students communicate their net_id to us when they enter our help desk
+ + we have to compile weekly reports of un-immunized students

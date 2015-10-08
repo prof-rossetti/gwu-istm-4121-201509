@@ -59,7 +59,7 @@ Assignment(s):
 duration (mins) | usage | topic
 --- | --- | ---
 40 | Lab | [Data Analysis Exercises](/resources/data-analysis/sql-exercises.md)
-40 | Lab | [Physical Design Exercises](/resources/database-design/physical-design-exercises.md)
+40 | Lab | [Physical Design Exercises](/resources/database-design/physical-design/physical-design-exercises.md)
 10 | Break |
 60 | Support | Group Project Business Identification and Analysis
 

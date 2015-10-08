@@ -1,4 +1,4 @@
-# Table Design Example
+# Table Design Example E
 
 ## Tables
 
@@ -19,8 +19,9 @@ id | first_name | last_name | net_id | immunized | gender
 
 id | make | model | color | wheel_size_inches | student_owner_id
 --- | --- | --- | --- | --- | ---
-1 | Cannondale  | Smooth Rider  | blue | 13 | 5
-2 | Cannondale  | City Rider Pro | pink | 25 | 8
-3 | Trek        | R2-81         | black | 23 | 1
-4 | Specialized | Mountain Rider | blue | 19 | 6
-5 | Trek        | R5-66         | orange | 25 | 7
+1 | Cannondale | Smooth Rider | blue | 13 | 5
+2 | Cannondale | City Rider | red | 26 | 2
+3 | Specialized | R-81 | green | 23 | 8
+4 | Cannondale | City Rider Pro | pink | 25 | 8
+5 | Trek | R2-81 | black | 13 | 1
+6 | Specialized | R-81 | blue | 13 | 6

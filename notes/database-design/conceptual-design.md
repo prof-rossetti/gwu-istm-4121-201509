@@ -31,9 +31,10 @@ A **relationship** describes a logical or natural connection between two entitie
 
 Related attributes form the basis for the relationship representation.
 
-Relationships are verbs within the scope of your database design.
+Relationships are verbs within the scope of your database design. When describing a relationship, the default verbs to use are "has" and/or "belongs to" unless you're able to make a reasonable assumption about a more specific verb.
 
 Some but not all relationships require the addition of extra tables.
+
 
 ### Relationship Classifications
 
@@ -43,8 +44,8 @@ Relationship classifications are a function of both actual and intended data beh
 
 #### Relationship Optionality
 
- + Required (*must have*)
- + Optional (*may have*)
+ + Not Optional -- *may/must have ONE or more*
+ + Optional -- *may/must have ZERO or more*
 
 #### Relationship Cardinality
 

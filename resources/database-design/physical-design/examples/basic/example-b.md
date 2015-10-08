@@ -1,4 +1,4 @@
-# Table Design Example
+# Table Design Example B
 
 ## Tables
 
