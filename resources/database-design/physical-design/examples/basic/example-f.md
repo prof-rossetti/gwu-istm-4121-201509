@@ -1,4 +1,4 @@
-# Table Design Example
+# Table Design Example F
 
 ## Tables
 
@@ -17,22 +17,10 @@ id | first_name | last_name | net_id | immunized | gender
 
 ### `bicycles`
 
-id | make | model | color | wheel_size_inches
---- | --- | --- | --- | ---
-1 | Cannondale  | Smooth Rider  | blue | 19
-2 | Specialized | City Rider    | green  | 23
-3 | Trek        | R2-81         | black | 25
-4 | Specialized | Mountain Rider | blue | 21
-
-### `bicycles_students`
-
-bicycle_id | student_id
---- | ---
-1 | 8
-1 | 6
-1 | 4
-1 | 2
-2 | 8
-2 | 6
-2 | 5
-2 | 3
+id | make | model | color | wheel_size_inches | student_owner_id
+--- | --- | --- | --- | --- | ---
+1 | Cannondale  | Smooth Rider  | blue | 13 | 5
+2 | Cannondale  | City Rider Pro | pink | 25 | 8
+3 | Trek        | R2-81         | black | 23 | 1
+4 | Specialized | Mountain Rider | blue | 19 | 6
+5 | Trek        | R5-66         | orange | 25 | 7

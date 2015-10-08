@@ -1,4 +1,4 @@
-# Table Design Example
+# Table Design Example A
 
 ## Tables
 
@@ -21,17 +21,24 @@ id | make | model | color | wheel_size_inches
 --- | --- | --- | --- | ---
 1 | Cannondale  | Smooth Rider  | blue | 19
 2 | Specialized | City Rider    | green  | 23
-3 | Trek        | R2-81         | black | 25
-4 | Specialized | Mountain Rider | blue | 21
 
-### `rentals`
+### `bicyles_students`
 
-id | bicycle_id | student_renter_id | rented_at | returned_at
---- | --- | --- | --- | ---
-1 | 4 | 5 | 2015-02-02 10:01:58 | 2015-02-02 15:30:52
-2 | 1 | 1 | 2015-03-01 10:01:58 | 2015-03-01 15:30:52
-3 | 2 | 7 | 2015-03-03 10:01:58 | 2015-03-03 15:30:52
-4 | 3 | 5 | 2015-04-01 10:01:58 | 2015-04-01 15:30:52
-5 | 4 | 1 | 2015-05-01 10:01:58 | 2015-05-01 15:30:52
-6 | 1 | 7 | 2015-05-01 10:01:58 | 2015-05-01 15:30:52
-7 | 1 | 7 | 2015-09-01 10:01:58 | 2015-09-01 15:30:52
+bicycle_id | student_id
+--- | ---
+1 | 8
+1 | 7
+1 | 6
+1 | 5
+1 | 4
+1 | 3
+1 | 2
+1 | 1
+2 | 8
+2 | 7
+2 | 6
+2 | 5
+2 | 4
+2 | 3
+2 | 2
+2 | 1
