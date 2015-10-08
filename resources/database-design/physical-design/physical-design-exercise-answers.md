@@ -181,7 +181,7 @@ JOIN bicycles ON (rentals.rentable_item_id = bicycles.id AND rentals.rentable_it
 
 Assumptions:
 
- + books and bicycles are two different types of rental object, each corresponding to its own table (even though I don't notice a `books` table provided...)
+ + students rent books, as well as bicycles
 
 #### Example N
 
