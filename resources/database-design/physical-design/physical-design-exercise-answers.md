@@ -14,7 +14,6 @@ The examples below reference corresponding files in the [physical design example
 
 
 
-## Examples
 
 ### Basic Examples
 
