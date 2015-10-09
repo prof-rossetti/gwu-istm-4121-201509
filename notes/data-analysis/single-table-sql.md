@@ -100,11 +100,19 @@ WHERE attribute_b >= "some numeric value" -- greater than or equal to, less than
 ````
 
 ```` sql
+-- open source dbms:
 SELECT
   attribute_a
   ,attribute_b
 FROM table_x
-WHERE attribute_b LIKE "%some partial value%" -- string matching using `LIKE` and `%`
+WHERE attribute_b LIKE "%some partial value%" -- string matching using `LIKE` operator and a wildcard string matcher
+
+-- ms access dbms:
+SELECT
+  attribute_a
+  ,attribute_b
+FROM table_x
+WHERE attribute_b LIKE "*some partial value*" -- string matching using `LIKE` operator and a wildcard string matcher
 ````
 
 ```` sql
