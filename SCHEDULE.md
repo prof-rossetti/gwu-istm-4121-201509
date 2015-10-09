@@ -210,10 +210,10 @@ Assignment(s):
  + [Group Project Final Presentation](assignments/group-project/final-presentation.md) (due)
  + [Meetups](assignments/lab/meetups.md) (due)
 
-### 12/?/15
+### Finals Week - 12/16/15
+
+The final exam will be held from **5:20pm-7:20pm** in Duques 351.
 
 duration (mins) | usage | topic
 --- | --- | ---
 150 | Exam | [Final Exam](exams/final.md)
-
-> Refer to https://github.com/gwu-business/istm-4121/issues/10 for info about the final exam schedule.
