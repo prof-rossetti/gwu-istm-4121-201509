@@ -10,9 +10,36 @@ Students may choose to install MySQL on a personal computer by obtaining the sof
 
 ### Installing on Windows OS
 
+> Are you using mysql on windows? How did you install it? Feel free to edit this section.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Installing on Mac OS
 
-Students may use the [Homebrew Package Manager](homebrew-package-manager.md) to install MySQL on Mac OS.
+Check to see whether or not mysql is already installed on your computer.
+
+```` sh
+which mysql
+````
+
+Students may use the [Homebrew Package Manager](homebrew-package-manager.md) to install MySQL on Mac OS if necessary.
 
 ```` sh
 brew install mysql
@@ -63,9 +90,25 @@ Test the connection and save it to favorites before connecting.
 
 Optionally enable keyword auto-capitalization from the settings menu.
 
+
+
+
+
+
+
+
+
+
+
+
+
 ## Usage
 
 Use MySQL from the command line or from the Sequel Pro interface.
+
+```` sh
+mysql -uroot # to open up a new mysql command prompt as the root user
+````
 
 ### Person Management
 

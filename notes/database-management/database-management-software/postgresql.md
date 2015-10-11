@@ -12,6 +12,12 @@ Students may choose to install PostgreSQL on a personal computer by obtaining th
 
 ### Installing on Mac OS
 
+Check to see whether or not postgresql is already installed on your computer.
+
+```` sh
+which postgres
+````
+
 Students may use the [Homebrew Package Manager](homebrew-package-manager.md) to install PostgreSQL on Mac OS.
 
 ```` sh
@@ -66,6 +72,10 @@ password | | the postgres user does not come with a pre-defined password; leave 
 
 Use PostgreSQL from the command line or from the PG Admin interface.
 
+```` sh
+psql  # to open up a new postgresql command prompt as the postgres user
+````
+
 ### Person Management
 
 Create new database users and manage privileges.
@@ -78,6 +88,7 @@ CREATE USER my_user WITH ENCRYPTED PASSWORD 'my_p@ssword';
 ALTER USER my_user CREATEDB;
 ALTER USER my_user WITH SUPERUSER;
 ````
+
 
 ## Reference
 
