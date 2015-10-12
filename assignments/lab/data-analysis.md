@@ -11,7 +11,7 @@ Find a real world
  + [Washington DC Parks](http://opendata.dc.gov/datasets/287eaa2ecbff4d699762bbc6795ffdca_9)
  + [Washington DC Purchase Orders](http://opendata.dc.gov/datasets/f61f962c2ce84f2caa1919d425c8061d_0)
 
-Reference also these [dataset copies](https://github.com/gwu-business/washington-dc-open-data).
+Reference also these [dataset copies](https://github.com/gwu-business/washington-dc-open-data). If you choose a dataset besides the ones contained in this repository, add it to the collection.
 
 Download the corresponding .csv or .txt file(s).
 
@@ -22,7 +22,7 @@ Import the data into a spreadsheet,
   name and
   nature of attributes.
 
-Import the data into a database using the DBMS of your choice.
+Import the data into a database using the DBMS of your choice. Identify which DBMS you are using.
  Write SQL queries to ask questions of the data and process the data into information. Use each of the single-table SQL clauses and many of the functions demonstrated in class.
 
 Tell a story based on the knowledge you were able to acquire as a result of your data processing and analysis. Write 2-5 paragraphs in English describing what you learned. Embed or attach one or more queries to demonstrate mastery of a variety of clauses and functions, and to show how you processed the data and arrived at your conclusions.
@@ -37,7 +37,7 @@ Suggested Organizational Structure:
 
 Upload .pdf file to [Blackboard](https://blackboard.gwu.edu/webapps/assignment/uploadAssignment?content_id=_6856968_1&course_id=_260328_1&assign_group_id=&mode=cpview).
 
-If using a non-suggested dataset, attach the dataset .csv file along with your submission; or include reproducible instructions on how to obtain the data.
+If you found and analyzed your own dataset, include a URL and any other instructions on how to obtain the data.
 
 ## Evaluation Criteria
 

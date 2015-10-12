@@ -31,7 +31,7 @@ brew install sqlite3
 #### Installing Companion Software
 
 [SQLite Browser](http://sqlitebrowser.org/) software provides
- a human-friendly interface to MySQL as an alternative to the command line.
+ a human-friendly interface to SQLite as an alternative to the command line.
 
 After you have demonstrated your ability to connect to sqlite using the command line, [download SQLite Browser for Mac OS](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.7.0/sqlitebrowser-3.7.0.dmg).
 
@@ -63,9 +63,9 @@ Copy the software into your applications directory for future use.
 ##### Installing Companion Software
 
 [SQLite Browser](http://sqlitebrowser.org/) software provides
- a human-friendly interface to MySQL as an alternative to the command line.
+ a human-friendly interface to SQLite as an alternative to the command line.
 
-After you have demonstrated your ability to connect to sqlite using the command line, [download SQLite Browser for Windows OS](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.7.0/sqlitebrowser-3.7.0-win64.exe).
+After you have demonstrated your ability to connect to SQLite using the command line, [download SQLite Browser for Windows OS](https://github.com/sqlitebrowser/sqlitebrowser/releases/download/v3.7.0/sqlitebrowser-3.7.0-win64.exe).
 
 Copy the software into your applications directory for future use.
 

@@ -13,11 +13,11 @@ Import the data into one or more spreadsheets,
   name and
   nature of attributes.
 
-Import the data into a database using the DBMS of your choice. Refer to the additional support provided below.
-
-Identify any existing relationships between the tables. Create indices as necessary to improve performance.
+Import the data into a database using the DBMS of your choice. Refer to the additional support provided below. Identify which DBMS you are using.
 
 Write SQL queries to ask questions of the data and process the data into information. Use the `JOIN` and `LEFT JOIN` clauses demonstrated in class, as well as other previously-demonstrated single-table clauses and functions.
+
+Create indices as necessary to [improve query performance](/resources/database-design/physical-design/benefits_of_indices.sql).
 
 Tell a story based on the knowledge you were able to acquire as a result of your data processing and analysis. Write 2-5 paragraphs in English describing what you learned. Embed or attach one or more queries to demonstrate mastery of a variety of clauses and functions, and to show how you processed the data and arrived at your conclusions.
 
@@ -31,7 +31,7 @@ Suggested Organizational Structure:
 
 Upload .pdf file to [Blackboard](https://blackboard.gwu.edu/webapps/assignment/uploadAssignment?content_id=_6858175_1&course_id=_260328_1&assign_group_id=&mode=cpview).
 
-If using a non-suggested dataset, attach a compressed dataset of .csv file(s) or .sql file or .mdb file along with your submission; or include reproducible instructions on how to obtain the data.
+If you found and analyzed your own dataset, include a URL and any other instructions on how to obtain the data.
 
 ## Evaluation Criteria
 
