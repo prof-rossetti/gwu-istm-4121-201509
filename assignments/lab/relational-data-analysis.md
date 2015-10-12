@@ -3,10 +3,7 @@
 Reference:
 
  + [SQL Overview](/notes/data-analysis.md)
- + [Single-table SQL](/notes/data-analysis/single-table-sql.md)
- * [Single-table SQL Subqueries](/notes/data-analysis/subqueries.md)
- * [Single-table SQL Aggregations](/notes/data-analysis/single-table-aggregate-sql.md)
- * [Multi-Table SQL](data-analysis/multi-table-sql.md)
+ * [Multi-Table SQL](/notes/data-analysis/multi-table-sql.md)
 
 ## Description
 

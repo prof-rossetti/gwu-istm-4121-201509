@@ -29,7 +29,7 @@ FROM table_z
 GROUP BY attribute_m, attribute_n
 ````
 
-Do not count or otherwise aggregate attributes used in grouping. Avoid `COUNT(*)` in favor of either `COUNT(attribute_name)` or `COUNT(DISTINCT attribute_name)`. See the [style guide](/notes/data-analysis/sql-style-guide.md) for an example.
+Do not count or otherwise aggregate attributes used in grouping. Avoid `COUNT(*)` in favor of either `COUNT(attribute_name)` or `COUNT(DISTINCT attribute_name)`. See the [style guide](/notes/data-analysis/sql-style-guide.md#aggregate-with-care) for an example.
 
 ### HAVING
 

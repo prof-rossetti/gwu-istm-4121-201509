@@ -8,6 +8,10 @@ It provides database-management-specific features.
 
 Students may choose to install MySQL on a personal computer by obtaining the software from the Internet.
 
+
+
+
+
 ### Installing on Windows OS
 
 > Are you using mysql on windows? How did you install it? Feel free to edit this section.

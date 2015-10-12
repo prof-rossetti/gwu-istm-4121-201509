@@ -8,7 +8,19 @@ It provides database-management-specific features.
 
 Students may choose to install PostgreSQL on a personal computer by obtaining the software from the Internet.
 
+
+
+
 ### Installing on Windows OS
+
+> Are you using postgresql on windows? How did you install it? Feel free to edit this section.
+
+
+
+
+
+
+
 
 ### Installing on Mac OS
 
