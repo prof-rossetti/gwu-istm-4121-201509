@@ -36,17 +36,32 @@ It is not necessary to use all, or even most, clauses in a SQL query.
 
 ### Instructional Datasets
 
-Single-table:
+Single-table datasets:
 
  + Real student survey responses (.csv files each containing ~40 rows)
   + [ISTM 4121 responses](https://github.com/gwu-business/istm-4121/blob/master/resources/questionnaire/responses.csv)
   + [BADM 2301 responses](https://github.com/gwu-business/badm-2301/blob/master/resources/questionnaire/responses.csv)
  + [Fake student survey responses](https://github.com/gwu-business/fake-responses/tree/master/data) (.csv files containing between 100 and 100k rows)
+ + A [growing collection of open data](https://github.com/gwu-business/open-data-reference)
+ + Any of the [BLDS](http://permitdata.org/) [datasets](http://permitdata.org/#samples)
 
-Relational:
+Relational (multi-table) datasets:
 
- + Any [GTFS dataset](http://www.gtfs-data-exchange.com/agencies) (related .txt files)
+ + Any of the [GTFS](https://developers.google.com/transit/gtfs/reference?hl=en) [datasets](http://www.gtfs-data-exchange.com/agencies) (related .txt files)
+ + Any of the [LIVES](http://www.yelp.com/healthscores) [datasets](http://www.yelp.com/healthscores/feeds) (related .csv files)
  + [2016 US Presidential Election Data](https://github.com/gwu-business/2016-election-data/tree/master/data) (related .csv files)
+
+Students are encouraged to scour open data portals for more data:
+
+ + [United States Open Data](http://www.data.gov/)
+ + [Washington, DC Open Data](http://opendata.dc.gov/)
+ + [San Francisco, CA Open Data](https://data.sfgov.org/)
+ + [New York, NY Open Data](https://nycopendata.socrata.com/)
+ + [Seattle, WA Open Data](https://data.seattle.gov/)
+ + [London, UK Open Data](http://data.london.gov.uk/dataset)
+ + [India Open Data](https://data.gov.in/catalogs)
+ + [Socrata Open Data](https://opendata.socrata.com/)
+ + [Civic Data](http://www.civicdata.com)
 
 <hr>
 

@@ -1,5 +1,12 @@
 # Data Analysis Lab Assignment
 
+Reference:
+
+ + [SQL Overview](/notes/data-analysis.md)
+ + [Single-table SQL](/notes/data-analysis/single-table-sql.md)
+ * [Single-table SQL Subqueries](/notes/data-analysis/subqueries.md)
+ * [Single-table SQL Aggregations](/notes/data-analysis/single-table-aggregate-sql.md)
+
 ## Description
 
 Find a real world
@@ -10,6 +17,7 @@ Find a real world
 
  + [Washington DC Parks](http://opendata.dc.gov/datasets/287eaa2ecbff4d699762bbc6795ffdca_9)
  + [Washington DC Purchase Orders](http://opendata.dc.gov/datasets/f61f962c2ce84f2caa1919d425c8061d_0)
+ + [Tampa, FL Building Permits](http://www.civicdata.com/dataset/tampa_permit_standard_permits_v11_11419/resource/05af49ae-72be-4dbe-b976-98ffd159a72a)
 
 Reference also these [dataset copies](https://github.com/gwu-business/washington-dc-open-data). If you choose a dataset besides the ones contained in this repository, add it to the collection.
 

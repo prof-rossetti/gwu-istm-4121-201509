@@ -1,8 +1,19 @@
 # Relational Data Processing and Analysis Lab Assignment
 
+Reference:
+
+ + [SQL Overview](/notes/data-analysis.md)
+ + [Single-table SQL](/notes/data-analysis/single-table-sql.md)
+ * [Single-table SQL Subqueries](/notes/data-analysis/subqueries.md)
+ * [Single-table SQL Aggregations](/notes/data-analysis/single-table-aggregate-sql.md)
+ * [Multi-Table SQL](data-analysis/multi-table-sql.md)
+
+## Description
+
 Find a real world multi-table (relational) dataset which contains business-related data. Or choose one of the following pre-selected open datasets:
 
- + [Washington DC Transit Data](http://www.wmata.com/rider_tools/license_agreement.cfm) (agree and submit to reveal the data download)
+ + [Washington, DC Transit Data](http://www.wmata.com/rider_tools/license_agreement.cfm) (agree and submit to reveal the data download)
+ + [Evanston, IL Health and Safety Inspection Data](http://opendata-hub.cloudapp.net/lives/yelp_evanston_healthscores.zip)
 
 Download the corresponding .csv or .txt file(s).
 
