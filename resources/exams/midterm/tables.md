@@ -1,6 +1,6 @@
-# Midterm Exam Table Design
+# Midterm Exam
 
-## Tables
+## Table Design
 
 ### `songs`
 

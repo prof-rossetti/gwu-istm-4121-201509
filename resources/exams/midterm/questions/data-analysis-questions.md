@@ -30,6 +30,8 @@ To represent an opportunity for bonus points, the questions below collectively r
 
 <br><br><br><br><br><br><br><br><br><br><br></br>
 
+<br></br><br></br>
+
 #### 4a. Which listeners have listened to at least one song? (30% * 10% weight)
 
 <br><br><br><br><br><br><br><br><br><br><br></br>
@@ -38,9 +40,13 @@ To represent an opportunity for bonus points, the questions below collectively r
 
 <br><br><br><br><br><br><br><br><br><br><br></br>
 
+<br></br><br></br>
+
 #### 5a. What are the email addresses of the listeners whose credit cards are set to expire during the month of November (11) 2015? (30% * 10% weight)
 
 <br><br><br><br><br><br><br><br><br><br><br></br>
+
+
 
 #### 5b. What are the email addresses of the listeners whose credit cards are set to expire during either the month of November (11) 2015 or December (12) 2015? (30% * 10% weight)
 
@@ -49,6 +55,8 @@ To represent an opportunity for bonus points, the questions below collectively r
 #### 5c. What are the email addresses of the listeners whose credit cards are set to expire during the months of November (11) 2015, December (12) 2015, or January (01) 2016? (30% * 10% weight)
 
 <br><br><br><br><br><br><br><br><br><br><br></br>
+
+<br></br><br></br>
 
 #### 6a. How many times has each thumb button been pressed? (30% * 10% weight)
 
@@ -61,6 +69,8 @@ To represent an opportunity for bonus points, the questions below collectively r
 #### 6c. Which thumb button was pressed most often between '2015-01-01' and '2015-03-15'? (30% * 10% weight)
 
 <br><br><br><br><br><br><br><br><br><br><br></br>
+
+<br></br><br></br>
 
 #### 7a. How many songs have been skipped? (30% * 10% weight)
 
