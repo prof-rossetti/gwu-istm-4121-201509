@@ -1,5 +1,15 @@
 # Meetups Assignment
 
+The primary objective of this assignment is to
+  provide students with opportunities to
+   learn about contemporary industry issues and best practices.
+
+The secondary objective is to
+  provide students with opportunities to
+  practice professional networking and interpersonal skills.
+
+## Description
+
 Search [meetup.com](http://www.meetup.com/) for data-related
  events in the Washington DC area.
 
