@@ -13,42 +13,26 @@ For each table:
 
 State assumptions as necessary to justify answers.
 
-### Questions
-
-<hr>
-
 #### 1. `songs` table (30% * 15% weight)
 
 <br><br><br><br><br><br><br><br><br><br><br><br>
-
-<hr>
 
 #### 2. `plays` table (30% * 20% weight)
 
 <br><br><br><br><br><br><br><br><br><br><br><br>
 
-<hr>
-
 #### 3. `thumbs` table (30% * 20% weight)
 
 <br><br><br><br><br><br><br><br><br><br><br><br>
-
-<hr>
 
 #### 4. `skips` table (30% * 15% weight)
 
 <br><br><br><br><br><br><br><br><br><br><br><br>
 
-<hr>
-
 #### 5. `listeners` table (30% * 15% weight)
 
 <br><br><br><br><br><br><br><br><br><br><br><br>
 
-<hr>
-
 #### 6. `listener_accounts` table (30% * 15% weight)
 
 <br><br><br><br><br><br><br><br><br><br><br><br>
-
-<hr>
