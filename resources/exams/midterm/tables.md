@@ -4,16 +4,17 @@
 
 ### `songs`
 
-id | title | artist_name | duration_milliseconds
---- | --- | --- | ---
-1 | --- | --- | ---
-2 | --- | --- | ---
-3 | --- | --- | ---
-4 | --- | --- | ---
-5 | --- | --- | ---
-6 | --- | --- | ---
-7 | --- | --- | ---
-8 | --- | --- | ---
+id | title | artist_name | duration_milliseconds | year_recorded
+--- | --- | --- | --- | ---
+1 | Gravedigger | The Dave Matthews Band | 280000 | 2003
+2 | Marvin's Room | Drake | 560000 | 2011
+3 | Ants Marching (Live) | Dave Matthews and Tim Reynolds | 700000 | 2005
+4 | Blank Space | Taylor Swift | 231000 | 2014
+5 | Baby | Justin Bieber | 201000 | 2010
+6 | Where Are U Now | Justin Bieber ft. Skrillex & Diplo | 290000 | 2015
+7 | Nina | Ed Sheeran | 220000 | 2014
+8 | P.Y.T. (Pretty Young Thing) | Michael Jackson | 238000 | 1982
+9 | Bad Blood | Taylor Swift | 197000 | 2014
 
 <hr>
 
