@@ -1,0 +1,37 @@
+student_net_id,student_full_name,exec_summ_of_factual_findings,thoroughness_of_analysis_and_evidence,joins_inner_outer,sum,score,feedback
+#REDACTED,#REDACTED,0.5,1,1,2.5,90,summarize analytical findings in an exec summary;
+#REDACTED,#REDACTED,1,0.5,1,2.5,87,what day(s) does that metro bus arrive at Wisconsin Ave NW?;
+#REDACTED,#REDACTED,1,1,0.5,2.5,87,check your join conditions;
+#REDACTED,#REDACTED,0.5,1,1,2.5,87,summarize analytical findings in an exec summary;
+#REDACTED,#REDACTED,0.5,0.5,1,2,87,summarize analytical findings in an exec summary; what interesting real-world information did you learn? and are you sure about that 5am to 5pm finding?;
+#REDACTED,#REDACTED,0.5,0.5,1,2,87,how far is a 'unit' of distance?; 45K trips taken over what time period?; 
+#REDACTED,#REDACTED,0.5,0.5,1,2,87,summarize analytical findings in an exec summary at the beginning; what interesting real-world information did you learn?
+#REDACTED,#REDACTED,1,1,0,2,87,use JOIN clauses; use at least one outer join; use at least one inner join
+#REDACTED,#REDACTED,0,1,0.5,1.5,87,summarize analytical findings in an exec summary; interesting dataset and findings - where do I find it online?; use at least one outer join
+#REDACTED,#REDACTED,0,0.5,1,1.5,80,summarize analytical findings in an exec summary; what real-world information did you learn?
+#REDACTED,#REDACTED,0.5,1,0,1.5,75,summarize analytical findings in an exec summary; use JOIN clauses; use at least one inner join and at least one outer join;
+#REDACTED,#REDACTED,0.5,0.5,0.5,1.5,75,summarize analytical findings in an exec summary; what real-world information did you learn?; use at least one inner join
+#REDACTED,#REDACTED,0,0.5,0.5,1,75,summarize analytical findings in an exec summary; good instinct to join all the tables together; use at least one inner join
+#REDACTED,#REDACTED,0,1,0,1,75,summarize analytical findings in an exec summary; use JOIN clauses; use at least one inner join and at least one outer join;
+#REDACTED,#REDACTED,0,0,1,1,75,summarize analytical findings in an exec summary; what real-world information did you learn?; what is the value of aliasing a table without changing its name?
+#REDACTED,#REDACTED,0,1,0,1,75,summarize analytical findings in an exec summary; use join clauses; use at least one inner join and at least one outer join;
+#REDACTED,#REDACTED,0.5,0.5,0.5,1.5,66,"summarize analytical findings in an exec summary; your stop-counting query is not doing what you think it is, and be careful about how you phrase your findings; inventive use of a sub-query; use at least one outer join"
+#REDACTED,#REDACTED,0,0.5,0.5,1,66,summarize analytical findings in an exec summary; what interesting real-world information did you learn?; check your join conditions; use at least one outer join;
+#REDACTED,#REDACTED,0,0,1,1,66,summarize analytical findings in an exec summary; what interesting real-world information did you learn?
+#REDACTED,#REDACTED,0,0.5,0.5,1,66,summarize analytical findings in an exec summary; check that each join clause only has one join condition; use at least one outer join;
+#REDACTED,#REDACTED,0.5,0,0.5,1,66,what real-world information did you learn?; check your join conditions; use at least one inner join
+#REDACTED,#REDACTED,0,0,1,1,66,summarize analytical findings in an exec summary; what real-world information did you learn?
+#REDACTED,#REDACTED,0,0.5,0.5,1,66,summarize analytical findings in an exec summary; use at least one outer join
+#REDACTED,#REDACTED,0,0,0.5,0.5,66,summarize analytical findings in an exec summary; what real-world information did you learn?; use at least one inner join
+#REDACTED,#REDACTED,0,0,0.5,0.5,66,summarize analytical findings in an exec summary; what real-world information did you learn?; use at least one outer join
+#REDACTED,#REDACTED,0.5,0,0,0.5,50,summarize analytical findings in an exec summary; what interesting real world information did you learn?; you're close but try choosing different attributes in your join condition; 
+#REDACTED,#REDACTED,0,0,0,0,0,not yet submitted
+#REDACTED,#REDACTED,0,0,0,0,0,not yet submitted
+#REDACTED,#REDACTED,0,0,0,0,0,not yet submitted
+#REDACTED,#REDACTED,0,0,0,0,0,not yet submitted
+#REDACTED,#REDACTED,0,0,0,0,0,not yet submitted
+#REDACTED,#REDACTED,0,0,0,0,0,not yet attempted
+#REDACTED,#REDACTED,0,0,0,0,0,not yet attempted
+#REDACTED,#REDACTED,0,0,0,0,0,not yet attempted
+#REDACTED,#REDACTED,0,0,0,0,0,not yet submitted
+#REDACTED,#REDACTED,0,0,0,0,0,not yet submitted
