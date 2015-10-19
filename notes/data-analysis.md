@@ -25,23 +25,36 @@ HAVING ...
 ORDER BY ...
 ````
 
+It is not necessary to use all clauses in a single query.
+
 There is also a `UNION` clause used in special cases, but it is outside the scope of this course.
 
 Additional clauses and sub-clauses exist, but may or may not be uniformly recognized across DBMSs. For example, open source DBMS like MySQL and PostgreSQL recognize a stand-alone `LIMIT` clause, whereas MS Access instead recognizes `TOP` as a sub-clause of the select clause. Beware of DBMS differences, and use your knowledge to inform your DBMS preferences.
 
-It is not necessary to use all, or even most, clauses in a SQL query.
+### Instructional Resources
 
-### Instructional SQL Modules
+#### Lecture Notes
 
- 1. [Single-table](data-analysis/single-table-sql.md)
-  * [Subqueries](data-analysis/subqueries.md)
-  * [Aggregations](data-analysis/single-table-aggregate-sql.md)
- * [Multi-Table](data-analysis/multi-table-sql.md)
-  * [Multi-Schema](data-analysis/multi-database-sql.md)
+##### I. Single-table Analysis Notes
 
-### Instructional Datasets
+ + [Single-table SQL](data-analysis/single-table-sql.md)
+ + [Single-table Aggregations](data-analysis/single-table-aggregate-sql.md)
 
-Single-table datasets:
+##### II. Multi-table Analysis Notes
+
+ + [Multi-Table SQL](data-analysis/multi-table-sql.md)
+
+#### Background Material
+
++ [SQL Sub-queries](/notes/data-analysis/subqueries.md)
++ [Multi-Schema SQL](/notes/data-analysis/multi-database-sql.md)
++ [Database Management SQL](/notes/database-management/database-management-sql.md)
++ [Professor Rossetti's SQL Best Practices](/notes/data-analysis/best-practices.md) :smile:
++ [Professor Rossetti's SQL Style Guide](/notes/data-analysis/sql-style-guide.md) :smile:
+
+#### Lab Datasets
+
+##### Single-table Datasets
 
  + Real student survey responses (.csv files each containing ~40 rows)
   + [ISTM 4121 responses](https://github.com/gwu-business/istm-4121/blob/master/resources/questionnaire/responses.csv)
@@ -50,30 +63,39 @@ Single-table datasets:
  + A [growing collection of open data](https://github.com/gwu-business/open-data-reference)
  + Any of the [BLDS](http://permitdata.org/) [datasets](http://permitdata.org/#samples)
 
-Relational (multi-table) datasets:
+##### Relational Datasets
 
+ + [2016 US Presidential Election/Campaign Data](https://github.com/gwu-business/2016-election-data/tree/master/data) (related .csv files)
  + Any of the [GTFS](https://developers.google.com/transit/gtfs/reference?hl=en) [datasets](http://www.gtfs-data-exchange.com/agencies) (related .txt files)
  + Any of the [LIVES](http://www.yelp.com/healthscores) [datasets](http://www.yelp.com/healthscores/feeds) (related .csv files)
- + [2016 US Presidential Election Data](https://github.com/gwu-business/2016-election-data/tree/master/data) (related .csv files)
 
-Students are encouraged to scour open data portals for more data:
 
- + [United States Open Data](http://www.data.gov/)
- + [Washington, DC Open Data](http://opendata.dc.gov/)
- + [San Francisco, CA Open Data](https://data.sfgov.org/)
- + [New York, NY Open Data](https://nycopendata.socrata.com/)
- + [Seattle, WA Open Data](https://data.seattle.gov/)
- + [London, UK Open Data](http://data.london.gov.uk/dataset)
- + [India Open Data](https://data.gov.in/catalogs)
- + [Socrata Open Data](https://opendata.socrata.com/)
- + [Civic Data](http://www.civicdata.com)
+### Additional Resources
 
-<hr>
+#### Internet Tutorials
 
-Additional Resources:
-
- + [SQL Best Practices](data-analysis/best-practices.md)
- + [W3 Schools SQL Tutorial](http://www.w3schools.com/sql/default.asp)
+ + [W3 Schools](http://www.w3schools.com/sql/default.asp)
+ + [SQL Bolt](http://sqlbolt.com/)
  + [SQL Zoo](http://sqlzoo.net/)
- + [Code Academy SQL Course](https://www.codecademy.com/courses/learn-sql)
- + [Tech on the Net SQL Tutorial](http://www.techonthenet.com/sql/)
+ + [Code Academy](https://www.codecademy.com/courses/learn-sql)
+ + [Tech on the Net](http://www.techonthenet.com/sql/)
+
+#### Wild Datasets
+
+Students are encouraged to scour open data portals for more data.
+
+Students are encouraged to add interesting/helpful datasets to the learning community's [open data library](#https://github.com/gwu-business/open-data-reference).
+
+#### Open Data Portals
+
+ + [United States Open Data Portal](http://www.data.gov/)
+ + [Washington, DC Open Data Portal](http://opendata.dc.gov/)
+ + [San Francisco, CA Open Data Portal](https://data.sfgov.org/)
+ + [New York, NY Open Data Portal](https://nycopendata.socrata.com/)
+ + [Seattle, WA Open Data Portal](https://data.seattle.gov/)
+ + [London, UK Open Data Portal](http://data.london.gov.uk/dataset)
+ + [India Open Data Portal](https://data.gov.in/catalogs)
+ + [Socrata Open Data Portal](https://opendata.socrata.com/)
+ + [Civic Data Portal](http://www.civicdata.com)
+
+> Did you find a valuable open data portal? Add it to the list!

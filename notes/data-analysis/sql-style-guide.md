@@ -57,8 +57,7 @@ WHERE t.some_date_attribute > '2015-01-01'
 ```` sql
 SELECT *
 FROM table_b AS b
-JOIN table_f AS f
-  ON b.some_attribute = f.related_attribute
+JOIN table_f AS f ON b.some_attribute = f.related_attribute
   AND date(b.created_at) = date(f.started_at)
 ````
 
