@@ -2,7 +2,12 @@
 
 ## Structured Query Language (SQL)
 
-SQL is the language recognized by relational databases.
+SQL is the language of relational databases.
+ All major RDBMS tools recognize SQL.
+
+SQL enables a human to ask questions of the database management system in an automated, programmatic way.
+
+SQL helps humans transform **data** into **information**.
 
 ### Clauses
 
