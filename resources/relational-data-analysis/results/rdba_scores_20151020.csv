@@ -1,0 +1,37 @@
+student_full_name,student_net_id,student_id,rdba_exec_summ_of_factual_findings,rdba_thoroughness_of_analysis_and_evidence,rdba_joins_inner_outer,sum,rdba_grade,rdba_feedback,rdba_exec_summary_from_ta,rdba_thoroughness_from_ta,rdba_sql_from_ta,rdba_grade_from_ta
+#REDACTED,#REDACTED,17,0.5,1,1,2.5,90,summarize analytical findings in an exec summary;,0.8,0.7,0.8,90
+#REDACTED,#REDACTED,7,0.5,0.5,1,2,87,summarize analytical findings in an exec summary at the beginning; what interesting real-world information did you learn?,0,0.5,0.8,87
+#REDACTED,#REDACTED,9,0.5,1,1,2.5,87,summarize analytical findings in an exec summary;,,,,87
+#REDACTED,#REDACTED,20,0.5,0.5,1,2,87,how far is a 'unit' of distance?; 45K trips taken over what time period?; ,,,,87
+#REDACTED,#REDACTED,26,0.5,0.5,1,2,87,summarize analytical findings in an exec summary; what interesting real-world information did you learn? and are you sure about that 5am to 5pm finding?;,0.1,0.6,0.6,87
+#REDACTED,#REDACTED,35,1,1,0,2,87,use JOIN clauses; use at least one outer join; use at least one inner join,,,,87
+#REDACTED,#REDACTED,36,1,0.5,1,2.5,87,what day(s) does that metro bus arrive at Wisconsin Ave NW?;,,,,87
+#REDACTED,#REDACTED,2,0,1,0.5,1.5,87,summarize analytical findings in an exec summary; interesting dataset and findings - where do I find it online?; use at least one outer join,,,,87
+#REDACTED,#REDACTED,18,1,1,0.5,2.5,87,check your join conditions;,,,,83
+#REDACTED,#REDACTED,8,0,1,0,1,75,summarize analytical findings in an exec summary; use join clauses; use at least one inner join and at least one outer join;,,,,75
+#REDACTED,#REDACTED,11,0,0,1,1,75,summarize analytical findings in an exec summary; what real-world information did you learn?; what is the value of aliasing a table without changing its name?,,,,75
+#REDACTED,#REDACTED,12,0,0.5,0.5,1,75,summarize analytical findings in an exec summary; good instinct to join all the tables together; use at least one inner join,,,,75
+#REDACTED,#REDACTED,15,0,0.5,1,1.5,80,summarize analytical findings in an exec summary; what real-world information did you learn?,0,0.4,0.6,75
+#REDACTED,#REDACTED,25,0.5,1,0,1.5,75,summarize analytical findings in an exec summary; use JOIN clauses; use at least one inner join and at least one outer join;,0.5,0.5,0.8,75
+#REDACTED,#REDACTED,28,0,1,0,1,75,summarize analytical findings in an exec summary; use JOIN clauses; use at least one inner join and at least one outer join;,,,,75
+#REDACTED,#REDACTED,30,0.5,0.5,0.5,1.5,75,summarize analytical findings in an exec summary; what real-world information did you learn?; use at least one inner join,0.6,0.5,0.2,75
+#REDACTED,#REDACTED,4,0,0.5,0.5,1,66,summarize analytical findings in an exec summary; use at least one outer join,,,,66
+#REDACTED,#REDACTED,6,0,0,1,1,66,summarize analytical findings in an exec summary; what real-world information did you learn?,,,,66
+#REDACTED,#REDACTED,13,0.5,0,0.5,1,66,what real-world information did you learn?; check your join conditions; use at least one inner join,,,,66
+#REDACTED,#REDACTED,16,0,0,1,1,66,summarize analytical findings in an exec summary; what interesting real-world information did you learn?,0,0,0.7,66
+#REDACTED,#REDACTED,21,0,0,0.5,0.5,66,summarize analytical findings in an exec summary; what real-world information did you learn?; use at least one inner join,0,0.1,0.4,66
+#REDACTED,#REDACTED,24,0,0,0.5,0.5,66,summarize analytical findings in an exec summary; what real-world information did you learn?; use at least one outer join,0.1,0.2,0.2,66
+#REDACTED,#REDACTED,27,0.5,0.5,0.5,1.5,66,"summarize analytical findings in an exec summary; your stop-counting query is not doing what you think it is, and be careful about how you phrase your findings; inventive use of a sub-query; use at least one outer join",0.5,0.4,0.4,66
+#REDACTED,#REDACTED,31,0,0.5,0.5,1,66,summarize analytical findings in an exec summary; check that each join clause only has one join condition; use at least one outer join;,,,,66
+#REDACTED,#REDACTED,34,0,0.5,0.5,1,66,summarize analytical findings in an exec summary; what interesting real-world information did you learn?; check your join conditions; use at least one outer join;,0,0.4,0.4,66
+#REDACTED,#REDACTED,23,0.5,0,0,0.5,50,summarize analytical findings in an exec summary; what interesting real world information did you learn?; you're close but try choosing different attributes in your join condition; ,,,,50
+#REDACTED,#REDACTED,1,0,0,0,0,0,not yet submitted,,,,
+#REDACTED,#REDACTED,3,0,0,0,0,0,not yet submitted,,,,
+#REDACTED,#REDACTED,5,0,0,0,0,0,not yet attempted,,,,
+#REDACTED,#REDACTED,10,0,0,0,0,0,not yet submitted,,,,
+#REDACTED,#REDACTED,14,0,0,0,0,0,not yet submitted,,,,
+#REDACTED,#REDACTED,19,0,0,0,0,0,not yet submitted,,,,
+#REDACTED,#REDACTED,22,0,0,0,0,0,not yet submitted,,,,
+#REDACTED,#REDACTED,29,0,0,0,0,0,not yet attempted,,,,
+#REDACTED,#REDACTED,32,0,0,0,0,0,not yet attempted,,,,
+#REDACTED,#REDACTED,33,0,0,0,0,0,not yet submitted,,,,
