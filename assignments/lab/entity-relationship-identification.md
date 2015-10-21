@@ -4,7 +4,7 @@ Refer to the [example entity and relationship identification exercises](/resourc
 
 ## Description
 
-Work in groups to identify the entities and relationships within this [sample relational dataset](#TODO).
+Work in groups to identify the entities and relationships within this [sample relational dataset](https://github.com/gwu-business/radio-data/tree/master/data).
 
 Classify each relationship in terms of its optionality and cardinality.
 

@@ -2,7 +2,7 @@
 
 ## Description
 
-Create an Entity Relationship Diagram (ERD) which properly models the entities and relationships in this [sample relational dataset](#TODO).
+Create an Entity Relationship Diagram (ERD) which properly models the entities and relationships in this [sample relational dataset](https://github.com/gwu-business/radio-data/tree/master/data).
 
 State your assumptions as necessary in a text box to provide additional justification for your decisions.
 
