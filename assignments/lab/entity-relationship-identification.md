@@ -1,10 +1,10 @@
 # Entity and Relationship Identification Assignment
 
-Refer to the [example entity and relationship identification exercises](/resources/database-design/conceptual-design/conceptual-design-exercises.md).
+Refer to the [example entity and relationship identification exercises](/resources/database-design/conceptual-design/conceptual-design-exercises.md) for practice.
 
 ## Description
 
-Work in groups to identify the entities and relationships within this [sample relational dataset](https://github.com/gwu-business/radio-data/tree/master/data).
+Identify the entities and relationships within this [sample relational dataset](https://github.com/gwu-business/radio-data/tree/master/data).
 
 Classify each relationship in terms of its optionality and cardinality.
 
@@ -12,10 +12,10 @@ Explicitly state your assumptions to provide additional justification for your d
 
 ## Submission Instructions
 
-Hand-in one submission per group to an instructor for in-class evaluation.
+Upload a .pdf file to [Blackboard](https://blackboard.gwu.edu/webapps/assignment/uploadAssignment?content_id=_6896165_1&course_id=_260328_1&assign_group_id=&mode=cpview).
 
 ## Evaluation Criteria
 
-Full credit for in all cases properly identifying entities and relationships, choosing the right type of relationships in terms of optionality and cardinality, and providing example SQL queries you would use to join the tables together.
+Full credit for in all cases properly identifying entities and relationships, choosing the right type of relationships in terms of optionality and cardinality.
 
 Else no credit.

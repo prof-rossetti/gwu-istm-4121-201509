@@ -101,28 +101,30 @@ duration (mins) | usage | topic
 
 duration (mins) | usage | topic
 --- | --- | ---
-50 | Lecture | [Conceptual Database Design](notes/database-design/conceptual-design.md)
-50 | Lab | Entity and Relationship Identification, including in-class assignment
-10 | Break |
-40 | Lab | Entity Relationship Diagramming (ERDs)
+20 | Announcements | Mid-semester Assignment and Exam Recap
+20 | Guest Lecture | GW New Venture Competition Resources
+60 | Lecture | Midterm Exam Review
+30 | Lecture | [Conceptual Database Design](notes/database-design/conceptual-design.md)
+20 | Lab | Entity and Relationship Identification Exercises
 
 Assignment(s):
 
- + [Entity and Relationship Identification](assignments/lab/entity-relationship-identification.md) (given and due in-class)
- + [Entity Relationship Diagrams](assignments/lab/entity-relationship-diagramming.md) (given)
+ + [Entity and Relationship Identification](assignments/lab/entity-relationship-identification.md) (given)
 
 ### Week 9 - 10/28/15
 
 duration (mins) | usage | topic
 --- | --- | ---
-70 | Lecture | [Logical Database Design](notes/database-design/logical-design.md)
+40 | Lab | Entity Relationship Diagramming (ERDs) Exercise
 10 | Break |
-70 | Lab | Normalization, including in-class assignment
+60 | Lecture | [Logical Database Design](notes/database-design/logical-design.md)
+40 | Lab | Normalization Exercises
 
 Assignment(s):
 
- + [Entity Relationship Diagrams](assignments/lab/entity-relationship-diagramming.md) (due)
- + [Normalization](assignments/lab/normalization.md) (given and due)
+ + [Entity and Relationship Identification](assignments/lab/entity-relationship-identification.md) (due)
+ + [Entity Relationship Diagrams](assignments/lab/entity-relationship-diagramming.md) (given)
+ + [Normalization](assignments/lab/normalization.md) (given)
 
 
 
@@ -147,6 +149,11 @@ duration (mins) | usage | topic
 35 | Lecture | Information Outputs
 10 | Break |
 70 | Lab | MS Access Forms and Reports
+
+Assignment(s):
+
+ + [Entity Relationship Diagrams](assignments/lab/entity-relationship-diagramming.md) (due)
+ + [Normalization](assignments/lab/normalization.md) (due)
 
 ### Week 11 - 11/11/15
 

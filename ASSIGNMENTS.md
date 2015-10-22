@@ -30,7 +30,7 @@ name | weight | nature
 [Database Management Software](assignments/lab/database-management-software.md) | (50% x 40% x 5%) | in-class
 [Data Analysis](assignments/lab/data-analysis.md) | (50% x 40% x 10%) | take-home
 [Relational Data Analysis](assignments/lab/relational-data-analysis.md) | (50% x 40% x 15%) | take-home
-[Entity and Relationship Identification](assignments/lab/entity-relationship-identification.md) | (50% x 40% x 5%) | in-class
+[Entity and Relationship Identification](assignments/lab/entity-relationship-identification.md) | (50% x 40% x 5%) | take-home
 [Entity Relationship Diagramming](assignments/lab/entity-relationship-diagramming.md) | (50% x 40% x 15%) | take-home
 [Normalization](assignments/lab/normalization.md) | (50% x 40% x 10%) | in-class
 Database Inputs | (50% x 40% x 10%) | TBA
@@ -53,6 +53,6 @@ A lab homework assignment is eligible for evaluation if it meets the following s
 
  + typed on a keyboard or drawn with an appropriate digital tool
  + produced by a single student (disussion is permitted but work product must be unique)
- + submitted in print form
+ + ~~submitted in print form~~
  + submitted on Blackboard
  + submitted before the start of class on the due date (no exceptions based on geolocation)
