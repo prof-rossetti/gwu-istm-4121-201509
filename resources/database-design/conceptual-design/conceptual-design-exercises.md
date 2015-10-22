@@ -18,7 +18,7 @@ Entities:
  + Student
  + Bicycle
 
-Relationship: "A student may own one or more bicycles"
+Relationship: "A student may own zero or more bicycles"
 
 Relationship Cardinality: One-to-many
 
