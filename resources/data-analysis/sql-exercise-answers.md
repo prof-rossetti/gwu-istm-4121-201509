@@ -197,15 +197,3 @@ GROUP BY candidate_id, candidate_full_name, channel_id, channel_title
 ORDER BY max_view_count DESC
 LIMIT 5
 ````
-
-<hr>
-
-# Lessons Learned
-
-## Choose your Tools
-
-## Virtual Attributes
-
-Virtual attributes can be formed/calculated from database-stored attributes without need for additional storage.
-
- + `candidates.full_name` was created from concatenating `candidates.first_name` with `candidates.first_name`

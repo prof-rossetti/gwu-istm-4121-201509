@@ -105,7 +105,7 @@ duration (mins) | usage | topic
 20 | Guest Lecture | GW New Venture Competition Resources
 60 | Lecture | Midterm Exam Review
 30 | Lecture | [Conceptual Database Design](notes/database-design/conceptual-design.md)
-20 | Lab | Entity and Relationship Identification Exercises
+20 | Lab | [Entity and Relationship Identification Exercises](/resources/database-design/conceptual-design/conceptual-design-exercises.md)
 
 Assignment(s):
 
