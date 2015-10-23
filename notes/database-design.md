@@ -8,6 +8,7 @@ A **relational database** is defined as:
 
  1. [Physical Design](notes/database-design/physical-design.md)
  * [Conceptual Design](notes/database-design/conceptual-design.md)
+ * [Diagramming](notes/database-design/entity-relationship-diagramming.md)
  * [Logical Design](notes/database-design/logical-design.md)
 
 <hr>
