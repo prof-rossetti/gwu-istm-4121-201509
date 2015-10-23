@@ -4,11 +4,11 @@
 
 Answer each question in English in the space provided below.
 
-Reference the provided database table design. Each table has a primary key. Not every table has a foreign key. Some tables have more than one foreign key.
+Reference the provided database table design. Each table has one primary key. Not every table has a foreign key. Some tables have more than one foreign key.
 
 For each table:
 
- + Identify the set of one or more attributes which is likely to be a **primary key**.
+ + Identify the set of one or more attributes which is most likely to be the **primary key**.
  + If there are any sets of one or more attributes which are likely to be a **foreign key**, identify each and indicate which related table it is most likely to reference.
 
 State assumptions as necessary to justify answers.
