@@ -14,6 +14,8 @@ In some cases, there may exist more than one entity per each database table. A *
 
 In other cases, an entity may span multiple database tables. A **super-type**, or **polymorphic** entity is one which has a relationship that includes "... one or more sub-types" ([3](/README/#accompanying-textbook)). Super-type entities are often indicated by a composite foreign key of two attributes which share a prefix but differ in suffix, most commonly `_id` and `_type`, respectively, where the prefix indicates the name of the super-type entity.
 
+Sub-type entities **inherit** attributes from related super-type entities.
+
 ### Attributes
 
 An entity has one or more qualities, or **attributes**. Given a corresponding database table, the list of entity attributes roughly maps to the list of column names.
