@@ -10,6 +10,10 @@ An entity represents a class of object.
 
 To derive an entity name from a table name when applicable, singularize and capitalize the table name (e.g. for a table named `bicycles`, the entity name would most likely be `Bicycle`).
 
+In some cases, there may exist more than one entity per each database table. A **sub-type** entity is a collection of entity attributes which "... shares common relationships or attributes distinct from other sub-groupings" ([3](/README/#accompanying-textbook)). Sub-type entities are often indicated with an attribute named `type`.
+
+In other cases, an entity may span multiple database tables. A **super-type**, or **polymorphic** entity is one which has a relationship that includes "... one or more sub-types" ([3](/README/#accompanying-textbook)). Super-type entities are often indicated by a composite foreign key of two attributes which share a prefix but differ in suffix, most commonly `_id` and `_type`, respectively, where the prefix indicates the name of the super-type entity.
+
 ### Attributes
 
 An entity has one or more qualities, or **attributes**. Given a corresponding database table, the list of entity attributes roughly maps to the list of column names.
