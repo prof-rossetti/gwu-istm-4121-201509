@@ -65,11 +65,11 @@ Additional clauses and sub-clauses exist, but may or may not be uniformly recogn
 
 ##### Relational Datasets
 
- + [2016 US Presidential Election/Campaign Data](https://github.com/gwu-business/2016-election-data/tree/master/data) (related .csv files)
- + [Radio Data](https://github.com/gwu-business/radio-data/tree/master/data)
- + Any of the [GTFS](https://developers.google.com/transit/gtfs/reference?hl=en) [datasets](http://www.gtfs-data-exchange.com/agencies) (related .txt files)
+ + [Bike-share Data](https://github.com/gwu-business/bikeshare-data)
  + Any of the [LIVES](http://www.yelp.com/healthscores) [datasets](http://www.yelp.com/healthscores/feeds) (related .csv files)
-
+ + [Internet Radio Data](https://github.com/gwu-business/radio-data/tree/master/data)
+ + [2016 US Presidential Campaign Data](https://github.com/gwu-business/2016-election-data/tree/master/data) (related .csv files)
+ + Any of the [GTFS](https://developers.google.com/transit/gtfs/reference?hl=en) [datasets](http://www.gtfs-data-exchange.com/agencies) (related .txt files)
 
 ### Additional Resources
 

@@ -1,4 +1,4 @@
-# Relational Data Processing and Analysis Lab Assignment
+# Relational Data Analysis Lab Assignment
 
 Reference:
 
@@ -7,23 +7,21 @@ Reference:
 
 ## Description
 
-Find a real world multi-table (relational) dataset which contains business-related data. Or choose one of the following pre-selected open datasets:
+Find a real world multi-table dataset which contains business-related data. You may use a dataset from an [open data portals](https://github.com/gwu-business/istm-4121/blob/9884c4063f728fb84e75f41432ae9a34325bde0f/notes/data-analysis.md#open-data-portals) or an [instructional relational datasets](https://github.com/gwu-business/istm-4121/blob/9884c4063f728fb84e75f41432ae9a34325bde0f/notes/data-analysis.md#relational-datasets) or one of the following pre-selected datasets:
 
- + [Washington, DC Transit Data](http://www.wmata.com/rider_tools/license_agreement.cfm) (agree and submit to reveal the data download)
  + [Evanston, IL Health and Safety Inspection Data](http://opendata-hub.cloudapp.net/lives/yelp_evanston_healthscores.zip)
+ + [Washington, DC Transit Data](http://www.wmata.com/rider_tools/license_agreement.cfm) (agree and submit to reveal the data download)
 
 Download the corresponding .csv or .txt file(s).
 
 Import the data into one or more spreadsheets,
  if necessary and/or possible,
- to get a feel for dataset properties like number of rows (size), and
-  number,
-  name and
-  nature of attributes.
+ to get a feel for dataset properties like number of rows, and
+  number and nature of column-names.
 
 Import the data into a database using the DBMS of your choice. Refer to the additional support provided below. Identify which DBMS you are using.
 
-Write SQL queries to ask questions of the data and process the data into information. Use the `JOIN` and `LEFT JOIN` clauses demonstrated in class, as well as other previously-demonstrated single-table clauses and functions.
+Write SQL queries to ask questions of the data and process the data into information. Use the `INNER JOIN` and `LEFT JOIN` clauses demonstrated in class, as well as other previously-demonstrated single-table clauses and functions.
 
 Create indices as necessary to [improve query performance](/resources/database-design/physical-design/benefits_of_indices.sql).
 
@@ -54,7 +52,7 @@ Else no credit.
 
 <hr>
 
-## Support for working with the Suggested Dataset
+## Support for working with  GTFS Datasets
 
 ### Schema Reference
 
