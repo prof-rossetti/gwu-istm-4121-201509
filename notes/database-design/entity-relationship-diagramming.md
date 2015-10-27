@@ -8,7 +8,11 @@ Data professionals create an ERD when planning, designing, or communicating on a
 
 ## Notation
 
-There is more than one acceptable way to draw an ERD.
+There is more than one acceptable way to draw an ERD, in terms of the symbols used.
+
+One example style of notation is "Crow's Foot," as illustrated below:
+
+![a picture with different varieties of rectangle for depicting entities, and lines with different ending symbols for depicting relationships ](/resources/images/conceptdrawdotcom-crows-feet-erd-notation-symbols.png)
 
 ### Entities
 
@@ -32,7 +36,7 @@ Represent each relationship as a line connecting two entities, or in some cases 
 
 To denote relationship cardinality,
   use `1` to represent "one",
-  and either `m` or <code>&infin;</code> (infinity sign) to represent "many".
+  and either `m` or <code>&infin;</code> (infinity sign) or `-<` (crow's foot) to represent "many".
 
 Mark cardinality for each relationship direction.
 
@@ -66,3 +70,7 @@ Alternatively, you may use special software to auto-generate digital ERDs based 
 
 Additional resources:
  + https://www.lucidchart.com/pages/ER-diagram-symbols-and-meaning
+ + http://rails-erd.rubyforge.org/gallery.html#notations
+ + http://www.codeproject.com/Articles/878359/Data-modelling-using-ERD-with-Crow-Foot-Notation
+ + https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model#Cardinalities
+ + http://www.conceptdraw.com/solution-park/diagramming-ERD
