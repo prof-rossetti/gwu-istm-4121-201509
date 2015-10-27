@@ -1,4 +1,4 @@
-# Physical Design
+# Physical Database Design
 
 Physical database design incorporates elements of:
 

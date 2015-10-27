@@ -1,4 +1,4 @@
-# Logical Design
+# Logical Database Design
 
 Proper relational database design produces proper database function.
 

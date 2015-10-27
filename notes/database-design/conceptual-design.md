@@ -1,4 +1,4 @@
-# Conceptual Design
+# Conceptual Database Design
 
 ## Entities
 
