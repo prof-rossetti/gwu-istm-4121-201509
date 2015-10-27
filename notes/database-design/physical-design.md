@@ -52,12 +52,12 @@ Refer to a comprehensive list of [DBMS-specific datatypes](http://www.w3schools.
 
 An **index** is defined as a:
 
-> "... data structure used to determine in a file the location of records that satisfy some condition." - [Hoffer](/README/#accompanying-textbook) chapter 5
+> "... data structure used to determine in a file the location of records that satisfy some condition." - [Hoffer](/README.md/#accompanying-textbook) chapter 5
 
 Index also refers to a method by which the DBMS searches and finds records.
   An **indexed file organization** is defined as:
 
-> "The storage of records either sequentially or nonsequentially with an index that allows software to locate individual records." - [Hoffer](/README/#accompanying-textbook) chapter 5
+> "The storage of records either sequentially or nonsequentially with an index that allows software to locate individual records." - [Hoffer](/README.md/#accompanying-textbook) chapter 5
 
 As a matter of practice, an index can be applied to one or more attributes.
 

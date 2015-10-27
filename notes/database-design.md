@@ -1,8 +1,8 @@
 # Relational Database Design
 
-A **relational database** is "a database that represents data as a collection of of tables in which all data relationships are represented by common values in related tables" ([1](/README/#accompanying-textbook)).
+A **relational database** is "a database that represents data as a collection of of tables in which all data relationships are represented by common values in related tables" ([1](/README.md/#accompanying-textbook)).
 
-Within the context of relational database design, a **relation** refers to a "named, two-dimensional table of data" ([4](/README/#accompanying-textbook)).
+Within the context of relational database design, a **relation** refers to a "named, two-dimensional table of data" ([4](/README.md/#accompanying-textbook)).
 
 ## Instructional Modules
 

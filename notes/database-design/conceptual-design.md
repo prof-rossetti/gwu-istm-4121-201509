@@ -2,7 +2,7 @@
 
 ## Entities
 
-An **entity** is defined as "a person, place, object, event, or concept in the user environment about which the organization wishes to maintain data" ([1](/README/#accompanying-textbook)).
+An **entity** is defined as "a person, place, object, event, or concept in the user environment about which the organization wishes to maintain data" ([1](/README.md/#accompanying-textbook)).
 
 Entities are nouns within the scope of your database design.
 
@@ -10,9 +10,9 @@ An entity represents a class of object.
 
 To derive an entity name from a table name when applicable, singularize and capitalize the table name (e.g. for a table named `bicycles`, the entity name would most likely be `Bicycle`).
 
-In some cases, there may exist more than one entity per each database table. A **sub-type** entity is a collection of entity attributes which "... shares common relationships or attributes distinct from other sub-groupings" ([3](/README/#accompanying-textbook)). Sub-type entities are often indicated with an attribute named `type`.
+In some cases, there may exist more than one entity per each database table. A **sub-type** entity is a collection of entity attributes which "... shares common relationships or attributes distinct from other sub-groupings" ([3](/README.md/#accompanying-textbook)). Sub-type entities are often indicated with an attribute named `type`.
 
-In other cases, an entity may span multiple database tables. A **super-type**, or **polymorphic** entity is one which has a relationship that includes "... one or more sub-types" ([3](/README/#accompanying-textbook)). Super-type entities are often indicated by a composite foreign key of two attributes which share a prefix but differ in suffix, most commonly `_id` and `_type`, respectively, where the prefix indicates the name of the super-type entity.
+In other cases, an entity may span multiple database tables. A **super-type**, or **polymorphic** entity is one which has a relationship that includes "... one or more sub-types" ([3](/README.md/#accompanying-textbook)). Super-type entities are often indicated by a composite foreign key of two attributes which share a prefix but differ in suffix, most commonly `_id` and `_type`, respectively, where the prefix indicates the name of the super-type entity.
 
 Sub-type entities **inherit** attributes from related super-type entities.
 
@@ -48,7 +48,7 @@ Relationship classifications are a function of both actual and intended data beh
 
 #### Relationship Degree
 
-Relationship **degree** specifies "the number of entities which participate in the relationship" ([2](/README/#accompanying-textbook)).
+Relationship **degree** specifies "the number of entities which participate in the relationship" ([2](/README.md/#accompanying-textbook)).
 
 degree | participating entity count | description
 --- | --- | ---
