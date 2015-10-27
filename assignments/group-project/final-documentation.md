@@ -64,38 +64,37 @@ Finally, describe data storage, availability, security, and privacy consideratio
   + Table of Contents
   + Business Problem Identification
   + Information System Solution
-    + Information System Analysis:
-      + System Description
-      + System Purpose and Success Evaluation Criteria
-      + System Justification (quantifiable)
-      + Information Requirements
-        + Information Inputs
-        + Information Outputs
-      + Privacy and Security Concerns
-      + Implementation and Adoption Plan
-      + Administration and Maintenance Instructions and Considerations
-      + Components (description and estimated costs of each):
-         + Interface and User Considerations
-           + Usage Instructions and Considerations
-           + Interface Screenshots/Mock-ups
-         + Hardware
-         + Software
-           + Information Inputs Functionality (e.g. forms) Description and Screenshots/Mock-ups
-           + Information Outputs Functionality (e.g. reports) Description and Screenshots/Mock-ups
-         + Networks
-         + Datastore
-           + Relational Database Design
-             + Conceptual and Logical Design
-               + Entity and Attribute Identification and Descriptions
-               + Relationship Identification, Classification, and Descriptions
-             + Physical Design
-               + Table Identification and Examples
-               + Index Identification and Descriptions
-               + Data Dictionary
-             + Database Design Diagram (ERD)
-           + Data Processing and Operations
-             + SQL Library
-           + Data Replication, Backup, and Storage Considerations
+    + System Description
+    + System Purpose and Success Evaluation Criteria
+    + System Justification (quantifiable)
+    + Information Requirements
+      + Information Inputs
+      + Information Outputs
+    + Privacy and Security Concerns
+    + Implementation and Adoption Plan
+    + Administration and Maintenance Instructions and Considerations
+    + Components (description and estimated costs of each):
+      + Interface and User Considerations
+        + Usage Instructions and Considerations
+        + Interface Screenshots/Mock-ups
+      + Hardware
+      + Software
+        + Information Inputs Functionality (e.g. forms) Description and Screenshots/Mock-ups
+        + Information Outputs Functionality (e.g. reports) Description and Screenshots/Mock-ups
+      + Networks
+      + Datastore
+        + Relational Database Design
+          + Conceptual and Logical Design
+            + Entity and Attribute Identification and Descriptions
+            + Relationship Identification, Classification, and Descriptions
+          + Physical Design
+            + Table Identification and Examples
+            + Index Identification and Descriptions
+            + Data Dictionary
+          + Database Design Diagram (ERD)
+          + Data Processing and Operations
+            + SQL Library
+          + Data Replication, Backup, and Storage Considerations
 
 Provide any additional information pertinent to describing your information system solution and demonstrating its ability to solve the business problem and provide value.
 
