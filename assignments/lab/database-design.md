@@ -1,8 +1,8 @@
-# Entity and Relationship Diagramming (ERD) Assignment
+# Database Design Assignment
 
 ## Description
 
-Reference this [example relational dataset](https://github.com/gwu-business/radio-data/tree/master/data).
+Choose one [example business prompt](/resources/group-project/examples/).
 
 List all entities and relationships.
 
@@ -32,8 +32,7 @@ Your ERD should:
 
 ## Submission Instructions
 
-Upload two different ERD .pdf files to the same submission attempt via
- [Blackboard](https://blackboard.gwu.edu/webapps/assignment/uploadAssignment?content_id=_6863213_1&course_id=_260328_1&assign_group_id=&mode=cpview).
+Upload the ERD .pdf file via [Blackboard](#TODO).
 
 ## Evaluation Criteria
 

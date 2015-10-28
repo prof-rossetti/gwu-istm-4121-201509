@@ -118,14 +118,14 @@ duration (mins) | usage | topic
 20 | Lecture | [Entity Relationship Diagramming](notes/database-design/entity-relationship-diagramming.md)
 50 | Lab | [ERD Exercises](/resources/database-design/entity-relationship-diagramming/database-design-diagramming-exercises.md)
 10 | Break |
-50 | Lecture | [Logical Database Design](notes/database-design/logical-design.md)
-20 | Lab | Normalization Exercise
+40 | Lecture | [Logical Database Design](notes/database-design/logical-design.md)
+30 | Lab | Database Design Exercise
 
 Assignment(s):
 
  + [Entity and Relationship Identification](assignments/lab/entity-relationship-identification.md) (due)
  + [Entity Relationship Diagramming](assignments/lab/entity-relationship-diagramming.md) (given)
- + [Normalization](assignments/lab/normalization.md) (given)
+ + [Database Design](assignments/lab/database-design.md) (given)
 
 
 
@@ -154,7 +154,7 @@ duration (mins) | usage | topic
 Assignment(s):
 
  + [Entity Relationship Diagrams](assignments/lab/entity-relationship-diagramming.md) (due)
- + [Normalization](assignments/lab/normalization.md) (due)
+ + [Database Design](assignments/lab/database-design.md) (due)
 
 ### Week 11 - 11/11/15
 
