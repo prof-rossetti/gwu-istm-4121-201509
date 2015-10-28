@@ -22,11 +22,18 @@ A properly designed database provides business value in terms at least of:
 
 ## Denormalized Data
 
-_______ repeating groups.
+Datasets in various forms may contain repeating groups of attribute values.
 
-a | table | will | be | here
---- | --- | --- | --- | ---
-1|2|3|4|5
+Repeating groups of attribute values is common and proper quality of datasets which are used to produce charts, dashboards, statistical analyses, or other outputs which aid decision-making.
+
+This
+  [activity report](https://github.com/gwu-business/radio-data/blob/master/reports/activity_report.csv) is an example of a denormalized dataset. For additional clarity, import it into a DBMS and examine it with the following SQL query:
+
+```` sql
+SELECT *
+FROM activity_report
+ORDER BY listener_full_name, song_title, artist_name, started_listening_at DESC
+````
 
 ## Normalization
 
@@ -51,24 +58,12 @@ It is sometimes helpful or necessary to stop at a intermediate stages, but the u
 **First Normal Form (1NF)** is a
  "... relation that has a primary key and in which there are no repeating groups" ([4](/README.md/#accompanying-textbook)).
 
-a | table | will | be | here
---- | --- | --- | --- | ---
-1|2|3|4|5
-
 #### Second Normal Form
 
 **Second Normal Form (2NF)** is a relation which satisfies the conditions of 1NF and also "... every non-key attribute (depends) on the primary key." ([4](/README.md/#accompanying-textbook)).
 
 2NF may contain one or more transitive dependencies.
 
-a | table | will | be | here
---- | --- | --- | --- | ---
-1|2|3|4|5
-
 #### Third Normal Form
 
 **Third Normal Form (3NF)** is a relation which satisfies the conditions of 2NF and also "... has no transitive dependencies" ([4](/README.md/#accompanying-textbook)).
-
-a | table | will | be | here
---- | --- | --- | --- | ---
-1|2|3|4|5
