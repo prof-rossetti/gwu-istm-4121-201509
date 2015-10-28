@@ -116,7 +116,7 @@ Assignment(s):
 duration (mins) | usage | topic
 --- | --- | ---
 20 | Lecture | [Entity Relationship Diagramming](notes/database-design/entity-relationship-diagramming.md)
-50 | Lab | [ERD Exercises](/resources/database-design/entity-relationship-diagramming/database-design-exercises.md)
+50 | Lab | [ERD Exercises](/resources/database-design/entity-relationship-diagramming/database-design-diagramming-exercises.md)
 10 | Break |
 50 | Lecture | [Logical Database Design](notes/database-design/logical-design.md)
 20 | Lab | Normalization Exercise
