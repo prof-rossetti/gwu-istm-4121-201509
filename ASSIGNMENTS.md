@@ -32,7 +32,7 @@ name | weight | nature
 [Relational Data Analysis](assignments/lab/relational-data-analysis.md) | (50% x 40% x 15%) | take-home
 [Entity and Relationship Identification](assignments/lab/entity-relationship-identification.md) | (50% x 40% x 5%) | take-home
 [Entity Relationship Diagramming](assignments/lab/entity-relationship-diagramming.md) | (50% x 40% x 15%) | take-home
-[Normalization](assignments/lab/normalization.md) | (50% x 40% x 10%) | in-class
+[Normalization](assignments/lab/normalization.md) | (50% x 40% x 10%) | take-home
 Database Inputs | (50% x 40% x 10%) | TBA
 Database Outputs | (50% x 40% x 10%) | TBA
 

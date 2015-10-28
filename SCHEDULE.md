@@ -115,15 +115,16 @@ Assignment(s):
 
 duration (mins) | usage | topic
 --- | --- | ---
-40 | Lab | Entity Relationship Diagramming (ERDs) Exercise
+20 | Lecture | [Entity Relationship Diagramming](notes/database-design/entity-relationship-diagramming.md)
+50 | Lab | [ERD Exercises](/resources/database-design/entity-relationship-diagramming/database-design-exercises.md)
 10 | Break |
-60 | Lecture | [Logical Database Design](notes/database-design/logical-design.md)
-40 | Lab | Normalization Exercises
+50 | Lecture | [Logical Database Design](notes/database-design/logical-design.md)
+20 | Lab | Normalization Exercise
 
 Assignment(s):
 
  + [Entity and Relationship Identification](assignments/lab/entity-relationship-identification.md) (due)
- + [Entity Relationship Diagrams](assignments/lab/entity-relationship-diagramming.md) (given)
+ + [Entity Relationship Diagramming](assignments/lab/entity-relationship-diagramming.md) (given)
  + [Normalization](assignments/lab/normalization.md) (given)
 
 
