@@ -33,8 +33,8 @@ name | weight | nature
 [Entity and Relationship Identification](assignments/lab/entity-relationship-identification.md) | (50% x 40% x 5%) | take-home
 [Entity Relationship Diagramming](assignments/lab/entity-relationship-diagramming.md) | (50% x 40% x 5%) | take-home
 [Database Design](assignments/lab/database-design.md) | (50% x 40% x 20%) | take-home
-Database Inputs | (50% x 40% x 10%) | TBA
-Database Outputs | (50% x 40% x 10%) | TBA
+[Database Inputs](assignments/lab/database-inputs.md) | (50% x 40% x 10%) | take-home
+[Database Outputs (Data Visualization)](assignments/lab/data-visualization.md) | (50% x 40% x 10%) | take-home
 
 #### In-Class
 

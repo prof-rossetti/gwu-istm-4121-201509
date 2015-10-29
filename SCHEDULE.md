@@ -115,17 +115,31 @@ Assignment(s):
 
 duration (mins) | usage | topic
 --- | --- | ---
-20 | Lecture | [Entity Relationship Diagramming](notes/database-design/entity-relationship-diagramming.md)
-50 | Lab | [ERD Exercises](/resources/database-design/entity-relationship-diagramming/database-design-diagramming-exercises.md)
+30 | Lecture | [Entity Relationship Diagramming](notes/database-design/entity-relationship-diagramming.md)
 10 | Break |
-40 | Lecture | [Logical Database Design](notes/database-design/logical-design.md)
-30 | Lab | Database Design Exercise
+70 | Lecture | [Logical Database Design](notes/database-design/logical-design.md)
+40 | Lab | [Form-based Database Design Exercise](/notes/database-design/logical-design/business-form-based-design-exercise.md)
 
 Assignment(s):
 
  + [Entity and Relationship Identification](assignments/lab/entity-relationship-identification.md) (due)
  + [Entity Relationship Diagramming](assignments/lab/entity-relationship-diagramming.md) (given)
  + [Database Design](assignments/lab/database-design.md) (given)
+
+### Week 10 - 11/4/15
+
+duration (mins) | usage | topic
+--- | --- | ---
+40 | Lab | [Form-based Database Design Exercise](resources/database-design/logical-design/business-form-based-design-exercise.md), continued
+10 | Break |
+60 | Lecture | [Information Inputs](/notes/database-applications/information-inputs.md)
+40 | Lab | [API-based Database Design Exercise](resources/database-design/logical-design/api-based-design-exercise.md)
+
+Assignment(s):
+
+ + [Entity Relationship Diagrams](assignments/lab/entity-relationship-diagramming.md) (due)
+
+
 
 
 
@@ -142,56 +156,36 @@ Assignment(s):
 
 ## Module III - Database Applications
 
-### Week 10 - 11/4/15
-
-duration (mins) | usage | topic
---- | --- | ---
-35 | Lecture | Information Inputs
-35 | Lecture | Information Outputs
-10 | Break |
-70 | Lab | MS Access Forms and Reports
-
-Assignment(s):
-
- + [Entity Relationship Diagrams](assignments/lab/entity-relationship-diagramming.md) (due)
- + [Database Design](assignments/lab/database-design.md) (due)
-
 ### Week 11 - 11/11/15
 
 duration (mins) | usage | topic
 --- | --- | ---
-70 | Lecture | Web Forms and Reports
+20 | Lecture | MS Access Forms
+25 | Lecture | Web Forms
+25 | Lecture | Extract, Transform, and Load (ETL) Scripting
 10 | Break |
-70 | Lab | Web Forms and Reports, including in-class assignment
+70 | Support | [Database Inputs (Data Capture and Transformation) Assignment](assignments/lab/database-inputs.md)
 
 Assignments:
 
- + Information Inputs (given and due)
+ + [Database Design](assignments/lab/database-design.md) (due)
+ + [Database Inputs](assignments/lab/database-inputs.md) (given)
 
 ### Week 12 - 11/18/15
 
 duration (mins) | usage | topic
 --- | --- | ---
-70 | Lecture | Tableau Reports
+30 | Lecture | Information Outputs
+20 | Lecture | MS Access Reports
+20 | Lecture | Web Dashboards
+20 | Lecture | Tableau Dashboards
 10 | Break |
-70 | Lab | Tableau Reports, including in-class assignment
+50 | Support | [Database Outputs (Data Visualization) Assignment](assignments/lab/data-visualization.md))
 
 Assignments:
 
- + Information Outputs (given and due)
-
-
-
-
-
-
-
-
-
-
-
-
-
+ + [Database Inputs](assignments/lab/database-inputs.md) (due)
+ + [Data Visualization](assignments/lab/data-visualization.md) (given)
 
 ### Week 13 - 11/25/15
 
@@ -201,9 +195,24 @@ No Class - Thanksgiving
 
 duration (mins) | usage | topic
 --- | --- | ---
-70 | Lecture | TBA - Security and Privacy; or APIs and Scripting
+70 | Lecture | TBA: Security and Privacy; or Web Applications and Frameworks
 10 | Break |
 70 | Support | Group Project Implementation and Documentation
+
+Assignments:
+
++ [Data Visualization](assignments/lab/data-visualization.md) (due)
+
+
+
+
+
+
+
+
+
+
+
 
 ### Week 15 - 12/9/15
 

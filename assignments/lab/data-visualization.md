@@ -1,4 +1,4 @@
-# Database Outputs Lab Assignment
+# Database Outputs (Data Vizualization) Lab Assignment
 
 ## Description
 
