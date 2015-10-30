@@ -204,6 +204,14 @@ FROM songs
 JOIN plays on plays.song_id = songs.id
 JOIN skips on skips.play_id = plays.id;
 
+SELECT count(skipped_song_id) as skipped_song_count
+FROM (
+    SELECT DISTINCT s.id as skipped_song_id
+    FROM ((songs s
+    INNER JOIN plays p ON p.song_id = s.id)
+    INNER JOIN skips sk ON sk.play_id = p.id)
+); -- ms access
+
 ---7b. How many songs have NOT been skipped?
 
 SELECT count(DISTINCT songs.id) as nonskipped_song_count
