@@ -19,3 +19,7 @@ Any student who needs an accommodation based on the impact of a disability shoul
 ## Sexual Harassment
 
 See http://my.gwu.edu/files/policies/SexualHarassmentFINAL.pdf
+
+## Emergencies
+
+See https://campusadvisories.gwu.edu/sites/campusadvisories.gwu.edu/files/2015_2016_Syllabus_Insert.pdf
