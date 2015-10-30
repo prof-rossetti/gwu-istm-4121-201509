@@ -208,9 +208,24 @@ JOIN skips on skips.play_id = plays.id;
 
 SELECT count(DISTINCT songs.id) as nonskipped_song_count
 FROM songs
-LEFT JOIN plays on plays.song_id = songs.id
-LEFT JOIN skips on skips.play_id = plays.id
-WHERE skips.id IS NULL;
+WHERE id NOT IN (
+  SELECT DISTINCT s.id
+  FROM songs s
+  INNER JOIN plays p ON p.song_id = s.id
+  INNER JOIN skips sk ON sk.play_id = p.id
+); 
+
+SELECT count(nonskipped_song_id) as nonskipped_song_count
+FROM (
+  SELECT DISTINCT songs.id as nonskipped_song_id
+  FROM songs
+  WHERE id NOT IN (
+    SELECT DISTINCT s.id
+    FROM ((songs s
+    INNER JOIN plays p ON p.song_id = s.id)
+    INNEr JOIN skips sk ON sk.play_id = p.id)
+  )
+); -- ms access
 
 -- 7c. Which 100 songs have been skipped the most?
 
