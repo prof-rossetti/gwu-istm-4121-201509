@@ -25,7 +25,7 @@ Your ERD should:
  + represent all entities, and for each:
    + represent any known or likely attributes
  + represent all relationships between entities, and for each:
-   + describe the relationship in English, for each direction
+   + optionally describe the relationship in English, for each direction (in a small text box on each side of the relationship)
    + denote relationship cardinality, for each direction
    + optionally denote relationship optionality, for each direction
  + communicate stated assumptions in a text box footer as necessary
