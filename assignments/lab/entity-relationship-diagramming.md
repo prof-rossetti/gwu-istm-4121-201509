@@ -32,11 +32,12 @@ Your ERD should:
 
 ## Submission Instructions
 
-Upload two different ERD .pdf files to the same submission attempt via
- [Blackboard](https://blackboard.gwu.edu/webapps/assignment/uploadAssignment?content_id=_6863213_1&course_id=_260328_1&assign_group_id=&mode=cpview).
+Upload the ERD .pdf file to [Blackboard](https://blackboard.gwu.edu/webapps/assignment/uploadAssignment?content_id=_6863213_1&course_id=_260328_1&assign_group_id=&mode=cpview).
 
 ## Evaluation Criteria
 
 Full credit for a clear and comprehensive visual database design representation which fulfills the assignment expectations.
+
+Else partial credit may be given to reflect areas needing improvement.
 
 Else no credit.
