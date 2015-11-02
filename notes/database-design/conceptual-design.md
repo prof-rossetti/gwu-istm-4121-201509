@@ -72,7 +72,7 @@ Not Optional | 1 | an instance of one entity relates to a **minimum of one** ins
 Relationship **cardinality** specifies for each instance of one entity the maximum number of instances of another entity to which it may relate.
 
 cardinality | maximum foreign instance count | cardinality participation | description
---- | --- | ---
+--- | --- | --- | ---
 One-to-one | 1 | both-sides | each instance of each entity relates to a **maximum of one** instance of the other entity
 One-to-many | greater than one (infinity/ many) | either-side | each instance of one entity relates to a **maximum of more than one** instance of the other entity
 Many-to-many | greater than one (infinity/ many) | both-sides | each instance of each entity relates to a **maximum of more than one** instance of the other entity
