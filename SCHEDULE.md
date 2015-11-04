@@ -118,7 +118,7 @@ duration (mins) | usage | topic
 30 | Lecture | [Entity Relationship Diagramming](notes/database-design/entity-relationship-diagramming.md)
 10 | Break |
 70 | Lecture | [Logical Database Design](notes/database-design/logical-design.md)
-40 | Lab | [Form-based Database Design Exercise](/notes/database-design/logical-design/business-form-based-design-exercise.md)
+40 | Lab | [Form-based Database Design Exercise](/resources/database-design/logical-design/business-form-based-design-exercise.md)
 
 Assignment(s):
 
@@ -131,9 +131,10 @@ Assignment(s):
 duration (mins) | usage | topic
 --- | --- | ---
 40 | Lab | [Form-based Database Design Exercise](resources/database-design/logical-design/business-form-based-design-exercise.md), continued
+20 | Lecture | [Information Inputs](/notes/database-applications/information-inputs.md)
 10 | Break |
-60 | Lecture | [Information Inputs](/notes/database-applications/information-inputs.md)
-40 | Lab | [API-based Database Design Exercise](resources/database-design/logical-design/api-based-design-exercise.md)
+20 | Lab | [API-based Database Design Exercise #1](resources/database-design/logical-design/api-based-design-exercise.md)
+60 | Lab | [API-based Database Design Exercise #2](assignments/lab/api-based-database-design.md)
 
 Assignment(s):
 
