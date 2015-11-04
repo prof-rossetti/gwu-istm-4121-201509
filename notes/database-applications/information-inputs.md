@@ -1,10 +1,6 @@
 # Information Inputs
 
-## Input Types
-
-### Forms
-
-### Scripts
+Manual (forms) vs Programmatic (scripts)
 
 ## Considerations
 
