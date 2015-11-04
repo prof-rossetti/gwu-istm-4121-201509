@@ -1,4 +1,4 @@
-# Business Form-based Database Design Exercise
+# API-based Database Design Exercise
 
 ## Description
 
