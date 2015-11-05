@@ -1,4 +1,4 @@
-# Database Inputs (Data Capture and Transformation) Lab Assignment
+# Normalization Lab Assignment
 
 ## Description
 

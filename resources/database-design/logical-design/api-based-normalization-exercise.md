@@ -1,4 +1,4 @@
-# API-based Database Design Exercise
+# API-based Normalization Exercise
 
 ## Description
 
@@ -12,10 +12,7 @@ Follow the normalization process to its conclusion to design a database to store
 
 ### Recommended Methodology
 
-1. Write a comprehensive list of sentences which demonstrate your understanding of the business logic conveyed by API data.
-
-+ Sketch the design of a **single table** to store all data returned by the API, and fill the table with a comprehensive set of records which convey all possibilities of attribute value combinations.
-
-+ Based on the written descriptions and table data, perform the normalization process to arrive at a final database design: identify attribute dependencies; cluster logical attribute groupings into distinct entities; identify primary keys; identify and classify relationships between entities; and identify foreign keys.
-
-+ Sketch a clear and concise diagram to convey the final design of your database.
+ 1. Write a comprehensive list of sentences which demonstrate your understanding of the business logic conveyed by API data.
+ + Sketch the design of a **single table** to store all data returned by the API, and fill the table with a comprehensive set of records which convey all possibilities of attribute value combinations.
+ + Based on the written descriptions and table data, perform the normalization process to arrive at a final database design: identify attribute dependencies; cluster logical attribute groupings into distinct entities; identify primary keys; identify and classify relationships between entities; and identify foreign keys.
+ + Sketch a clear and concise diagram to convey the final design of your database.

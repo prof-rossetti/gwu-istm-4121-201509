@@ -1,10 +1,8 @@
 # Information Outputs
 
-## Types
+Data Dumps
 
-### Data Dumps
-
-### Data Visualizations
+Data Visualizations
 
 ## Considerations
 
