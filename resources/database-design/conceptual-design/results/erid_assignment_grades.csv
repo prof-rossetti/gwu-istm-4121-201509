@@ -1,0 +1,38 @@
+,95 for pluralized entity names; else 90 for one minor cardinality or optionality error; else 85 for minor cardinality or optionality error(s) based on improper assumption(s); else 80 for errors based on improper assumptions;  else 80 for a few minor cardinality or optionality errors; else 40 for listing attributes instead of entities,,
+student_id,erid_grade,erid_grader,erid_feedback
+27,95,rossetti,singularize entity names;
+30,95,rossetti,"singularize entity names; if you are going to name the entity ""Credit Card"" different from the corresponding table name, ""listener_accounts"", then include an assumption about that decision, else choose the entity ""Listener Account"""
+4,95,morui,strengthen assumption based on the data to arrive at proper optionality for listener/play
+9,95,morui,"We don't need to identify the relationship between song/listener, listener/thumb, listener/skip, song/thumb, song/skip. They don't have directly relationship."
+3,90,morui,Singularize entity names; Check the cardinality between play/skip
+17,90,morui,Singularize entity names; Use listener_account instead of credit_card_number for the entity; We don't need to identify the relationship between song/listener
+6,90,morui,Singularize entity names; Need assumption to support the optionality
+23,90,morui,Singularize entity names; Need assumption to support the optionality
+2,85,rossetti,"singularize entity names; check your identification of foreign keys - the foreign key in the song/play relationship is plays.song_id, not songs.id (similar feedback for listeners/plays relationship); check play/skip relationship cardinality"
+21,85,rossetti,strengthen assumption about listener/play relationship as well as the song/play relationship to arrive at the proper optionality of each;
+36,85,morui,"Check the cardinality between play/skip, play/thumb. We don't need to identify the relationship between song/listener"
+1,85,morui,Singularize entity names; Check the cardinality between play/thumb. Need more assumption to support the optionality
+12,85,morui,Check the cardinality between play/thumb; strengthen assumption based on the data to arrive at proper optionality for play/listener and song/play
+28,85,morui,"Singularize entity names; Check the cardinality between play/thumb, play/skip; We don't need to identify the relationship between song/listener"
+11,85,morui,"Singularize entity names; Check the cardinality between play/song, listener/play "
+13,85,morui,Singularize entity names; The cardinality between play/thumb should be just one-to-one; strengthen assumption based on the data to arrive at proper optionality for song/play
+8,85,morui,Singularize entity names; Check the cardinality between play/thumb and play/skip;  We don't need to identify the relationship between song/listener
+25,80,rossetti,singularize entity names; strengthen assumptions based on the data to arrive at proper cardinalities for thumb/skip relationship;
+26,80,rossetti,"singularize entity names; a table can only have ONE primary key; check song/play relationship cardinality and listener/play relationship cardinality - they are each one-to-many, while you can say the relationship between songs and listeners is many-to-many (through plays); "
+15,80,rossetti,"singularize entity names; check song/play relationship cardinality and listener/play relationship cardinality - they are each one-to-many, while you can say the relationship between songs and listeners is many-to-many (through plays); "
+24,80,rossetti,"singularize entity names; check optionality for each side of the play/listener relationship as well as the song/play relationship to arrive at proper optionality for the overall relationship (if one side is optional, the whole relationship is said to be optional); same goes for skip/play and thumb/play relationships, respectively"
+20,80,rossetti,singularize entity names; check assumption for skip/play relationship optionality; check assumption for thumb/play relationship optionality and cardinality
+16,80,rossetti,"singularize entity names; check song/play relationship cardinality and listener/play relationship cardinality - they are each one-to-many, while you can say the relationship between songs and listeners is many-to-many (through plays); check skip/play optionality"
+7,80,morui,Singularize entity names; Need more assumption to support the optionality; Check the cardinality between listener/play and thumb/play;
+22,80,morui,"Singularize entity names; Check the cardinality between song/play and play/listener; strengthen assumption based on the data to arrive at proper optionality for play/listener, skip/play, tumb/play"
+35,80,morui,"Singularize entity names; Check the cardinality between listener/listener_account, listener/song, play/skip, play/thumb; "
+5,80,morui,Singularize entity names; Need assumption to support the optionality; Check the cardinality between play/thumb ; strengthen assumption based on the data to arrive at proper optionality for skip/play
+14,80,morui,"Singularize entity names; Check the cardinality between song/play, play/listener; strengthen assumption based on the data to arrive at proper optionality for play/thumb and play/skip, "
+29,60,morui,"Singularize entity names; The relationship should be between each 2 entities, not between entity and attribute"
+19,40,rossetti,"identify entities, not attributes"
+34,40,rossetti,"identify entities, not attributes"
+31,40,morui,"identify entity, not attribute"
+18,40,morui,"identify entity, not attribute"
+10,0,rossetti,assignment not submitted
+32,0,morui,Not submitted
+33,0,morui,Not submitted
