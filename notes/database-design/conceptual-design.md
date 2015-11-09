@@ -10,6 +10,8 @@ An entity represents a class of object.
 
 To derive an entity name from a table name when applicable, singularize and capitalize the table name (e.g. for a table named `bicycles`, the entity name would most likely be `Bicycle`).
 
+> NOTE: description of an entity using singular language and either title-case (e.g. `My Entity`) or camel-case (e.g. `MyEntity`)
+
 In some cases, there may exist more than one entity per each database table. A **sub-type** entity is a collection of entity attributes which "... shares common relationships or attributes distinct from other sub-groupings" ([3](/README.md/#accompanying-textbook)). Sub-type entities are often indicated with an attribute named `type`.
 
 In other cases, an entity may span multiple database tables. A **super-type**, or **polymorphic** entity is one which has a relationship that includes "... one or more sub-types" ([3](/README.md/#accompanying-textbook)). Super-type entities are often indicated by a composite foreign key of two attributes which share a prefix but differ in suffix, most commonly `_id` and `_type`, respectively, where the prefix indicates the name of the super-type entity.
@@ -30,6 +32,8 @@ Given the definition of an entity as a class of object, an **instance** is a spe
 Each record, or row, in a database table represents a separate instance.
 
 Instances of the same entity share attribute names, but do not necessarily share attribute values.
+
+> NOTE: description of a specific instance (e.g. `my_entity`) or instances (e.g. `my_entities`) in either lower-case or snake-case
 
 ## Relationships
 
