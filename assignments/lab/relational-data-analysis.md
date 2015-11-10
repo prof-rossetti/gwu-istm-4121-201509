@@ -52,7 +52,13 @@ Else no credit.
 
 <hr>
 
-## Support for working with  GTFS Datasets
+## Support for working with LIVES datasets
+
+See [automated data importation script](https://github.com/gwu-business/open-data-library/blob/master/support/scripts/import_evanston_inspections.sql).
+
+<hr>
+
+## Support for working with GTFS Datasets
 
 ### Schema Reference
 
