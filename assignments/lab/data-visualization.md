@@ -2,9 +2,7 @@
 
 You may use any data visualization tool or software to complete this assignment.
 
-If you would like to use Tableau software, obtain a product license from an instructor, and either activate the software on a classroom computer, or install and activate the software on your personal computer (recommended). If connecting Tableau to MySQL or another open source DBMS, you may have to also [download drivers](https://www.tableau.com/en-us/support/drivers?edition=pro&lang=en-us&platform=mac&cpu=64&version=9.1&__full-version=9100.15.1013.2200#mysql) when prompted.
-
-> Tableau's [data visualization software](http://www.tableau.com/data-visualization-software) is provided through the Tableau for Teaching program.
+If you would like to use Tableau software, refer to this [tableau tutorial](/resources/group-project/toolsets/tableau/tableau-tutorial.md).
 
 ## Description
 
