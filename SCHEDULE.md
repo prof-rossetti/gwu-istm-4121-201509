@@ -183,7 +183,7 @@ duration (mins) | usage | topic
 Assignments:
 
  + [Database Design](assignments/lab/database-design.md) (due)
- + [Data Visualization](assignments/lab/normalization.md) (given)
+ + [Data Visualization](assignments/lab/data-visualization.md) (given)
 
 ### Week 12 - 11/18/15
 
