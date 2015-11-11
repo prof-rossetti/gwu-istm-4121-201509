@@ -172,12 +172,13 @@ Additional Practice:
 
 duration (mins) | usage | topic
 --- | --- | ---
+10 | Lecture | System Scope
 10 | Lab | MS Access Applications
-10 | Lab | Tableau Dashboards
+20 | Lab | Tableau Dashboards
 10 | Lab | Web Dashboards
 40 | Support | Group Project Database Design Inspection
 10 | Break |
-70 | Lab/Support | Data Visualization/Group Project Outputs
+50 | Lab | Data Visualization
 
 Assignments:
 
