@@ -172,30 +172,33 @@ Additional Practice:
 
 duration (mins) | usage | topic
 --- | --- | ---
-40 | Lab | MS Access Forms
-30 | Lab | Web Forms
+10 | Lab | MS Access Applications
+10 | Lab | Tableau Dashboards
+10 | Lab | Web Dashboards
+40 | Support | Group Project Database Design Inspection
 10 | Break |
-70 | Lab | Normalization Exercise
+70 | Lab/Support | Data Visualization/Group Project Outputs
 
 Assignments:
 
  + [Database Design](assignments/lab/database-design.md) (due)
- + [Normalization](assignments/lab/normalization.md) (given)
+ + [Data Visualization](assignments/lab/normalization.md) (given)
 
 ### Week 12 - 11/18/15
 
 duration (mins) | usage | topic
 --- | --- | ---
-30 | Lecture | Information Outputs
-20 | Lab | MS Access Reports
-20 | Lab | Web Dashboards
+10 | Lab | Web Forms
+30 | Lab | Web Servers
+30 | Lab | Web Applications
 10 | Break |
-70 | Lab | Tableau Dashboards
+70 | Lab | Normalization
 
 Assignments:
 
- + [Normalization](assignments/lab/normalization.md) (due)
- + [Data Visualization](assignments/lab/data-visualization.md) (given)
+ + [Data Visualization](assignments/lab/data-visualization.md) (due)
+ + [Normalization Practice](assignments/lab/normalization.md) (given)
+
 
 ### Week 13 - 11/25/15
 
@@ -205,13 +208,13 @@ No Class - Thanksgiving
 
 duration (mins) | usage | topic
 --- | --- | ---
-70 | Lecture | TBA: Security and Privacy; or Web Applications and Frameworks
+70 | Lab | Web Applications and Frameworks
 10 | Break |
-70 | Support | Group Project Implementation and Documentation
+70 | Support | Group Project Implementation
 
 Assignments:
 
-+ [Data Visualization](assignments/lab/data-visualization.md) (due)
++ [Normalization Practice](assignments/lab/normalization.md) (due)
 
 
 
