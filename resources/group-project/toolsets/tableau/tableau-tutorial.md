@@ -1,6 +1,6 @@
 # Tableau Tutorial
 
-Open tableau_tutorial.twbx.
+Download and open the [tableau_tutorial.twbx](/resources/group-project/toolsets/tableau/tableau_tutorial.twbx) packaged workbook.
 
 For each worksheet in the workbook, read the instructions and perform any suggested actions.
 
