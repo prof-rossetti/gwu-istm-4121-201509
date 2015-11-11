@@ -2,18 +2,16 @@
 
 You may use any data visualization tool or software to complete this assignment.
 
-If you would like to use Tableau software, refer to this [tableau tutorial](/resources/group-project/toolsets/tableau/tableau-tutorial.md).
+If you would like to use Tableau software, refer to this [tutorial](/resources/group-project/toolsets/tableau/tableau-tutorial.md).
 
 ## Description
 
-Import [this](https://github.com/gwu-business/open-data-library/tree/master/relational-data/evanston_healthscores) or [another](https://github.com/gwu-business/istm-4121/blob/master/notes/data-analysis.md#relational-datasets) real-world relational dataset into a DBMS, choosing appropriate indices and datatypes.
+Find a real-world dataset. You may choose the same dataset you chose for your single-table or relational data analysis assignments, or you may choose a different dataset. If you get stuck, try this [health inspections dataset](https://github.com/gwu-business/open-data-library/tree/master/relational-data/evanston_healthscores).
 
-Investigate and analyze the data for the purpose of processing it into meaningful information. Write one or more SQL queries to produce dataset(s) which you can use to answer questions and tell stories.
+Download and import the dataset into the DBMS of your choice.
+ Assign indices and datatypes as appropriate. Explore the data. Expand/re-design the database, if helpful, by adding new tables and/or saving query results.
 
-Expand the database design, if helpful, by adding new tables and/or saving query results.
-
-
-Focus on a single question to answer or story to tell based on the results of your querying.
+Investigate and analyze the data for the purpose of processing it into meaningful information. Focus on a single question to answer or story to tell.
 
 Think of how to best convey that information in graphical form. Draw/sketch by hand visualization(s) which convey with clarity and accuracy the chosen information/message.
 
@@ -29,15 +27,24 @@ Ask other members of the learning community for feedback on your final visualiza
 
 Export the resulting chart(s) to a single .pdf file.
 
-Suggested visual design elements:
+### Suggested visual design elements:
 
   + title
   + legend
-  + footer text box containing datasource identification and any methodology descriptions or chart clarifications/disambiguations as necessary
+  + axis labels
+  + data labels and totals (as necessary)
+  + footer text box optionally containing:
+   + datasource identification
+   + methodology description
+   + chart clarifications/disambiguations
+
 
 ## Submission Instructions
 
-Upload a .pdf file of one or more graphical data representations to [Blackboard](https://blackboard.gwu.edu/webapps/assignment/uploadAssignment?content_id=_6911618_1&course_id=_260328_1&assign_group_id=&mode=cpview).
+Upload to [Blackboard](https://blackboard.gwu.edu/webapps/assignment/uploadAssignment?content_id=_6911618_1&course_id=_260328_1&assign_group_id=&mode=cpview):
+
+ + a .pdf file of one or more graphical data representations (one viz per page)
+ + a .pdf, .doc, .md, or .sql file containing repeatable SQL queries, as well as the dataset URL if applicable
 
 ## Evaluation Criteria
 
