@@ -31,6 +31,12 @@ Ask other members of the learning community for feedback on your final visualiza
 
 Export the resulting chart(s) to a single .pdf file.
 
+Suggested visual design elements:
+
+  + title
+  + legend
+  + footer text box containing datasource identification and any methodology descriptions or chart clarifications/disambiguations as necessary
+
 ## Submission Instructions
 
 Upload a .pdf file of one or more graphical data representations to [Blackboard](https://blackboard.gwu.edu/webapps/assignment/uploadAssignment?content_id=_6911618_1&course_id=_260328_1&assign_group_id=&mode=cpview).
