@@ -1,0 +1,38 @@
+criteria:,0.9 for need to increase size of cardinality and optionality markers; else 0.9 for using unrecognized symbols without a legend; 0.85 for truncated/obfuscated names; 0.8 for a shape per attribute; else between 0.95 and 0.8 for line jump(s); else 0.6 for separate diagrams; else 0.5 for non-digital diagram generation,"0.95 for a single snake case entity name; 0.9 for capitalized but pluralized entity names; else 0.8 for pluralized and/or underscored and/or lowercase and/or missing entity name(s); else 0.6 for representing entities of a freestyle, somewhat-related database design",1 (bonus weight) for presence of textual description containing a verb in the diagram; else NULL (not used in calculation of averages),0.8 for one or more mis-representations; else 0 for no distinguishment of cardinality differences,1 (bonus weight) for all proper optionalities; else NULL (not used in calculation of averages),,
+student_id,clarity,entities,rship_descrips,cardinalities,optionalities,erd_grade,erd_feedback
+4,1,1,1,1,,1,good attention to detail; each listener has a play?
+7,1,0.9,1,1,,0.975,check optionality of Listener/Play
+9,0.9,0.95,1,1,,0.9625,check optionalities
+27,1,0.8,1,1,1,0.96,good attention to detail; singularize entity names
+6,1,0.8,1,1,1,0.96,good attention to detail; check entity names
+21,1,1,1,0.8,,0.95,check cardinalities; each song has a play?
+36,1,0.8,1,1,,0.95,"check entity names; if representing optionality, represent optionality for each side of the relationship - reserve the text box in the middle of the line for a relationship description which contains a verb"
+12,1,1,1,0.8,,0.95,good descriptions; check cardinalities and optionalities
+1,1,0.9,,0.8,,0.9,what are the different colors about?; check cardinalities;
+20,1,0.8,1,0.8,,0.9,singularize entity names; check cardinalities
+35,0.85,0.8,1,0.8,1,0.89,check cardinalities;
+25,0.85,0.9,1,0.8,,0.8875,
+26,0.95,0.9,,0.8,,0.8833333333,singularize entity names; avoid line skips if possible; check cardinalities; FYI - diagram #2 was evaluated
+34,0.8,0.9,1,0.8,,0.875,singularize entity names; check cardinalities
+17,0.6,0.9,1,1,,0.875,represent all entities and relationships in the same diagram
+2,1,0.8,,0.8,,0.8666666667,singularize entity names; check cardinalities
+16,1,0.8,,0.8,,0.8666666667,"if representing optionality, represent optionality for each side of the relationship - reserve the text box in the middle of the line for a relationship description which contains a verb"
+8,0.85,0.8,1,0.8,,0.8625,check cardinalities
+31,0.8,0.8,1,0.8,,0.85,check cardinalities
+30,0.6,0.9,,1,,0.8333333333,connect all the entities and relationships in one diagram; singularize entity names; evaluate optionality for each direction of each relationship
+22,0.8,0.8,,0.8,,0.8,check cardinalities;
+18,1,0.6,,0.8,,0.8,"inventive. this assignment was designed to evaluate your ability to draw an existing table design, not design a new database and diagram that..."
+29,0.5,0.8,1,0.8,,0.775,submit a diagram produced by a digital tool; check cardinalities
+19,0.9,0.6,,0.8,,0.7666666667,"this assignment was designed to evaluate your ability to draw an existing table design, not design a new database and diagram that...; a legend for those midline markers would improve the clarity of this diagram"
+13,0.6,0.9,,0.8,,0.7666666667,represent all entities and relationships in the same diagram
+11,0.8,0.9,1,0,,0.675,represent only the direct relationships (e.g. you don't need to draw a line from Song to Thumb); represent cardinality
+28,0.9,0.8,,0,,0.5666666667,use a legend if representing cardinalities with notation different than crows-foot; include relationship description
+15,0,0,,0,,0,assignment not submitted
+10,0,0,,0,,0,assignment not submitted
+24,0,0,,0,,0,assignment not submitted
+3,0,0,,0,,0,assignment not submitted
+32,0,0,,0,,0,assignment not submitted
+5,0,0,,0,,0,assignment not submitted
+14,0,0,,0,,0,assignment not submitted
+33,0,0,,0,,0,assignment not submitted
+23,0,0,,0,,0,please submit the ERD assignment; I think this is the design assignment
