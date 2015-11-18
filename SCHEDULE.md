@@ -198,9 +198,7 @@ Suggested Group Project Progress:
 duration (mins) | usage | topic
 --- | --- | ---
 40 | Lab | Normalization Practice (for Final Exam)
-10 | Lecture | Web Forms
-10 | Lecture | Web Servers
-10 | Lecture | Web Applications
+30 | Lecture | Web Applications
 10 | Break |
 70 | Support | Group Project Database Application Support (MS Access or Web)
 
