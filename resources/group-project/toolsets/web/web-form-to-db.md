@@ -1,3 +1,5 @@
-Reference the following example web (HTML + JavaScript) form implementations which store the results in a database:
+Reference the following
+ example web form implementations
+  which input results into a database:
 
- + _______
+ + https://github.com/gwu-business/salad-system-py
