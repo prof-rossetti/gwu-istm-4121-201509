@@ -4,7 +4,7 @@
 
 ### Mac OS
 
-Install python on Mac OS using [homebrew](notes/database-management/database-management-software/homebrew-package-manager.md).
+Install python on Mac OS using [homebrew](/notes/database-management/database-management-software/homebrew-package-manager.md).
 
 ```` sh
 brew install python
