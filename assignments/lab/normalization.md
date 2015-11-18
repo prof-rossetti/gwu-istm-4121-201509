@@ -2,11 +2,10 @@
 
 ## Description
 
-Choose one of these three [example denormalized database table designs](/resources/database-design/logical-design).
+Choose an [example table relation](/resources/database-design/logical-design/relations/) which has not been demonstrated in class.
 
 Perform the normalization process
- to arrive at a reasonable relational database design
- for storing the denormalized data.
+ to arrive at a reasonable relational database design.
 
 Examine attribute dependencies to group related attributes into entities.
 
@@ -16,6 +15,8 @@ Describe in English
     any relationships,
     desired/observed data characteristics,
     and business assumptions.
+
+Sketch/draw by hand the resulting database tables.
 
 Sketch/draw by hand an ERD on paper or a whiteboard.
 
@@ -27,7 +28,7 @@ Upload a .pdf ERD file to [Blackboard](https://blackboard.gwu.edu/webapps/assign
 
 ## Evaluation Criteria
 
-Full credit for a reasonable relational database design to store the denormalized data.
+Full credit for a reasonable relational database design.
 
 Else partial credit to highlight areas of improvement.
 

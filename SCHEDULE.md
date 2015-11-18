@@ -67,6 +67,11 @@ Assignment(s):
 
  + [Relational Data Analysis](assignments/lab/relational-data-analysis.md) (due)
 
+Suggested Group Project Progress:
+
+   + Business Operations and Process Descriptions
+   + Information System Requirements
+
 ### Week 6 - 10/7/15
 
 duration (mins) | usage | topic
@@ -173,49 +178,61 @@ Additional Practice:
 duration (mins) | usage | topic
 --- | --- | ---
 10 | Lecture | System Scope
-10 | Lab | MS Access Applications
-20 | Lab | Tableau Dashboards
-10 | Lab | Web Dashboards
-40 | Support | Group Project Database Design Inspection
+10 | Lecture | MS Access Applications
+10 | Lecture | Web Dashboards
+70 | Support | Group Project Database Design Inspection
 10 | Break |
-50 | Lab | Data Visualization
+40 | Lab | Tableau Dashboards
 
 Assignments:
 
  + [Database Design](assignments/lab/database-design.md) (due)
  + [Data Visualization](assignments/lab/data-visualization.md) (given)
 
+Suggested Group Project Progress:
+
+ + Completed ERD
+
 ### Week 12 - 11/18/15
 
 duration (mins) | usage | topic
 --- | --- | ---
-10 | Lab | Web Forms
-30 | Lab | Web Servers
-30 | Lab | Web Applications
+40 | Lab | Normalization Practice (for Final Exam)
+10 | Lecture | Web Forms
+10 | Lecture | Web Servers
+10 | Lecture | Web Applications
 10 | Break |
-70 | Lab | Normalization
+70 | Support | Group Project Database Application Support (MS Access or Web)
 
 Assignments:
 
- + [Data Visualization](assignments/lab/data-visualization.md) (due)
- + [Normalization Practice](assignments/lab/normalization.md) (given)
+ + [Data Visualization](assignments/lab/data-visualization.md) (due on Friday at midnight)
+ + [Normalization Practice](assignments/lab/normalization.md) (given and due)
 
+Suggested Group Project Progress:
+
+  + Populated Database
 
 ### Week 13 - 11/25/15
 
 No Class - Thanksgiving
 
+Suggested Group Project Progress:
+
+  + Progress towards Database Application Functionality
+
 ### Week 14 - 12/2/15
 
 duration (mins) | usage | topic
 --- | --- | ---
-70 | Lab | Web Applications and Frameworks
+40 | Lab | More Normalization Practice (for Final Exam)
 10 | Break |
-70 | Support | Group Project Implementation
+100 | Support | Group Project Implementation
 
-Assignments:
+Suggested Group Project Progress:
 
-+ [Normalization Practice](assignments/lab/normalization.md) (due)
+  + Deliverable
+  + Database Application Functionality
 
 
 
@@ -232,7 +249,7 @@ Assignments:
 
 duration (mins) | usage | topic
 --- | --- | ---
-150 | Presentations | Final Group Project Presentations
+120-150 | Presentations | Final Group Project Presentations
 
 Assignment(s):
 
@@ -247,4 +264,4 @@ The final exam will be held from **5:20pm-7:20pm** in Duques 351.
 
 duration (mins) | usage | topic
 --- | --- | ---
-150 | Exam | [Final Exam](exams/final.md)
+90-120 | Exam | [Final Exam](exams/final.md)
