@@ -23,12 +23,12 @@ If using an open source DBMS, students familiar with the [Ruby](https://www.ruby
 
 Make optional use of one of the following language-specific database libraries to establish direct database connections for use in scripts and applications:
 
- + [MySQL ](https://github.com/brianmario/mysql2) for Ruby
- + [PostgreSQL ](https://github.com/ged/ruby-pg) for Ruby
- + [SQLite ](https://github.com/sparklemotion/sqlite3-ruby) for Ruby
- + [MySQL](https://pypi.python.org/pypi/mysqlclient) for Python
- + [PostgreSQL](http://initd.org/psycopg/) for Python
- + [SQLite](https://pymotw.com/2/sqlite3/) for Python
+ + [mysql2](https://github.com/brianmario/mysql2) (MySQL for Ruby)
+ + [PyMySQL](https://github.com/PyMySQL/PyMySQL) (MySQL for Python)
+ + [pg](https://github.com/ged/ruby-pg) (PostgreSQL for Ruby)
+ + [psycopg](http://initd.org/psycopg/) (PostgreSQL for Python)
+ + [sqlite3](https://github.com/sparklemotion/sqlite3-ruby) (SQLite for Ruby)
+ + [sqlite3](https://pymotw.com/2/sqlite3/) (SQLite for Python)
  + [JDBC](https://docs.oracle.com/javase/tutorial/jdbc/basics/connecting.html) for Java
 
 ## Application Frameworks
@@ -54,7 +54,7 @@ Make optional use of one of the following language-specific ORM frameworks as pa
 
 ## Web Technologies
 
-Students who are implementing a web application will need to leverage Internet technologies
+Students who are implementing a web application will need to leverage Internet technologies.
 
  + [HTML](http://www.w3schools.com/html/)
  + [CSS](http://www.w3schools.com/css/default.asp)
