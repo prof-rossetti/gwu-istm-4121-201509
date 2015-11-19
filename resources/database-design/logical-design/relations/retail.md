@@ -1,7 +1,7 @@
 # Retail Relation
 
 department | garment_type | garment_color | garment_size | garment_price_usd | purchase_quantity | customer_name | purchased_on | total_price_usd
---- | --- | --- | --- | --- | --- | --- | ---
+--- | --- | --- | --- | --- | --- | --- | --- | ---
 Mens | Polo | Navy Blue | Large | 65.00 | 1 | Peter Prepster | 2015-01-01 | 130.00
 Mens | Polo | Red | Large | 65.00 | 1 | Peter Prepster | 2015-01-01 | 130.00
 Womens | Polo | Red | Medium | 65.00 | 1 | Peter Prepster | 2015-05-02 | 175.00
