@@ -4,7 +4,7 @@ Reference [toolset guidance page](/resources/group-project/toolsets.md).
 
 [Static Websites](https://github.com/gwu-business/student-site) vs [Dynamic Web Applications](https://github.com/gwu-business/salad-system-py)
 
-
+GET vs POST requests
 
 ### Popular Web Application Frameworks
 
