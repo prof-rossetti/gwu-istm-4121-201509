@@ -3,4 +3,5 @@ Reference the following
   which input results into a database:
 
  + https://github.com/gwu-business/salad-system-py
- + https://github.com/gwu-business/branford-station
+ + https://github.com/gwu-business/salad-system-flask
+ + https://github.com/gwu-business/salad-system-alchemy
