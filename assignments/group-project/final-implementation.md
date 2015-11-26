@@ -15,7 +15,7 @@ The implementation should include a fully-functional database, as well as enough
 The implementation should address the business problem and system objectives.
 
 The implementation should include a functional relational database
- which adheres to reasonable design principles
+ which adheres to reasonable design principles.
 
 The implementation should include a script to populate data into an empty database, optionally loading data from a .csv or .txt file, or external API.
 
