@@ -207,7 +207,7 @@ duration (mins) | usage | topic
 Assignments:
 
  + [Data Visualization](assignments/lab/data-visualization.md) (due on Friday at midnight)
- + [Normalization Practice](assignments/lab/normalization.md) (given and due)
+ + [Normalization Practice](assignments/lab/normalization.md) (given and optionally due)
 
 Suggested Group Project Progress:
 
@@ -228,6 +228,10 @@ duration (mins) | usage | topic
 40 | Lab | More Normalization Practice (for Final Exam)
 10 | Break |
 100 | Support | Group Project Implementation
+
+Assignments:
+
+  + [Normalization Practice](assignments/lab/normalization.md) (extended deadline)
 
 Suggested Group Project Progress:
 
