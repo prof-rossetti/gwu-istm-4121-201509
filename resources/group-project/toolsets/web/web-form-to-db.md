@@ -5,3 +5,4 @@ Reference the following
  + https://github.com/gwu-business/salad-system-py
  + https://github.com/gwu-business/salad-system-flask
  + https://github.com/gwu-business/salad-system-alchemy
+ + https://github.com/gwu-business/salad-system-django

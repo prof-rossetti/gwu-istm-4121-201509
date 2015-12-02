@@ -144,8 +144,10 @@ Assignment(s):
 duration (mins) | usage | topic
 --- | --- | ---
 40 | Lab | [Form-based Database Design Exercise](resources/database-design/logical-design/business-form-based-design-exercise.md), continued
-20 | Lecture | [Information Inputs](/notes/database-applications/information-inputs.md)
+70 | Lecture | [Information Inputs](/notes/database-applications/information-inputs.md) and APIs
 10 | Break |
+20 | Support | Assignment Support
+
 
 
 Assignment(s):
