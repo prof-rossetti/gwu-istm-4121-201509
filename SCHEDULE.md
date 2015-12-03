@@ -225,9 +225,9 @@ Suggested Group Project Progress:
 
 duration (mins) | usage | topic
 --- | --- | ---
-40 | Lab | More Normalization Practice (for Final Exam)
+110 | Lab | More Normalization Practice (for Final Exam)
 10 | Break |
-100 | Support | Group Project Implementation
+30 | Support | Group Project Implementation
 
 Assignments:
 
