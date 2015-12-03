@@ -231,7 +231,7 @@ duration (mins) | usage | topic
 
 Assignments:
 
-  + [Normalization Practice](assignments/lab/normalization.md) (extended deadline)
+  + [Normalization Practice](assignments/lab/normalization.md) (deadline extended to midnight concluding Friday 12/4)
 
 Suggested Group Project Progress:
 
