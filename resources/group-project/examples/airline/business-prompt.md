@@ -73,3 +73,7 @@ They also, of course, need to keep track of the passengers –the frequent-flyer
  + Passengers may take many different flights on the same or different days.
  + Each airplane has its own make, model and number.
  + The same plane may fly to one city one day and to another city on another day.
+
+<hr>
+
+source: Granger

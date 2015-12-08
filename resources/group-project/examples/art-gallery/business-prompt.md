@@ -55,3 +55,8 @@ All current input documents and reports were collected.
  + A work of art is sold by the gallery only once. The gallery does not re-sell its own works.
  + A work of art might appear in more than one show. Some works do not appear in any show.
  + No payroll information is included in the database, only commission information.
+
+
+<hr>
+
+source: Granger

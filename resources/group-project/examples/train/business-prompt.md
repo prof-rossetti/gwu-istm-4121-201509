@@ -79,3 +79,7 @@ They also, of course, need to keep track of the passengers –the frequent-rider
  + Passengers may take many different routes on different days
  + Each train car has its own number
  + Each scheduled train has its own number but may travel on different days. For example: The NW Polar train may go from Seattle to Anchorage every Friday at noon.
+
+<hr>
+
+source: Granger

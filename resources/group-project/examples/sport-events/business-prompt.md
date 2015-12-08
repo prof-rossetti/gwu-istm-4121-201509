@@ -66,3 +66,7 @@ AEE needs to keep track of the organizations, events, participants, locations an
  + An event may change locations
  + Organizations may offer different type of events based on time of year or only yearly
  + Club members must have participated in at least one event
+
+<hr>
+
+source: Granger
