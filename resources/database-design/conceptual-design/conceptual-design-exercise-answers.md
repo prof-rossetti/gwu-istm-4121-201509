@@ -189,24 +189,22 @@ Relationship Optionality: **Optional**
 
 ### Advanced Examples
 
-todo
-
 #### Example M
 
-todo: many-to-many-polymorphic-relationship
+Many-to-many Polymorphic (Supertype) relationship
 
 #### Example N
 
-todo: many-to-many-relationship-with-join-entity
+Many-to-many relationship through a join entity
 
 #### Example O
 
-todo: one-to-many-self-relationship
+One-to-many self-relationship
 
 #### Example P
 
-todo: optional-many-to-many-relationship-with-join-entity
+Optional Many-to-many relationship through a join entity
 
 #### Example Q
 
-todo: single-table-inheritance-relationship
+Single-table-inheritance (subtype) relationship
