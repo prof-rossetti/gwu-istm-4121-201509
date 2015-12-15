@@ -9,8 +9,9 @@ name | weight
 r1 | (75% * 10% weight)
 [Health Inspections](/resources/exams/final/relations/health-inspections.md) | (75% * 15% weight)
 r3 | (75% * 25% weight)
-r4 | (75% * 25% weight)
+[Chronic Disease Indicators](/resources/exams/final/relations/disease-indicators.md) | (75% * 25% weight)
 r5 | (75% * 25% weight)
+
 
 For each relation, design a relational database to store the data in an optimal way.
  Represent the design by drawing an Entity Relationship Diagram (ERD) in the space provided.
