@@ -12,8 +12,8 @@ Each ERD should:
   + Communicate with clarity the proper logical database design
   + Represent all **entities**, and for each:
     + Represent any known or likely **attributes**
-    + Denote each **primary key** attribute with `(pk)`
-    + Denote each **foreign key** attribute with `(fk)`
+    + Denote each **primary key** attribute with `(pk)`; if the primary key is comprised of multiple attributes, denote each composite primary key attribute with `(cpk)`
+    + Optionally denote each foreign key attribute with `(fk)`
   + Represent all direct **relationships** between entities, and for each:
     + Denote relationship **cardinality**, for each direction
     + Optionally denote relationship optionality, for each direction
