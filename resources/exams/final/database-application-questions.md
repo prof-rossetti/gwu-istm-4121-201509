@@ -1,6 +1,6 @@
 # Final Exam
 
-## Database Design and Application Questions
+## Section I: Database Design and Application Concepts
 
 Answer each question in English in the space provided.
 

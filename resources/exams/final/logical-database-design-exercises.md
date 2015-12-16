@@ -1,6 +1,6 @@
 # Final Exam
 
-## Logical Database Design Exercises
+## Section II: Logical Database Design
 
 Reference the provided [table relations](/resources/exams/final/relations/).
 
@@ -33,7 +33,7 @@ You may make scratch-notes, but only ERDs will be considered for evaluation.
 
 <p style="page-break-after:always;"></p>
 
-### 3. Blogging (20% weight)
+### 3. Company Blog (20% weight)
 
 <p style="page-break-after:always;"></p>
 
