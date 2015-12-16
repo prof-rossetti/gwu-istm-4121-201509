@@ -10,8 +10,6 @@ Answer each question in English in the space provided.
 
 ### 2. What quantifiable benefits do businesses or organizations receive from implementing **data validation controls** on forms that input data into their databases? (5% weight)
 
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<p style="page-break-after:always;"></p>
 
 ### 3. What is the definition and purpose of an **Application Protocol Interface (API)**? Name a real world API, describe how it works, and describe the value it brings to one or more businesses or organizations. (10% weight)
-
-<br><br><br><br><br><br><br><br><br><br><br><br>
