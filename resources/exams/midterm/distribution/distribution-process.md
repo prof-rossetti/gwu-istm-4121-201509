@@ -22,6 +22,8 @@ For each file:
 Open all files at the same time in Mac OS Preview app,
  and save the collection as a single .pdf file.
 
+If that's not working, use http://www.pdfmerge.com/.
+
 ## Prepare Booklets
 
 Print a copy per student, plus a few extras.

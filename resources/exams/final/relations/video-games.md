@@ -3,7 +3,7 @@
 ## Relation #1: Video Games
 
 id | name | publisher | pubUrl | year | platId | platform | predecessor | predName
---- | --- | --- | --- | --- | --- | --- | ---
+--- | --- | --- | --- | --- | --- | --- | --- | ---
 3 | Mario Bros. | Nintendo | nintendo.com | 1983 | 1 | Nintendo Entertainment System (NES) | |
 5 | Super Mario Bros. | Nintendo | nintendo.com | 1985 | 1 | Nintendo Entertainment System (NES) | |
 7 | Super Mario Bros. II | Nintendo | nintendo.com | 1988 | 1 | Nintendo Entertainment System (NES) | 5 | Super Mario Bros.

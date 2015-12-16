@@ -2,7 +2,7 @@
 
 ## Relation #4: Chronic Disease Indicators
 
-category | indicator | indicatorId | location | locationName | year | stratId | stratifier | value
+category | indicatorId | indicator | location | locationName | year | stratId | stratifier | value
 --- | --- | --- | --- | --- | --- | --- | --- | ---
 Cardiovascular Disease | CVD1_4 | Mortality from heart failure (cases per 1K) | DC | District of Columbia | 2010 | GENM | Male | 52.42
 Cardiovascular Disease | CVD1_4 | Mortality from heart failure (cases per 1K) | DC | District of Columbia | 2010 | GENF | Female | 68.98
