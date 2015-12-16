@@ -8,7 +8,7 @@ name | weight
 --- | ---
 r1 | (75% * 10% weight)
 [Health Inspections](/resources/exams/final/relations/health-inspections.md) | (75% * 15% weight)
-r3 | (75% * 25% weight)
+[Video Games](/resources/exams/final/relations/video-games.md) | (75% * 25% weight)
 [Chronic Disease Indicators](/resources/exams/final/relations/disease-indicators.md) | (75% * 25% weight)
 r5 | (75% * 25% weight)
 
