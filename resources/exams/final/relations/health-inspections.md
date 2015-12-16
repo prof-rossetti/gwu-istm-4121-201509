@@ -1,6 +1,8 @@
 # Final Exam
 
-## Health Inspections Relation
+## Relation #2: Health Inspection Scores
+
+<hr>
 
 ### `businesses` table
 
@@ -38,4 +40,4 @@ id | business_id | date | code | description
 
 <hr>
 
-Source: [LIVES Data Standard](http://www.yelp.com/healthscores), but with fictitious data.
+Adapted from the [LIVES Data Standard](http://www.yelp.com/healthscores).

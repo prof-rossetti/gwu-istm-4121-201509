@@ -1,6 +1,6 @@
 # Final Exam
 
-## Video Games Relation
+## Relation #1: Video Games
 
 id | name | publisher | pubUrl | year | platId | platform | predecessor | predName
 --- | --- | --- | --- | --- | --- | --- | ---
@@ -22,4 +22,4 @@ id | name | publisher | pubUrl | year | platId | platform | predecessor | predNa
 
 <hr>
 
-Source: Adapted from [Mario Games List](https://en.wikipedia.org/wiki/List_of_video_games_featuring_Mario) and [Madden Games List](https://en.wikipedia.org/wiki/Madden_NFL).
+Adapted from [Mario Games List](https://en.wikipedia.org/wiki/List_of_video_games_featuring_Mario) and [Madden Games List](https://en.wikipedia.org/wiki/Madden_NFL).

@@ -1,6 +1,6 @@
 # Final Exam
 
-## Chronic Disease Indicators Table Relation
+## Relation #4: Chronic Disease Indicators
 
 category | indicator | indicatorId | location | locationName | year | stratId | stratifier | value
 --- | --- | --- | --- | --- | --- | --- | --- | ---
@@ -22,4 +22,4 @@ Alcohol | ALC2_2 | Binge drinking prevalence (%) | DC | District of Columbia | 2
 Alcohol | ALC2_2 | Binge drinking prevalence (%) | VA | Virginia | 2015 | GENT | Total | 15.7
 
 
-Source: Adapted from [US Dept. of Health and Human Services](http://catalog.data.gov/dataset/u-s-chronic-disease-indicators-cdi).
+Adapted from open data from [US Dept. of Health and Human Services](http://catalog.data.gov/dataset/u-s-chronic-disease-indicators-cdi).

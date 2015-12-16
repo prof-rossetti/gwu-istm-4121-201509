@@ -1,6 +1,6 @@
 # Final Exam
 
-## Company Blog Relation
+## Relation #3: Company Blog
 
 post_id | post_title | author_id | author_name | tags | comment1 | commenter1 | commenter1_name | comment2 | commenter2 | commenter2_name
 --- | ---  | ---  | ---  | ---  | ---  | ---  | ---  | ---  | ---
