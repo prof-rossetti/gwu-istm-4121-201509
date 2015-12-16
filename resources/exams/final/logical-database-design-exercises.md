@@ -10,7 +10,7 @@ r1 | (75% * 10% weight)
 [Health Inspections](/resources/exams/final/relations/health-inspections.md) | (75% * 15% weight)
 [Video Games](/resources/exams/final/relations/video-games.md) | (75% * 25% weight)
 [Chronic Disease Indicators](/resources/exams/final/relations/disease-indicators.md) | (75% * 25% weight)
-r5 | (75% * 25% weight)
+[Blog](/resources/exams/final/relations/blogging.md) | (75% * 25% weight)
 
 
 For each relation, design a relational database to store the data in an optimal way.
