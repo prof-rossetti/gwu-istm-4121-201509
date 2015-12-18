@@ -25,6 +25,7 @@ student_id,prompt_name,evaluator_name,design_grade,design_comments
 17,train,morui,0.7,connect all entity relationships in a single diagram; need a join table between many to many relationships; handle date and seat type; handle several train schedule per reservation (one-way and round-trip)
 18,airline,rossetti,0.7,"handle more than one ""transfer"" per reservation; handle different flights per airplane; entities need stricter definitions"
 13,airline,rossetti,0.7,"include attributes; include join entities/tables for many-to-many relationships; handle multiple passengers per airline; ""other""?"
+29,airline,rossetti,0.7,"entities need clearer definition, check relationships and cardinalities"
 19,n/a,rossetti,0,assignment not submitted
 15,n/a,rossetti,0,assignment not submitted
 10,n/a,rossetti,0,assignment not submitted
@@ -32,7 +33,6 @@ student_id,prompt_name,evaluator_name,design_grade,design_comments
 1,n/a,rossetti,0,assignment not submitted
 3,n/a,rossetti,0,assignment not submitted
 32,n/a,rossetti,0,assignment not submitted
-29,radio?,rossetti,0,you addressed the wrong prompt?
 11,salad?,rossetti,0,you addressed the wrong prompt?
 14,n/a,rossetti,0,assignment not submitted
 33,n/a,rossetti,0,assignment not submitted
