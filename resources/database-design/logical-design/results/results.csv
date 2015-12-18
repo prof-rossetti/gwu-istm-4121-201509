@@ -1,0 +1,38 @@
+,,,0.9 for almost producing proper functionality to address all business requirements; else 0.8 for reasonable ability to perform many/most required functions; else 0.7 for inability to perform many functions,
+student_id,prompt_name,evaluator_name,design_grade,design_comments
+21,art-gallery,morui,0.95,need a join table between many to many relationships;
+12,art-gallery,morui,0.95,need a join table between many to many relationships;
+35,airline,rossetti,0.9,handle airplane seat classifications; good double relationship between airport and flight; handle multiple passengers per reservation
+28,airline,rossetti,0.9,good handling of multiple airports per flight; how many schedules per flight?; handle multiple passengers per reservation
+25,train,morui,0.8,handle several passenger per reservation; handle several train schedule per reservation (one-way and round trip); handle stops in a route; table ROUTE_STOP should be put between ROUTE and STATION; relation between ROUTE and STATION shouldn't be one to one
+2,airline,rossetti,0.8,need a join entity/table for each many-to-many relationship; handle airport information duplication; handle scalability of seat classifications; a flight optionally stops?; day of week can be calculated;
+22,train,morui,0.8,need a join table between many to many relationships; handle several train schedule per reservation (one-way and round trip); optionality between Schedule and Inventory?; primary key is not indicated for each table
+36,airline,rossetti,0.8,"optionalities may differ depending on relationship direction - need to describe on each side of the relationship; can you think of a more descriptive entity name than ""Cost""?; handle airplane seat classifications; which airport is the destination and which is the origin?; handle multiple passengers per reservation; many-to-many relationships need a join entity or a join table"
+8,train,morui,0.8,handle several passenger per reservation; handle several train schedule per reservation (one-way and round trip); handle stops in a route; table ROUTE_STOP should be put between ROUTE and STATION; relation between ROUTE and STATION shouldn't be one to one
+23,art-gallery,morui,0.8,"in table taxforms, ssn is not a fk; in table artist, piece and artist and ssn are not fk, same for table artwork; should have a artist id in artist table as pk; handle exhibition"
+4,airline,rossetti,0.8,switch cardinality directions for many-to-many relationship through a join table (Passenger/Reservation); handle multiple flights per reservation; handle airplane seat classifications; shift your focus away from promotions and payments to address more critical functionality requirements
+9,airline,rossetti,0.8,handle multiple flights per airplane; remove flight_id FK from reservations if you have many flights per reservation; does a flight have the option of stopping?; handle the assignment of different flight departure and arrival times
+34,airline,rossetti,0.75,handle multiple flights per reservation; handle airport information; need join table/entity for each many-to-many relationship; how many airplanes per flight?; handle seat reservations and classifications
+27,train,morui,0.75,"passenger_id should be a foreign key in ticket and reservation table; need foreign key between route/train_schdule and train/train_schedule; need a join table between many to many relationship (passenger/route, station/route); there should be only one relationship between each two tables; handle same route for multiple times a day; handle one-way and round-trip; some attributes don't have clear meaning"
+20,airline,rossetti,0.75,handle multiple flights per reservation; handle airport information duplication; check entity names; handle seat reservations; what is the capacity of each airplane?
+16,airline,rossetti,0.75,"need a join entity/table for each many-to-many relationship can calculate cost attributes; handle multiple flights per sale/reservation; remove flight_id FK from ""Inventory"" if one Airplane may make many flights; how many stops per flight?"
+7,airline,rossetti,0.75,handle multiple flights per passenger; handle multiple airports per flight (origin/destination); how many stops per flight?; remove flight_id FK from Airplane if a plane many make many flights
+31,airline,rossetti,0.75,many-to-many relationships need a join entity or join table; handle multiple reservations per passenger; handle seat classifications and reservations
+6,train,morui,0.75,"passenger_id should be a foreign key in ticket and reservation table; need foreign key between route/train_schdule and train/train_schedule; need a join table between many to many relationship (passenger/route, station/route); there should be only one relationship between each two tables; handle same route for multiple times a day; handle one-way and round-trip; some attributes don't have clear meaning"
+5,art-gallery,morui,0.75,"there should have only one relationship between each two tables; Handle date and time for shows; for table works, customers, and salespersons, an id should be the primary key instead of name; a join table is needed between many to many relationship"
+26,airline,rossetti,0.7,handle passenger seat assignments; need a join table or entity for each many-to-many relationship; check entity names; disambiguate reservation information from airline information; 
+30,train,morui,0.7,connect all entity relationships in a single diagram; handle several passenger per reservation; need a join table between many to many relationships; wrong picture for passenger/station; handle date and seat type
+17,train,morui,0.7,connect all entity relationships in a single diagram; need a join table between many to many relationships; handle date and seat type; handle several train schedule per reservation (one-way and round-trip)
+18,airline,rossetti,0.7,"handle more than one ""transfer"" per reservation; handle different flights per airplane; entities need stricter definitions"
+13,airline,rossetti,0.7,"include attributes; include join entities/tables for many-to-many relationships; handle multiple passengers per airline; ""other""?"
+19,n/a,rossetti,0,assignment not submitted
+15,n/a,rossetti,0,assignment not submitted
+10,n/a,rossetti,0,assignment not submitted
+24,n/a,rossetti,0,assignment not submitted
+1,n/a,rossetti,0,assignment not submitted
+3,n/a,rossetti,0,assignment not submitted
+32,n/a,rossetti,0,assignment not submitted
+29,radio?,rossetti,0,you addressed the wrong prompt?
+11,salad?,rossetti,0,you addressed the wrong prompt?
+14,n/a,rossetti,0,assignment not submitted
+33,n/a,rossetti,0,assignment not submitted
