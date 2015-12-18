@@ -20,7 +20,7 @@ student_id,rdba_exec_summ_of_factual_findings,rdba_thoroughness_of_analysis_and_
 31,0,0.5,0.5,66,summarize analytical findings in an exec summary; check that each join clause only has one join condition; use at least one outer join;,0.5,1,1,0.83,83.33
 14,0,0,0,0,not yet submitted,1,1,0.5,0.83,83.33
 23,0.5,0,0,50,summarize analytical findings in an exec summary; what interesting real world information did you learn?; you're close but try choosing different attributes in your join condition; ,1,0.4,1,0.80,80.00
-18,1,1,0.5,0.8333333333,check your join conditions;,1,0.8,0.5,0.77,76.67
+18,1,1,0.5,83,check your join conditions;,1,0.8,0.5,0.77,83.00
 25,0.5,1,0,75,summarize analytical findings in an exec summary; use JOIN clauses; use at least one inner join and at least one outer join;,0.5,1,0.5,0.67,75.00
 12,0,0.5,0.5,75,summarize analytical findings in an exec summary; good instinct to join all the tables together; use at least one inner join,0.5,1,0.5,0.67,75.00
 28,0,1,0,75,summarize analytical findings in an exec summary; use JOIN clauses; use at least one inner join and at least one outer join;,0.5,1,0.5,0.67,75.00
