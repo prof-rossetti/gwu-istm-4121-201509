@@ -1,0 +1,11 @@
+,criteria:,"1 for design consistency, and relational tables populated with data; else 0.7 for non-adherence to design;","1 for a navigable index/switchboard with links to forms and reports, and forms have strong validation, selection options and linked tables when applicable; else 0.75 for a switchboard/index and forms (non-validating or non-linked-tables); else 0.75 for forms (non-validating or non-linked-tables) and three reports; else 0.65 for forms (non-validating or non-linked-tables) and reports; else 0.6 for forms (non-validating or non-linked-tables) and queries; else 0.5 for queries",
+group_id,group_title,database_design,application_functionality,group_implementation
+T,consulting,1.00,1.00,1.00
+X,limo,1.00,0.80,0.90
+R,boxing,1.00,0.75,0.88
+S,bar,1.00,0.75,0.88
+W,theme-park,1.00,0.75,0.88
+Z,aquaculture,1.00,0.65,0.83
+Y,auto-dealership,1.00,0.60,0.80
+U,rental-car,1.00,0.50,0.75
+V,sports-stats,0.70,0.60,0.65
