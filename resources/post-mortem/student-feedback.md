@@ -16,15 +16,31 @@ Some students expressed satisfaction with the professor's knowledge and abilitie
 
 > He his very knowledgeable ...
 
+> The professor was very enthusiastic about the subject matter ...
+
 #### Professor Interactions
 
 One student observed the benefits of personal interaction with the professor.
 
 > Overall, I found you to be more helpful in a 1-on-1 environment, and I think I got a lot more out of private meetings than in class discussion.
 
+#### Course Success
 
+Many students indicated the course was a success, and that they accomplished their learning objectives.
 
+> ... I believe I accomplished my learning objective because I expanded my knowledge of technology and its role within a business, learned how to design a database first and foremost, and improved my coding skills slightly.
 
+> .. I feel like I have a solid understanding of databases and database design now
+
+> ... I successfully learned SQL and how to make an ERD
+
+> I wanted to learn about contemporary data science and this class was a great opportunity for me to learn
+
+> I have accomplished my objective to learn ... basic knowledge about database(s).
+
+> I did accomplish some of my learning objective(s) (such as) how to use SQL (queries) in various ways, and how to create web forms...
+
+> I am more comfortable with SQL and now know how to use it on my own computer
 
 ### Mixed (Pro and Con)
 
