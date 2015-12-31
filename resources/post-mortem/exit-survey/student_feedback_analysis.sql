@@ -625,3 +625,256 @@ CREATE TABLE istm_4121._students AS (
   ORDER BY home_region
 );
 ALTER TABLE istm_4121._students ADD PRIMARY KEY(student_id);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* QUERIES FOR TABLEAU */
+
+/*
+-- generate query strings:
+
+SELECT
+  concat(",AVG(",COLUMN_NAME,") AS avg_",COLUMN_NAME)
+FROM information_schema.columns
+WHERE table_schema = "istm_4121"
+  AND TABLE_NAME = "_responses"
+ORDER BY column_name;
+
+SELECT
+  concat(",AVG(",COLUMN_NAME,") AS avg_",COLUMN_NAME)
+FROM information_schema.columns
+WHERE table_schema = "istm_4121"
+  AND TABLE_NAME = "_exit_responses"
+ORDER BY column_name;
+
+SELECT
+  concat(",AVG(",COLUMN_NAME,") AS avg_",COLUMN_NAME)
+FROM information_schema.columns
+WHERE table_schema = "istm_4121"
+  AND TABLE_NAME = "_diffs"
+ORDER BY column_name;
+
+*/
+
+DROP TABLE IF EXISTS istm_4121._response_avgs;
+CREATE TABLE istm_4121._response_avgs AS (
+  SELECT
+    count(DISTINCT student_id) AS response_count
+
+    ,AVG(comms_bboard) AS avg_comms_bboard
+    ,AVG(comms_email) AS avg_comms_email
+    ,AVG(comms_gchat) AS avg_comms_gchat
+    ,AVG(comms_hipchat) AS avg_comms_hipchat
+    ,AVG(comms_irc) AS avg_comms_irc
+    ,AVG(comms_slack) AS avg_comms_slack
+    ,AVG(data_csv) AS avg_data_csv
+    ,AVG(data_json) AS avg_data_json
+    ,AVG(data_xml) AS avg_data_xml
+    ,AVG(dbms_access) AS avg_dbms_access
+    ,AVG(dbms_aerospike) AS avg_dbms_aerospike
+    ,AVG(dbms_couchbase) AS avg_dbms_couchbase
+    ,AVG(dbms_datastacks) AS avg_dbms_datastacks
+    ,AVG(dbms_enterprisedb) AS avg_dbms_enterprisedb
+    ,AVG(dbms_ibm) AS avg_dbms_ibm
+    ,AVG(dbms_intersystems) AS avg_dbms_intersystems
+    ,AVG(dbms_maria) AS avg_dbms_maria
+    ,AVG(dbms_marklogic) AS avg_dbms_marklogic
+    ,AVG(dbms_microsoft) AS avg_dbms_microsoft
+    ,AVG(dbms_mongo) AS avg_dbms_mongo
+    ,AVG(dbms_mysql) AS avg_dbms_mysql
+    ,AVG(dbms_oracle) AS avg_dbms_oracle
+    ,AVG(dbms_pg) AS avg_dbms_pg
+    ,AVG(dbms_sap) AS avg_dbms_sap
+    ,AVG(dbms_sqlite) AS avg_dbms_sqlite
+    ,AVG(lang_c) AS avg_lang_c
+    ,AVG(lang_cpp) AS avg_lang_cpp
+    ,AVG(lang_csh) AS avg_lang_csh
+    ,AVG(lang_css) AS avg_lang_css
+    ,AVG(lang_dotnet) AS avg_lang_dotnet
+    ,AVG(lang_html) AS avg_lang_html
+    ,AVG(lang_java) AS avg_lang_java
+    ,AVG(lang_js) AS avg_lang_js
+    ,AVG(lang_objc) AS avg_lang_objc
+    ,AVG(lang_perl) AS avg_lang_perl
+    ,AVG(lang_php) AS avg_lang_php
+    ,AVG(lang_py) AS avg_lang_py
+    ,AVG(lang_r) AS avg_lang_r
+    ,AVG(lang_rb) AS avg_lang_rb
+    ,AVG(lang_sql) AS avg_lang_sql
+    ,AVG(lang_vb) AS avg_lang_vb
+    ,AVG(os_android) AS avg_os_android
+    ,AVG(os_ios) AS avg_os_ios
+    ,AVG(os_mac) AS avg_os_mac
+    ,AVG(os_windows) AS avg_os_windows
+    ,AVG(soft_excel) AS avg_soft_excel
+    ,AVG(soft_gdocs) AS avg_soft_gdocs
+    ,AVG(soft_gsheets) AS avg_soft_gsheets
+    ,AVG(soft_gslides) AS avg_soft_gslides
+    ,AVG(soft_lucidchart) AS avg_soft_lucidchart
+    ,AVG(soft_ppt) AS avg_soft_ppt
+    ,AVG(soft_visio) AS avg_soft_visio
+    ,AVG(soft_word) AS avg_soft_word
+    ,AVG(tools_aws) AS avg_tools_aws
+    ,AVG(tools_bitbucket) AS avg_tools_bitbucket
+    ,AVG(tools_gh) AS avg_tools_gh
+  FROM istm_4121._responses
+); -- then transpose these results in a spreadsheet
+
+DROP TABLE IF EXISTS istm_4121._exit_response_avgs;
+CREATE TABLE istm_4121._exit_response_avgs AS (
+  SELECT
+    count(DISTINCT student_id) AS response_count
+    ,AVG(comms_bboard) AS avg_comms_bboard
+    ,AVG(comms_email) AS avg_comms_email
+    ,AVG(comms_gh) AS avg_comms_gh
+    ,AVG(comms_slack) AS avg_comms_slack
+    ,AVG(course_assignments_challenging) AS avg_course_assignments_challenging
+    ,AVG(course_assignments_engaging) AS avg_course_assignments_engaging
+    ,AVG(course_assignments_expectclear) AS avg_course_assignments_expectclear
+    ,AVG(course_assignments_fun) AS avg_course_assignments_fun
+    ,AVG(course_assignments_reasonable) AS avg_course_assignments_reasonable
+    ,AVG(course_assignments_relevant) AS avg_course_assignments_relevant
+    ,AVG(course_lectures_engaging) AS avg_course_lectures_engaging
+    ,AVG(course_lectures_fun) AS avg_course_lectures_fun
+    ,AVG(course_lectures_relevant) AS avg_course_lectures_relevant
+    ,AVG(course_project_engaging) AS avg_course_project_engaging
+    ,AVG(course_project_expectclear) AS avg_course_project_expectclear
+    ,AVG(course_project_fun) AS avg_course_project_fun
+    ,AVG(course_project_relevant) AS avg_course_project_relevant
+
+    ,AVG(data_csv) AS avg_data_csv
+    ,AVG(data_json) AS avg_data_json
+    ,AVG(data_xml) AS avg_data_xml
+    ,AVG(dbms_access) AS avg_dbms_access
+    ,AVG(dbms_mongo) AS avg_dbms_mongo
+    ,AVG(dbms_mysql) AS avg_dbms_mysql
+    ,AVG(dbms_pg) AS avg_dbms_pg
+    ,AVG(dbms_sqlite) AS avg_dbms_sqlite
+    ,AVG(languages_c) AS avg_languages_c
+    ,AVG(languages_cpp) AS avg_languages_cpp
+    ,AVG(languages_cshrp) AS avg_languages_cshrp
+    ,AVG(languages_css) AS avg_languages_css
+    ,AVG(languages_html) AS avg_languages_html
+    ,AVG(languages_java) AS avg_languages_java
+    ,AVG(languages_js) AS avg_languages_js
+    ,AVG(languages_php) AS avg_languages_php
+    ,AVG(languages_py) AS avg_languages_py
+    ,AVG(languages_r) AS avg_languages_r
+    ,AVG(languages_rb) AS avg_languages_rb
+    ,AVG(languages_sql) AS avg_languages_sql
+    ,AVG(languages_vb) AS avg_languages_vb
+
+    ,AVG(obj_comms) AS avg_obj_comms
+    ,AVG(obj_creativity) AS avg_obj_creativity
+    ,AVG(obj_industry) AS avg_obj_industry
+    ,AVG(obj_subjectmatter) AS avg_obj_subjectmatter
+    ,AVG(obj_teams) AS avg_obj_teams
+    ,AVG(obj_techskills) AS avg_obj_techskills
+    ,AVG(obj_writing) AS avg_obj_writing
+
+    ,AVG(os_android) AS avg_os_android
+    ,AVG(os_ios) AS avg_os_ios
+    ,AVG(os_linux) AS avg_os_linux
+    ,AVG(os_mac) AS avg_os_mac
+    ,AVG(os_windows) AS avg_os_windows
+
+    ,AVG(prof_available) AS avg_prof_available
+    ,AVG(prof_caresmysuccess) AS avg_prof_caresmysuccess
+    ,AVG(prof_clearcomms) AS avg_prof_clearcomms
+    ,AVG(prof_exp_subject) AS avg_prof_exp_subject
+    ,AVG(prof_fairdecisions) AS avg_prof_fairdecisions
+    ,AVG(prof_high_expectations) AS avg_prof_high_expectations
+    ,AVG(prof_knows_subject) AS avg_prof_knows_subject
+    ,AVG(prof_organized) AS avg_prof_organized
+    ,AVG(prof_prepared) AS avg_prof_prepared
+    ,AVG(prof_punctual) AS avg_prof_punctual
+    ,AVG(prof_wiseclasstime) AS avg_prof_wiseclasstime
+    ,AVG(self_commscomfwprof) AS avg_self_commscomfwprof
+
+    ,AVG(soft_atom) AS avg_soft_atom
+    ,AVG(soft_excel) AS avg_soft_excel
+    ,AVG(soft_gdocs) AS avg_soft_gdocs
+    ,AVG(soft_ghdesk) AS avg_soft_ghdesk
+    ,AVG(soft_gsheets) AS avg_soft_gsheets
+    ,AVG(soft_gslides) AS avg_soft_gslides
+    ,AVG(soft_lucid) AS avg_soft_lucid
+    ,AVG(soft_nppp) AS avg_soft_nppp
+    ,AVG(soft_ppt) AS avg_soft_ppt
+    ,AVG(soft_visio) AS avg_soft_visio
+    ,AVG(soft_word) AS avg_soft_word
+  FROM istm_4121._exit_responses
+); -- then transpose these results in a spreadsheet
+
+
+DROP TABLE IF EXISTS istm_4121._diff_avgs;
+CREATE TABLE istm_4121._diff_avgs AS (
+  SELECT
+     count(DISTINCT student_id) AS student_count
+    ,AVG(diff_comms_bboard) AS avg_diff_comms_bboard
+    ,AVG(diff_comms_email) AS avg_diff_comms_email
+    ,AVG(diff_comms_slack) AS avg_diff_comms_slack
+    ,AVG(diff_data_csv) AS avg_diff_data_csv
+    ,AVG(diff_data_json) AS avg_diff_data_json
+    ,AVG(diff_data_xml) AS avg_diff_data_xml
+    ,AVG(diff_dbms_access) AS avg_diff_dbms_access
+    ,AVG(diff_dbms_mongo) AS avg_diff_dbms_mongo
+    ,AVG(diff_dbms_mysql) AS avg_diff_dbms_mysql
+    ,AVG(diff_dbms_pg) AS avg_diff_dbms_pg
+    ,AVG(diff_dbms_sqlite) AS avg_diff_dbms_sqlite
+    ,AVG(diff_lang_c) AS avg_diff_lang_c
+    ,AVG(diff_lang_cpp) AS avg_diff_lang_cpp
+    ,AVG(diff_lang_csh) AS avg_diff_lang_csh
+    ,AVG(diff_lang_css) AS avg_diff_lang_css
+    ,AVG(diff_lang_html) AS avg_diff_lang_html
+    ,AVG(diff_lang_java) AS avg_diff_lang_java
+    ,AVG(diff_lang_js) AS avg_diff_lang_js
+    ,AVG(diff_lang_php) AS avg_diff_lang_php
+    ,AVG(diff_lang_py) AS avg_diff_lang_py
+    ,AVG(diff_lang_r) AS avg_diff_lang_r
+    ,AVG(diff_lang_rb) AS avg_diff_lang_rb
+    ,AVG(diff_lang_sql) AS avg_diff_lang_sql
+    ,AVG(diff_lang_vb) AS avg_diff_lang_vb
+    ,AVG(diff_os_android) AS avg_diff_os_android
+    ,AVG(diff_os_ios) AS avg_diff_os_ios
+    ,AVG(diff_os_mac) AS avg_diff_os_mac
+    ,AVG(diff_os_windows) AS avg_diff_os_windows
+    ,AVG(diff_soft_excel) AS avg_diff_soft_excel
+    ,AVG(diff_soft_gdocs) AS avg_diff_soft_gdocs
+    ,AVG(diff_soft_gsheets) AS avg_diff_soft_gsheets
+    ,AVG(diff_soft_gslides) AS avg_diff_soft_gslides
+    ,AVG(diff_soft_lucidchart) AS avg_diff_soft_lucidchart
+    ,AVG(diff_soft_ppt) AS avg_diff_soft_ppt
+    ,AVG(diff_soft_visio) AS avg_diff_soft_visio
+    ,AVG(diff_soft_word) AS avg_diff_soft_word
+    ,AVG(diff_tools_gh) AS avg_diff_tools_gh
+  FROM istm_4121._diffs
+); -- then transpose these results in a spreadsheet
