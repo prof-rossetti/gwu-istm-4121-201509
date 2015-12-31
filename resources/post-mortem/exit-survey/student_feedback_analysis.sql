@@ -473,3 +473,58 @@ CREATE TABLE istm_4121._exit_responses AS (
   GROUP BY student_id
 );
 ALTER TABLE istm_4121._exit_responses ADD PRIMARY KEY(student_id);
+
+
+
+
+
+/* STUDENT PII-SAFE DEMOS */
+
+-- todo: for better coverage and accuracy, get this data from banweb
+DROP TABLE IF EXISTS istm_4121._students;
+CREATE TABLE istm_4121._students AS (
+  SELECT
+    g.student_id
+    ,CASE
+      WHEN r.hometown LIKE "%NY%"
+        OR r.hometown LIKE "%, CT%"
+        OR r.hometown LIKE "%, NJ%"
+        OR r.hometown LIKE "%Connecticut%"
+        OR r.hometown LIKE "%, MA%"
+        OR r.student_id = 30
+        OR r.hometown LIKE "%Vermont%" THEN "US- Northeast"
+
+      WHEN r.hometown LIKE "%, VA%"
+        OR R.hometown LIKE "% MD%" -- THEN "US- Mid Atlantic"
+      -- WHEN
+        OR r.student_id = 22
+        OR r.hometown LIKE "%, KS%"
+        OR r.hometown LIKE "%Saint Louis%"
+        OR r.hometown LIKE "%Los Angeles%"
+        OR r.hometown LIKE "%Seattle%"
+        OR r.hometown LIKE "%Tampa"
+        OR r.hometown LIKE "%Las Vegas%" THEN "US- Other" -- THEN "US- South and/or West"
+
+     WHEN r.hometown LIKE "%Saudi Arabia%"
+        OR r.hometown LIKE "%jeddah%"
+        OR r.hometown LIKE "%riyadh%"
+        OR r.hometown LIKE "%Calcutta%" THEN "Middle East"
+
+      WHEN r.hometown LIKE "%China%"
+        OR r.hometown LIKE "%South Korea%" THEN "Asia"
+
+      WHEN r.hometown LIKE "%Venezuela%" THEN "South America"
+
+      ELSE "UNKNOWN"
+    END home_region
+    ,r.grad_class
+    ,r.majors
+    ,r.pc
+    ,r.pc_os
+    ,g.final_grade
+    ,g.letter_grade AS final_letter_grade
+  FROM gradebook g
+  LEFT JOIN responses r ON r.student_id = g.student_id
+  ORDER BY home_region
+);
+ALTER TABLE istm_4121._students ADD PRIMARY KEY(student_id);
