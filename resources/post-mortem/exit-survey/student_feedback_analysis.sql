@@ -192,11 +192,11 @@ END;
 CREATE FUNCTION comfort_response_to_int (s CHAR(55))
 RETURNS INT -- [1,2,3,4,5]
 RETURN CASE
-  WHEN s = "Can use with ease" THEN 5
-  WHEN s = "Can use with comfort" THEN 4
-  WHEN s = "Used a few times but with discomfort" THEN 2
-  WHEN s = "Heard of but never used" THEN 1
-  WHEN s = "Never heard of" THEN 0
+  WHEN s LIKE "%Can use with ease%" THEN 5
+  WHEN s LIKE "%Can use with comfort%" THEN 4
+  WHEN s LIKE "%Used a few times but with discomfort%" THEN 2
+  WHEN s LIKE "%Heard of but never used%" THEN 1
+  WHEN s LIKE "%Never heard of%" THEN 0
 END;
 
 /* ORIGINAL ONBOARDING RESPONSES */
@@ -473,6 +473,103 @@ CREATE TABLE istm_4121._exit_responses AS (
   GROUP BY student_id
 );
 ALTER TABLE istm_4121._exit_responses ADD PRIMARY KEY(student_id);
+
+
+/* COMPARISONS */
+
+
+/*
+
+SELECT DISTINCT COLUMN_NAME
+FROM information_schema.columns
+WHERE table_schema = "istm_4121"
+  AND TABLE_NAME = "_responses"
+ORDER BY column_name
+
+SELECT DISTINCT COLUMN_NAME
+FROM information_schema.columns
+WHERE table_schema = "istm_4121"
+  AND TABLE_NAME = "_exit_responses"
+ORDER BY column_name
+
+-- double-check matches in a spreadsheet
+-- use spreadsheet concatenation function to populate sql string for each column...
+
+*/
+
+DROP TABLE IF EXISTS istm_4121._diffs;
+CREATE TABLE istm_4121._diffs as (
+  SELECT
+    r.student_id
+    ,xr.comms_bboard - r.comms_bboard AS diff_comms_bboard
+    ,xr.comms_email - r.comms_email AS diff_comms_email
+    ,xr.comms_gh - r.tools_gh AS diff_tools_gh
+    ,xr.comms_slack - r.comms_slack AS diff_comms_slack
+    ,xr.data_csv - r.data_csv AS diff_data_csv
+    ,xr.data_json - r.data_json AS diff_data_json
+    ,xr.data_xml - r.data_xml AS diff_data_xml
+    ,xr.dbms_access - r.dbms_access AS diff_dbms_access
+    ,xr.dbms_mongo - r.dbms_mongo AS diff_dbms_mongo
+    ,xr.dbms_mysql - r.dbms_mysql AS diff_dbms_mysql
+    ,xr.dbms_pg - r.dbms_pg AS diff_dbms_pg
+    ,xr.dbms_sqlite - r.dbms_sqlite AS diff_dbms_sqlite
+    ,xr.languages_c - r.lang_c AS diff_lang_c
+    ,xr.languages_cpp - r.lang_cpp AS diff_lang_cpp
+    ,xr.languages_cshrp - r.lang_csh AS diff_lang_csh
+    ,xr.languages_css - r.lang_css AS diff_lang_css
+    ,xr.languages_html - r.lang_html AS diff_lang_html
+    ,xr.languages_java - r.lang_java AS diff_lang_java
+    ,xr.languages_js - r.lang_js AS diff_lang_js
+    ,xr.languages_php - r.lang_php AS diff_lang_php
+    ,xr.languages_py - r.lang_py AS diff_lang_py
+    ,xr.languages_r - r.lang_r AS diff_lang_r
+    ,xr.languages_rb - r.lang_rb AS diff_lang_rb
+    ,xr.languages_sql - r.lang_sql AS diff_lang_sql
+    ,xr.languages_vb - r.lang_vb AS diff_lang_vb
+    ,xr.os_android - r.os_android AS diff_os_android
+    ,xr.os_ios - r.os_ios AS diff_os_ios
+    ,xr.os_mac - r.os_mac AS diff_os_mac
+    ,xr.os_windows - r.os_windows AS diff_os_windows
+    ,xr.soft_excel - r.soft_excel AS diff_soft_excel
+    ,xr.soft_gdocs - r.soft_gdocs AS diff_soft_gdocs
+    ,xr.soft_gsheets - r.soft_gsheets AS diff_soft_gsheets
+    ,xr.soft_gslides - r.soft_gslides AS diff_soft_gslides
+    ,xr.soft_lucid - r.soft_lucidchart AS diff_soft_lucidchart
+    ,xr.soft_ppt - r.soft_ppt AS diff_soft_ppt
+    ,xr.soft_visio - r.soft_visio AS diff_soft_visio
+    ,xr.soft_word - r.soft_word AS diff_soft_word
+  FROM _responses r
+  LEFT JOIN _exit_responses xr ON r.student_id = xr.student_id
+);
+ALTER TABLE _diffs ADD PRIMARY KEY(student_id);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
