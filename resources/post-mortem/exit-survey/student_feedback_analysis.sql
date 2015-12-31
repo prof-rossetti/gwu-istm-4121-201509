@@ -279,23 +279,109 @@ AltER TABLE istm_4121._responses ADD PRIMARY KEY(student_id);
 
 SELECT
   CASE
-    WHEN d.question_group IN ("CourseEval","InstructorEval","PersonalEval")
-      THEN concat(",agreement_response_to_int(",d.code, ") AS ", d.code, " -- ",d.title)
+    when d.code in ("prof_recommendation","ta_recommendation") then d.code
+    WHEN d.question_group IN ("CourseEval","InstructorEval","PersonalEval") THEN concat(",agreement_response_to_int(",d.code, ") AS ", d.code, " -- ",d.title)
     ELSE concat(",comfort_response_to_int(",d.code, ") AS ", d.code, " -- ",d.title)
   END query_string
 FROM exit_responses_dict d
-WHERE d.code NOT IN ("ts","student_id","net_id","ta_feedback","ta_recommendation","prof_feedback","prof_recommendation", "course_feedback","obj_reflection")
+WHERE d.code NOT IN ("ts","student_id","net_id","ta_feedback","prof_feedback", "course_feedback","obj_reflection")
 ORDER BY d.question_group, d.code
 
 */
 
 DROP TABLE IF EXISTS istm_4121._exit_responses;
 CREATE TABLE istm_4121._exit_responses AS (
-  -- average/blend the responses of the student who submitted two different responses
-  SELECT *
-  FROM (
+  -- average/blend the responses of the student who submitted two different responses:
+  SELECT
+    student_id
+    ,count(DISTINCT response_id) AS response_count
+    ,CASE WHEN count(DISTINCT ta_recommendation) > 1 THEN "N/A" ELSE min(ta_recommendation) END ta_rec
+    ,CASE WHEN count(DISTINCT prof_recommendation) > 1 THEN "N/A" ELSE min(ta_recommendation) END prof_rec
 
-    -- quantify text responses
+
+    ,avg(course_assignments_challenging) AS course_assignments_challenging -- Course Evaluation [Assignments are challenging]
+    ,avg(course_assignments_engaging) AS course_assignments_engaging -- Course Evaluation [Assignments are engaging]
+    ,avg(course_assignments_expectclear) AS course_assignments_expectclear -- Course Evaluation [Assignment expectations are clear]
+    ,avg(course_assignments_fun) AS course_assignments_fun -- Course Evaluation [Assignments are fun]
+    ,avg(course_assignments_reasonable) AS course_assignments_reasonable -- Course Evaluation [Assignments are reasonable]
+    ,avg(course_assignments_relevant) AS course_assignments_relevant -- Course Evaluation [Assignments are relevant]
+    ,avg(course_lectures_engaging) AS course_lectures_engaging -- Course Evaluation [Lectures are engaging]
+    ,avg(course_lectures_fun) AS course_lectures_fun -- Course Evaluation [Lectures are fun]
+    ,avg(course_lectures_relevant) AS course_lectures_relevant -- Course Evaluation [Lectures are relevant]
+    ,avg(course_project_engaging) AS course_project_engaging -- Course Evaluation [Group Project is engaging]
+    ,avg(course_project_expectclear) AS course_project_expectclear -- Course Evaluation [Group Project expectations are clear]
+    ,avg(course_project_fun) AS course_project_fun -- Course Evaluation [Group Project is fun]
+    ,avg(course_project_relevant) AS course_project_relevant -- Course Evaluation [Group Project is relevant]
+
+    ,avg(data_csv) AS data_csv -- Datatypes [CSV]
+    ,avg(data_json) AS data_json -- Datatypes [JSON]
+    ,avg(data_xml) AS data_xml -- Datatypes [XML]
+    ,avg(dbms_access) AS dbms_access -- Database Management Systems/Software [MS Access]
+    ,avg(dbms_mongo) AS dbms_mongo -- Database Management Systems/Software [MongoDB]
+    ,avg(dbms_mysql) AS dbms_mysql -- Database Management Systems/Software [MySQL]
+    ,avg(dbms_pg) AS dbms_pg -- Database Management Systems/Software [PostgreSQL]
+    ,avg(dbms_sqlite) AS dbms_sqlite -- Database Management Systems/Software [SQLite]
+
+    ,avg(prof_available) AS prof_available -- Professor Evaluation [Prof is available outside of class]
+    ,avg(prof_caresmysuccess) AS prof_caresmysuccess -- Professor Evaluation [Prof cares about my success]
+    ,avg(prof_clearcomms) AS prof_clearcomms -- Professor Evaluation [Prof communicates in a manner I can understand]
+    ,avg(prof_exp_subject) AS prof_exp_subject -- Professor Evaluation [Prof is experienced in subject matter]
+    ,avg(prof_fairdecisions) AS prof_fairdecisions -- Professor Evaluation [Prof makes fair decisions]
+    ,avg(prof_high_expectations) AS prof_high_expectations -- Professor Evaluation [Prof has high expectations]
+    ,avg(prof_knows_subject) AS prof_knows_subject -- Professor Evaluation [Prof is knowledgeable in the subject matter]
+    ,avg(prof_organized) AS prof_organized -- Professor Evaluation [Prof is organized]
+    ,avg(prof_prepared) AS prof_prepared -- Professor Evaluation [Prof is prepared]
+    ,avg(prof_punctual) AS prof_punctual -- Professor Evaluation [Prof is punctual]
+    ,avg(prof_wiseclasstime) AS prof_wiseclasstime -- Professor Evaluation [Prof makes wise use of class time]
+    ,avg(self_commscomfwprof) AS self_commscomfwprof -- Professor Evaluation [I am comfortable communicating with the Prof]
+
+    ,avg(os_android) AS os_android -- Operating Systems [Android OS]
+    ,avg(os_ios) AS os_ios -- Operating Systems [iOS]
+    ,avg(os_linux) AS os_linux -- Operating Systems [Linux/Unix OS]
+    ,avg(os_mac) AS os_mac -- Operating Systems [Mac OS]
+    ,avg(os_windows) AS os_windows -- Operating Systems [Windows OS]
+
+    ,avg(obj_comms) AS obj_comms -- Learning Objectives [I improved my communication and presentation skills]
+    ,avg(obj_creativity) AS obj_creativity -- Learning Objectives [I leveraged technology as an outlet for creativity]
+    ,avg(obj_industry) AS obj_industry -- Learning Objectives [I learned more about contemporary industry practices and challenges]
+    ,avg(obj_subjectmatter) AS obj_subjectmatter -- Learning Objectives [I expanded my subject matter knowledge]
+    ,avg(obj_teams) AS obj_teams -- Learning Objectives [I improved my ability to work in teams]
+    ,avg(obj_techskills) AS obj_techskills -- Learning Objectives [I improved my technology skills]
+    ,avg(obj_writing) AS obj_writing -- Learning Objectives [I improved my writing skills]
+
+    ,avg(languages_c) AS languages_c -- Languages [C]
+    ,avg(languages_cpp) AS languages_cpp -- Languages [C++]
+    ,avg(languages_cshrp) AS languages_cshrp -- Languages [C#]
+    ,avg(languages_css) AS languages_css -- Languages [CSS]
+    ,avg(languages_html) AS languages_html -- Languages [HTML]
+    ,avg(languages_java) AS languages_java -- Languages [Java]
+    ,avg(languages_js) AS languages_js -- Languages [JavaScript]
+    ,avg(languages_php) AS languages_php -- Languages [PHP]
+    ,avg(languages_py) AS languages_py -- Languages [Python]
+    ,avg(languages_r) AS languages_r -- Languages [R]
+    ,avg(languages_rb) AS languages_rb -- Languages [Ruby]
+    ,avg(languages_sql) AS languages_sql -- Languages [SQL]
+    ,avg(languages_vb) AS languages_vb -- Languages [Visual Basic]
+
+    ,avg(soft_atom) AS soft_atom -- Personal Computing Software [Atom]
+    ,avg(soft_excel) AS soft_excel -- Personal Computing Software [MS Excel]
+    ,avg(soft_gdocs) AS soft_gdocs -- Personal Computing Software [Google Docs]
+    ,avg(soft_ghdesk) AS soft_ghdesk -- Personal Computing Software [GitHub Desktop]
+    ,avg(soft_gsheets) AS soft_gsheets -- Personal Computing Software [Google Sheets]
+    ,avg(soft_gslides) AS soft_gslides -- Personal Computing Software [Google Slides]
+    ,avg(soft_lucid) AS soft_lucid -- Personal Computing Software [Lucidchart]
+    ,avg(soft_nppp) AS soft_nppp -- Personal Computing Software [Notepad++]
+    ,avg(soft_ppt) AS soft_ppt -- Personal Computing Software [MS PowerPoint]
+    ,avg(soft_visio) AS soft_visio -- Personal Computing Software [MS Visio]
+    ,avg(soft_word) AS soft_word -- Personal Computing Software [MS Word]
+
+    ,avg(comms_bboard) AS comms_bboard -- Collaboration and Productivity Tools [Blackboard]
+    ,avg(comms_email) AS comms_email -- Collaboration and Productivity Tools [Email]
+    ,avg(comms_gh) AS comms_gh -- Collaboration and Productivity Tools [GitHub]
+    ,avg(comms_slack) AS comms_slack -- Collaboration and Productivity Tools [Slack]
+
+  FROM (
+    -- quantify text responses:
     SELECT
       student_id
       ,response_id
@@ -380,25 +466,10 @@ CREATE TABLE istm_4121._exit_responses AS (
       ,comfort_response_to_int(comms_gh) AS comms_gh -- Collaboration and Productivity Tools [GitHub]
       ,comfort_response_to_int(comms_slack) AS comms_slack -- Collaboration and Productivity Tools [Slack]
 
-      -- manual additions:
       ,ta_recommendation -- Teaching Assistant Recommendation
       ,prof_recommendation
     FROM istm_4121.exit_responses
   ) zz
+  GROUP BY student_id
 );
-ALTER TABLE istm_4121._exit_responses ADD PRIMARY KEY(response_id);
-
-
-
-
-
-
-SELECT
-  student_id
-  ,count(DISTINCT response_id) AS response_count
-  ,CASE WHEN count(DISTINCT ta_recommendation) > 1 THEN "N/A" ELSE min(ta_recommendation) END ta_rec
-  ,CASE WHEN count(DISTINCT prof_recommendation) > 1 THEN "N/A" ELSE min(ta_recommendation) END prof_rec
-
-
-FROM _exit_responses
-WHERE student_id = 35
+ALTER TABLE istm_4121._exit_responses ADD PRIMARY KEY(student_id);
