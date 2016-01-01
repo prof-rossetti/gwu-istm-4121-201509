@@ -896,3 +896,19 @@ CREATE TABLE istm_4121._student_results AS (
   LEFT JOIN istm_4121._exit_responses xr ON xr.student_id = g.student_id
 );
 ALTER TABLE istm_4121._student_results ADD PRIMARY KEY(student_id);
+
+
+
+
+
+
+
+
+
+
+
+SELECT
+  count(DISTINCT final_grade)
+  ,sum(IF(final_grade >= 80,1,0)) AS as_and_bs
+  ,sum(IF(final_grade >= 80,1,0)) / count(DISTINCT final_grade) AS percent_as_and_bs
+FROM gradebook
