@@ -6,8 +6,9 @@
 
 ### Student Learning
 
-#### Technology Skills
-##### Baseline Survey
+Student learning was measured by both surveys and grades.
+
+#### Baseline Survey
 
 On the first day of class, students took a baseline technology comfort survey.
 
@@ -15,7 +16,7 @@ On the first day of class, students took a baseline technology comfort survey.
 
 The baseline survey revealed a strong foundation in documents, presentation, and spreadsheet software, as well as opportunities to improve comfort with diagramming software, database management software, SQL, and data processing.
 
-##### Exit Survey
+#### Exit Survey
 
 On the last day of class, students responded to an exit survey which included a follow-up section on technology comfort levels.
 
@@ -26,8 +27,6 @@ The exit survey revealed moderate-to-high levels of comfort with diagramming sof
 ![](exit-survey/tech-improvements.png)
 
 The greatest gains came in technologies with which the students had a low baseline of comfort (e.g. GitHub, Slack, and processing .csv files), however students also made modest gains in SQL, MS Access, and MySQL with which they had indicated prior familiarity.
-
-#### Learning Objectives
 
 These technology skill improvements were confirmed by students when they indicated in the exit survey the degree to which they thought they had met their learning objectives.
 
