@@ -618,8 +618,6 @@ CREATE TABLE istm_4121._students AS (
     ,r.majors
     ,r.pc
     ,r.pc_os
-    ,g.final_grade
-    ,g.letter_grade AS final_letter_grade
   FROM gradebook g
   LEFT JOIN responses r ON r.student_id = g.student_id
   ORDER BY home_region
@@ -878,3 +876,23 @@ CREATE TABLE istm_4121._diff_avgs AS (
     ,AVG(diff_tools_gh) AS avg_diff_tools_gh
   FROM istm_4121._diffs
 ); -- then transpose these results in a spreadsheet
+
+
+DROP TABLE IF EXISTS istm_4121._student_results;
+CREATE TABLE istm_4121._student_results AS (
+  SELECT
+   s.student_id
+   ,s.home_region -- todo: get from banweb
+   ,s.grad_class -- todo: get from banweb
+   ,s.majors -- todo: parse
+   ,s.pc
+   ,s.pc_os
+   ,g.final_grade
+   ,g.letter_grade AS final_letter_grade
+   ,coalesce(xr.prof_rec, "N/A") AS prof_rec
+   ,coalesce(xr.ta_rec, "N/A") AS ta_rec
+  FROM istm_4121.gradebook g
+  JOIN istm_4121._students s ON s.student_id = g.student_id
+  LEFT JOIN istm_4121._exit_responses xr ON xr.student_id = g.student_id
+);
+ALTER TABLE istm_4121._student_results ADD PRIMARY KEY(student_id);
