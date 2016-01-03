@@ -2,6 +2,31 @@
 
 /*
 
+
+CREATE TABLE `students` (
+  `admit_term` varchar(255) DEFAULT NULL,
+  `admit_type` varchar(255) DEFAULT NULL,
+  `campus` varchar(255) DEFAULT NULL,
+  `catalog_term` varchar(255) DEFAULT NULL,
+  `college` varchar(255) DEFAULT NULL,
+  `credits` varchar(255) DEFAULT NULL,
+  `degree` varchar(255) DEFAULT NULL,
+  `email_address` varchar(255) DEFAULT NULL,
+  `full_name` varchar(255) DEFAULT NULL,
+  `grad_class` varchar(255) DEFAULT NULL,
+  `gwid` varchar(255) DEFAULT NULL,
+  `level` varchar(255) DEFAULT NULL,
+  `majors` text,
+  `minors` text,
+  `notification_expires` varchar(255) DEFAULT NULL,
+  `program` varchar(255) DEFAULT NULL,
+  `record_number` int(11) NOT NULL DEFAULT '0',
+  `registration_number` int(11) DEFAULT NULL,
+  `registration_status` varchar(255) DEFAULT NULL,
+  `waitlist_position` int(11) DEFAULT NULL,
+  PRIMARY KEY (`record_number`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
 CREATE TABLE `responses` (
   `ts` varchar(255) DEFAULT NULL,
   `net_id` varchar(255) DEFAULT NULL,

@@ -40,13 +40,6 @@ These student learning successes were reflected in their final letter grades, wh
 
 ![](exit-survey/letter-grades.png)
 
-In general, there was a slight correlation between youth and the ability to earn an A or B.
-
-![](exit-survey/letter-grades-by-gradclass.png)
-
-All students from the home region of Asia or South America earned As or Bs, while a majority of students from the Middle East did not. All students who earned a full A came from the United States.
-
-![](exit-survey/letter-grades-by-homeregion.png)
 
 ### Instructor Performance
 
