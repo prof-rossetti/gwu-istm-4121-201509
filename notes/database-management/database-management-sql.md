@@ -110,6 +110,9 @@ Create a normal index.
 -- mysql:
 ALTER TABLE my_table ADD INDEX(my_index_attribute);
 
+-- postgresql:
+CREATE INDEX my_index ON my_table (my_index_attribute);
+
 --sqlite:
 CREATE INDEX `my_index` ON `my_table` (`my_index_attribute` ASC);
 ````
