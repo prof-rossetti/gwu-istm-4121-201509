@@ -38,7 +38,7 @@ Duques Hall |  351 | 2201 G Street NW, Washington DC 20052
 ## Schedule
 
 The class meets on Wednesday evenings from 4:00pm to 6:30pm.
- Class time will include two sessions or roughly equal length (70 minutes)
+ Class time will include two sessions of roughly equal length (70 minutes)
  separated by a short (10 minute) break.
 
 time range | usage
